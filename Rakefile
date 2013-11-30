@@ -111,6 +111,8 @@ task :new_post, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "comments: true"
     post.puts "categories: "
+    post.puts "keywords: "
+    post.puts "description: "
     post.puts "---"
   end
 end
@@ -147,6 +149,9 @@ task :new_page, :filename do |t, args|
       page.puts "comments: true"
       page.puts "sharing: true"
       page.puts "footer: true"
+      
+      page.puts "keywords: "
+      page.puts "description: "
       page.puts "---"
     end
   else
@@ -397,4 +402,13 @@ desc "list tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+desc "Check all external links"
+task :check_links do
+    require 'link_checker'
+    LinkChecker.new(
+        :target => 'public',
+        :options => { :no_warnings => true }
+    ).check_uris
 end

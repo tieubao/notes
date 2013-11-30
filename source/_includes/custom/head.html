@@ -1,0 +1,28 @@
+ {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
+ {% capture ogtype %}{% if page.title %}article{% else %}blog{% endif %}{% endcapture %}
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+ <meta name="twitter:url" content="{{ canonical }}">
+ <meta name="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}">
+
+ {% if page.cover %}<meta property="twitter:image:src" content="{{ site.url }}{{ page.cover }}">{% else %} <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> {% endif %}
+
+ <!-- {% if page.twitter_card.image %}<meta property="twitter:image:src" content="{{ page.twitter_card.image }}" />{% endif %} -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"/>
+ <meta property="og:type" content="{{ ogtype }}"/>
+ <meta property="og:url" content="{{ canonical }}"/>
+ <meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}" 
+/>
+
+{% if page.cover %}<meta property="og:image" content="{{ site.url }}{{ page.cover }}">{% else %} <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> {% endif %}
+
+<!-- {% if page.facebook.image %}<meta property="og:image" content="{{ page.facebook.image }}" />{% endif %} -->

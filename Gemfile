@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+gem 'gemoji'
+gem 'flickraw'
+gem 'builder', '> 2.0.0'
+gem 'persistent_memoize'
+
 group :development do
   gem 'rake', '~> 0.9'
   gem 'jekyll', '~> 0.12'
