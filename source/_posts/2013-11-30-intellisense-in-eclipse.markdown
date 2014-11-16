@@ -24,7 +24,7 @@ Here's a tip to enable auto-completion in Eclipse. This is for Mac OS but you ca
 * Fill in `Auto activation triggers for Java:` with value `.abcdefghijklmnopqrstuvwxyz<`
 * Decrease `Auto activation delay` to `100` ms for better performance
 * `XML > XML Files > Editor > Content Assist`
-* Do the same thing with `Java` with value `<=:.abcdefghijklmnopqrstuvwxyz`
+* Do the same thing for `XML` with value `<=:.abcdefghijklmnopqrstuvwxyz`
 
 {% img /images/blog/2013-12-01-auto-complete-xml.png %}
 
