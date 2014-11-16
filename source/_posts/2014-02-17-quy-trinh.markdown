@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Quy trình"
+date: 2014-02-17 14:27:16 +0700
+comments: true
+categories: 
+- process
+
+keywords: process
+description: Tản mạn về quy trình
+cover: /images/blog/2014-02-17-team.jpg
+
+---
+
+Ngày còn ngồi ở giảng đường, tôi thường chú ý rất nhiều vào các quy trình phát triển phần mềm. Đối với một quốc gia đang tự hào về ngành gia công phần mềm (outsourcing) chúng tôi được dạy rất nhiều từ các quy trình cổ điển nhất như `Waterfall Model` cho đến những quy trình được coi là theo kịp thời đại nhất như `Scrum` để có thể nhanh chóng gia nhập vào đội ngũ lập trình viên của các công ty đã có tên tuổi trên thị trường. Bài viết này không đề cập nhiều đến vấn đề gia công phần mềm mà thay vào đó tập trung nói đến sự quan trọng của quy trình trong việc phát triển phần mềm.
+
+Về bản chất, các quy trình phần mềm đều tập trung vào việc quy đổi trách nhiệm và giải quyết sự chênh lệch giữa 2 giai đoạn quan trọng nhất: `quản lý yêu cầu` và `phát triển phần mềm`. Các giai đoạn này có thể được chia nhỏ ra theo chiều ngang/dọc thành các giai đoạn con nhỏ hơn và đôi khi có sự tham gia của các stakeholder không trực tiếp thuộc quy trình phát triển. Việc đưa ra và tuân thủ theo các quy trình phát triển phần mềm là rất tốt cho một nhóm đã vững chắc.
+
+{% img /images/blog/2014-02-17-software-dev-agile-process.png %}
+
+Tuy nhiên, đối với các nhóm nhỏ với số lượng thành viên từ 3 - 9 người, việc tuân theo một quy trình với quá nhiều quy tắt chặt chẽ sẽ làm chậm lại việc phát triển phần mềm một cách đáng kể. Theo cảm nhận của bản thân tôi trong suốt 4 dự án đã tham gia, trung bình mỗi người phải mất khoảng `20 - 40%` toàn thời gian cho việc chuẩn bị các tài liệu và chuyển giao công việc giữa các bộ phận. Điều này không hẳn là bất lợi, nhưng đối với một nhóm start-up, một công ty nhỏ thì đây là những chi phí không đáng phải tiêu tốn. Đối với một start-up, nhóm nhỏ, điều quan trọng nhất là đưa được sản phẩm có giá trị ra thị trường tiêu thụ càng nhanh càng tốt, điều đó giúp tăng cơ hội sống sót của start-up.
+
+Chính vì lý do đó mà hầu hết các start-up đều đi theo sự linh hoạt của triết lí phát triển phần mềm Agile. Trong đó đề cao sự quan trọng của con người,  khách hàng và sự ngầm hiểu ([`tacit knowledge`](http://en.wikipedia.org/wiki/Tacit_knowledge)). Các loại tài liệu không cần thiết ở thời điểm hiện tại hoặc các phần kiến thức mà các thành viên trong nhóm đã biết hoặc hiểu rõ có thể được lược giản để giảm bớt các buổi họp không cần thiết, những buổi thảo luận nhàm chán ... và dồn thời gian vào việc phát triển một sản phẩm hoàn chỉnh. Việc này có thể là tốt hoặc xấu dựa trên các quan điểm khác nhau, nhưng với các yếu tố được nêu ở trên thì nếu có một nhóm với trình độ và kiến thức (giỏi) ngang nhau, chúng ta sẽ dễ dàng một chút hơn trong việc xây dựng một nhóm kết dính (`jelly team`). 
+
+{% img /images/blog/2014-02-17-team.jpg %}
+
+Quy trình và cách làm việc đóng một vai trò rất quan trọng nhưng chưa phải là tất cả các yếu tố cần thiết và đầy đủ để xây dựng một team vững mạnh. Ngoài cách làm việc giữa mọi người trong nhóm, còn cần phải tìm hiểu thêm về tính cách riêng, định hướng nghề nghiệp, khả năng bản thân và quan điểm sống của từng thành viên ... Nói đến đây có lẽ mọi người sẽ nghĩ đây chỉ là việc mà một trưởng dự án cần quan tâm, một lập trình viên thì chỉ cần quan tâm đến công việc của mình là đủ. Điều này hoàn toàn không đúng. Khi bạn tham gia vào một dự án, việc đóng góp và cố gắng hòa mình xây dựng một nhóm bền vững sẽ giúp bạn dễ dàng hơn trong việc trao đổi thông tin, giúp đỡ và nhận sự giúp đỡ từ các thành viên khác, trong công việc và cả trong cuộc sống.
+
+> Easy life, easy win.

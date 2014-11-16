@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="/writing/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/writing/fancybox/jquery.fancybox.pack.js"></script>
 
 <script language="Javascript" type="text/javascript">
 $(document).ready(
@@ -10,7 +10,7 @@ $(document).ready(
       });
       $(".fancybox").fancybox({
         beforeLoad: function() {
-          var el, 
+          var el,
               id = $(this.element).data('title-id');
 
           if (id) {

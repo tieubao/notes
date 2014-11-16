@@ -4,19 +4,19 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
+ssh_user       = "pi@22journeys.com"
 ssh_port       = "22"
-document_root  = "~/website.com/"
+document_root  = "/var/www/tieubao"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
+deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public"    # compiled site directory
+public_dir      = "public/writing/"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
@@ -149,7 +149,7 @@ task :new_page, :filename do |t, args|
       page.puts "comments: true"
       page.puts "sharing: true"
       page.puts "footer: true"
-      
+
       page.puts "keywords: "
       page.puts "description: "
       page.puts "---"
@@ -253,7 +253,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     system "git pull"
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
@@ -266,7 +266,7 @@ multitask :push do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
-    system "git push origin #{deploy_branch}"
+    system "git push origin #{deploy_branch} -f"
     puts "\n## Github Pages deploy complete"
   end
 end

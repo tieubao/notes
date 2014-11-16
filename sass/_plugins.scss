@@ -3,11 +3,22 @@
   Imported. Load order is alphabetical and styles can be overriden in
   custom/_style.scss which is loaded after all plugin stylesheets.
 */
+// @import "plugins/**/*";
+
+.flex-content { max-width: 100%; height: auto; }
+ 
+.basic-alignment {
+    &.left { float: left; margin-right: 1.5em; }
+    &.right { float: right; margin-left: 1.5em; }
+    &.center { display:block; margin: 0 auto 1.5em; }
+    &.left, &.right { margin-bottom: .8em; }
+}
 
 @import "plugins/fancybox_fix";
 @import "plugins/fancybox";
 @import "plugins/flickr";
 @import "plugins/gemoji";
 @import "plugins/keyboardkey";
+@import "plugins/mapbox";
+@import "plugins/rve";
 
-// @import "plugins/**/*";

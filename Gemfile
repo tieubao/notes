@@ -1,3 +1,8 @@
+if RUBY_VERSION =~ /1.9/ # assuming you're running Ruby ~1.9
+  Encoding.default_external = Encoding::UTF_8
+  Encoding.default_internal = Encoding::UTF_8
+end
+
 source "https://rubygems.org"
 
 gem 'gemoji'
@@ -18,7 +23,7 @@ group :development do
   gem 'rubypants', '~> 0.2.0'
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
-  gem 'liquid', '~> 2.3.0'
+  gem 'liquid', '~> 2.6.2'
   gem 'directory_watcher', '1.4.1'
 end
 

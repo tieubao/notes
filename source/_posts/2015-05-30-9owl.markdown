@@ -1,0 +1,32 @@
+---
+layout: post
+title: "9owl - Working space that only available at night"
+date: 2015-05-30 16:20:21 +0700
+comments: true
+categories: 9owl
+keywords: coworking, space
+description: 9owl - Working space that only available at night
+cover: /images/blog/2015-05-30-team.jpg
+
+---
+
+### 
+
+We are members of Dwarves Foundation. We are small group of engineers and talented people. At this time we are tech partners with PearComms and Sales In One, 2 companies from Singapore. We work at the office in District 3 that we hire from a friend of the founder, it make us free to access 24/7. The office is just about 30 square meters and available for 8 to 10 9owl at the same time.
+
+{% img /images/blog/2015-05-30-team.jpg %}
+
+We love to work at night, not daytime. We have coffee and tea, people to talk with, place to work and corner to take a nap. We love to discuss about engineering, technology and life hacking stuffs. We are outliers, we are special and we know it. We want to make friend with people that like us.
+
+### 9owl - Working space that only available at night
+
+Me, have an idea that cool people should know each other, have a place to come and work at night, to be friends or not. But I believe, people that live the same lifestyle, have same mindset should be easy to make friend and more. So I start 9owl and give the office for free.
+
+[**9owl**](http://dwarvesf.com/9owl/) is **invite only** group and it costs you nothing. Join us for the midnight coffee, good talks, warm bed and cool work place.
+
+Here are our current members:
+
+- Dwarves Team
+- Han Ngo from [Golang Vietnam](https://www.facebook.com/golang.org.vn)
+- Vo Anh Duy from [SSS](http://siliconstraits.vn)
+- *Put your name here*
