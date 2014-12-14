@@ -28,7 +28,7 @@ Here's a tip to enable auto-completion in Eclipse. This is for Mac OS but you ca
 
 {% img /images/blog/2013-12-01-auto-complete-xml.png %}
 
-* Apply then feel the beat {%gemoji smile%}
+* Apply then feel the beat 
 
 
 

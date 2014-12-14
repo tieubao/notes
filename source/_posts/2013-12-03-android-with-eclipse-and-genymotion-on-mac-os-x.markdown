@@ -45,7 +45,7 @@ Then you need to get some devices with various resolution from Genymotion server
 
 {% img /images/blog/2013-12-04-multi-resolution.png %}
 
-Finally, you will get it works if nothing goes wrong. {%gemoji smile%}
+Finally, you will get it works if nothing goes wrong.
 
 {% img /images/blog/2013-12-04-virtual-device.png %}
 

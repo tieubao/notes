@@ -1,14 +1,14 @@
 ---
 
-layout: post 
-title: "Câu chuyện khởi nghiệp - Từ Lifebox đến CloudJay (P1)" 
-date: 2013-12-26 21:56:38 +0700 
-comments: true 
-categories: 
- - startup
+layout: post
+title: "Câu chuyện khởi nghiệp - Từ Lifebox đến CloudJay (P1)"
+date: 2013-12-26 21:56:38 +0700
+comments: true
+categories:
+- startup
 
-keywords: startup, lifebox, cloudjay 
-description: Câu chuyện hư cấu về cuộc hành trình khởi nghiệp dài đằng đẵng
+keywords: startup, lifebox, cloudjay
+description: Câu chuyện hư cấu về cuộc hành trình dài đằng đẵng
 
 ---
 

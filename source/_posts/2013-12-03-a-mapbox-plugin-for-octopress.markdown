@@ -51,4 +51,4 @@ With some free time, I make a [**octopress-mapbox**](https://github.com/tieubao/
 
 {% mapbox 10.8148 106.6748 16 %}
 
-OK, that's all. Please feel free to use this {%gemoji smile%}
+OK, that's all. Please feel free to use this.

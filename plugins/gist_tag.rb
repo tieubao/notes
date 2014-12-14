@@ -82,6 +82,10 @@ module Jekyll
         data = handle_gist_redirecting(data)
       end
 
+      if data.code.to_i == 301
+        data = handle_gist_redirecting(data)
+      end
+
       if data.code.to_i != 200
         raise RuntimeError, "Gist replied with #{data.code} for #{gist_url}"
       end

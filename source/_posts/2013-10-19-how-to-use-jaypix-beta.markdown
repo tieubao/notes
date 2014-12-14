@@ -1,14 +1,12 @@
 ---
 
 layout: post
-
 title: "How to use JayPix beta"
-
 date: 2013-10-19 05:18:50 +0700
-
 comments: true
-
-categories: app, how
+categories: 
+- app
+- how
 
 keywords: jaypix, how
 
