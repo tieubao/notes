@@ -2,7 +2,6 @@
 layout: post
 title: "Dwarves Foundation"
 date: 2015-05-29 00:53:06 +0700
-published: false
 comments: true
 categories: 
 - startup
