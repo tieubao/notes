@@ -1,0 +1,63 @@
+---
+layout: post
+title: "dotfiles"
+date: 2015-11-05 03:20:06 +0700
+comments: true
+categories:
+- dotfiles
+- config
+
+keywords: dotfiles
+description: Is it first time you've heard about dotfiles? It is not something special but you should care about.
+
+---
+
+# The developer
+
+In linux, the files start with a dot "." are hidden. If you list files in the directory, they normally don't show up and keep them safe from the users. Because of that reason, the developer usually use it to store configurations of their tools. Those files are so called dotfiles. The first dot file for most of us is maybe the shell configuration file (.bashrc | .bash_profile)
+
+ > Nowsday, you can find the dotfiles everywhere in your system.
+
+Do you use git? vim?
+Do you use your ssh identities to authenticate with git server?
+Do you have any env configurations or even the backup from other app?
+
+We are software developer. Our machine is more like our second home. We spend more than 8 hours per day with it. I have a friend from Singapore. Last time when I was with him drunk, I asked him for who is his gf and suddenly he pointed at his laptop. What a nerd!
+
+Back to the point, as a developer, we use a lot of tools and applications that need to back up.
+
+# The community
+
+Years ago, people don't think about back up the dotfiles. Because we spend a lot of time with the shell, so most of the time, people just value their config for the shell. There are some topics around for people to show off their shell config. But this turned out a good start of the community.
+
+- [Show us your .bashrc!](http://ubuntuforums.org/showthread.php?t=679762)
+- [Share your bashrc!](https://bbs.archlinux.org/viewtopic.php?id=41331)
+- [Share your .bashrc, .vimrc, or other settings file](https://www.reddit.com/r/programming/comments/9he4v/share_your_bashrc_vimrc_or_other_settings_file_i)
+
+    {% img /images/blog/2015-11-05-allias.png %}
+
+After a few years, technology changed really fast and bring developers lots of useful tools like homebrew, z, logcat-color, ... Developers use different tech stacks and they have their own setting for the workspace. Once they change the workspace or move from machine to machine, it takes so many hours to setup again. That's why some guys start to think about all their dotfiles and back up their workspace config.
+
+If you are new for dotfiles, you can have a quick look at: https://dotfiles.github.io. They organise most popular dotfiles for you to look at or start with. You can browse some repo to learn from the community, discover new tools for your toolbox and new tricks for the ones you already use.
+
+# Mine
+
+I'm a geek and a tech entreprenuer. I'm also the founder of Dwarves Foundation. We offer venture builder service and a strong tech team to help people build their tech company.
+
+I began to care about my dotfiles for a year. You can find it around Github @ [tieubao/dotfiles](https://github.com/tieubao/dotfiles)
+
+And you can find my dotfiles helpful if you are using the same stack as me:
+
+- OSX user
+- Install stuffs via homebrew
+- Editor: vim (or sublime)
+- Develop backend in Golang
+- Frontend with React
+- Terminal addicted with zsh and prezto framework
+- Not another git newbie
+- Docker centric workflow
+
+    {% img /images/blog/2015-11-05-vim.png %}
+    {% img /images/blog/2015-11-05-zsh.png %}
+    {% img /images/blog/2015-11-05-vim-go.png %}
+
