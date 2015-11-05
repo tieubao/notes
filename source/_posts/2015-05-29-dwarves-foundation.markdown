@@ -12,31 +12,33 @@ description: Story about Dwarves Foundation
 cover: /images/blog/2014-12-11-marketing.png
 ---
 
-After the interesting journey at CloudJay, I take a short break for one month and I feel that startup life is too hard for young people like me but it's really worth time. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. This time, I start my own business. I need to face more problems and be able to solve them myself to be more mature.
+After an interesting journey at [CloudJay](http://tieubao.me/writing/2013/12/26/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
 
 {% img /images/blog/2015-06-17-entrepreneur.jpg %}
 
 I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found [Golang Vietnam](http://golangvietnam.org.vn), a network of Golang Developers in Vietnam.
 
-Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](http://dwarvesf.com). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My aim is provide Tech Partner service to venture and startup.
+Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](http://dwarvesf.com). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.
 
 {% img /images/blog/2015-06-17-dwarves.jpg %}
 
 ## Our values
 
-We are young and eager to learn. We have passion and experience in making cool products, esp. cloud and mobile apps. We want to help people solve their problems by using our solutions. We build 
+We are a team of geeks, hustles and startup veterans. We live around the world but most of us based in Saigon, Vietnam. We are (forever) young and always eager to learn. We have passion and experience in making cool products, esp. cloud and mobile apps. We want to help entrepreneurs solve real problems using our approachs and solutions.
 
-- Backend and systems usually with Go by Google. It's new language that is designed for large and robust system with power of native concurrency support.
-- World class native mobile apps in Android and iOS. We apply 
-- Frontend with Angular or React
+- **Customer first**: We provide the service with high quality and no latency response time. Customers have to be happy.
+- **Geeky style**: We can do anything, wear multiple hats, take multiple approachs from official to tricky way to achieve the goal.
+- **Teamwork**: **_Synchronisation_** and **_Collaboration_** are the most important key things. You can read this topic: [It's hard to become a team member](http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/). We apply agile process to keep our spirits stick together.
+- **Proactive**: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.
+- **Growth and sharing**: You can learn another skill from other teammates. We are happy to share it to you. And we believe that working hard and improving yourself everyday will make you paid back later. Read [this topic](https://www.quora.com/How-can-I-motivate-myself-to-work-hard) to keep yourself motivated.
 
-At Dwarves Foundation, I offer 3 kinds of services:
+## Our services
 
-- **Tech Partner Service**: If you want to start a startup, new venture (and may know nothing about engineering). Great! This is what we can help me. We take care of a whole platform, system and applications, from dev to ops. We deliver it to your customer as your inhouse development team. Currently, we are Tech Partner with [Pear Comms](https://pearcomms.com) and [SalesInOne](http://salesinone.com). We will back to it later.
+- **Startup Factory**: Our woodland is the trustworthy place where lots of ideas are validated, incubated, developed, iterated until product-market fit simultaneously and for successful ones, we turn them into new businesses. The formula repeats on its own. Moreover, we also provide startups with hands-on mentorship and seed investment programs, usually in exchange for equity.
 
-- **Development Labs**: Our dwarves will help you visualize your dream into real product with best quality it can be.
+- **Development Lab**: Our woodland is the trustworthy place where founders could come and acquire expertise for their business models. We offer a technical partnership that takes over their whole systems and applications from development, operation to maintenance stages. We are backed by a talented, ambitious and technology-heavy workforce with years of experience. Consequently, we guarantee world-class quality for delivered products across all platforms (Web, iOS, Android).
 
-- **Talent pool**: If you just need a hand to help you accomplish some tasks or some pieces of your project. We can bring you the best talent in Vietnam with lowest charge rate ever. 
+- **Talent pool**: Our woodland is the trustworthy bridge for the founders who are outsourcing products to connect with talented developers in Vietnam. We guarantee the most competitive prices among competitors in local market. It is the outcome of continuously building a wide network of trust between founders and talents. The price is worth it!
 
 {% speakerdeck 1f4ffd51e8b049e6bce5dbdefad3786e %}
 
@@ -101,3 +103,8 @@ Finally, at the end of the day, we do daily meeting via hangout or face to face 
 All the processes out there are just to make the team stick together and development plan works. All team members need to understand their roles, team vision and know how to make things go on the right tracks. 
 
 Read more about [Teamwork](/2014/12/05/it-is-hard-to-become-a-team-member/).
+
+
+- About us: http://www.dwarvesf.com
+- Github: https://github.com/dwarvesf
+- Hiring: https://github.com/dwarvesf/WeAreHiring
