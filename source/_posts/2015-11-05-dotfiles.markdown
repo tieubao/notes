@@ -20,7 +20,7 @@ In linux, the files start with a dot "." are hidden. If you list files in the di
 
 Do you use git? vim?
 Do you use your ssh identities to authenticate with git server?
-Do you have any env configurations or even the backup from other app?
+Do you have any env configurations or even the backup from other apps?
 
 We are software developer. Our machine is more like our second home. We spend more than 8 hours per day with it. I have a friend from Singapore. Last time when I was with him drunk, I asked him for who is his gf and suddenly he pointed at his laptop. What a nerd!
 
