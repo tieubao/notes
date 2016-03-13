@@ -11,6 +11,7 @@ categories:
 
 keywords: homebrew, brew, glod, glod-cli
 description: How we (Dwarves Foundation) contribute to Homebrew, one of the most famous repo in Github.
+
 ---
 
 ## Homebrew
@@ -76,7 +77,7 @@ So in short, if you want to contribute a new one, you need to create a new formu
 {{% img src="/images/2016-03-13-homebrew-fork.png" class="third right" %}}
 {% img /images/blog/2016-03-13-homebrew.png %}
 
-For us, we will help a repo called `dwarvesf/homebrew` which we can clone and start from there.
+For us, we will have a repo called `dwarvesf/homebrew` which we can clone and start from there.
 
 ### Create new formula
 
