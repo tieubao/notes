@@ -8,7 +8,7 @@ categories:
 - gitflow
 - pull request
 
-keywords:
+keywords: git, gitflow, pull request
 description: Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase the team productivity.
 
 ---
@@ -73,7 +73,7 @@ Please take no worries about this, because there is still a part about `git reba
 
 {% img /images/blog/2016-06-27-git-commit.png %}
 
-Have you ever read some repos with commit messages like above? 
+Have you ever read some repos with commit messages like above?
 
 While many repositories' logs look like the former, there are exceptions. The [Linux kernel](https://github.com/torvalds/linux/commits/master) and [git itself](https://github.com/git/git/commits/master) are great examples. Look at [Spring Boot](https://github.com/spring-projects/spring-boot/commits/master), or any repository managed by [Tim Pope](https://github.com/tpope/vim-pathogen/commits/master). The contributors to these repositories know that a well-crafted git commit message is the best way to communicate context about a change to fellow developers (and indeed to their future selves). A diff will tell you what changed, but only the commit message can properly tell you why.
 
@@ -113,7 +113,7 @@ Hint: Based on an article [Type of Pull Request](http://ben.balter.com/2015/12/0
 
 > Source: https://github.com/thoughtbot/guides/tree/master/code-review
 
-### Everyone 
+### Everyone
 
 - Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.
 - Ask questions; don't make demands. ("What do you think about naming this :user_id?")
@@ -181,17 +181,24 @@ Understand why the change is necessary (fixes a bug, improves the user experienc
 - Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.
 - Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.
 
-Note: Another guide from Atlassian: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+Note: Other post from Atlassian: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 # Git templates
 
 To make things easier, we have adopted Issue template and Pull Request template that we think they are great to help the team to improve the productivity
 
+> https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md
+
 {% gist 2a9fc10be45a67ab315ef3f8ead6530d %}
+
+> https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md
 
 {% gist 98a83f179d06fe3e33e4dfe4f1395904 %}
 
+<br>
 
 -------------------
 
-And finally, another guide from Atlassian: https://www.atlassian.com/git/tutorials/what-is-version-control
+<sup>And finally, Atlassian has a full tutorials from scratch, you can find it at: https://www.atlassian.com/git/tutorials/what-is-version-control<sup>
+
+> Source: tieubao.me/writing/2016/06/20/gitflow-and-pull-request/
