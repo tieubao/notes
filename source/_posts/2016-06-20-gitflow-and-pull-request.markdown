@@ -181,17 +181,24 @@ Understand why the change is necessary (fixes a bug, improves the user experienc
 - Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.
 - Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.
 
-Note: Another guide from Atlassian: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+Note: Other post from Atlassian: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 # Git templates
 
 To make things easier, we have adopted Issue template and Pull Request template that we think they are great to help the team to improve the productivity
 
+> https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md
+
 {% gist 2a9fc10be45a67ab315ef3f8ead6530d %}
+
+> https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md
 
 {% gist 98a83f179d06fe3e33e4dfe4f1395904 %}
 
+<br> 
 
 -------------------
 
-And finally, another guide from Atlassian: https://www.atlassian.com/git/tutorials/what-is-version-control
+<sup>And finally, Atlassian has a full tutorials from scratch, you can find it at: https://www.atlassian.com/git/tutorials/what-is-version-control<sup>
+
+> Source: tieubao.me/writing/2016/06/20/gitflow-and-pull-request/
