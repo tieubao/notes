@@ -8,7 +8,6 @@ categories:
 - soft skill
 - hard skill
 
-
 keywords: soft skill, hard skill
 
 description: Soft skill vs. Hard skill at work and daily life.
