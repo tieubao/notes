@@ -14,7 +14,7 @@ description: First day of CloudJay Android Training Course
 
 Today, two friends of mine join our company training program. This course is all about Android.
 
-Nam is senior student and studying Software Engineering major at HCM University of Science. The problem is with another guy, Thai. He is a graduated from Physic major with a little experience in Matlab.
+Nam is senior student and studying Software Engineering major at HCM University of Science. The problem is with another guy, Thai. He is a graduated from Physics major with a little experience in Matlab.
 
 Today is just a first day. I still have a long journey with those guy. Good luck to me.
 
@@ -25,7 +25,7 @@ Today is just a first day. I still have a long journey with those guy. Good luck
 - Android project overview
 - Sample app: Fill in a textbox and alert the content
 
-For Physic guy:
+For Thai:
 
 - C basic
 - Tools and how to debug

@@ -9,7 +9,8 @@ categories:
 - startup
 
 keywords: startup, culture, leadership
-description: 12 Signs Your Company Has An Enviable Workplace Culture
+description: There is nothing worse than working in an organization that has a bad culture. It doesn’t matter how much money you make or how many weeks of vacation you are given; when you work in a toxic environment, you still come home tense and stressed at the end of each day. And that isn’t worth it.
+
 ---
 
 This article is one of my favorites about company culture. At [Dwarves Foundation](http://dwarvesf.com), we pursue the path of high tech Ventures Builder where we can be the foundation for all tech startups for now and even for Industry 4.0. Building the culture for engineer team is the highest priority.
