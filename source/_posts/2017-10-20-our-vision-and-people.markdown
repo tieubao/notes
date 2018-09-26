@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our goal and Our culture"
+title: "Vision and People"
 date: 2017-10-20 01:32:57 +0700
 comments: true
 published: false
@@ -14,8 +14,6 @@ Just a few quick notes over the meeting today with 2 new friends. A couple of an
 During the meeting, we was having the good talk and sharing on how to setup, manage and work with the team. Thru the conversation, I'm happy to realize how lucky I am.
 
 If you remembered, the journey of Dwarves Foundation started 3 years ago when the CloudJay team decided to disband. At the time being, as a solo founder and 2 early members
-
-
 
 The culture is something hard to tell if you do it right or wrong. Teamwork is also the things to discuss. 
 

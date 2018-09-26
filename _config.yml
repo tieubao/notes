@@ -7,8 +7,8 @@ title: Han Ngo
 subtitle: me.toString();
 author: Han Ngo
 simple_search: http://google.com/search
-description: "Life Hacker and Lifetime Learner"
-keywords: "tieubao, 22journeys, tieubao blog"
+description: "Life Hacker and Lifelong Learner"
+keywords: "tieubao, tieubao blog, tieubao writing"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -71,11 +71,11 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: mrcexii
+twitter_user: nntruonghan
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -92,7 +92,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: mrcexii
+# disqus_short_name: nntruonghan
+disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
