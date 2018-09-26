@@ -19,19 +19,22 @@ Recently I have found a short list of [250 world destinations and attractions](h
 
 Below are a few places I'm planning to visit this 2018. I will visit Japan in Sept and Taiwan in Nov.
 
-Japan
+#### Japan
 
-1) Tokyo Tower
-2) Osaka Castle
-3) Sensoji Temple
-4) Mount Fuji
-5) Kiyomizu Temple
-6) Tokyo Imperial Palace
+1. Tokyo Tower
+2. Osaka Castle
+3. Sensoji Temple
+4. Mount Fuji
+5. Kiyomizu Temple
+6. Tokyo Imperial Palace
 
-Taiwan
+#### Taiwan
 
-1) Jiufen
-2) ?
+1. Jiufen
+2. ?
 
 Not so much attractions could be found in Taiwan maybe they are not at the same level with the others. 
 
+### Updated
+
+I have visited Japan and it was [awesome]()
