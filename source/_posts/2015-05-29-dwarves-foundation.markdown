@@ -4,21 +4,21 @@ title: "Dwarves Foundation"
 date: 2015-05-29 00:53:06 +0700
 comments: true
 categories: 
-- startup
-- dwarvesf
+- software
+- development
+- firm
 
-keywords: startup, dwarvesf
+keywords: software, firm, development
 description: Story about Dwarves Foundation
-cover: /images/blog/2014-12-11-marketing.png
 ---
 
 After an interesting journey at [CloudJay](http://tieubao.me/writing/2013/12/26/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
 
 {% img /images/blog/2015-06-17-entrepreneur.jpg %}
 
-I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found [Golang Vietnam](http://golangvietnam.org.vn), a network of Golang Developers in Vietnam.
+I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found [Golang Vietnam](https://golang.org.vn), a network of Golang Developers in Vietnam.
 
-Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](http://dwarvesf.com). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.
+Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](https://dwarves.foundation). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.
 
 {% img /images/blog/2015-06-17-dwarves.jpg %}
 

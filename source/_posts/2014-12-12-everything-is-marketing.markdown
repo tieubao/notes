@@ -4,10 +4,10 @@ title: "Everything is marketing"
 date: 2014-12-12 02:13:02 +0700
 comments: true
 categories: 
-- rework
+- tips
 - marketing
 
-keywords: rework, marketing
+keywords: tips, marketing
 description: Great article from Rework about Marketing
 cover: /images/blog/2014-12-11-marketing.png
 
@@ -32,5 +32,4 @@ Just as you cannot not communicate, you cannot not market:
 
 Recognize that all of these little things are more important than choosing which piece of swag to throw into a conference goodie bag. Marketing isn’t just a few individual events. It’s the sum total of everything you do.
 
-
-[^1]: Collect from [Rework](http://37signals.com/rework/)
+[^1]: Excerpt from [Rework](http://37signals.com/rework/)

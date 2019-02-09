@@ -12,7 +12,7 @@ keywords: sleep, manifesto
 description: In your life, you spend 1/3 your life to sleep. It's not how much you sleep, it's how you sleep.
 ---
 
-The below manifesto is excerp from the book [^1]. Reading them carefully help me a lot. Work & Life balance is always a nice & endless topic.
+The below manifesto is excerp from the book. Reading them carefully help me a lot. Work & Life balance is always a nice & endless topic.
 
 1. Sleep is a fundamental and non-negotiable human need.
 2. Sleep allows us to see the world with fresh eyes and a reinvigorated spirit.
@@ -27,4 +27,4 @@ The below manifesto is excerp from the book [^1]. Reading them carefully help me
 11. We will choose sleep over busywork.
 12. When we walk through the door of our bedroom, we will leave the day–with all of its problems and unfinished business–behind.
 
-[^1]: Collect from [TRANSFORM YOUR LIFE ONE NIGHT AT A TIME](http://gratituderevealed.com/wp-content/uploads/2016/04/The-Sleep-Revolution-Manifesto.pdf)
+#### Source: [Sleep Revolution](https://www.amazon.com/Sleep-Revolution-Transforming-Your-Night/dp/110190402X)

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Cảm giác khi trở thành CEO của một startup"
+title: "What does it feel like being the CEO of a startup?"
 date: 2015-01-22 22:24:07 +0700
 comments: true
 categories: startup
 keywords: startup
-description: Trích dẫn bài dịch "Cảm giác khi trở thành CEO của một startup" tên Quora. 
+description: Trích dẫn bài dịch "Cảm giác khi trở thành CEO của một startup" từ Quora. 
 ---
 
 Cảm ơn dịch giả, anh Ninh vì bài dịch này. Xin được phép trích lại bài dịch của anh để mọi người có cơ hội hiểu thêm về những cảm giác mà một đồng sáng lập / key member (không chỉ là CEO) phải trải qua khi thực sự *dành hết sức của mình* cho công việc.
 
-**Nguồn:** [http://ghichep.ninhnv.com/](http://ghichep.ninhnv.com/2012/06/cam-giac-nao-khi-tham-gia-mot-cong-ty.html)
+#### **Nguồn:** [http://ghichep.ninhnv.com/](http://ghichep.ninhnv.com/2012/06/cam-giac-nao-khi-tham-gia-mot-cong-ty.html)
 
 
 Cảm giác thế nào khi bạn tham gia gây dựng một công ty startup? [Câu trả lời của Paul Dejoe trên Quora](http://qr.ae/3YjjZ) với hơn 1400 votes (hiện tại là khoảng 5800 votes) đã tóm gọn gần như đầy đủ các cung bậc cảm xúc của những người làm startup.
@@ -41,7 +41,7 @@ Bạn nhận ra rằng sẽ thú vị hơn nhiều khi bạn không có tiền v
 
 Bạn cảm thấy như thể những ông bố bà mẹ với khách hàng và họ sẽ không bao giờ hiểu được bạn yêu họ như thế nào vì chính họ là minh chứng cho việc bạn không điên rồ. Bạn muôn ôm lấy tất cả bọn họ. Và họ có ý nghĩa như là cả thế giới đối với bạn.
 
-Những gì học được phần lớn là từ sự tự trải nghiệm, nhiều hơn bất cứ yếu tố bẩm sinh nào của một Entrepreneur. Bạn nhận ra rằng bạn cần làm gì khi nhận những cú đấm tả tơi vào mặt rất rất nhiều lần. Bạn nhận ra rằng điều bạn cần làm là khi chẳng có ai để ý và chẳng có ai nhìn ra. Bạn nhận ra rằng bạn kém đủ mọi thứ, và thật may mắn nếu bạn giỏi một kỹ năng nào đó. Và thứ duy nhất tuyệt vời có lẽ  được là chính mình. Đó cũng là lý do bạn không bao giờ thỏa hiệp. Bạn học được quyền lực và vị thế có thể gây nghiện đến như thế nào và vì sao nó lại có thể tha hóa nhiều người đến vậy.
+Những gì học được phần lớn là từ sự tự trải nghiệm, nhiều hơn bất cứ yếu tố bẩm sinh nào của một Entrepreneur. Bạn nhận ra rằng bạn cần làm gì khi nhận những cú đấm tả tơi vào mặt rất rất nhiều lần. Bạn nhận ra rằng điều bạn cần làm là khi chẳng có ai để ý và chẳng có ai nhìn ra. Bạn nhận ra rằng bạn kém đủ mọi thứ, và thật may mắn nếu bạn giỏi một kỹ năng nào đó. Và thứ duy nhất tuyệt vời có lẽ được là chính mình. Đó cũng là lý do bạn không bao giờ thỏa hiệp. Bạn học được quyền lực và vị thế có thể gây nghiện đến như thế nào và vì sao nó lại có thể tha hóa nhiều người đến vậy.
 
 Bạn sẽ vô cùng biết ơn những quãng thời gian tồi tệ. Trong các ngành nghề khác rất hiếm khi thấy cảnh này. Khi điều tồi tệ xẩy đến, sẽ có những người đến giúp bạn không ngần ngại. Tal Raviv, Gary Smith, Joe Reyes, Toan Dang, Vincent Cheung, Eric Elinow, Abe Marciano và những người khác nữa. Tôi nợ họ cả đời và không gì có thể đền đáp họ được cũng như họ cũng chẳng mong đợi sự đền đáp của tôi.
 
@@ -55,36 +55,36 @@ Tóm lại, tham gia một công ty startup rất thú vị. Mỗi ngày một k
 # Original Post
 ---
 
-**Link:** http://qr.ae/3YjjZ
+Very tough to sleep most nights of the week. Weekends don't mean anything to you anymore. Closing a round of financing is not a relief. It means more people are depending on you to turn their investment into 20 times what they gave you. 
 
-Very tough to sleep most nights of the week.  Weekends don't mean anything to you anymore.  Closing a round of financing is not a relief.  It means more people are depending on you to turn their investment into 20 times what they gave you.  
+It's very difficult to "turn it off". But at the same time, television, movies and vacations become so boring to you when your company's future might be sitting in your inbox or in the results of a new A/B test you decide to run. 
 
-It's very difficult to "turn it off". But at the same time, television, movies and vacations become so boring to you when your company's future might be sitting in your inbox or in the results of a new A/B test you decide to run.  
+You feel guilty when you're doing something you like doing outside of the company. Only through years of wrestling with this internal fight do you recognize how the word "balance" is an art that is just as important as any other skill set you could ever hope to have. You begin to see how valuable creativity is and that you must think differently not only to win, but to see the biggest opportunity. You recognize you get your best ideas when you're not staring at a screen. You see immediate returns on healthy distractions.
 
-You feel guilty when you're doing something you like doing outside of the company.  Only through years of wrestling with this internal fight do you recognize how the word "balance" is an art that is just as important as any other skill set you could ever hope to have.  You begin to see how valuable creativity is and that you must think differently not only to win, but to see the biggest opportunity.  You recognize you get your best ideas when you're not staring at a screen.  You see immediate returns on healthy distractions.
+You start to respect the Duck. Paddle like hell under the water and be smooth and calm on top where everyone can see you. You learn the hard way that if you lose your cool you lose.
 
-You start to respect the Duck.  Paddle like hell under the water and be smooth and calm on top where everyone can see you.  You learn the hard way that if you lose your cool you lose.
+You always ask yourself if I am changing the World in a good way? Are people's lives better for having known me? 
 
-You always ask yourself if I am changing the World in a good way?  Are people's lives better for having known me?  
+You are creative and when you have an idea it has no filter before it becomes a reality. This feeling is why you can't do anything else.  
 
-You are creative and when you have an idea it has no filter before it becomes a reality.  This feeling is why you can't do anything else.   
+You start to see that the word "entrepreneur" is a personality. It's difficult to talk to your friends that are not risking the same things you are because they are content with not pushing themselves or putting it all out there in the public with the likelihood of failure staring at you everyday. You start to turn a lot of your conversations with relatives into how they might exploit opportunities for profit. Those close to you will view your focus as something completely different because they don't understand. You don't blame them. They can't understand if they haven't done it themselves. It's why you will gravitate towards other entrepreneurs. You will find reward in helping other entrepreneurs. This is my email: paul@ecquire.com. Let me know if I can help you with anything. 
 
-You start to see that the word "entrepreneur" is a personality.  It's difficult to talk to your friends that are not risking the same things you are because they are content with not pushing themselves or putting it all out there in the public with the likelihood of failure staring at you everyday.  You start to turn a lot of your conversations with relatives into how they might exploit opportunities for profit.  Those close to you will view your focus as something completely different because they don't understand.  You don't blame them.  They can't understand if they haven't done it themselves.  It's why you will gravitate towards other entrepreneurs.  You will find reward in helping other entrepreneurs.  This is my email: paul@ecquire.com.  Let me know if I can help you with anything. 
+Your job is to create a vision, a culture, to get the right people on the bus and to inspire. When you look around at a team that believes in the vision as much as you do and trusts you will do the right thing all the time, it's a feeling that can't be explained. The exponential productivity from great people will always amaze you. It's why finding the right team is the most difficult thing you will do but the most important. This learning will affect your life significantly. You will not settle for things anymore because you will see what is possible when you hold out for the best and push to find people that are the best. You don't have a problem anymore being honest with people about not cutting it. 
 
-Your job is to create a vision, a culture, to get the right people on the bus and to inspire.  When you look around at a team that believes in the vision as much as you do and trusts you will do the right thing all the time, it's a feeling that can't be explained.  The exponential productivity from great people will always amaze you.  It's why finding the right team is the most difficult thing you will do but the most important.  This learning will affect your life significantly.  You will not settle for things anymore because you will see what is possible when you hold out for the best and push to find people that are the best.  You don't have a problem anymore being honest with people about not cutting it. 
+You start to see that you're a leader and you have to lead or you can't be involved with it at all. You turn down acquisition offers because you need to run the show and you feel like your team is the best in the World and you can do anything with hard work. Quitting is not an option. 
 
-You start to see that you're a leader and you have to lead or you can't be involved with it at all.  You turn down acquisition offers because you need to run the show and you feel like your team is the best in the World and you can do anything with hard work.  Quitting is not an option. 
+You have to be willing to sleep in your car and laugh about it. You have to be able to laugh at many things because when you think of the worse things in the World that could happen to your company, they will happen. Imagine working for something for two years and then have to throw it out completely because you see in one day that it's wrong. You realize that if your team is having fun and can always laugh that you won't die, and in fact, the opposite will happen: you will learn to love the journey and look forward to what you do everyday even at the lowest times. You'll hear not to get too low when things are bad and not to get too high when things are good and you'll even give that advice. But you'll never take it because being in the middle all the time isn't exciting and an even keel is never worth missing out on something worth celebrating. You'll become addicted to finding the hardest challenges because there's a direct relationship between how difficult something is and the euphoria of a feeling when you do the impossible.  
 
-You have to be willing to sleep in your car and laugh about it.  You have to be able to laugh at many things because when you think of the worse things in the World that could happen to your company, they will happen.  Imagine working for something for two years and then have to throw it out completely because you see in one day that it's wrong.  You realize that if your team is having fun and can always laugh that you won't die, and in fact, the opposite will happen:  you will learn to love the journey and look forward to what you do everyday even at the lowest times.  You'll hear not to get too low when things are bad and not to get too high when things are good and you'll even give that advice.  But you'll never take it because being in the middle all the time isn't exciting and an even keel is never worth missing out on something worth celebrating.  You'll become addicted to finding the hardest challenges because there's a direct relationship between how difficult something is and the euphoria of a feeling when you do the impossible.    
-
-You realize that it's much more fun when you didn't have money and that money might be the worse thing you could have as a personal goal.  If you're lucky enough to genuinely feel this way, it is a surreal feeling that is the closest thing to peace because you realize it's the challenges and the work that you love.  Your currencies are freedom, autonomy, responsibility and recognition.  Those happen to be the same currencies of the people you want around you. 
+You realize that it's much more fun when you didn't have money and that money might be the worse thing you could have as a personal goal. If you're lucky enough to genuinely feel this way, it is a surreal feeling that is the closest thing to peace because you realize it's the challenges and the work that you love. Your currencies are freedom, autonomy, responsibility and recognition. Those happen to be the same currencies of the people you want around you. 
 
 You feel like a parent to your customers in that they will never realize how much you love them and it is they who validate you are not crazy. You want to hug every one of them. They mean the World to you. 
 
-You learn the most about yourself more than any other vocation as an entrepreneur.  You learn what you do when you get punched in the face many many times.  You learn what you do when no one is looking and when no one would find out.  You learn that you are bad at many things, lucky if you're good at a handful of things and the only thing you can ever be great at is being yourself which is why you can never compromise it.  You learn how power and recognition can be addicting and see how it could corrupt so many.  
+You learn the most about yourself more than any other vocation as an entrepreneur. You learn what you do when you get punched in the face many many times. You learn what you do when no one is looking and when no one would find out. You learn that you are bad at many things, lucky if you're good at a handful of things and the only thing you can ever be great at is being yourself which is why you can never compromise it. You learn how power and recognition can be addicting and see how it could corrupt so many. 
 
-You become incredibly grateful for the times that things were going as bad as they possibly could.  Most people won't get to see this in any other calling.  When things are really bad, there are people that come running to help and don't think twice about it.  Tal Raviv, Gary Smith, Joe Reyes, Toan Dang, Vincent Cheung, Eric Elinow, Abe Marciano are some of them. I will forever be in their debt and I could never repay them nor would they want or expect to be repaid. 
+You become incredibly grateful for the times that things were going as bad as they possibly could. Most people won't get to see this in any other calling. When things are really bad, there are people that come running to help and don't think twice about it. Tal Raviv, Gary Smith, Joe Reyes, Toan Dang, Vincent Cheung, Eric Elinow, Abe Marciano are some of them. I will forever be in their debt and I could never repay them nor would they want or expect to be repaid. 
 
-You begin to realize that in life, the luckiest people in the World only get one shot at being a part of something great.  Knowing this helps you make sense of your commitment.  
+You begin to realize that in life, the luckiest people in the World only get one shot at being a part of something great. Knowing this helps you make sense of your commitment. 
 
-Of all the things said though, it's exciting.  Every day is different and so exciting.  Even when it's bad it's exciting.  Knowing that your decisions will not only affect you but many others is a weight that I would rather have any day than the weight of not controlling my future.  That's why I could not do anything else.
+Of all the things said though, it's exciting. Every day is different and so exciting. Even when it's bad it's exciting. Knowing that your decisions will not only affect you but many others is a weight that I would rather have any day than the weight of not controlling my future. That's why I could not do anything else.
+
+#### **Source:** [Quora](http://qr.ae/3YjjZ)

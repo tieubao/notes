@@ -42,3 +42,5 @@ CEOs need to:
 
 - Become strategic innovators & change catalysts
 - Lead the company culture
+
+{% img /images/blog/2016-09-17-ceo-roles.png %}
