@@ -1,4 +1,4 @@
-e---
+---
 layout: post
 title: "Git branching model"
 date: 2014-05-08 16:20:24 +0700
@@ -6,12 +6,13 @@ comments: true
 categories: 
 - git
 - tips
+
 keywords: git, tips
 description: Git branching model and common practices
 ---
 
-{% img /images/blog/2016-06-27-git-model.png %}
-
+{% img /images/blog/2014-05-08-git-model.png %}
+ 
 In sort, you will organise your repository into 5 types of branches:
 
 ### The main branches

@@ -38,4 +38,6 @@ What was the end result for us? We were both very happy with the outcome, we lea
 
 Bryan and I each took our tool and started mapping out what aspects we felt were important to our business, and what we felt we each brought to the table. We did this independently of each other over a day or two. Then, we sat down and went through everything item-by-item. That is where the magic happens.
 
+[The spreadsheet](https://al.bsharah.com/wp-content/uploads/2014/03/Embarke-CoFounder-Equity-Split-Template-2016-01.xlsx) has 5 different calculators in it, and a final box that averages everything out among all 5. Hopefully it’s intuitive enough for you to use. Any questions, hit me up in the comments!
+
 #### Source: [AL BSHARAH](https://al.bsharah.com/co-founders-its-time-to-split-that-equity/)

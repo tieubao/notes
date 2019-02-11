@@ -35,3 +35,19 @@ description: My quick note about startup
 - How to find your co-founder
 
 {% slideshare 16773733 %}
+
+---
+
+The happy startup:
+
+* Define your startup DNA
+* Keep the main thing, the main thing
+* Bring design on board from day one
+* Validate ideas early and test assumptions
+* Build a business, not a pitch
+* Stop selling and start listening
+* Get the balance right between MVP and perfection
+* Get a mentor and build your support network
+* 90% of entrepreneurship is sales. It’s time to start hustling.
+* It’s all about people. Hire the best you can
+
