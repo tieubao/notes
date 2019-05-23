@@ -13,7 +13,6 @@ description: Understanding the difference between merge and rebase
 
 ---
 
-{% img /images/blog/2016-06-27-merge-rebase.png %}
 {% img /images/blog/2014-05-10-merge-rebase.png %}
 
 # What does Merge or Rebase mean?
