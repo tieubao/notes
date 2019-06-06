@@ -12,7 +12,7 @@ keywords: software, firm, development
 description: Story about Dwarves Foundation
 ---
 
-After an interesting journey at [CloudJay](http://tieubao.me/writing/2013/12/26/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
+After an interesting journey at [CloudJay](/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
 
 {% img /images/blog/2015-06-17-entrepreneur.jpg %}
 
@@ -28,7 +28,7 @@ We are a team of geeks, hustles and startup veterans. We live around the world b
 
 - **Customer first**: We provide the service with high quality and no latency response time. Customers have to be happy.
 - **Geeky style**: We can do anything, wear multiple hats, take multiple approachs from official to tricky way to achieve the goal.
-- **Teamwork**: **_Synchronisation_** and **_Collaboration_** are the most important key things. You can read this topic: [It's hard to become a team member](http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/). We apply agile process to keep our spirits stick together.
+- **Teamwork**: **_Synchronisation_** and **_Collaboration_** are the most important key things. You can read this topic: [It's hard to become a team member](/a/it-is-hard-to-become-a-team-member/). We apply agile process to keep our spirits stick together.
 - **Proactive**: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.
 - **Growth and sharing**: You can learn another skill from other teammates. We are happy to share it to you. And we believe that working hard and improving yourself everyday will make you paid back later. Read [this topic](https://www.quora.com/How-can-I-motivate-myself-to-work-hard) to keep yourself motivated.
 
