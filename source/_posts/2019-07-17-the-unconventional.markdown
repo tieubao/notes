@@ -14,7 +14,7 @@ description: My thought on the unconventional at Dwarves Foundation
 
 You might have known that I'm building the software organization called The Dwarves in the last four years. The team reached the size of 50 several months ago. The average member age is around 26. They are smart and talented. They are young, well-educated, and hard-working toward success.
 
-With a different expectation in engineering standard, we rarely hire people outside of our circle. We handpick and recruit the individual whom we feel they are the one matching with the engineering-driven culture that we are pursuing. We also decided to hire high potential fresher and train them from scratch. It's costly to do such a thing, but we believe good things take time. That's the way we hire for culture (and values).
+With a different expectation in engineering standard, we rarely hire people outside of our circle. We handpick and recruit the individual whom we feel they are the one matching with the engineering-driven culture that we are pursuing. We also decided to hire high potential freshers and train them from scratch. It's costly to do such a thing, but we believe good things take time. That's the way we hire for culture (and values).
 
 The culture we are pursuing is the combination between the unconventional spirit and the will to do the right things in every piece of our decision, not just follow the existing of which has been said for years. From the outside perspective, it seems to be ridiculous to develop such an organization: 
 
