@@ -9,7 +9,7 @@ categories:
 - people
 
 keywords: notes, thought, people
-description: My thought on the unconventional at Dwarves Foundation
+description: My thought on the unconventional members at Dwarves Foundation
 ---
 
 You might have known that I'm building the software organization called The Dwarves in the last four years. The team reached the size of 50 several months ago. The average member age is around 26. They are smart and talented. They are young, well-educated, and hard-working toward success.
@@ -20,13 +20,13 @@ The culture we are pursuing is the combination between the unconventional spirit
 
 - from gather people with like mind and build the organization we'd love to work at 
 - where judgments are fair and run by the right ideas
-- people payout are equal to their contribution
-- should commit to the quality, not the sales quantity
+- people payout are equal to their contribution so they can make money and be cool at the same time
+- people should commit to the quality, not the sales quantity
 - the team members have time to think about the next problem they want to solve or can join the team on self-development progress. 
 
 It's like Utopia for software engineers and innovators. 
 
-From the start, thinking about its high risk and chance to fail is usually around my thought. But it's getting confident in me over time. There are few companies out there. They did the same thing, and they stood out.
+The thought about an unusual business approach, high risk, and considerable chances to fail often appear in my head. But things are getting confident in me over time. There are few companies out there did the same thing, and they stood out.
 
 Remember when Steve Job talked about why he didn't hire the professional managers? In the fast-paced industry like tech, the developer turned manager rule the works. The professional managers can't do crap about that. Managing at Dwarves Foundation is a part-time occupation, next to being involved with doing the work itself.
 

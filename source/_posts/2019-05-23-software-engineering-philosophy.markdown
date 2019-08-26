@@ -38,7 +38,7 @@ The performance and survival of a large number of organizations now depend on th
 *We build a company where software engineering discipline could shine, innovative and quality products are shipped and change the world for the better.*
 
 #### SYSTEMATIC DISCIPLINE
-Software engineering is an engineering discipline that’s applied to the development of software in a systemaic approach.
+Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.
 
 Not applying software engineering methods results in more expensive, less reliable software, and it can be detrimental on the long term, as the changes come in, the costs will dramatically increase.
 
