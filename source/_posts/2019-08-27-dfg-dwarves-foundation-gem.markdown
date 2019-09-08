@@ -16,18 +16,19 @@ description:
 Following the practice of Securities Token Offering, we are getting our tokens considered as shares with [ERC-884](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md). The tokens & its transactions are recording in Ethereum decentralized computing network, powered by blockchain technology. In other terms, owning one token simply equals owning one share of the company, which entitles the shareholder of all his rights, notably voting and dividend rights. 
 
 The token value reflected by the valuation of the company by evaluating
+
 - Assets (furniture, computers, cash, AR, investments, etc)
 - Liabilities (debt, AP, current payroll, leases, etc)
 - Present value of expected future profits (growth rate)
 
-The token was naming:  DFG / Dwarves Foundation Gem
-The first contract was deployed to Ethereum network last week, and you can track it on [Etherscan](https://etherscan.io/token/0x36779A12eAb9B054bc991143751Ed5B05568eE8d).
+The token was naming:  DFG / Dwarves Foundation Gem. The first contract was deployed to Ethereum network last week, and you can track it on [Etherscan](https://etherscan.io/token/0x36779A12eAb9B054bc991143751Ed5B05568eE8d).
 
 This also marks our first milestone in building our global software firm. We have a plan for all of us to be financially happy in the long-term goal where the dwarves could own parts of the company.
 
 #### The first allocation
 
 The first batch of tokens (RSU) will be issued to those very first members of Dwarves Foundation who has dedicated themselves to the development of the company from Day 1. 
+
 Beside the joined date and contribution, the allocation also reflects the risks that you decided to take with the team. High risk high pay.
 
 - Quang Le: joined on Feb 2015, Quang is the 3rd member. During his soon-to-be five years serving the company vision, he has dedicated himself into everything, from day-to-day activities, project works, and the true craftsmen behind the company infrastructure. Thanks for all the hard works.
