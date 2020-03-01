@@ -8,7 +8,7 @@ categories:
 - program
 
 keywords: internship, program
-description: A second internship program at Dwarves Foundation has passed. 
+description: A quick look at our second internship program at Dwarves Foundation.
 ---
 
 ### The program
@@ -29,7 +29,7 @@ Learning from the last program, this year, we tried to add in the missing pieces
 - Software Process
 - Software Quality
 
-<img>
+{% speakerdeck 82a845337784492580099fc2fe264db5 %}
 
 ### Its goal
 
