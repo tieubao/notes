@@ -46,4 +46,4 @@ The name [**The NeXT Bytes**](https://tinyletter.com/nextbytes/) is inspired by 
 
 Subscribing to this newsletter is a way keep up with these updates, with a message sent directly to your inbox.
 
-> https://tinyletter.com/nextbytes/
+> Subscribe: **<tinyletter.com/nextbytes/>**
