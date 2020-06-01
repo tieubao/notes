@@ -122,9 +122,9 @@ $(document).ready(
 	<header>
 		<h2 class="title">
 			
-			<a href="/notes/a/how-do-we-split-equity-between-us-co-founders/">
+			<a href="/notes/a/git-branching-model/">
 			
-				How Do We Split Equity Between Co-founders?</a>
+				Git Branching Model</a>
 		</h2>
 		<div class="meta date">
 
@@ -138,38 +138,59 @@ $(document).ready(
   
 
 
-<time datetime="2015-02-09T17:06:03+07:00" pubdate data-updated="true">Feb 9<span>th</span>, 2015</time></div>
+<time datetime="2014-05-08T16:20:24+07:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time></div>
 	</header>
 	<div class="entry-content">
-		<p>It’s a very fair question to ask. My own co-founder Bryan and I asked the same question of ourselves when we launched our startup Embarke. Bryan and I had only known each other for a couple months, yet it was important to both of us to have an open and honest partnership from day one. We also knew the importance of figuring this stuff out early, while we could still look at it objectively.</p>
+		<p><img src="/notes/images/blog/2014-05-08-git-model.png"></p>
 
-<p>The purpose of this post is to not just share with you what we did and the process we went through, but to also give you the tool we built to help us along the way.</p>
+<p>In sort, you will organise your repository into 5 types of branches:</p>
 
-<h2>Yes, it can be uncomfortable. Get over it.</h2>
+<h3>The main branches</h3>
 
-<p>I’ve seen far too many founders put this off because it’s an uncomfortable conversation. The reality is, if you’re not comfortable talking about uncomfortable things with your co-founder(s) &hellip; you’ve got bigger problems. This relationship can’t be one of secrecy or procrastination. The nature of an entrepreneur is to take something on…head on…and right now. This equity split conversation is one of the first (of very many more) uncomfortable conversations that you’ll have with your co-founder, and it’s a great signal for how well you’ll work through future situations.</p>
+<ul>
+<li><strong>master</strong>: the main branch where the source code of HEAD always reflects a <em>production-ready</em> state</li>
+<li><strong>develop</strong>: the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. Some would call this the &ldquo;integration branch&rdquo;.</li>
+</ul>
 
-<blockquote><p>This relationship can’t be one of secrecy or procrastination. The nature of an entrepreneur is to take something on&mdash;head on&mdash;and right now.</p></blockquote>
 
-<p>So, we started digging and found countless resources talking about how equity should and shouldn’t be split among founders. The problem (with any advice) is, everyone’s got an opinion. Many of those opinions of course are based on their previous experience which may or may not be related to your situation, how far along the business is, and countless other variables. So, with all of these opinions and calculators out there, how did we come to terms with it?</p>
+<h3>feature</h3>
 
-<p>We used them all.</p>
+<ul>
+<li>May branch off from: develop</li>
+<li>Must merge back into: develop</li>
+<li>Branch naming convention: anything except master, develop, release-*, or hotfix-*</li>
+</ul>
 
-<p>Then we built our own tool to leverage them, and dove in.</p>
 
-<h2>It’s not about you.</h2>
+<p>Feature branches (or sometimes called topic branches) are used to develop new features for the upcoming or a distant future release. When starting development of a feature, the target release in which this feature will be incorporated may well be unknown at that point.</p>
 
-<p>It’s important to realize that this isn’t entirely about you. Through this process, we learned things about each other we didn’t know. We learned more about each other’s skill sets, our pasts, projects, accomplishments, and what we could each truly bring to the table. Sure, it’s a little about you. But it’s got to be about your co-founder(s) as well&hellip; so you need to have an open and receptive mind.</p>
+<h3>release</h3>
 
-<p>What was the end result for us? We were both very happy with the outcome, we learned a TON about each other that we didn’t know before, and walked away from the process more comfortable about working together than ever.</p>
+<ul>
+<li>May branch off from: develop</li>
+<li>Must merge back into: develop and master</li>
+<li>Branch naming convention: release-*</li>
+</ul>
 
-<p>&ldquo;Alright already. Give me the tool!&rdquo;</p>
 
-<p>Bryan and I each took our tool and started mapping out what aspects we felt were important to our business, and what we felt we each brought to the table. We did this independently of each other over a day or two. Then, we sat down and went through everything item-by-item. That is where the magic happens.</p>
+<p>Release branches are created from the develop branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of develop is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number</p>
 
-<p><a href="https://al.bsharah.com/wp-content/uploads/2014/03/Embarke-CoFounder-Equity-Split-Template-2016-01.xlsx">The spreadsheet</a> has 5 different calculators in it, and a final box that averages everything out among all 5. Hopefully it’s intuitive enough for you to use. Any questions, hit me up in the comments!</p>
+<h3>hotfix</h3>
 
-<h4>Source: <a href="https://al.bsharah.com/co-founders-its-time-to-split-that-equity/">AL BSHARAH</a></h4>
+<ul>
+<li>May branch off from: master</li>
+<li>Must merge back into: develop and master</li>
+<li>Branch naming convention: hotfix-*</li>
+</ul>
+
+
+<p>Hotfix branches are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned. They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.</p>
+
+<h1>Summary</h1>
+
+<p>While there is nothing really shocking new to this branching model, the &ldquo;big picture&rdquo; figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.</p>
+
+<h4>Source: <a href="http://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen</a></h4>
 
 		
 		
@@ -182,9 +203,9 @@ $(document).ready(
 	<header>
 		<h2 class="title">
 			
-			<a href="/notes/a/divide-founders-stock-equally-bad-idea/">
+			<a href="/notes/a/semantic-versioning-2-dot-0-0/">
 			
-				Divide Founders Stock Equally? Bad Idea</a>
+				Semantic Versioning 2.0.0</a>
 		</h2>
 		<div class="meta date">
 
@@ -198,29 +219,172 @@ $(document).ready(
   
 
 
-<time datetime="2015-02-05T16:51:32+07:00" pubdate data-updated="true">Feb 5<span>th</span>, 2015</time></div>
+<time datetime="2014-01-09T13:03:30+07:00" pubdate data-updated="true">Jan 9<span>th</span>, 2014</time></div>
 	</header>
 	<div class="entry-content">
-		<p>You and some co-venturers have come up with a business plan and an idea that you want to bring to fruition. How do you decide how much each person will own in the company?</p>
+		<h2>Summary</h2>
 
-<p>Many entrepreneurs think that each founder should own equal shares. This can be problematic, for many reasons.</p>
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
 
-<p>Here are a few things to think about when dividing ownership and founders stock.</p>
-
-<ul>
-<li><strong>Who is bringing the funds to the table?</strong> Money is important and without initial funding, you can&rsquo;t get a business off the ground. But is the bank-roller entitled to a larger proportion of the shares? The decision will depend on how much money he or she is putting in and what his or her additional roles are in the company.</li>
-<li><strong>Whose idea was it?</strong> There is some value to put on the original idea. But simply coming up with the idea shouldn&rsquo;t give majority ownership to the founder. Was the idea patented? A patented idea carries more tangible weight than an abstract idea.</li>
-<li><strong>Who will be doing the lion&rsquo;s share of the work?</strong> Set agreements on day one for who will be contributing work. One person may be contributing valuable managerial labor while another one might be designing important elements.</li>
-<li><strong>What are your business projections?</strong> This is an important question because it helps you figure out who is in the company for the long haul. Which brings us to the final point.</li>
-<li><strong>Have vesting restrictions.</strong> Your stock agreements should have provisions stating that no founder can pull out stock in the company until the lapse of a certain period of time. The last thing you want is for someone to put in the minimal and cash out early at the same proportion as the founders who are toiling away daily.</li>
-</ul>
+<ol>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible
+manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
 
 
-<p>Equity splitting between founders is very important and can be the source of much business litigation in the future. Remember that the startup equity sharing can also bring control issues and voting issues. You need to be careful who has control and who has voting rights in the company as well.</p>
+<p>Additional labels for pre-release and build metadata are available as extensions
+to the MAJOR.MINOR.PATCH format.</p>
 
-<p>Also <strong>keep in mind that not everyone needs to be an &ldquo;owner.&rdquo;</strong> You don&rsquo;t want too many cooks in the kitchen. See if any of the initial contributors can have a different role, perhaps as a key employee with a different class of stock ownership.</p>
+<h2>Introduction</h2>
 
-<h4>Source: <a href="https://blogs.findlaw.com/free_enterprise/2012/04/equal-shares-for-founders-stock-bad-idea.html">FindLaw</a></h4>
+<p>In the world of software management there exists a dread place called
+&ldquo;dependency hell.&rdquo; The bigger your system grows and the more packages you
+integrate into your software, the more likely you are to find yourself, one
+day, in this pit of despair.</p>
+
+<p>In systems with many dependencies, releasing new package versions can quickly
+become a nightmare. If the dependency specifications are too tight, you are in
+danger of version lock (the inability to upgrade a package without having to
+release new versions of every dependent package). If dependencies are
+specified too loosely, you will inevitably be bitten by version promiscuity
+(assuming compatibility with more future versions than is reasonable).
+Dependency hell is where you are when version lock and/or version promiscuity
+prevent you from easily and safely moving your project forward.</p>
+
+<p>As a solution to this problem, I propose a simple set of rules and
+requirements that dictate how version numbers are assigned and incremented.
+These rules are based on but not necessarily limited to pre-existing
+widespread common practices in use in both closed and open-source software.
+For this system to work, you first need to declare a public API. This may
+consist of documentation or be enforced by the code itself. Regardless, it is
+important that this API be clear and precise. Once you identify your public
+API, you communicate changes to it with specific increments to your version
+number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not
+affecting the API increment the patch version, backwards compatible API
+additions/changes increment the minor version, and backwards incompatible API
+changes increment the major version.</p>
+
+<p>I call this system &ldquo;Semantic Versioning.&rdquo; Under this scheme, version numbers
+and the way they change convey meaning about the underlying code and what has
+been modified from one version to the next.</p>
+
+<h2>Why Use Semantic Versioning?</h2>
+
+<p>This is not a new or revolutionary idea. In fact, you probably do something
+close to this already. The problem is that &ldquo;close&rdquo; isn&rsquo;t good enough. Without
+compliance to some sort of formal specification, version numbers are
+essentially useless for dependency management. By giving a name and clear
+definition to the above ideas, it becomes easy to communicate your intentions
+to the users of your software. Once these intentions are clear, flexible (but
+not too flexible) dependency specifications can finally be made.</p>
+
+<p>A simple example will demonstrate how Semantic Versioning can make dependency
+hell a thing of the past. Consider a library called &ldquo;Firetruck.&rdquo; It requires a
+Semantically Versioned package named &ldquo;Ladder.&rdquo; At the time that Firetruck is
+created, Ladder is at version 3.1.0. Since Firetruck uses some functionality
+that was first introduced in 3.1.0, you can safely specify the Ladder
+dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when
+Ladder version 3.1.1 and 3.2.0 become available, you can release them to your
+package management system and know that they will be compatible with existing
+dependent software.</p>
+
+<p>As a responsible developer you will, of course, want to verify that any
+package upgrades function as advertised. The real world is a messy place;
+there&rsquo;s nothing we can do about that but be vigilant. What you can do is let
+Semantic Versioning provide you with a sane way to release and upgrade
+packages without having to roll new versions of dependent packages, saving you
+time and hassle.</p>
+
+<p>If all of this sounds desirable, all you need to do to start using Semantic
+Versioning is to declare that you are doing so and then follow the rules. Link
+to this website from your README so others know the rules and can benefit from
+them.</p>
+
+<h2>FAQ</h2>
+
+<h3>How should I deal with revisions in the 0.y.z initial development phase?</h3>
+
+<p>The simplest thing to do is start your initial development release at 0.1.0
+and then increment the minor version for each subsequent release.</p>
+
+<h3>How do I know when to release 1.0.0?</h3>
+
+<p>If your software is being used in production, it should probably already be
+1.0.0. If you have a stable API on which users have come to depend, you should
+be 1.0.0. If you&rsquo;re worrying a lot about backwards compatibility, you should
+probably already be 1.0.0.</p>
+
+<h3>Doesn&rsquo;t this discourage rapid development and fast iteration?</h3>
+
+<p>Major version zero is all about rapid development. If you&rsquo;re changing the API
+every day you should either still be in version 0.y.z or on a separate
+development branch working on the next major version.</p>
+
+<h3>If even the tiniest backwards incompatible changes to the public API require a major version bump, won&rsquo;t I end up at version 42.0.0 very rapidly?</h3>
+
+<p>This is a question of responsible development and foresight. Incompatible
+changes should not be introduced lightly to software that has a lot of
+dependent code. The cost that must be incurred to upgrade can be significant.
+Having to bump major versions to release incompatible changes means you&rsquo;ll
+think through the impact of your changes, and evaluate the cost/benefit ratio
+involved.</p>
+
+<h3>Documenting the entire public API is too much work!</h3>
+
+<p>It is your responsibility as a professional developer to properly document
+software that is intended for use by others. Managing software complexity is a
+hugely important part of keeping a project efficient, and that&rsquo;s hard to do if
+nobody knows how to use your software, or what methods are safe to call. In
+the long run, Semantic Versioning, and the insistence on a well defined public
+API can keep everyone and everything running smoothly.</p>
+
+<h3>What do I do if I accidentally release a backwards incompatible change as a minor version?</h3>
+
+<p>As soon as you realize that you&rsquo;ve broken the Semantic Versioning spec, fix
+the problem and release a new minor version that corrects the problem and
+restores backwards compatibility. Even under this circumstance, it is
+unacceptable to modify versioned releases. If it&rsquo;s appropriate,
+document the offending version and inform your users of the problem so that
+they are aware of the offending version.</p>
+
+<h3>What should I do if I update my own dependencies without changing the public API?</h3>
+
+<p>That would be considered compatible since it does not affect the public API.
+Software that explicitly depends on the same dependencies as your package
+should have their own dependency specifications and the author will notice any
+conflicts. Determining whether the change is a patch level or minor level
+modification depends on whether you updated your dependencies in order to fix
+a bug or introduce new functionality. I would usually expect additional code
+for the latter instance, in which case it&rsquo;s obviously a minor level increment.</p>
+
+<h3>What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)</h3>
+
+<p>Use your best judgment. If you have a huge audience that will be drastically
+impacted by changing the behavior back to what the public API intended, then
+it may be best to perform a major version release, even though the fix could
+strictly be considered a patch release. Remember, Semantic Versioning is all
+about conveying meaning by how the version number changes. If these changes
+are important to your users, use the version number to inform them.</p>
+
+<h3>How should I handle deprecating functionality?</h3>
+
+<p>Deprecating existing functionality is a normal part of software development and
+is often required to make forward progress. When you deprecate part of your
+public API, you should do two things: (1) update your documentation to let
+users know about the change, (2) issue a new minor release with the deprecation
+in place. Before you completely remove the functionality in a new major release
+there should be at least one minor release that contains the deprecation so
+that users can smoothly transition to the new API.</p>
+
+<h3>Does SemVer have a size limit on the version string?</h3>
+
+<p>No, but use good judgment. A 255 character version string is probably overkill,
+for example. Also, specific systems may impose their own limits on the size of
+the string.</p>
+
+<h4>Source: <a href="http://semver.org/">Semver</a></h4>
 
 		
 		
@@ -233,9 +397,9 @@ $(document).ready(
 	<header>
 		<h2 class="title">
 			
-			<a href="/notes/a/cam-giac-khi-tro-thanh-ceo-cua-mot-startup/">
+			<a href="/notes/a/readme-driven-development/">
 			
-				What Does It Feel Like Being the CEO of a Startup?</a>
+				Readme Driven Development</a>
 		</h2>
 		<div class="meta date">
 
@@ -249,88 +413,34 @@ $(document).ready(
   
 
 
-<time datetime="2015-01-22T22:24:07+07:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2015</time></div>
+<time datetime="2014-01-09T12:44:56+07:00" pubdate data-updated="true">Jan 9<span>th</span>, 2014</time></div>
 	</header>
 	<div class="entry-content">
-		<p>Cảm ơn dịch giả, anh Ninh vì bài dịch này. Xin được phép trích lại bài dịch của anh để mọi người có cơ hội hiểu thêm về những cảm giác mà một đồng sáng lập / key member (không chỉ là CEO) phải trải qua khi thực sự <em>dành hết sức của mình</em> cho công việc.</p>
+		<p>I hear a lot of talk these days about TDD and BDD and Extreme Programming and SCRUM and stand up meetings and all kinds of methodologies and techniques for developing better software, but it&rsquo;s all irrelevant unless the software we&rsquo;re building meets the needs of those that are using it. Let me put that another way. A perfect implementation of the wrong specification is worthless. By the same principle a beautifully crafted library with no documentation is also damn near worthless. If your software solves the wrong problem or nobody can figure out how to use it, there&rsquo;s something very bad going on.</p>
 
-<h4><strong>Nguồn:</strong> <a href="http://ghichep.ninhnv.com/2012/06/cam-giac-nao-khi-tham-gia-mot-cong-ty.html">http://ghichep.ninhnv.com/</a></h4>
+<p>Fine. So how do we solve this problem? It&rsquo;s easier than you think, and it&rsquo;s important enough to warrant its very own paragraph.</p>
 
-<p>Cảm giác thế nào khi bạn tham gia gây dựng một công ty startup? <a href="http://qr.ae/3YjjZ">Câu trả lời của Paul Dejoe trên Quora</a> với hơn 1400 votes (hiện tại là khoảng 5800 votes) đã tóm gọn gần như đầy đủ các cung bậc cảm xúc của những người làm startup.</p>
+<p>Write your Readme first.</p>
 
-<hr />
+<p>First. As in, before you write any code or tests or behaviors or stories or ANYTHING. I know, I know, we&rsquo;re programmers, dammit, not tech writers! But that&rsquo;s where you&rsquo;re wrong. Writing a Readme is absolutely essential to writing good software. Until you&rsquo;ve written about your software, you have no idea what you&rsquo;ll be coding. Between The Great Backlash Against Waterfall Design and The Supreme Acceptance of Agile Development, something was lost. Don&rsquo;t get me wrong, waterfall design takes things way too far. Huge systems specified in minute detail end up being the WRONG systems specified in minute detail. We were right to strike it down. But what took its place is too far in the other direction. Now we have projects with short, badly written, or entirely missing documentation. Some projects don&rsquo;t even have a Readme!</p>
 
-<p>Cảm giác thế nào ư? Mỗi đêm bạn đều trằn trọc khó ngủ. Ngày cuối tuần chẳng còn nghĩa lý gì nữa. Các vòng đầu tư cũng chẳng giúp bạn nhẹ nhõm hơn được gì. Vì điều đó có nghĩa là càng có nhiều người trông cậy vào bạn mang lại lợi nhuận gấp 20 lần số tiền họ đã đầu tư vào bạn. Và thật là khó khăn để dứt bỏ các suy nghĩ về công ty. Ngay kể cả TV, phim ảnh hay các kỳ nghỉ lễ cũng trở nên nhàm chán khi mà tương lai, vận mệnh của công ty bạn đang ở đâu đó trong Inbox hay kết quả từ một bài test A/B bạn vừa quyết định chạy thử.</p>
+<p>This is not acceptable. There must be some middle ground between reams of technical specifications and no specifications at all. And in fact there is. That middle ground is the humble Readme.</p>
 
-<p>Bạn cảm thấy thật tội lỗi khi làm gì đó bạn thích ngoài công việc ra. Trải qua hàng năm trời vật lộn với cuộc chiến nội tâm, bạn mới nhận ra rằng, giữ cho cuộc sống &ldquo;cân bằng&rdquo; là cả một nghệ thuật. Nó quan trọng chẳng kém các kỹ năng bạn vốn hằng ao ước.</p>
+<p>It&rsquo;s important to distinguish Readme Driven Development from Documentation Driven Development. RDD could be considered a subset or limited version of DDD. By restricting your design documentation to a single file that is intended to be read as an introduction to your software, RDD keeps you safe from DDD-turned-waterfall syndrome by punishing you for lengthy or overprecise specification. At the same time, it rewards you for keeping libraries small and modularized. These simple reinforcements go a long way towards driving your project in the right direction without a lot of process to ensure you do the right thing.</p>
 
-<p>Bạn bắt đầu cảm thấy sáng tạo có giá trị dường nào và bạn buộc lòng phải suy nghĩ một cách khác biệt, không chỉ để thắng cuộc mà còn để nhìn ra cơ hội tốt nhất. Bạn nhận ra những ý tưởng tốt nhất nảy sinh không phải là khi bạn dán mắt vào màn hình. Những trò giải trí tiêu khiển nhẹ nhàng lành mạnh lại mang lại hiệu quả tức thì không ngờ đến.</p>
+<p>By writing your Readme first you give yourself some pretty significant advantages:</p>
 
-<p>Bạn bắt đầu thấy nể phục mấy con vịt. Quẫy đạp như điên dưới nước mà phía trên vẫn phải tìm cách nhẹ nhàng, ung dung khi mọi người ngước nhìn. Bạn thấm thía một điều rằng nếu bạn đánh mất đi cá tính, phong thái của mình, tức là bạn thua cuộc.</p>
+<ul>
+<li><p>Most importantly, you&rsquo;re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included in the Public API. Remember that feeling when you first started writing automated code tests and realized that you caught all kinds of errors that would have otherwise snuck into your codebase? That&rsquo;s the exact same feeling you&rsquo;ll have if you write the Readme for your project before you write the actual code.</p></li>
+<li><p>As a byproduct of writing a Readme in order to know what you need to implement, you&rsquo;ll have a very nice piece of documentation sitting in front of you. You&rsquo;ll also find that it&rsquo;s much easier to write this document at the beginning of the project when your excitement and motivation are at their highest. Retroactively writing a Readme is an absolute drag, and you&rsquo;re sure to miss all kinds of important details when you do so.</p></li>
+<li><p>If you&rsquo;re working with a team of developers you get even more mileage out of your Readme. If everyone else on the team has access to this information before you&rsquo;ve completed the project, then they can confidently start work on other projects that will interface with your code. Without any sort of defined interface, you have to code in serial or face reimplementing large portions of code.</p></li>
+<li><p>It&rsquo;s a lot simpler to have a discussion based on something written down. It&rsquo;s easy to talk endlessly and in circles about a problem if nothing is ever put to text. The simple act of writing down a proposed solution means everyone has a concrete idea that can be argued about and iterated upon.</p></li>
+</ul>
 
-<p>Bạn luôn luôn tự hỏi liệu mình có đang thay đổi thế giới ngày một tốt đẹp hơn? Hay người ta sống có tốt hơn từ ngày biết đến bạn không?</p>
 
-<p>Bạn sáng tạo và khi bạn có một ý tưởng, dường như chẳng có gì có thể cản trở bạn cho đến khi bạn biến được nó thành sự thật. Bạn có cảm giác này đơn giản là vì bạn không thể làm khác đi được. Bạn bắt đầu cảm nhận cụm từ &ldquo;entrepreneur&rdquo; gần gũi hơn. Thật khó để giải thích cho bạn bè rằng không mạo hiểm như bạn chẳng qua là vì trong đầu họ chất đầy nỗi lo sợ không dám thúc đẩy bản thân hành động hay mang tất cả những gì đang có ra để chiến đấu cho dù thật bại luôn rình rập hàng ngày. Bạn bắt đầu biến các cuộc chuyện trò có liên quan thành câu chuyện làm thế nào có thể khai thác các cơ hội thành lợi ích nó mang lại. Những người gần gũi với bạn sẽ nhìn vào những gì bạn quan tâm theo một cách hoàn toàn khác bởi vì họ chẳng hiểu gì cả. Bạn không trách cứ gì họ. Họ không thể hiểu nếu họ chưa từng tự mình làm điều gì đó tương tự. Đó là lý do tại sao bạn cứ đi tìm cách thuyết phục người khác trở thành Entrepreneur như bạn. Bạn cảm thấy có được phần thưởng xứng đáng khi giúp đỡ các entrepreneurs khác. Đây là email của tôi: <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#x70;&#x61;&#117;&#x6c;&#x40;&#x65;&#99;&#113;&#x75;&#x69;&#x72;&#101;&#x2e;&#x63;&#111;&#109;&#x2e;">&#112;&#97;&#x75;&#108;&#64;&#x65;&#x63;&#113;&#117;&#x69;&#114;&#x65;&#46;&#x63;&#111;&#x6d;&#x2e;</a> Hãy cho tôi biết tôi có thể giúp gì cho bạn không.</p>
+<p>Consider the process of writing the Readme for your project as the true act of creation. This is where all your brilliant ideas should be expressed. This document should stand on its own as a testament to your creativity and expressiveness. The Readme should be the single most important document in your codebase; writing it first is the proper thing to do.</p>
 
-<p>Việc của bạn là tạo ra một tầm nhìn, một văn hóa, đưa đúng người lên chiếc xe cùng bạn và truyền cảm hứng cho họ. Khi bạn nhìn đồng đội của mình tin tưởng vào tầm nhìn đó, cũng nhiều chẳng kém gì bạn, và tin tưởng bạn sẽ luôn làm đúng, nó là cảm giác không thể diễn tả nổi. Nỗ lực làm việc hơn người theo cấp số mũ luôn khiến bạn ngạc nhiên. Đó là lý do tại sao tìm đúng đồng đội là điều khó khăn nhất nhưng cũng là điều quan trọng nhất. Bài học này sẽ ảnh hưởng đáng kể đến cuộc đời bạn sau này. Bạn sẽ không còn tìm cách giữ mọi thứ bình bình nữa vì bạn biết điều gì có thể xẩy ra khi bạn kiên trì mãnh liệt chiến đấu cho những gì tốt đẹp nhất và tìm thấy những cộng sự tuyệt vời. Sẽ chẳng còn là vấn đề khi thẳng thắn với mọi người mà không sợ làm tổn thương họ.</p>
-
-<p>Bạn bắt đầu nhận ra rằng bạn là một lãnh đạo và bạn phải dẫn dắt hoặc bạn không thể theo được nữa. Bạn gạt đi những lời chào mời gạ bán vì bạn cần làm chủ cuộc chơi và bạn cảm thấy rằng các đồng đội của bạn là những người tuyệt vời nhất thế giới. Bạn có thể làm bất cứ thứ gì một cách chăm chỉ, cần mẫn. Từ bỏ không phải là một lựa chọn.</p>
-
-<p><img src="/notes/images/blog/2015-01-22-ceo-startup-quote.png"></p>
-
-<p>Bạn phải sẵn sàng ngủ lại công ty và thấy thoải mái với việc đó. Bạn có thể cười vào mọi thứ vì khi bạn nghĩ về những điều tồi tệ hơn có thể xẩy đến với công ty mình, thực tế là nó hoàn toàn có thể sẽ xảy ra. Hãy tưởng tượng bạn làm một cái gì đó trong suốt 2 năm trời và sau đó đổ sông đổ bể cả chỉ vì một sai lầm nhỏ vào một ngày nào đó. Bạn nhận ra rằng trong khi đồng đội của bạn vui vẻ và lúc nào cũng có thể cười cợt rằng bạn sẽ không thể chết được, thì sự thật lại ngược lại: bạn học cách trân trọng từng chặng đường đi và hướng đến tương lai trong từng việc bạn làm hàng ngày ngay kể cả những lúc khó khăn nhất. Bạn sẽ nghe người ta nói rằng đừng để quá tụt dốc khi mọi thứ tồi tệ và cũng đừng quá phởn chí khi mọi sự đang tốt, và bạn thậm chí còn đi khuyên người khác những điều tương tự. Nhưng bạn sẽ không bao giờ chấp nhận sự lờ đờ, chẳng bứt lên mà cũng chẳng kém đi vì điều này không thú vị chút nào. Ngay kể cả khi mọi thử đảo lộn hoàn toàn những gì bạn dự định thì cũng là một điều đáng để ăn mừng. Tự nhiên bạn lại cứ thích đâm đầu vào các thử thách khó nhất chỉ vì có một mối liên hệ trực tiếp giữa độ khó của công việc với cảm giác sung sướng khi làm những điều tưởng chừng không thể.</p>
-
-<p>Bạn nhận ra rằng sẽ thú vị hơn nhiều khi bạn không có tiền và tiền đôi khi lại là thứ tồi tệ nhất là khi lấy nó làm mục tiêu cá nhân. Nếu bạn đủ may mắn để cảm thấy như vậy, đó thật sự là một cảm giác gần với sự bình yên vì bạn nhận ra những gì bạn làm là thử thách và cũng là công việc bạn yêu quý. Tài sản của bạn là sự tự do, chủ động, trách nhiệm và sự công nhận. Những thứ này cũng sẽ là những tài sản giá trị mà những người bạn muốn chiến đấu cùng cũng tôn trọng.</p>
-
-<p>Bạn cảm thấy như thể những ông bố bà mẹ với khách hàng và họ sẽ không bao giờ hiểu được bạn yêu họ như thế nào vì chính họ là minh chứng cho việc bạn không điên rồ. Bạn muôn ôm lấy tất cả bọn họ. Và họ có ý nghĩa như là cả thế giới đối với bạn.</p>
-
-<p>Những gì học được phần lớn là từ sự tự trải nghiệm, nhiều hơn bất cứ yếu tố bẩm sinh nào của một Entrepreneur. Bạn nhận ra rằng bạn cần làm gì khi nhận những cú đấm tả tơi vào mặt rất rất nhiều lần. Bạn nhận ra rằng điều bạn cần làm là khi chẳng có ai để ý và chẳng có ai nhìn ra. Bạn nhận ra rằng bạn kém đủ mọi thứ, và thật may mắn nếu bạn giỏi một kỹ năng nào đó. Và thứ duy nhất tuyệt vời có lẽ được là chính mình. Đó cũng là lý do bạn không bao giờ thỏa hiệp. Bạn học được quyền lực và vị thế có thể gây nghiện đến như thế nào và vì sao nó lại có thể tha hóa nhiều người đến vậy.</p>
-
-<p>Bạn sẽ vô cùng biết ơn những quãng thời gian tồi tệ. Trong các ngành nghề khác rất hiếm khi thấy cảnh này. Khi điều tồi tệ xẩy đến, sẽ có những người đến giúp bạn không ngần ngại. Tal Raviv, Gary Smith, Joe Reyes, Toan Dang, Vincent Cheung, Eric Elinow, Abe Marciano và những người khác nữa. Tôi nợ họ cả đời và không gì có thể đền đáp họ được cũng như họ cũng chẳng mong đợi sự đền đáp của tôi.</p>
-
-<p>Bạn bắt đầu nhận ra trong đời, những người may mắn nhất thế giới sẽ chỉ một lần là một phần nào đó của điều gì đó vĩ đại. Biết điều này giúp bạn hợp lý hóa sự toàn tâm của bạn.</p>
-
-<p>Tóm lại, tham gia một công ty startup rất thú vị. Mỗi ngày một khác và đều thú vị cả. Ngay cả khi đó là một ngày tồi tệ cũng vẫn rất thú vị. Biết được rằng các quyết định của bạn không chỉ tác động đến bạn mà còn rất nhiều người khác nữa sẽ là một gánh nặng bạn sẵn sàng chịu đựng hàng ngày còn hơn là không làm chủ được tương lai vận mệnh của mình. Đó là lý do tại sao tôi không thể làm gì khác.</p>
-
-<p><img src="/notes/images/blog/2015-01-22-paul-graham-startup-curve.png"></p>
-
-<h1>Original Post</h1>
-
-<hr />
-
-<p>Very tough to sleep most nights of the week. Weekends don&rsquo;t mean anything to you anymore. Closing a round of financing is not a relief. It means more people are depending on you to turn their investment into 20 times what they gave you.</p>
-
-<p>It&rsquo;s very difficult to &ldquo;turn it off&rdquo;. But at the same time, television, movies and vacations become so boring to you when your company&rsquo;s future might be sitting in your inbox or in the results of a new A/B test you decide to run.</p>
-
-<p>You feel guilty when you&rsquo;re doing something you like doing outside of the company. Only through years of wrestling with this internal fight do you recognize how the word &ldquo;balance&rdquo; is an art that is just as important as any other skill set you could ever hope to have. You begin to see how valuable creativity is and that you must think differently not only to win, but to see the biggest opportunity. You recognize you get your best ideas when you&rsquo;re not staring at a screen. You see immediate returns on healthy distractions.</p>
-
-<p>You start to respect the Duck. Paddle like hell under the water and be smooth and calm on top where everyone can see you. You learn the hard way that if you lose your cool you lose.</p>
-
-<p>You always ask yourself if I am changing the World in a good way? Are people&rsquo;s lives better for having known me?</p>
-
-<p>You are creative and when you have an idea it has no filter before it becomes a reality. This feeling is why you can&rsquo;t do anything else.</p>
-
-<p>You start to see that the word &ldquo;entrepreneur&rdquo; is a personality. It&rsquo;s difficult to talk to your friends that are not risking the same things you are because they are content with not pushing themselves or putting it all out there in the public with the likelihood of failure staring at you everyday. You start to turn a lot of your conversations with relatives into how they might exploit opportunities for profit. Those close to you will view your focus as something completely different because they don&rsquo;t understand. You don&rsquo;t blame them. They can&rsquo;t understand if they haven&rsquo;t done it themselves. It&rsquo;s why you will gravitate towards other entrepreneurs. You will find reward in helping other entrepreneurs. This is my email: <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#112;&#97;&#x75;&#x6c;&#64;&#x65;&#99;&#113;&#x75;&#105;&#114;&#x65;&#x2e;&#x63;&#x6f;&#x6d;&#46;">&#x70;&#97;&#117;&#108;&#64;&#101;&#x63;&#113;&#117;&#105;&#114;&#x65;&#x2e;&#x63;&#x6f;&#x6d;&#46;</a> Let me know if I can help you with anything.</p>
-
-<p>Your job is to create a vision, a culture, to get the right people on the bus and to inspire. When you look around at a team that believes in the vision as much as you do and trusts you will do the right thing all the time, it&rsquo;s a feeling that can&rsquo;t be explained. The exponential productivity from great people will always amaze you. It&rsquo;s why finding the right team is the most difficult thing you will do but the most important. This learning will affect your life significantly. You will not settle for things anymore because you will see what is possible when you hold out for the best and push to find people that are the best. You don&rsquo;t have a problem anymore being honest with people about not cutting it.</p>
-
-<p>You start to see that you&rsquo;re a leader and you have to lead or you can&rsquo;t be involved with it at all. You turn down acquisition offers because you need to run the show and you feel like your team is the best in the World and you can do anything with hard work. Quitting is not an option.</p>
-
-<p>You have to be willing to sleep in your car and laugh about it. You have to be able to laugh at many things because when you think of the worse things in the World that could happen to your company, they will happen. Imagine working for something for two years and then have to throw it out completely because you see in one day that it&rsquo;s wrong. You realize that if your team is having fun and can always laugh that you won&rsquo;t die, and in fact, the opposite will happen: you will learn to love the journey and look forward to what you do everyday even at the lowest times. You&rsquo;ll hear not to get too low when things are bad and not to get too high when things are good and you&rsquo;ll even give that advice. But you&rsquo;ll never take it because being in the middle all the time isn&rsquo;t exciting and an even keel is never worth missing out on something worth celebrating. You&rsquo;ll become addicted to finding the hardest challenges because there&rsquo;s a direct relationship between how difficult something is and the euphoria of a feeling when you do the impossible.</p>
-
-<p>You realize that it&rsquo;s much more fun when you didn&rsquo;t have money and that money might be the worse thing you could have as a personal goal. If you&rsquo;re lucky enough to genuinely feel this way, it is a surreal feeling that is the closest thing to peace because you realize it&rsquo;s the challenges and the work that you love. Your currencies are freedom, autonomy, responsibility and recognition. Those happen to be the same currencies of the people you want around you.</p>
-
-<p>You feel like a parent to your customers in that they will never realize how much you love them and it is they who validate you are not crazy. You want to hug every one of them. They mean the World to you.</p>
-
-<p>You learn the most about yourself more than any other vocation as an entrepreneur. You learn what you do when you get punched in the face many many times. You learn what you do when no one is looking and when no one would find out. You learn that you are bad at many things, lucky if you&rsquo;re good at a handful of things and the only thing you can ever be great at is being yourself which is why you can never compromise it. You learn how power and recognition can be addicting and see how it could corrupt so many.</p>
-
-<p>You become incredibly grateful for the times that things were going as bad as they possibly could. Most people won&rsquo;t get to see this in any other calling. When things are really bad, there are people that come running to help and don&rsquo;t think twice about it. Tal Raviv, Gary Smith, Joe Reyes, Toan Dang, Vincent Cheung, Eric Elinow, Abe Marciano are some of them. I will forever be in their debt and I could never repay them nor would they want or expect to be repaid.</p>
-
-<p>You begin to realize that in life, the luckiest people in the World only get one shot at being a part of something great. Knowing this helps you make sense of your commitment.</p>
-
-<p>Of all the things said though, it&rsquo;s exciting. Every day is different and so exciting. Even when it&rsquo;s bad it&rsquo;s exciting. Knowing that your decisions will not only affect you but many others is a weight that I would rather have any day than the weight of not controlling my future. That&rsquo;s why I could not do anything else.</p>
-
-<h4><strong>Source:</strong> <a href="http://qr.ae/3YjjZ">Quora</a></h4>
+<h4>Source: <a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html">Tom Preston-Werner</a></h4>
 
 		
 		
@@ -343,9 +453,9 @@ $(document).ready(
 	<header>
 		<h2 class="title">
 			
-			<a href="/notes/a/startup-notes/">
+			<a href="/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/">
 			
-				Startup Notes</a>
+				Hướng Dẫn Học Nhanh Một Platform Bất Kỳ</a>
 		</h2>
 		<div class="meta date">
 
@@ -359,385 +469,135 @@ $(document).ready(
   
 
 
-<time datetime="2015-01-22T20:59:25+07:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2015</time></div>
+<time datetime="2013-12-26T22:42:03+07:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time></div>
 	</header>
 	<div class="entry-content">
-		<ul>
-<li>CEO > all: The CEO gets more. Always.</li>
-<li>Startup: Team &mdash; way to &mdash;> market</li>
-<li>Startup == Growth</li>
-<li>Teamwork == <a href="/notes/2014/12/05/it-is-hard-to-become-a-team-member/">Synchronisation</a></li>
-<li>Lean Startup == Validated Learning</li>
-<li>Fail quickly</li>
-<li>Know how to fail</li>
-<li>Know how to give up</li>
-<li>Equal shares is <a href="2019/02/09/divide-founders-stock-equally-bad-idea/">not a good idea</a></li>
-<li>95% startups fail because of team</li>
-<li>5% because of market</li>
-<li>300% effort</li>
-<li>The Minimum Viable Team: Hustler, Hipster &amp; Hacker</li>
-</ul>
-
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/33588747 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
+		<h3>Task 1: Làm quen với platform <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></h3>
 
 <ul>
-<li>Startup 101</li>
+<li>Đặc điểm của platform.</li>
+<li>Kiến trúc của platform.</li>
+<li>Các version của platform, các version có điểm khác biệt nổi trội nào.</li>
+<li>Cài đặt môi trường lập trình, cần cài đặt các công cụ gì.</li>
+<li>Những lưu ý khi cài đặt môi trường lập trình, yêu cầu phần cứng, phần mềm, có cấu hình gì đặc biệt không.</li>
+<li>Tìm tutorial làm thử ứng dụng helloworld để đảm bảo rằng mình đã cài đặt thành công môi trường lập trình.</li>
+<li>Tìm các diễn đàn, trang web hướng dẫn từng kỹ thuật riêng biệt trên platform, trang web hướng dẫn học nhanh (trong 30 ngày), ebook.</li>
 </ul>
 
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21217855 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
+<h3>Task 2: Làm quen với các khái niệm cơ bản</h3>
 
 <ul>
-<li>How to find your co-founder</li>
+<li>Cấu trúc thư mục của project, ý nghĩa các tập tin, thư mục trong project.</li>
+<li>Tìm hiểu cách thức triển khai ứng dụng trên máy thật như thế nào.</li>
+<li>Tìm hiểu cấu trúc các lớp trong project (cấu trúc của framework), ý nghĩa của các lớp.</li>
+<li>Các loại ứng dụng có thể có trên platform.</li>
+<li>Nếu platform sử dụng ngôn ngữ lập trình hoàn toàn mới, nên bỏ thời gian ra tìm hiểu kỹ thuật lập trình hướng đối tượng với ngôn ngữ này.</li>
 </ul>
 
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/16773733 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
-
-<hr />
-
-<p>The happy startup:</p>
+<h3>Task 3: Làm quen với đối tượng thể hiện (giao diện) cơ bản</h3>
 
 <ul>
-<li>Define your startup DNA</li>
-<li>Keep the main thing, the main thing</li>
-<li>Bring design on board from day one</li>
-<li>Validate ideas early and test assumptions</li>
-<li>Build a business, not a pitch</li>
-<li>Stop selling and start listening</li>
-<li>Get the balance right between MVP and perfection</li>
-<li>Get a mentor and build your support network</li>
-<li>90% of entrepreneurship is sales. It’s time to start hustling.</li>
-<li>It’s all about people. Hire the best you can</li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có kích thước màn hình khác nhau (layout)</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có ngôn ngữ khác nhau (localization, multi-lingual language). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có version platform khác nhau (dùng hàm kiểm tra version platform đang chạy, hoặc dùng kỹ thuật reflection). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
 </ul>
 
 
-		
-		
-	</div>
+<p><img src="/notes/images/blog/2013-12-26-components.jpg"></p>
 
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/startup-101/">
-			
-				Startup 101</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-22T20:59:25+07:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2015</time></div>
-	</header>
-	<div class="entry-content">
-		<ul>
-<li><code>Founder &gt; all</code></li>
-<li><code>Founder -- way to --&gt; market</code></li>
-<li><code>Startup == Growth</code></li>
-<li><a href="/notes/2014/12/05/it-is-hard-to-become-a-team-member/"><code>Teamwork == Synchronisation</code></a></li>
-<li>Fail quickly</li>
-<li>Know how to fail</li>
-<li>Know how to give up</li>
-<li>Equal shares is not a good idea</li>
-<li>95% startups fail because of team</li>
-<li>5% because of market</li>
-<li>300% effort</li>
-</ul>
-
-
-<h2>Some useful resources</h2>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21217855 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/16773733 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/auto-layout-in-ios/">
-			
-				Auto Layout in iOS</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-05T01:07:49+07:00" pubdate data-updated="true">Jan 5<span>th</span>, 2015</time></div>
-	</header>
-	<div class="entry-content">
-		<p>I spend a day to learn how to make auto layout in iOS. I begin with an article <a href="http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/">How to use UIViews with auto layout programmatically</a>. It teaches me add views from the first then add size constraints and position contraints later. They are using <code>NSLayoutConstraint</code>.</p>
-
-<p>After that, I find a thread at <a href="http://stackoverflow.com/questions/26180822/swift-adding-constraints-programmatically">StackOverflow</a>. They show off 3 ways to make Auto Layout programmatically</p>
+<h3>Task 4: Làm quen với đối tượng thể hiện (giao diện) đơn</h3>
 
 <ul>
-<li>Pure Classic style, which use NSLayoutConstraint with direct params</li>
-<li>Pure Visual Format Language style, which use <code>NSLayoutConstraint.constraintsWithVisualFormat()</code> and Visually Format Languague. You can find more information about it at <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1">Apple Library</a></li>
-<li>Mixed style (Classic + Visual Format Language)</li>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện đơn như label, textbox, button, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
 </ul>
 
 
-<p><img src="/notes/images/blog/2015-01-05-career365-ios-splash.png"></p>
-
-<p>I also try to apply to Career 365 splashscreen but It doesn&rsquo;t seem to be working. Struggling about an hour, finally I decide to find some more help from community and I find out <a href="https://github.com/robb/Cartography">Cartography</a>. It&rsquo;s such a good library which has about 1k5 stars from Github Users. Their syntax are good too. I think I should give it a try tmr.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>layout(view1, view2) { view1, view2 in
-</span><span class='line'>    view1.width   == (view1.superview!.width - 50) * 0.5
-</span><span class='line'>    view2.width   == view1.width - 50
-</span><span class='line'>    view1.height  == 40
-</span><span class='line'>    view2.height  == view1.height
-</span><span class='line'>    view1.centerX == view1.superview!.centerX
-</span><span class='line'>    view2.centerX == view1.centerX
-</span><span class='line'>
-</span><span class='line'>    view1.top &gt;= view1.superview!.top + 20
-</span><span class='line'>    view2.top == view1.bottom + 20
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
-
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/i-learn-swift/">
-			
-				I Learn Swift</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-04T00:28:17+07:00" pubdate data-updated="true">Jan 4<span>th</span>, 2015</time></div>
-	</header>
-	<div class="entry-content">
-		<p>Last month, <a href="https://www.facebook.com/cloudjay">CloudJay</a> received an offer from HCMC Vietnam National University (VNU) to make a application that help highschool student find out what they are interested in and what major that they should study in university. We planned to build a standalone app in Android and iOS platform and they will be integrated Admod to make some money. It&rsquo;s such an easy app and I take it as a chance to try iOS development.</p>
-
-<p>To begin, I take the video course named <code>The Complete IOS 8 Course with Swift</code> from <code>bitfoundtain.io</code> which brings overview and some sample about iOS development with Swift.</p>
-
-<p><img src="/notes/images/blog/2015-01-04-ios-swift-course.png"></p>
-
-<p>I read and practice articles from <a href="https://github.com/codepath/ios_guides/wiki"><code>CodePath</code> repository</a>. They gather all useful links and resources, from beginning to end.</p>
-
-<p><img src="/notes/images/blog/2015-01-04-ios-codepath.png"></p>
-
-<p>As a android developer, I find something similars and something difference that make the learn progress slow down.</p>
-
-<p>iOS also have dependency manager likes gradle in Android, it&rsquo;s a ruby gem called <a href="http://cocoapods.org/">CocoaPods</a>. Currently it have Swift support in beta release.</p>
-
-<p><img src="/notes/images/blog/2015-01-04-cocoapods.png"></p>
-
-<p>Swift is new programming language introduced by Apple last year. iOS developer used Objective-C before and they&rsquo;re still not want to convert them to Swift. So it is harder to find tutorial in Swift than Objective-C though you can find sth in <a href="https://developer.apple.com/library/prerelease/ios/navigation/#section=Resource%20Types&amp;topic=Guides">Apple Documents</a></p>
-
-<p>UI Layout in iOS is different from Android. In android, screen resolution is devided into <a href="http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/">ldpi to xxhdpi</a> and images size should match those resolutions. In iOS, you will have 1x, 2x and 3x resolution which can be referenced from <a href="http://iosdesign.ivomynttinen.com/">cheatsheet</a></p>
-
-<p><img src="/notes/images/blog/2015-01-04-ios-resolution.png"></p>
-
-<p>In Android, to make a responsive layout, we often define UI in xml files, use <code>layout_weight</code> to make the scalable container. Views are wrapped by ViewGroup or some kinds of Layout. We rarely have to create UI programmatically. But in iOS, people usually render UI in code despite of Xcode6 support matured Storyboard. They find it the easier way. You have to define UIViews and add the <code>constraints</code> between them to make them <a href="http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/">Auto Layout</a>. Some still find Storyboard is better because they can easy manage the screen flows visually.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/how-to-become-senior-software-engineer/">
-			
-				How to Become Senior Software Engineer</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-12-30T09:02:56+07:00" pubdate data-updated="true">Dec 30<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<p>To summary, you can call yourself a Senior when:</p>
+<h3>Task 5: Làm quen với đối tượng thể hiện (giao diện) phức hợp</h3>
 
 <ul>
-<li>You can handle the entire software development life cycle, end to end</li>
-<li>You lead others, or others look to you for guidance.</li>
-<li>You can self manage your projects</li>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện phức hợp như: list, gird, horizontal view, vertical view, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
 </ul>
 
 
-<p>Software development is a curious creature unlike other fields. Sometimes, a fresh punk out of college can run circles around veterans who have 20+ years of &ldquo;experience&rdquo;. Programming is a bizarre world where code is king.</p>
-
-<p>Some achieve the above in 2 years or less, others take 10 years. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
-
-<hr />
-
-<h3>How</h3>
-
-<p>Software engineering is hard. The industry is always changing and you need to keep up with it. You need to put constant effort and time. There is always more to learn than you can possibly absorb. Many engineers who finish a several month boot camp don’t realize how much more they need to learn on top of it. No worries, there is a clear path to becoming a senior software engineer in almost any area of software development. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
-
-<h3>Step 0: choose your path and stick to it!</h3>
-
-<blockquote><p>do one thing and do it well Doug McIlroy : Unix Philosophy</p></blockquote>
-
-<p>I can’t emphasize this enough! It is really important to choose a specialty and a technical stack that you will be working with. Sticking to it and not getting distracted is what will make you a specialist. It’s an important choice to make. Here is how to do it:</p>
+<h3>Task 6: Làm quen với ứng dụng có nhiều màn hình và truyền tham số giữa các màn hình</h3>
 
 <ul>
-<li>Choose your specialty. It’s what you want to do. For example: Web development or Mobile development or DevOps etc.</li>
-<li>Choose a technical stack within your specialty. For example: if you chose web development, you’ll need to choose between Ruby on Rails, Python and Django, JavaScript and MEAN etc. If you chose mobile, you’ll need to choose between iOS or Android, etc.</li>
-<li>Stick to it and master it.</li>
+<li>Làm sao chuyển 1 màn hình bất kỳ thành màn hình chính (hiển thị khi khởi động ứng dụng)</li>
+<li>Làm sao để hiển thị một màn hình B từ một màn hình A.</li>
+<li>Làm sao để màn hình A truyền tham số cho màn hình B. Khi màn hình B kết thúc thì lại truyền tham số ngược lại cho màn hình A.</li>
+<li>Làm sao để ẩn hoặc tắt một màn hình.</li>
+<li>Làm sao để thoát khỏi ứng dụng.</li>
 </ul>
 
 
-<p>I’m not saying that you shouldn’t get familiar with anything else outside of your main specialty. A well rounded T-Shaped Software Engineer knows about other aspects of programming too. Although he/she knows their main specialty extremely well. Now that you’ve chosen your specialty, you have a lot of things to learn. Take your time. It will take you several years to read all these books and practice necessary skills. Get through this challenge one skill at the time. I’ll be using the following technical stacks going forward: Ruby on Rails for web development, iOS for mobile development. It is just because I have experience working with it. I can speak to it personally. At the end of the says it’s just a matter of taste. If you choose some other stack, you’ll need to find different books.</p>
-
-<h3>Step 1. Lay the foundations</h3>
-
-<p>Read The Pragmatic Programmer book. It’s a good starting point on the path to software mastery. The book summarizes best high level practices. It’s language / technology agnostic. It doesn’t matter which tech stack you choose, the main principles stay the same.</p>
-
-<h3>Step 2. Master your programming language</h3>
-
-<p>You’ll be using many languages day to day depending on the technology stack of your choice. Although, majority of your code will be written in one language. For example: a Ruby on Rails developer uses Ruby primarily. An AngularJS developer uses JavaScript most of the time. Identifying the language of your choice and mastering it is crucial for your career. Learn it, master it! You’ll be using this language every day. Choose your language and read an advance book on it.</p>
+<h3>Task 7: Làm quen với menu ứng dụng</h3>
 
 <ul>
-<li>For a Ruby Developer &ndash; Programming</li>
-<li>Ruby For an iOS Developer &ndash; The Swift Programming Language</li>
+<li>Có mấy loại menu ứng dụng, các thức tạo lập ra sao.</li>
+<li>Thường menu được load từ resource (design), có cách thức nào tạo menu động không (runtime).</li>
+<li>Quản lý sự kiện cho các loại menu như thế nào.</li>
 </ul>
 
 
-<h3>Step 3. Learn your framework</h3>
-
-<p>Choose one, learn it:</p>
+<h3>Task 8: Tìm hiểu khái niệm Lifecycle</h3>
 
 <ul>
-<li>For a Rails Developer &ndash; Rails Tutorial by Michael Hartl</li>
-<li>For an iOS Developer &ndash; iOS programming: The Big Nerd Ranch Guide</li>
+<li>Tùy theo từng platform mà việc quản lý vòng đời có thể theo application lifecycle (Windows Phone, iOS) hoặc screen lifecycle (Android, iOS)</li>
+<li>Khi có cuộc gọi gọi đến thì ứng dụng hành xử ra sao.</li>
+<li>Khi ứng dụng (màn hình) A được ẩn đi, một ứng dụng (màn hình) B khác đang chạy cần tài nguyên RAM, CPU buộc hệ thống phải tắt ứng dụng (màn hình) A, thì lúc đó ứng dụng (màn hình) A hành xử ra sao. Sau này ứng dụng (màn hình) A được gọi lại thì A sẽ hành xử ra sao.</li>
 </ul>
 
 
-<h3>Step 4. Become a master of your text editor / IDE</h3>
+<p><img src="/notes/images/blog/2013-12-26-activity-lifecycle.png"></p>
 
-<p>Again. Choose one, master it and stick to it. If you chose VIM, stay with VIM and become a master of it.</p>
+<h3>Task 9: Tìm hiểu cách thức lưu trữ trên platform</h3>
 
-<h3>Step 5. Use your Version Control System like a pro</h3>
+<p>Tùy theo từng platform mà việc lưu trữ có thể ở thư mục riêng của ứng dụng (iOS, Android, Windows Phone) hoặc giống như trên Windows (Android). Thử tìm hiểu các thư mục, hoặc giới hạn phạm vi mà platform cho phép lưu trữ.
+Bất kỳ platform nào cũng có thể lưu trữ dữ liệu dạng:
+&ndash; Text thông thường
+&ndash; Text có cấu trúc: xml, json, ini, v.v…
+&ndash; Binary thông thường
+&ndash; Binary có cấu trúc: hình ảnh, video, tự định nghĩa, v.v..
+&ndash; Binary dạng cơ sở dữ liệu. SQLite (iOS, Android), SQL CE</p>
 
-<p>I recommend using Git. Here is the resource that I like: Pro git &ndash; free online ebook with a complete breakdown on every aspect of git</p>
+<p>Chú ý có nhiều tool hoặc thư viện nguồn mở hỗ trợ truy xuất CSDL, cần tìm hiểu sử dụng các thư viện, tool này.</p>
 
-<h3>Step 6. Commit to doing Test Driven Development</h3>
-
-<p>Choose a book specific to your tech stack, learn it. Get into a habit of doing it every day. Quality code comes with writing tests.</p>
+<h3>Task 10: Tìm hiểu các chức năng viễn thông</h3>
 
 <ul>
-<li>For a Ruby on Rails Developer &ndash; Rails Test Prescriptions</li>
-<li>For an iOS Developer &ndash; Test Driven iOS Development</li>
+<li>Tìm hiểu gọi, chặn cuộc gọi.</li>
+<li>Tìm hiểu gởi, chặn tin nhắn.</li>
+<li>Thao tác với danh bạ.</li>
 </ul>
 
 
-<h3>Step 7. Refactor as a habit</h3>
+<h3>Task 11: Tìm hiểu các chức năng multimedia</h3>
 
-<p>The codebase grows in complexity as you add more functionality. In order to keep your codebase manageable you need to refactor. If you don’t refactor as you go, you’ll soon come to a sad place where even a small change is hard, bugs are inevitable and nobody wants to deal with your messy codebase. Just make your life easier. Don’t delay your refactor. Get into a habit of refactoring. Here is a good book on how to do it: Refactoring: Improving the Design of Existing Code by Martin Fowler</p>
+<ul>
+<li>Hiển thị hình ảnh.</li>
+<li>Chơi nhạc và video</li>
+<li>Tương tác với camera (quay phim, chụp ảnh)</li>
+<li>Tương tác với micro (thu âm)</li>
+</ul>
 
-<h3>Step 8. Learn software architecture</h3>
 
-<p>Depending on the stack you choose, find a good book on architecture. Here is one that I recommend by Martin Fowler. It’s called Patterns of Enterprise Application Architecture</p>
+<h3>Task 12: Tương tác với các ứng dụng sẵn có</h3>
 
-<h3>Step 9. Unleash the power of the command line</h3>
+<ul>
+<li>“Open file with” một ứng dụng được xác định</li>
+<li>Mở một ứng dụng với một tham số nào đó (web tham số là từ khóa search hoặc URL, ứng dụng tin nhắn tham số là số điện thoại và nội dung tin nhắn)</li>
+<li>Đọc dữ liệu của một ứng dụng có sẵn: contact, call log, message log, v.v…</li>
+</ul>
 
-<p>The command line can feel intimidating at first. Although, as soon as you learn how to use it, you’ll become a lot more efficient in performing basic tasks. That alone makes you a better developer since you are able to achieve more in less time. Then you can take it to the next level. Use shell to automate common tasks and build your dotfiles. If you’re working on a Mac or any Linux distribution, learn shell. Here is a good book on it by Mark Bates: Conquering the Command Line</p>
-
-<h3>Step 10. Code code code!</h3>
-
-<p>Every single day. Like in any sport, you need to practice what you learned in order for knowledge to stick.</p>
-
-<h3>Takeaway</h3>
-
-<p>Yes, becoming Senior Software Engineer is hard. It takes a lot of time and commitment. Different people learn at different speed, but on average, it takes about 10 years to become a solid senior dev. It’s a big investment in time for a big return. Software Engineers have the bright future. They are in high demand on the job market. Their salary grows proportionally with their experience. It’s a rapidly growing and a relatively new field. Every day of a software engineer is a challenge. A challenge of changing people’s lives. Go ahead and take on this challenge by becoming a Senior Software Engineer one skill at the time.</p>
-
-<hr />
-
-<p>And to me, title is just title. It can be your past experience. It can be your new goal. But you need to prove that you&rsquo;re worth it.</p>
 <div class="footnotes">
 <hr/>
 <ol>
 <li id="fn:1">
-<p><a href="http://programmers.stackexchange.com/questions/25564/when-should-you-call-yourself-a-senior-developer">When should you call yourself a senior developer?</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p><a href="http://engineering.awesomenesstv.com/post/106521664643/10-steps-to-become-a-senior-software-engineer">Steps to become a senior software engineer</a><a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<p>Bài viết được sưu tầm từ bài giảng của thầy <code>Bùi Tấn Lộc</code>, giảng viên khoa CNTT, Đại học Khoa Học, TP. HCM<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
@@ -753,9 +613,9 @@ $(document).ready(
 	<header>
 		<h2 class="title">
 			
-			<a href="/notes/a/delegators-are-dead-weight/">
+			<a href="/notes/a/a-mapbox-plugin-for-octopress/">
 			
-				Delegators Are Dead Weight</a>
+				A Mapbox Plugin for Octopress</a>
 		</h2>
 		<div class="meta date">
 
@@ -769,418 +629,69 @@ $(document).ready(
   
 
 
-<time datetime="2014-12-17T00:18:39+07:00" pubdate data-updated="true">Dec 17<span>th</span>, 2014</time></div>
+<time datetime="2013-12-03T01:22:01+07:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2013</time></div>
 	</header>
 	<div class="entry-content">
-		<p><img src="/notes/images/blog/2014-12-17-delegator.png"></p>
+		<p><a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a></p>
 
-<p><strong>Everybody works</strong> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>I&rsquo;m building an octopress blog for my friend and need a map for markup purposes. I found <code>octolayer</code> working but <code>Open Street Maps</code> interface is too urly. After an hour searching, I meet <a href="https://www.mapbox.com/">Mapbox</a> which is a map-as-a-service, beautiful design for publishing.</p>
 
-<p>With a small team, you need people who are going to do work, not delegate work. Everyone’s got to be producing. No one can be above the work.</p>
+<p><img src="/notes/images/blog/2013-12-03-mapbox.png"></p>
 
-<p>That means you need to avoid hiring delegators, those people who love telling others what to do. Delegators are dead weight for a small team. They clog the pipes for others by coming up with busywork. And when they run out of work to assign, they make up more—regardless of whether it needs to be done.</p>
-
-<p>Delegators love to pull people into meetings, too. In fact, meetings are a delegator’s best friend. That’s where he gets to seem important. Meanwhile, everyone else who attends is pulled away from getting real work done.”</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Excerpt from <a href="http://37signals.com/rework/">Rework</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/geekyvn-solutions-1-dot-1-easy-keypad/">
-			
-				Geeky Solutions: 1.1 Easy Keypad</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-12-15T21:34:44+07:00" pubdate data-updated="true">Dec 15<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<h2>Problem Set 2: THE ROOM 1.1: Easy keypad</h2>
-
-<p>OK. After registration, you will get into room 1.1 with the picture from Saw movie and it make me feel something creepy.</p>
-
-<p><img src="/notes/images/blog/2014-12-15-ps2-room-1-1.png"></p>
-
-<p>You are in the room. There&rsquo;s the door, with the keypad. You need guess the passcode to get out.</p>
-
-<p><img src="/notes/images/blog/2014-12-15-ps2-room-1-1-keypad.jpg"></p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>The standard keypad layout is as followed:
-</span><span class='line'>1 2 3
-</span><span class='line'>4 5 6
-</span><span class='line'>7 8 9
-</span><span class='line'>* 0 #
-</span><span class='line'>
-</span><span class='line'>Input:
-</span><span class='line'>
-</span><span class='line'>- First line: length of the passcode
-</span><span class='line'>- Next 4 lines: standard keypad layout with values of max the button is used in the passcode. For example: 0 means the button is never used, 1 means it's used at most 1 time, 2 means it's used at most 2 times in the passcode.
-</span><span class='line'>
-</span><span class='line'>Output:
-</span><span class='line'>- All the result combinations, sorted by ascending. Each combination on a line.
-</span><span class='line'>
-</span><span class='line'>Sample input:
-</span><span class='line'>3
-</span><span class='line'>0 0 0
-</span><span class='line'>1 0 0
-</span><span class='line'>0 2 0
-</span><span class='line'>0 1 0
-</span><span class='line'>
-</span><span class='line'>Sample output:
-</span><span class='line'>0 4 8
-</span><span class='line'>0 8 4
-</span><span class='line'>0 8 8
-</span><span class='line'>4 0 8
-</span><span class='line'>4 8 0
-</span><span class='line'>4 8 8
-</span><span class='line'>8 0 4
-</span><span class='line'>8 0 8
-</span><span class='line'>8 4 0
-</span><span class='line'>8 4 8
-</span><span class='line'>8 8 0
-</span><span class='line'>8 8 4</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Press <code>help</code> and you will get more commands.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Available commands:
-</span><span class='line'>ls, cat, cd     You know what these are.
-</span><span class='line'>submit          Upload solution for current puzzle. Supported languages: Ruby 1.9.2, PHP, C, C++, Perl, Python
-</span><span class='line'>submit test     Upload simple file to read input and write the same output.
-</span><span class='line'>All are standard input and output
-</span><span class='line'>Check notifications.txt for result. It may take a while due to long queue.</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Back to the problem, they want you to write a program that receive input from keyboard. Map the input array to the keypad value then list out all the sub-arrays that has the same length as the passcode. You need to write it in their supported languages and submit the solution via command <code>submit</code>.</p>
-
-<p>Honestly, I&rsquo;m too lazy to those kind of problems :smile:. Let&rsquo;s find the solution somewhere else. StackOverflow is a good option. (Learn from other is good too).</p>
+<p>With some free time, I make a <a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a> and place it on Github. You can install it like other octopress plugins and easy to integrate with Mapbox by following these steps.</p>
 
 <ul>
-<li><a href="http://stackoverflow.com/questions/127704/algorithm-to-return-all-combinations-of-k-elements-from-n">Algorithm to return all combinations of k elements from n</a></li>
-<li><a href="http://stackoverflow.com/questions/1952153/what-is-the-best-way-to-find-all-combinations-of-items-in-an-array">What is the best way to find all combinations of items in an array?</a></li>
-<li><a href="http://stackoverflow.com/questions/13765699/how-can-i-obtain-all-the-possible-combination-of-a-subset">How can I obtain all the possible combination of a subset?</a></li>
+<li>Create a Mapbox account, configure your map and get map-id.</li>
 </ul>
 
 
-<p>All materials is here. Let&rsquo;s cook them.</p>
+<p><img src="/notes/images/blog/2013-12-03-mapid.png"></p>
 
-<p><strong>Step 1: Write python script that receive input from keyboard.</strong></p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>N
-</span><span class='line'>0 0 0
-</span><span class='line'>1 0 0
-</span><span class='line'>0 2 0
-</span><span class='line'>0 1 0</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>Clone <a href="https://github.com/tieubao/octopress-mapbox">octopress-mapbox</a> repository.</li>
+<li>Copy all files from <code>plugins</code>, <code>sass</code> and <code>source</code> to your octopress directory.</li>
+</ul>
 
 
-<p><strong>Step 2: Convert input to an array</strong></p>
+<p><img src="/notes/images/blog/2013-12-03-tag.png"></p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Value: 0 0 0 1 0 0 0 2 0 0 1  0 
-</span><span class='line'>Index: 0 1 2 3 4 5 6 7 8 9 10 11</span></code></pre></td></tr></table></div></figure>
+<p><img src="/notes/images/blog/2013-12-03-scss.png"></p>
 
+<p><img src="/notes/images/blog/2013-12-03-head.png"></p>
 
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Array with meaningful elements: 
-</span><span class='line'>4 8 8 0</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>Include <code>mapbox_head</code> in <code>source/_includes/head.html</code></li>
+</ul>
 
 
-<p><strong>Step 3: Apply algorithm to list all sub-array with given length <code>N</code></strong></p>
+<p><img src="/notes/images/blog/2013-12-03-include-head.png"></p>
 
-<p>You can use the solution from the internet or write by yourself. Python offers a great <a href="https://docs.python.org/2/library/itertools.html"><code>itertools</code></a> lib to handle that kind of stuff.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">permutations</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">length</span><span class="p">))</span>
-</span><span class='line'><span class="n">result</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>Import <code>_mapbox.scss</code> to your <code>screen.scss</code></li>
+</ul>
 
 
-<p>I think my own solution works well but it does not pass the test. Maybe I should quit.</p>
+<p><img src="/notes/images/blog/2013-12-03-include-scss.png"></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">import</span> <span class="nn">itertools</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">input_arr</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
-</span><span class='line'><span class="n">length</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">raw_input</span><span class="p">())</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># Input</span>
-</span><span class='line'><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">):</span>
-</span><span class='line'>  <span class="n">s</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">()</span>
-</span><span class='line'>  <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
-</span><span class='line'>  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
-</span><span class='line'>      <span class="n">input_arr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">item</span><span class="p">))</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># Mapping input to real values</span>
-</span><span class='line'><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
-</span><span class='line'><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">input_arr</span><span class="p">)):</span>
-</span><span class='line'>  <span class="k">if</span> <span class="p">(</span><span class="n">input_arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">):</span>
-</span><span class='line'>      <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="n">input_arr</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
-</span><span class='line'>          <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">8</span><span class="p">:</span>
-</span><span class='line'>              <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span><span class='line'>          <span class="k">else</span><span class="p">:</span>
-</span><span class='line'>              <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># Generate</span>
-</span><span class='line'><span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">permutations</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">length</span><span class="p">))</span>
-</span><span class='line'><span class="n">result</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># Print out the result</span>
-</span><span class='line'><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-</span><span class='line'>  <span class="n">val</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
-</span><span class='line'>  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">length</span><span class="p">)):</span>
-</span><span class='line'>      <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
-</span><span class='line'>          <span class="n">val</span> <span class="o">=</span> <span class="n">val</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s">&quot; &quot;</span>
-</span><span class='line'>      <span class="k">else</span><span class="p">:</span>
-</span><span class='line'>          <span class="n">val</span> <span class="o">=</span> <span class="n">val</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-</span><span class='line'>          
-</span><span class='line'>  <span class="k">print</span> <span class="n">val</span>
-</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>Add <code>mapbox_id</code> to <code>_config.xml</code></li>
+</ul>
 
 
-<p>Sample:</p>
+<p><img src="/notes/images/blog/2013-12-03-config.png"></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-<span class='line-number'>45</span>
-<span class='line-number'>46</span>
-<span class='line-number'>47</span>
-<span class='line-number'>48</span>
-<span class='line-number'>49</span>
-<span class='line-number'>50</span>
-<span class='line-number'>51</span>
-<span class='line-number'>52</span>
-<span class='line-number'>53</span>
-<span class='line-number'>54</span>
-<span class='line-number'>55</span>
-<span class='line-number'>56</span>
-<span class='line-number'>57</span>
-<span class='line-number'>58</span>
-<span class='line-number'>59</span>
-<span class='line-number'>60</span>
-<span class='line-number'>61</span>
-<span class='line-number'>62</span>
-<span class='line-number'>63</span>
-<span class='line-number'>64</span>
-<span class='line-number'>65</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="mi">4</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">2</span> <span class="mi">0</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">1</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">5</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">0</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">0</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">5</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">1</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">5</span> <span class="mi">7</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">5</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">0</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">5</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">5</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">1</span> <span class="mi">7</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">0</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">0</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">1</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">1</span> <span class="mi">7</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">5</span> <span class="mi">7</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">1</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">0</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">1</span> <span class="mi">5</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">0</span>
-</span><span class='line'><span class="mi">7</span> <span class="mi">7</span> <span class="mi">5</span> <span class="mi">1</span>
-</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>Use <code>mapbox</code> in your blog content with syntax: <code>{ mapbox lat long zoomLevel }</code></li>
+</ul>
 
+
+<div id='map' style='height:420px'></div>
+
+
+<script type='text/javascript'>jQuery(document).ready(function() {L.mapbox.map('map', 'mrcexii.gei10h9n', {legendControl: true, shareControl: true}).setView([10.8148, 106.6748], 16);});</script>
+
+
+<p>OK, that&rsquo;s all. Please feel free to use this.</p>
 
 		
 		
@@ -1192,8 +703,6 @@ $(document).ready(
     
         <a href="/notes/blog/page/3/" class="prev">Previous</a>
     
-    
-        <a href="/notes/blog/page/5/" class="next">Next</a>
     
 </nav>
 </div>

@@ -1,323 +1,189 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://tieubao.github.io/writing/a/how-to-use-jaypix-beta/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/intellisense-in-eclipse/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
         <loc>http://tieubao.github.io/writing/a/a-mapbox-plugin-for-octopress/</loc>
-        <lastmod>2020-06-02T01:38:57+07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tieubao.github.io/writing/a/android-with-eclipse-and-genymotion-on-mac-os-x/
-        </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tieubao.github.io/writing/a/resources-every-android-developer-should-know/
-        </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/add-library-to-android-project/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tieubao.github.io/writing/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/
-        </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/eventbus-by-greenrobot/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/how-to-meet-your-next-cofounder/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/readme-driven-development/</loc>
-        <lastmod>2020-06-02T01:39:03+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/semantic-versioning-2-dot-0-0/</loc>
-        <lastmod>2020-06-02T01:39:55+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/training-android-day-01/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/training-android-day-02/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/training-android-day03-04/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/quy-trinh/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/hau-yeu/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/git-branching-model/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-11T14:08:55+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/git-rebase-vs-merge/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tieubao.github.io/writing/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p2/
-        </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/training-android-end/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-05-23T19:44:51+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/it-is-hard-to-become-a-team-member/</loc>
-        <lastmod>2020-06-02T01:40:32+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/everything-is-marketing/</loc>
-        <lastmod>2020-06-02T01:40:39+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/cai-chet-cua-chu-du/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/barcamp-saigon-2014/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/geeky-dot-vn-solutions/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/geekyvn-solutions-1-dot-1-easy-keypad/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/delegators-are-dead-weight/</loc>
-        <lastmod>2020-06-02T01:40:45+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/how-to-become-senior-software-engineer/</loc>
-        <lastmod>2020-06-02T01:40:55+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/i-learn-swift/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/auto-layout-in-ios/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/startup-101/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-11T15:43:29+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/startup-notes/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-11T15:46:46+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/cam-giac-khi-tro-thanh-ceo-cua-mot-startup/</loc>
-        <lastmod>2020-06-02T01:41:10+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/divide-founders-stock-equally-bad-idea/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>
             http://tieubao.github.io/writing/a/how-do-we-split-equity-between-us-co-founders/
         </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/tying-lessons-learned-to-project-failure/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:18:24+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/resources-for-go-beginners/</loc>
-        <lastmod>2020-06-02T01:41:34+07:00</lastmod>
+        <lastmod>2019-02-11T17:38:04+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/dwarves-foundation/</loc>
-        <lastmod>2020-06-02T01:42:14+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/9owl/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/and-it-happened/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/happy-startup/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/working-on-teamwork-utilities-in-slack/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-07-17T03:45:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/dotfiles/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/today-i-learned/</loc>
-        <lastmod>2020-06-02T01:38:30+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/go-and-elixir/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-11T14:33:34+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/how-we-contribute-to-homebrew/</loc>
-        <lastmod>2020-06-02T01:42:36+07:00</lastmod>
+        <lastmod>2019-02-11T14:14:19+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/git-practices-at-dwarves-foundation/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/gitflow-and-pull-request/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/the-sleep-revolution-manifesto/</loc>
-        <lastmod>2020-06-02T01:37:20+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/the-ceo-roles-idea-to-continuous-growth/</loc>
-        <lastmod>2020-06-02T01:37:26+07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://tieubao.github.io/writing/a/12-signs-your-company-has-an-enviable-workplace-culture/
-        </loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/van-de-cua-tuoi-tre/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tieubao.github.io/writing/a/dwarves-foundation-tuyen-dung/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/how-to-contribute-to-tech-community/</loc>
-        <lastmod>2020-06-02T01:37:13+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/cofounder-agreement/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/what-dwarves-foundation-stand-for/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-19T10:52:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/summer-internship-2018/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2020-03-06T17:57:04+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/gophercon-vietnam-2018/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-02-10T19:15:43+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/2018-year-of-achievement/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-05-23T19:57:02+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/software-engineering-philosophy/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-07-19T01:02:06+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/the-unconventional/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2019-09-08T22:03:09+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/dfg-dwarves-foundation-gem/</loc>
-        <lastmod>2020-06-02T02:11:10+07:00</lastmod>
+        <lastmod>2020-03-06T17:57:04+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/spring-internship-2019/</loc>
-        <lastmod>2020-06-02T02:11:14+07:00</lastmod>
+        <lastmod>2020-03-06T17:57:04+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/2020/</loc>
-        <lastmod>2020-06-02T01:34:38+07:00</lastmod>
+        <lastmod>2020-03-06T17:57:04+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/a/the-next-bytes/</loc>
-        <lastmod>2020-06-02T02:10:58+07:00</lastmod>
+        <lastmod>2020-06-02T02:20:20+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/</loc>
-        <lastmod>2020-06-02T02:11:14+07:00</lastmod>
+        <lastmod>2020-06-02T02:20:20+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/cjay/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/lifebox-365/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/gossip/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/jaypix/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/lifebox-daily/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/projects/emoot/</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2019-02-09T19:35:32+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/blog/</loc>
-        <lastmod>2020-06-02T02:11:14+07:00</lastmod>
+        <lastmod>2020-06-02T02:20:20+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/blog/archives/</loc>
-        <lastmod>2020-06-02T02:11:14+07:00</lastmod>
+        <lastmod>2020-06-02T02:20:20+07:00</lastmod>
     </url>
     <url>
         <loc>http://tieubao.github.io/writing/robots.txt</loc>
-        <lastmod>2018-11-06T00:01:16+07:00</lastmod>
+        <lastmod>2018-07-16T21:18:38+07:00</lastmod>
     </url>
 </urlset>

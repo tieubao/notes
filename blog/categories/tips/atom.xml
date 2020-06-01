@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tips | Han Ngo]]></title>
   <link href="http://tieubao.github.io/writing/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://tieubao.github.io/writing/"/>
-  <updated>2020-06-02T02:12:00+07:00</updated>
+  <updated>2020-06-02T02:20:45+07:00</updated>
   <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
@@ -39,32 +39,6 @@
 <li><strong>Dashboard</strong>: <a href="https://github.com/tieubao/til/issues">https://github.com/tieubao/til/issues</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Happy Startup]]></title>
-    <link href="http://tieubao.github.io/writing/a/happy-startup/"/>
-    <updated>2015-07-10T09:59:05+07:00</updated>
-    <id>http://tieubao.github.io/writing/a/happy-startup</id>
-    <content type="html"><![CDATA[<p>Follow these 10 tips and you’ll be on the right track to a happy startup:</p>
-
-<ul>
-<li>Define your startup DNA</li>
-<li>Keep the main thing, the main thing</li>
-<li>Bring design on board from day one</li>
-<li>Validate ideas early and test assumptions</li>
-<li>Build a business, not a pitch</li>
-<li>Stop selling and start listening</li>
-<li>Get the balance right between MVP and perfection</li>
-<li>Get a mentor and build your support network</li>
-<li>90% of entrepreneurship is sales. It’s time to start hustling.</li>
-<li>It’s all about people. Hire the best you can</li>
-</ul>
-
-
-<p>Full article at
-<a href="https://medium.com/the-happy-startup-school/10-ways-youll-probably-f-k-up-your-startup-25b830afbd84">Medium</a></p>
 ]]></content>
   </entry>
   
@@ -294,6 +268,64 @@
 
 
 <h4>Source: <a href="https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/">https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/</a></h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git branching model]]></title>
+    <link href="http://tieubao.github.io/writing/a/git-branching-model/"/>
+    <updated>2014-05-08T16:20:24+07:00</updated>
+    <id>http://tieubao.github.io/writing/a/git-branching-model</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-08-git-model.png"></p>
+
+<p>In sort, you will organise your repository into 5 types of branches:</p>
+
+<h3>The main branches</h3>
+
+<ul>
+<li><strong>master</strong>: the main branch where the source code of HEAD always reflects a <em>production-ready</em> state</li>
+<li><strong>develop</strong>: the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. Some would call this the &ldquo;integration branch&rdquo;.</li>
+</ul>
+
+
+<h3>feature</h3>
+
+<ul>
+<li>May branch off from: develop</li>
+<li>Must merge back into: develop</li>
+<li>Branch naming convention: anything except master, develop, release-*, or hotfix-*</li>
+</ul>
+
+
+<p>Feature branches (or sometimes called topic branches) are used to develop new features for the upcoming or a distant future release. When starting development of a feature, the target release in which this feature will be incorporated may well be unknown at that point.</p>
+
+<h3>release</h3>
+
+<ul>
+<li>May branch off from: develop</li>
+<li>Must merge back into: develop and master</li>
+<li>Branch naming convention: release-*</li>
+</ul>
+
+
+<p>Release branches are created from the develop branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of develop is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number</p>
+
+<h3>hotfix</h3>
+
+<ul>
+<li>May branch off from: master</li>
+<li>Must merge back into: develop and master</li>
+<li>Branch naming convention: hotfix-*</li>
+</ul>
+
+
+<p>Hotfix branches are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned. They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.</p>
+
+<h1>Summary</h1>
+
+<p>While there is nothing really shocking new to this branching model, the &ldquo;big picture&rdquo; figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.</p>
+
+<h4>Source: <a href="http://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen</a></h4>
 ]]></content>
   </entry>
   
