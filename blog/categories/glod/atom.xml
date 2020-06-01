@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: glod | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/glod/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How we contribute to Homebrew]]></title>
+    <link href="http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/"/>
+    <updated>2016-03-13T10:35:21+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew</id>
+    <content type="html"><![CDATA[<h2>Homebrew</h2>
+
+<p>Homebrew (or brew) is one of the biggest repo on Github with more than 29k stars, 14k forks and 1k watches. It was started by Max Howell in 2009 to build the missing package manager for OS X. Back to before 2009, in Mac OSX, if we wanted to install something, we had to install it via pkg files or bin files. We didn&rsquo;t have anything fancy like <code>apt-get</code> in Ubuntu or <code>yum</code> in Fedora. MacPort was an only option but it was not too good. Check the very old article about it: <a href="http://www.engadget.com/2009/12/25/homebrew-the-perfect-gift-for-command-line-lovers/">Homebrew, the perfect gift for command line lovers</a></p>
+
+<p>For now, you can access homebrew via</p>
+
+<ul>
+<li>Homepage: <a href="http://brew.sh">http://brew.sh</a></li>
+<li>Github: <a href="https://github.com/Homebrew/homebrew">https://github.com/Homebrew/homebrew</a></li>
+</ul>
+
+
+<p><img src="/images/blog/2016-03-13-homebrew.png"></p>
+
+<p>To install homebrew, you just need to run the ruby script and you will get <code>brew</code> command ready in couple of minutes.</p>
+
+<p><code>
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</code></p>
+
+<p>Homebrew is developed in Ruby and its program will be defined as a formula which is simple Ruby script. Most of tools can be found in Homebrew such as: docker, ruby, python, ansible, todo.txt, &hellip; At this time they have over 3k5 formulas that was contributed by community.</p>
+
+<p>```
+class Wget &lt; Formula
+  homepage &ldquo;<a href="https://www.gnu.org/software/wget/">https://www.gnu.org/software/wget/</a>&rdquo;
+  url &ldquo;<a href="https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz">https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz</a>&rdquo;
+  sha256 &ldquo;52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd&rdquo;</p>
+
+<p>  def install</p>
+
+<pre><code>system "./configure", "--prefix=#{prefix}"
+system "make", "install"
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p>Simple use cases for Homebrew after you got it:</p>
+
+<p><code>
+// $FORMULA is the name of your formula
+$ brew install $FORMULA
+</code></p>
+
+<p>Brew makes it really easy to update and upgrade. Because everything is based on Git, you just need to run those below commands then everything will be done automatically.</p>
+
+<p><code>
+$ brew update
+$ brew upgrade
+</code></p>
+
+<h2>How to contribute to Homebrew</h2>
+
+<p>Note: In this post, we just cover the command line or tool part of Homebrew. The example is taken from our <a href="https://github.com/dwarvesf/glod-cli"><strong>glod-cli</strong></a></p>
+
+<p>When you look into the repo of Homebrew, you can easily find the doc directory in <code>homebrew/share/doc/homebrew/</code> which contains all the information. The most important file for this tutorial is the <code>Formula-Cookbook.md</code>.</p>
+
+<p><img src="/images/blog/2016-03-13-homebrew-doc.png"></p>
+
+<p>Basically, when you use homebrew, it will create a separate folder on your machine. Everything usually will be installed in <code>/usr/local/Cellar</code> and all formulas was stored at <code>/usr/local/Library/Formula</code>.</p>
+
+<p>So in short, if you want to contribute a new one, you need to create a new formula in your local and submit a pull request to <code>https://github.com/Homebrew/homebrew</code>.</p>
+
+<h3>Fork from homebrew</h3>
+
+<p>
+<img src="/images/blog/2016-03-13-homebrew.png"></p>
+
+<p>For us, we will have a repo called <code>dwarvesf/homebrew</code> which we can clone and start from there.</p>
+
+<h3>Create new formula</h3>
+
+<p>Make sure you have installed <code>brew</code> on your machine (you have to!) and your new formula must meets all their <a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md">Acceptable Formulae</a> requirements.</p>
+
+<p>Then we can start from create a new branch (like git workflow) or not. For us we skip it and use the master branch (plot twist: we forgot to do this step)</p>
+
+<p>We move to the step of create new formula by run the command</p>
+
+<p><code>
+$ brew create &lt;URL.tar.gz&gt;
+</code></p>
+
+<p>Example for us, we use the archive url of our github repo <code>https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz</code>. You can get it by combining</p>
+
+<p><code>
+https://github.com/&lt;YOUR REPO&gt;/archive/&lt;COMMIT SHA | TAG&gt;.tar.gz
+</code></p>
+
+<p>This command will help to create a local formula in <code>/usr/local/Library/Formula</code> and open with your default $EDITOR. You have to write a small Ruby script to <code>install</code> and <code>test</code> the formula. You can refer to other formulas to make it easier. Check out the main repo <code>https://github.com/Homebrew/homebrew/tree/master/Library/Formula</code> or the forked one. If you have Go formula like us, you can easily search for more than 100 existed Go formulas. It&rsquo;s a great source for references.</p>
+
+<p>Our formula looks like this</p>
+
+<p>``` ruby
+require &ldquo;language/go&rdquo;</p>
+
+<p>class GlodCli &lt; Formula
+  desc &ldquo;Glod command-line interface tools&rdquo;
+  homepage &ldquo;<a href="https://github.com/dwarvesf/glod-cli">https://github.com/dwarvesf/glod-cli</a>&rdquo;
+  url &ldquo;<a href="https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz">https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz</a>&rdquo;
+  sha256 &ldquo;1826e8b5398f10a12d5f315a9f5a670f05ac3e0f6ead7c4edddf621c2260ae6c&rdquo;</p>
+
+<p>  depends_on &ldquo;go&rdquo; => :build
+  depends_on &ldquo;godep&rdquo; => :build</p>
+
+<p>  go_resource &ldquo;github.com/kr/fs&rdquo; do</p>
+
+<pre><code>url "https://github.com/kr/fs.git", :revision =&gt; "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
+</code></pre>
+
+<p>  end</p>
+
+<p>  def install</p>
+
+<pre><code>ENV["GOPATH"] = buildpath
+ENV["GO15VENDOREXPERIMENT"] = "0"
+mkdir_p buildpath/"src/github.com/dwarvesf/"
+ln_s buildpath, buildpath/"src/github.com/dwarvesf/glod-cli"
+Language::Go.stage_deps resources, buildpath/"src"
+
+system "godep", "go", "build", "-o", "glod-cli", "."
+bin.install "glod-cli"
+</code></pre>
+
+<p>  end</p>
+
+<p>  test do</p>
+
+<pre><code>output = shell_output(bin/"glod-cli --version")
+assert_match "glod-cli version #{version}\n", output
+
+system bin/"glod-cli", "http://mp3.zing.vn/bai-hat/Hello-Vietnam-Pham-Quynh-Anh/ZWZ9C8EB.html"
+sleep 2
+assert File.exist?("Hello Vietnam.mp3")
+</code></pre>
+
+<p>  end
+end</p>
+
+<p>```</p>
+
+<h3>Install / Debug local formula</h3>
+
+<p><code>
+$ brew install --verbose --debug $FORMULA
+</code></p>
+
+<p>This command will help to install your formula at <code>/usr/local/Library/Formula</code>. Happy debugging until you can install it smoothly.</p>
+
+<p>Sometimes you will need to uninstall the formula, you can use this command</p>
+
+<p><code>
+$ brew unlink $FORMULA
+$ brew cleanup
+</code></p>
+
+<h3>Test the formula</h3>
+
+<p>One note for the test block, there are still a lot of formula that try to cheat by printing out the help or version. As a good contributor, you should write good tests for your formulas or your pull request will be rejected (like us)</p>
+
+<p><img src="/images/blog/2016-03-13-homebrew-failed-test.png"></p>
+
+<p><code>
+$ brew test $FORMULA
+$ brew audit --strict --online $FORMULA
+</code></p>
+
+<p>Those tests should be passed to make sure your formula is qualified. The second command is provided to check if your formula have</p>
+
+<ul>
+<li>More than 50 stars</li>
+<li>More than 20 forks</li>
+<li>More than 20 watchers</li>
+<li>And initialized more than 30 days</li>
+</ul>
+
+
+<h3>Submit pull request</h3>
+
+<p>Bravo! It&rsquo;s really great if you can get here, your formula is qualified. Let&rsquo;s copy the local formula to your git repo. Example</p>
+
+<p><code>
+$ cp -f /usr/local/Library/Formula/glod-cli.rb ~/Workspace/dwarvesf/homebrew/Library/Formula
+</code></p>
+
+<p>Commit and push your changes to <strong>YOUR</strong> Github. Then we open the Github Repo (still yours), click on button <code>New pull request</code> and we get</p>
+
+<p><img src="/images/blog/2016-03-13-homebrew-pull-request.png"></p>
+
+<p><img src="/images/blog/2016-03-13-homebrew-pull-request-02.png"></p>
+
+<p>We did it! You only still need the feedback from Homebrew team. You can leave your keyboard and take a cup of coffee. If everything goes well, well done boss! you have just contribute to one of the famous repo in the internet. Congratulations!</p>
+]]></content>
+  </entry>
+  
+</feed>

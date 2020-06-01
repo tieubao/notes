@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: merge | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/merge/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rebase vs. Merge]]></title>
+    <link href="http://tieubao.github.io/notes/a/git-rebase-vs-merge/"/>
+    <updated>2014-05-10T15:55:37+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/git-rebase-vs-merge</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-10-merge-rebase.png"></p>
+
+<h1>What does Merge or Rebase mean?</h1>
+
+<ul>
+<li>Merging brings two lines of development together while preserving the ancestry of each commit history.</li>
+<li>In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.</li>
+</ul>
+
+
+<h4>Merging Pros</h4>
+
+<ul>
+<li>Simple to use and understand.</li>
+<li>Maintains the original context of the source branch.</li>
+<li>The commits on the source branch remain separate from other branch commits, provided you don’t perform a fast-forward merge. This separation can be useful in the case of feature branches, where you might want to take a feature and merge it into another branch later.</li>
+<li>Existing commits on the source branch are unchanged and remain valid; it doesn’t matter if they’ve been shared with others.</li>
+</ul>
+
+
+<h4>Merging Cons</h4>
+
+<ul>
+<li>If the need to merge arises simply because multiple people are working on the same branch in parallel, the merges don’t serve any useful historic purpose and create clutter.</li>
+</ul>
+
+
+<h4>Rebase Pros</h4>
+
+<ul>
+<li>Simplifies your history.</li>
+<li>Is the most intuitive and clutter-free way to combine commits from multiple developers in a shared branch</li>
+</ul>
+
+
+<h4>Rebase Cons</h4>
+
+<ul>
+<li>Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.</li>
+<li>Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.</li>
+</ul>
+
+
+<h1>Conclusion</h1>
+
+<p>The consensus that I come across most frequently is that both merge and rebase are worth using. The time to use either is entirely dependent on the situation, the experience of your team, and the specific DVCS you’re using.</p>
+
+<ol>
+<li>When multiple developers work on a shared branch, pull &amp; rebase your outgoing commits to keep history cleaner (Git and Mercurial)</li>
+<li>To re-integrate a completed feature branch, use merge (and opt-out of fast-forward commits in Git)</li>
+<li>To bring a feature branch up to date with its base branch:
+
+<ul>
+<li>Prefer rebasing your feature branch onto the latest base branch if:
+
+<ul>
+<li>You haven’t pushed this branch anywhere yet, or</li>
+<li>You’re using Git, and you know for sure that other people will not have checked out your feature branch</li>
+</ul>
+</li>
+<li>Otherwise, merge the latest base changes into your feature branch</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>Source: <a href="https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/">https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/</a></h4>
+]]></content>
+  </entry>
+  
+</feed>

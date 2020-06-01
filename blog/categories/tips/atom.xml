@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tips | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Today I learned]]></title>
+    <link href="http://tieubao.github.io/notes/a/today-i-learned/"/>
+    <updated>2015-12-03T01:30:29+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/today-i-learned</id>
+    <content type="html"><![CDATA[<p>Continuous learning is one of my passion and I kept doing this for about 4 years. Everyday life, the knowledge bypass my brain and go thru. People write a lot of awesome stuffs on Medium, their personal blogs or HackerNews. I used to note them to Notes or Evernote before. Later I found those tools are very frustrating, hard to look up and I even did not open them again.</p>
+
+<p>As a former CTO &amp; Tech Entrepreneur, Github is one of the most opened site of mine. With filtering and labeling features, we can easily organize our references to the articles. The labels will help you to classify the information and it&rsquo;s cool to make the search after that, easier to share with your friends, your colleagues.</p>
+
+<p>So, I decided to note them all on Github.</p>
+
+<p><img src="/images/blog/2015-12-03-til.png"></p>
+
+<h2>Methodology</h2>
+
+<p><em>&ldquo;Today I learned&rdquo;</em> is not the new idea, people around the world used different ways to implement the idea. If you have time, let google around and you can find some interesting topic on reddit or medium about this methodology. People call it by various name Today I/We learned, Today I found out &hellip; but the same concept is that you should keep yourself up and run. It&rsquo;s all about the productivity, the improvement of yourself. Improving yourself just 1% everyday and in a year you are better than 37.8 times.</p>
+
+<p><img src="/images/blog/2015-12-03-101.jpg"></p>
+
+<p>If you are interested in this idea, you can follow the hashtag <a href="https://twitter.com/hashtag/til">#til</a> on Twitter or making one and share your <strong>#til</strong> repo.</p>
+
+<ul>
+<li><strong>New TIL</strong>: <a href="https://github.com/tieubao/til/issues/new">https://github.com/tieubao/til/issues/new</a></li>
+<li><strong>Dashboard</strong>: <a href="https://github.com/tieubao/til/issues">https://github.com/tieubao/til/issues</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Happy Startup]]></title>
+    <link href="http://tieubao.github.io/notes/a/happy-startup/"/>
+    <updated>2015-07-10T09:59:05+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/happy-startup</id>
+    <content type="html"><![CDATA[<p>Follow these 10 tips and you’ll be on the right track to a happy startup:</p>
+
+<ul>
+<li>Define your startup DNA</li>
+<li>Keep the main thing, the main thing</li>
+<li>Bring design on board from day one</li>
+<li>Validate ideas early and test assumptions</li>
+<li>Build a business, not a pitch</li>
+<li>Stop selling and start listening</li>
+<li>Get the balance right between MVP and perfection</li>
+<li>Get a mentor and build your support network</li>
+<li>90% of entrepreneurship is sales. It’s time to start hustling.</li>
+<li>It’s all about people. Hire the best you can</li>
+</ul>
+
+
+<p>Full article at
+<a href="https://medium.com/the-happy-startup-school/10-ways-youll-probably-f-k-up-your-startup-25b830afbd84">Medium</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to become Senior Software Engineer]]></title>
+    <link href="http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer/"/>
+    <updated>2014-12-30T09:02:56+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer</id>
+    <content type="html"><![CDATA[<p>To summary, you can call yourself a Senior when:</p>
+
+<ul>
+<li>You can handle the entire software development life cycle, end to end</li>
+<li>You lead others, or others look to you for guidance.</li>
+<li>You can self manage your projects</li>
+</ul>
+
+
+<p>Software development is a curious creature unlike other fields. Sometimes, a fresh punk out of college can run circles around veterans who have 20+ years of &ldquo;experience&rdquo;. Programming is a bizarre world where code is king.</p>
+
+<p>Some achieve the above in 2 years or less, others take 10 years. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<hr />
+
+<h3>How</h3>
+
+<p>Software engineering is hard. The industry is always changing and you need to keep up with it. You need to put constant effort and time. There is always more to learn than you can possibly absorb. Many engineers who finish a several month boot camp don’t realize how much more they need to learn on top of it. No worries, there is a clear path to becoming a senior software engineer in almost any area of software development. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<h3>Step 0: choose your path and stick to it!</h3>
+
+<blockquote><p>do one thing and do it well Doug McIlroy : Unix Philosophy</p></blockquote>
+
+<p>I can’t emphasize this enough! It is really important to choose a specialty and a technical stack that you will be working with. Sticking to it and not getting distracted is what will make you a specialist. It’s an important choice to make. Here is how to do it:</p>
+
+<ul>
+<li>Choose your specialty. It’s what you want to do. For example: Web development or Mobile development or DevOps etc.</li>
+<li>Choose a technical stack within your specialty. For example: if you chose web development, you’ll need to choose between Ruby on Rails, Python and Django, JavaScript and MEAN etc. If you chose mobile, you’ll need to choose between iOS or Android, etc.</li>
+<li>Stick to it and master it.</li>
+</ul>
+
+
+<p>I’m not saying that you shouldn’t get familiar with anything else outside of your main specialty. A well rounded T-Shaped Software Engineer knows about other aspects of programming too. Although he/she knows their main specialty extremely well. Now that you’ve chosen your specialty, you have a lot of things to learn. Take your time. It will take you several years to read all these books and practice necessary skills. Get through this challenge one skill at the time. I’ll be using the following technical stacks going forward: Ruby on Rails for web development, iOS for mobile development. It is just because I have experience working with it. I can speak to it personally. At the end of the says it’s just a matter of taste. If you choose some other stack, you’ll need to find different books.</p>
+
+<h3>Step 1. Lay the foundations</h3>
+
+<p>Read The Pragmatic Programmer book. It’s a good starting point on the path to software mastery. The book summarizes best high level practices. It’s language / technology agnostic. It doesn’t matter which tech stack you choose, the main principles stay the same.</p>
+
+<h3>Step 2. Master your programming language</h3>
+
+<p>You’ll be using many languages day to day depending on the technology stack of your choice. Although, majority of your code will be written in one language. For example: a Ruby on Rails developer uses Ruby primarily. An AngularJS developer uses JavaScript most of the time. Identifying the language of your choice and mastering it is crucial for your career. Learn it, master it! You’ll be using this language every day. Choose your language and read an advance book on it.</p>
+
+<ul>
+<li>For a Ruby Developer &ndash; Programming</li>
+<li>Ruby For an iOS Developer &ndash; The Swift Programming Language</li>
+</ul>
+
+
+<h3>Step 3. Learn your framework</h3>
+
+<p>Choose one, learn it:</p>
+
+<ul>
+<li>For a Rails Developer &ndash; Rails Tutorial by Michael Hartl</li>
+<li>For an iOS Developer &ndash; iOS programming: The Big Nerd Ranch Guide</li>
+</ul>
+
+
+<h3>Step 4. Become a master of your text editor / IDE</h3>
+
+<p>Again. Choose one, master it and stick to it. If you chose VIM, stay with VIM and become a master of it.</p>
+
+<h3>Step 5. Use your Version Control System like a pro</h3>
+
+<p>I recommend using Git. Here is the resource that I like: Pro git &ndash; free online ebook with a complete breakdown on every aspect of git</p>
+
+<h3>Step 6. Commit to doing Test Driven Development</h3>
+
+<p>Choose a book specific to your tech stack, learn it. Get into a habit of doing it every day. Quality code comes with writing tests.</p>
+
+<ul>
+<li>For a Ruby on Rails Developer &ndash; Rails Test Prescriptions</li>
+<li>For an iOS Developer &ndash; Test Driven iOS Development</li>
+</ul>
+
+
+<h3>Step 7. Refactor as a habit</h3>
+
+<p>The codebase grows in complexity as you add more functionality. In order to keep your codebase manageable you need to refactor. If you don’t refactor as you go, you’ll soon come to a sad place where even a small change is hard, bugs are inevitable and nobody wants to deal with your messy codebase. Just make your life easier. Don’t delay your refactor. Get into a habit of refactoring. Here is a good book on how to do it: Refactoring: Improving the Design of Existing Code by Martin Fowler</p>
+
+<h3>Step 8. Learn software architecture</h3>
+
+<p>Depending on the stack you choose, find a good book on architecture. Here is one that I recommend by Martin Fowler. It’s called Patterns of Enterprise Application Architecture</p>
+
+<h3>Step 9. Unleash the power of the command line</h3>
+
+<p>The command line can feel intimidating at first. Although, as soon as you learn how to use it, you’ll become a lot more efficient in performing basic tasks. That alone makes you a better developer since you are able to achieve more in less time. Then you can take it to the next level. Use shell to automate common tasks and build your dotfiles. If you’re working on a Mac or any Linux distribution, learn shell. Here is a good book on it by Mark Bates: Conquering the Command Line</p>
+
+<h3>Step 10. Code code code!</h3>
+
+<p>Every single day. Like in any sport, you need to practice what you learned in order for knowledge to stick.</p>
+
+<h3>Takeaway</h3>
+
+<p>Yes, becoming Senior Software Engineer is hard. It takes a lot of time and commitment. Different people learn at different speed, but on average, it takes about 10 years to become a solid senior dev. It’s a big investment in time for a big return. Software Engineers have the bright future. They are in high demand on the job market. Their salary grows proportionally with their experience. It’s a rapidly growing and a relatively new field. Every day of a software engineer is a challenge. A challenge of changing people’s lives. Go ahead and take on this challenge by becoming a Senior Software Engineer one skill at the time.</p>
+
+<hr />
+
+<p>And to me, title is just title. It can be your past experience. It can be your new goal. But you need to prove that you&rsquo;re worth it.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="http://programmers.stackexchange.com/questions/25564/when-should-you-call-yourself-a-senior-developer">When should you call yourself a senior developer?</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p><a href="http://engineering.awesomenesstv.com/post/106521664643/10-steps-to-become-a-senior-software-engineer">Steps to become a senior software engineer</a><a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Everything is marketing]]></title>
+    <link href="http://tieubao.github.io/notes/a/everything-is-marketing/"/>
+    <updated>2014-12-12T02:13:02+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/everything-is-marketing</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-11-marketing.png"></p>
+
+<p><strong>Marketing is not a department</strong> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>Do you have a marketing department? If not, good. If you do, don’t think these are the only people responsible for marketing. Accounting is a department. Marketing isn’t. Marketing is something everyone in your company is doing 24/7/365.</p>
+
+<p>Just as you cannot not communicate, you cannot not market:</p>
+
+<ul>
+<li>Every time you answer the phone, it’s marketing.</li>
+<li>Every time you send an e-mail, it’s marketing.</li>
+<li>Every time someone uses your product, it’s marketing.</li>
+<li>Every word you write on your Web site is marketing.</li>
+<li>If you build software, every error message is marketing.</li>
+<li>If you’re in the restaurant business, the after-dinner mint is marketing.</li>
+<li>If you’re in the retail business, the checkout counter is marketing.</li>
+<li>If you’re in a service business, your invoice is marketing.</li>
+</ul>
+
+
+<p>Recognize that all of these little things are more important than choosing which piece of swag to throw into a conference goodie bag. Marketing isn’t just a few individual events. It’s the sum total of everything you do.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Excerpt from <a href="http://37signals.com/rework/">Rework</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rebase vs. Merge]]></title>
+    <link href="http://tieubao.github.io/notes/a/git-rebase-vs-merge/"/>
+    <updated>2014-05-10T15:55:37+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/git-rebase-vs-merge</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-10-merge-rebase.png"></p>
+
+<h1>What does Merge or Rebase mean?</h1>
+
+<ul>
+<li>Merging brings two lines of development together while preserving the ancestry of each commit history.</li>
+<li>In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.</li>
+</ul>
+
+
+<h4>Merging Pros</h4>
+
+<ul>
+<li>Simple to use and understand.</li>
+<li>Maintains the original context of the source branch.</li>
+<li>The commits on the source branch remain separate from other branch commits, provided you don’t perform a fast-forward merge. This separation can be useful in the case of feature branches, where you might want to take a feature and merge it into another branch later.</li>
+<li>Existing commits on the source branch are unchanged and remain valid; it doesn’t matter if they’ve been shared with others.</li>
+</ul>
+
+
+<h4>Merging Cons</h4>
+
+<ul>
+<li>If the need to merge arises simply because multiple people are working on the same branch in parallel, the merges don’t serve any useful historic purpose and create clutter.</li>
+</ul>
+
+
+<h4>Rebase Pros</h4>
+
+<ul>
+<li>Simplifies your history.</li>
+<li>Is the most intuitive and clutter-free way to combine commits from multiple developers in a shared branch</li>
+</ul>
+
+
+<h4>Rebase Cons</h4>
+
+<ul>
+<li>Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.</li>
+<li>Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.</li>
+</ul>
+
+
+<h1>Conclusion</h1>
+
+<p>The consensus that I come across most frequently is that both merge and rebase are worth using. The time to use either is entirely dependent on the situation, the experience of your team, and the specific DVCS you’re using.</p>
+
+<ol>
+<li>When multiple developers work on a shared branch, pull &amp; rebase your outgoing commits to keep history cleaner (Git and Mercurial)</li>
+<li>To re-integrate a completed feature branch, use merge (and opt-out of fast-forward commits in Git)</li>
+<li>To bring a feature branch up to date with its base branch:
+
+<ul>
+<li>Prefer rebasing your feature branch onto the latest base branch if:
+
+<ul>
+<li>You haven’t pushed this branch anywhere yet, or</li>
+<li>You’re using Git, and you know for sure that other people will not have checked out your feature branch</li>
+</ul>
+</li>
+<li>Otherwise, merge the latest base changes into your feature branch</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>Source: <a href="https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/">https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/</a></h4>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rework | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/rework/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Delegators are dead weight]]></title>
+    <link href="http://tieubao.github.io/notes/a/delegators-are-dead-weight/"/>
+    <updated>2014-12-17T00:18:39+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/delegators-are-dead-weight</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-17-delegator.png"></p>
+
+<p><strong>Everybody works</strong> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>With a small team, you need people who are going to do work, not delegate work. Everyone’s got to be producing. No one can be above the work.</p>
+
+<p>That means you need to avoid hiring delegators, those people who love telling others what to do. Delegators are dead weight for a small team. They clog the pipes for others by coming up with busywork. And when they run out of work to assign, they make up more—regardless of whether it needs to be done.</p>
+
+<p>Delegators love to pull people into meetings, too. In fact, meetings are a delegator’s best friend. That’s where he gets to seem important. Meanwhile, everyone else who attends is pulled away from getting real work done.”</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Excerpt from <a href="http://37signals.com/rework/">Rework</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

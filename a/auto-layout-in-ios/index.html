@@ -1,0 +1,243 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Auto Layout in iOS  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Auto Layout in iOS"> <meta name="keywords" content="iOS, layout">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Auto Layout in iOS - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/auto-layout-in-ios/">
+ <meta name="twitter:description" content="Auto Layout in iOS">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Auto Layout in iOS - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/auto-layout-in-ios/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Auto Layout in iOS" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Auto Layout in iOS</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-05T01:07:49+07:00" pubdate data-updated="true">Jan 5<span>th</span>, 2015</time></div>
+	</header>
+	<div class="entry-content"><p>I spend a day to learn how to make auto layout in iOS. I begin with an article <a href="http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/">How to use UIViews with auto layout programmatically</a>. It teaches me add views from the first then add size constraints and position contraints later. They are using <code>NSLayoutConstraint</code>.</p>
+
+<p>After that, I find a thread at <a href="http://stackoverflow.com/questions/26180822/swift-adding-constraints-programmatically">StackOverflow</a>. They show off 3 ways to make Auto Layout programmatically</p>
+
+<ul>
+<li>Pure Classic style, which use NSLayoutConstraint with direct params</li>
+<li>Pure Visual Format Language style, which use <code>NSLayoutConstraint.constraintsWithVisualFormat()</code> and Visually Format Languague. You can find more information about it at <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1">Apple Library</a></li>
+<li>Mixed style (Classic + Visual Format Language)</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2015-01-05-career365-ios-splash.png"></p>
+
+<p>I also try to apply to Career 365 splashscreen but It doesn&rsquo;t seem to be working. Struggling about an hour, finally I decide to find some more help from community and I find out <a href="https://github.com/robb/Cartography">Cartography</a>. It&rsquo;s such a good library which has about 1k5 stars from Github Users. Their syntax are good too. I think I should give it a try tmr.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>layout(view1, view2) { view1, view2 in
+</span><span class='line'>    view1.width   == (view1.superview!.width - 50) * 0.5
+</span><span class='line'>    view2.width   == view1.width - 50
+</span><span class='line'>    view1.height  == 40
+</span><span class='line'>    view2.height  == view1.height
+</span><span class='line'>    view1.centerX == view1.superview!.centerX
+</span><span class='line'>    view2.centerX == view1.centerX
+</span><span class='line'>
+</span><span class='line'>    view1.top &gt;= view1.superview!.top + 20
+</span><span class='line'>    view2.top == view1.bottom + 20
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Auto Layout in iOS by @nntruonghan&url=http://tieubao.github.io/notes/a/auto-layout-in-ios/" title="Share Auto Layout in iOS on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/auto-layout-in-ios/" title="Share Auto Layout in iOS on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/auto-layout-in-ios/" title="Share Auto Layout in iOS on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

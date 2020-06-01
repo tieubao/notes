@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: community | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/community/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GopherCon Vietnam 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/gophercon-vietnam-2018/"/>
+    <updated>2019-01-09T00:19:26+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/gophercon-vietnam-2018</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2018-12-08-homepage.png"></p>
+
+<p>Go (often referred to as Golang) is a free and open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. The language was announced in November 2009; it is used in some of Google&rsquo;s production systems, as well as by other firms.
+Over time, Golang has become the most popular language in large scale IT business where system performance and reliability are the most crucial successful key.</p>
+
+<h1>Golang Vietnam Community</h1>
+
+<p>Back in the day, the Chapter started in the late of 2014 as the playground of Dwarves Foundation, a software development firm based in Saigon. They invested in Go and wanted to help organize the community in Vietnam. In the beginning, there are only a few people in the city that takes Go seriously. They used Go for some of their toy projects. Being one of the first gophers in Vietnam in 2013, Han decided to gather the group of gophers to start the Golang Vietnam Community and put it under the help of Google Developer Group (GDG) Vietnam.</p>
+
+<p>The first meetup was held on 2015 March with more than 50 gophers, and it marked the beginning of the Vietnam chapter. Joining the <a href="https://github.com/golang/go/wiki/GoUserGroups#asia">Go User Groups</a>, Golang Vietnam helps to improve the tech scene by providing lots of activities to gather the community in Vietnam.</p>
+
+<p><img src="/images/blog/2018-12-08-meetup-01.jpg"></p>
+
+<h1>The GopherCon</h1>
+
+<p>GopherCon is one of the largest Golang events in the world. The first GopherCon was taking place in 2013, held annually in Denver, Colorado by Gopher Academy. Thousand of gophers gather every year to GopherCon to meet and celebrate at the conference together. Followed by the first GopherCon, other communities started their chapter after that.</p>
+
+<p>As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the most significant event in Vietnam dedicated exclusively to Go. A community of a passionate Gophers organizes GopherCon Vietnam on a volunteer basis.</p>
+
+<p>The event was expected to serve 200 &ndash; 250 gophers and last for two days from Dec 08 to Dec 09 with the conference on the first day and the workshop on the second day. The organization rolled out slowly from August with the thought that five months was good enough for us to prepare.</p>
+
+<p><img src="/images/blog/2018-12-08-sponsors.png"></p>
+
+<p>Since 2014, Golang adoption has been increasing from 3 to more than 50 companies using Go as the primary language in their systems. Therefore, we don&rsquo;t have many struggles finding bits of help and sponsorship from those companies.</p>
+
+<h1>The Conference</h1>
+
+<p>The conference is open for talks from the developer community. Discussions will be for beginners, intermediate and advanced levels, as well as for the interest of everyone. Our scope of topics will include a broad area, anything in the realm of Go language development.</p>
+
+<p><img src="/images/blog/2018-12-08-stage.jpg"></p>
+
+<p>Speakers submit their talks through PaperCall: <a href="https://www.papercall.io/events/1359">https://www.papercall.io/events/1359</a> and we will pick the best topics from that. List of talks as follows</p>
+
+<ol>
+<li>Opening &ndash; 9 Years of Go</li>
+<li>Starting Serverless with Go</li>
+<li>Go on a journey away from the mammoth C/C++ monolith</li>
+<li>Anatomy of a Docker container</li>
+<li>Golang and infrastructure works</li>
+<li>How we build scalable architecture at Sendo</li>
+<li>An investigative walkthrough of Go channels</li>
+<li>Large Scale Data Capture &amp; Experimentation Platform at Grab</li>
+<li>Production Ready Microservices at Scale</li>
+</ol>
+
+
+<h1>The Workshop</h1>
+
+<p>Two sessions were conducted by the members from the Golang Vietnam Community, who worked with Go for years will walk you through those topics with hands-on experience. The attendees prepare themselves with laptop and Golang installed on it.</p>
+
+<p><img src="/images/blog/2018-12-08-workshop-02.png"></p>
+
+<h3>Go Fundamentals</h3>
+
+<p>This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Using Pointers</li>
+<li>Arrays, Slices, and Maps</li>
+<li>Methods and Interfaces</li>
+<li>Packaging and Exporting</li>
+<li>Testing</li>
+<li>Managing External Dependencies</li>
+<li>Standard Library</li>
+</ul>
+
+
+<h3>Go Intermediates</h3>
+
+<p>This class is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Data Structures</li>
+<li>Interface</li>
+<li>Decoupling</li>
+<li>Architecture</li>
+<li>Concurrency</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-workshop.jpg"></p>
+
+<h1>The Highlights</h1>
+
+<p>The first GopherCon in Vietnam achieved trust and welcoming from the community. We are pleased with that. A quick look at several numbers</p>
+
+<ul>
+<li>440 tickets were sold out in 2 weeks including Conference and Workshop.</li>
+<li>In 3 months we received more than 50 talks from companies and the Golang community.</li>
+<li>More than 65 companies participated in GopherCon Vietnam.</li>
+<li>Years of experience distribution of the attendees: Most of the gophers use Golang from 1 to 3 years.</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-year-of-exp.png"></p>
+
+<ul>
+<li>Golang was most used for API Development</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-usage-of-golang.png"></p>
+
+<h1>Looking forward</h1>
+
+<p>The GopherCon Vietnam 2018 was a successful event. I want to say thank you to all the people, the volunteers, companies, and organizations that help to make it happened. You guys rock.</p>
+
+<p>For 2019, we would love to hold another one next year and still keep it as volunteer basis with the collaboration from companies that massively adopted Go and from other communities. See you then.</p>
+
+<ul>
+<li><a href="https://gophercon.vn">https://gophercon.vn</a></li>
+<li><a href="https://golang.org.vn">https://golang.org.vn</a></li>
+</ul>
+
+
+<p><div class="embed-video-container"><iframe src="https://www.youtube.com/embed/i72-TSxRmpQ" allowfullscreen></iframe></div></p>
+
+<p><img src="/images/blog/2018-12-08-36.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-62.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-63.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-82.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-171.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-242.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-326.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-344.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-352.jpg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to contribute to tech community]]></title>
+    <link href="http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community/"/>
+    <updated>2017-10-20T01:23:01+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community</id>
+    <content type="html"><![CDATA[<p>Even though Vietnam is one of the booming countries for tech talents, there is still a whole gap between top developers around the world and us. Most of the points are related to how professional we are, our collaboration skill or soft skill.</p>
+
+<p>Being a part of the tech community, realizing a few issues, also wanting to contribute a bit, this blog post is my precious and is a part of the whole series to improve the quality of next generation of developers.</p>
+
+<p>Below is the short list of recommended things to do to contribute to the tech community.</p>
+
+<h2>Start by listening</h2>
+
+<p>Walking into a project and saying “Hi, here’s what I think this project should be doing” is usually not taken as a good thing. Some projects may welcome that sort of approach, but if the project has been running a while, the chances of that attitude being embraced are small. Listening is the best way to know what the project needs.</p>
+
+<p><strong>Join a mailing list</strong></p>
+
+<p>For a large scale and open project or community that involve many people, communication through a mailing list is one of the most effective ways to not distract others and good for you to follow the entire discussion.</p>
+
+<p>Some of the mailing lists I followed over the past two years.</p>
+
+<ul>
+<li>Viet Infosec</li>
+<li>golang-dev</li>
+<li>golang-nuts</li>
+</ul>
+
+
+<p><strong>Follow a blog</strong></p>
+
+<p>Elite developers blog are great knowledge sources that you should follow and learn from them. Some of the rock stars they don’t have their blog. Instead, they use Twitter for daily updates.</p>
+
+<ul>
+<li>Dave Cheney: <a href="https://dave.cheney.net">Dave Cheney | The acme of foolishness</a></li>
+<li>Dan Luu: <a href="https://danluu.com">Dan Luu</a></li>
+<li>Rob Pike: <a href="https://commandcenter.blogspot.com">command center</a></li>
+<li>Golang: <a href="https://blog.golang.org">The Go Programming Language Blog</a></li>
+</ul>
+
+
+<p><img src="/images/blog/2017-10-20-golang.png"></p>
+
+<p><strong>Join online discussions via Slack or IRC</strong></p>
+
+<p>Most of the communities have their channel to keep in touch and discuss the project or things related to the community with other members.</p>
+
+<p>IRC is one of the most popular tools that have been used by many projects, e.g. Python, PostgreSQL, OpenStack. IRC is free software. You need to download a client and ask for the node address to log in.</p>
+
+<p>Beside IRC, there are several modern communication platforms. They are commercial products that serve the teamwork very well. Some with a free plan has been applied to the new community: Gitter, Slack, Discord. Also, new members are always welcome there.</p>
+
+<ul>
+<li>Reactiflux: <a href="https://discordapp.com/invite/reactiflux">Discord</a></li>
+<li>Golang: <a href="https://gophers.slack.com">Slack</a></li>
+<li>Sails: <a href="https://gitter.im/balderdashy/sails">balderdashy/sails &ndash; Gitter</a></li>
+</ul>
+
+
+<p>Some communities in Vietnam I take participation in</p>
+
+<ul>
+<li>Golang Vietnam: <a href="http://golang.org.vn">http://golang.org.vn</a></li>
+<li>Ruby Vietnam: <a href="http://ruby.org.vn">http://ruby.org.vn</a></li>
+<li>Grokking Engineering: <a href="http://grokking.net">http://grokking.net</a></li>
+</ul>
+
+
+<p><img src="/images/blog/2017-10-20-golang-slack.png"></p>
+
+<h2>Participating</h2>
+
+<p><strong>Organizing events</strong></p>
+
+<p>The event organizer is a difficult job and very time consuming, but it’s the most critical factor to keep the community alive. People might not find it necessary as it depends on the interest. During the days in 201x, more and more events were held by the various scale of organizations and companies. Some activities that you may find</p>
+
+<ul>
+<li>Technical Meetup (Golang, Ruby, Geeky, Grokking)</li>
+<li>Product Meetup</li>
+<li>Design Workshop</li>
+<li>Mobile Day</li>
+<li>Web Summit</li>
+</ul>
+
+
+<p><img src="/images/blog/2017-10-20-websummit.png"></p>
+
+<p><strong>Sponsor an Event</strong></p>
+
+<p>Sponsoring a participant in a program can be a great way to show your support, especially when you have your friends or employees participating in that event.</p>
+
+<p>Usual the local events are just at a small scale from 50 &ndash; 100 participants. If they are meetup or workshop event, most of their needs are a venue to organize or food and beverage or a small amount of money for operating costs.</p>
+
+<p><strong>Sharing your knowledge</strong></p>
+
+<p>In every event, if you can’t afford to sponsor an event or have enough time to be an organizing member, you still can give your hand to the community by sharing your thoughts, your knowledge to other people.</p>
+
+<p><strong>Answer a question</strong>
+The best way to help build the community is by helping others. Answering someone questions especially when he is just getting his feet wet is very helpful for him. I see a lot Viet Community doesn’t have that culture. They usually piss off the newbies and don’t want to give out their hands.</p>
+
+<p><strong>Write a blog post</strong></p>
+
+<p>If you’ve got a blog, write about your experiences with the project that you’re using. Tell about a problem you faced utilizing the software and what you did to solve it. You’ll be helping in two ways, both by helping keep the project on the minds of others around you and by creating a record for anyone else who has your problem in the future and searches the web for the answer.</p>
+
+<h3>Contributing to Open Source</h3>
+
+<p>Open source software (OSS) is distributed under a licensing agreement which allows computer code to be shared, viewed and modified by other users and organizations.</p>
+
+<p>Alternatively, in slightly more user-friendly language, open source software is available for the general public to use and modify from its original design free of charge. What it means is that a piece of software can evolve and be iterated upon by other developers anywhere in the world. Ideally, this says that the software is improved over time, but it can often take plenty of exciting twists and turns with all of that evolution and can change form and shape entirely. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p><strong>Diagnose a bug</strong></p>
+
+<p>Bugs are often poorly reported. Building an attitude to help narrow down the problem make it easier for the developers to fix it. Whatever you discover, add it to the ticket in the bug system for all to see.</p>
+
+<p><strong>Fix a bug</strong></p>
+
+<p>Finding an interesting bug in the ticket system and try to fix it is the best practical way to contribute to the open source project. Remember to follow the guideline and during your working period, document whatever you know to help the later contributors. Write some tests if you can.</p>
+
+<p><img src="/images/blog/2017-10-20-issue.png"></p>
+
+<p><strong>Write a test</strong></p>
+
+<p>Adding the test to the open source project will help to improve the quality and make it more stable. In some cases, test cases and test suites are more like the documents for the project.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>https://en.wikipedia.org/wiki/Open-source_software<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

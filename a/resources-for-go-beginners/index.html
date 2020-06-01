@@ -1,0 +1,344 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Resources for Go Beginners  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="All resources that will help Go beginner alot. I write it down while I'm still learning it."> <meta name="keywords" content="golang, vietnam, resource, beginner">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Resources for Go Beginners - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/resources-for-go-beginners/">
+ <meta name="twitter:description" content="All resources that will help Go beginner alot. I write it down while I'm still learning it.">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Resources for Go Beginners - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/resources-for-go-beginners/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="All resources that will help Go beginner alot. I write it down while I'm still learning it." 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Resources for Go Beginners</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-03T15:41:41+07:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2015</time></div>
+	</header>
+	<div class="entry-content"><h1>Overview</h1>
+
+<p><img src="/notes/images/blog/2015-04-02-golang-in-a-nutshell.png"></p>
+
+<p>Go is a better C++. In 2015, its mission is to be a cloud language and to replace C in some points. Many companies had ported a few parts of their system to Go. Go currently competes with Java in performance; with amazing syntax and features. Go is used to design system or web service. Somebody try to compare it to Rust, but they are not the same. Rust is lower level than Go and so called the better C.</p>
+
+<p>For beginner:</p>
+
+<ul>
+<li>Read some background about Go to get motivation.</li>
+<li>Pick your editor</li>
+<li><p>Learn syntax through the Playground, which can be found on Golang.org</p>
+
+<ul>
+<li>Go by example: <a href="https://gobyexample.com/">https://gobyexample.com/</a></li>
+<li>Tour of Go: <a href="https://tour.golang.org/">https://tour.golang.org/</a></li>
+<li>Effective Go: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Go 101: <a href="https://go101.org/article/101.html">https://go101.org/article/101.html</a></li>
+</ul>
+</li>
+<li><p>Try one full-fledged MVC Web Framework to write a web app</p></li>
+<li>Explore the Community and Golang packages</li>
+</ul>
+
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/FTl0tl9BGdc?list=PLtTY3_zVDGOCwQ8SVTiUSrfOGFCC8G8du" allowfullscreen></iframe></div>
+
+
+<h1>Language Background</h1>
+
+<ul>
+<li>The purpose of the language, the story behind can be found at: <a href="https://golang.org/doc/faq">https://golang.org/doc/faq</a></li>
+<li>Convention: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Wiki: <a href="https://code.google.com/p/go-wiki/w/list">https://code.google.com/p/go-wiki/w/list</a></li>
+</ul>
+
+
+<h1>Workflow</h1>
+
+<p><a href="https://www.youtube.com/watch?v=XCsL89YtqCs">Writing, building, installing, and testing Go code</a></p>
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/XCsL89YtqCs" allowfullscreen></iframe></div>
+
+
+<h1>Language &amp; Syntax</h1>
+
+<ul>
+<li>Gocon Tokyo 2014: <a href="http://talks.golang.org/2014/gocon-tokyo.slide#1">http://talks.golang.org/2014/gocon-tokyo.slide#1</a></li>
+<li>Go Training: <a href="https://github.com/ArdanStudios/gotraining">https://github.com/ArdanStudios/gotraining</a></li>
+<li>Introdution to Go: <a href="http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1">http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1</a></li>
+</ul>
+
+
+<h1>Editor</h1>
+
+<h3>Sublime Text with GoSublime:</h3>
+
+<ul>
+<li><a href="http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">Using Sublime Text for Go Development</a></li>
+</ul>
+
+
+<h3>Vim with Vim-go:</h3>
+
+<ul>
+<li><a href="http://farazdagi.com/blog/2015/vim-as-golang-ide/">Vim as Go language IDE</a></li>
+<li><a href="http://blog.gopheracademy.com/vimgo-development-environment/">Go development environment for Vim</a></li>
+</ul>
+
+
+<h1>Web Framework</h1>
+
+<h3>Minimal</h3>
+
+<ul>
+<li><a href="https://github.com/gin-gonic/gin">gin</a>: Gin is a HTTP web framework written in Go</li>
+<li><a href="https://github.com/labstack/echo">echo</a>: High performance, minimalist Go web framework</li>
+<li><a href="https://github.com/astaxie/beego">Beego</a>: Full-fledged web framework</li>
+</ul>
+
+
+<h3>Microservices</h3>
+
+<ul>
+<li><a href="https://gokit.io/">Go kit</a>: A standard library for microservices.</li>
+</ul>
+
+
+<h1>Dependency Manager</h1>
+
+<p>In 2018, Golang published its official dependencies manager and integrated to go tooling. The <code>dep</code> repo can be found at: <a href="https://golang.github.io/dep/">https://golang.github.io/dep/</a></p>
+
+<p>Before that, there a list of package management tools: <a href="https://github.com/golang/go/wiki/PackageManagementTools.">https://github.com/golang/go/wiki/PackageManagementTools.</a> They are divided into</p>
+
+<ul>
+<li>Vendoring: Like Bundler in Ruby or npm in Node</li>
+<li>Go Version Managers: Like rvm in Ruby</li>
+<li>Revision Locking</li>
+<li>Import Proxies</li>
+</ul>
+
+
+<h1>Community</h1>
+
+<h3>Global</h3>
+
+<ul>
+<li>Slack: <a href="https://invite.slack.golangbridge.org/">https://invite.slack.golangbridge.org/</a></li>
+<li>Go Users: <a href="https://github.com/golang/go/wiki/GoUsers">https://github.com/golang/go/wiki/GoUsers</a></li>
+<li>Go User Groups: <a href="https://github.com/golang/go/wiki/GoUserGroups">https://github.com/golang/go/wiki/GoUserGroups</a></li>
+</ul>
+
+
+<h3>Community in Vietnam</h3>
+
+<ul>
+<li>Homepage: <a href="https://golang.org.vn">https://golang.org.vn</a></li>
+<li>Facebook: <a href="https://facebook.com/golang.org.vn">https://facebook.com/golang.org.vn</a></li>
+<li>Github: <a href="https://github.com/golang-vietnam">https://github.com/golang-vietnam</a></li>
+<li>YouTube: <a href="https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ">https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ</a></li>
+</ul>
+
+
+<h1>News</h1>
+
+<ul>
+<li>Reddit: <a href="https://www.reddit.com/r/golang/">https://www.reddit.com/r/golang/</a></li>
+<li>golang-nuts: <a href="https://groups.google.com/forum/#!forum/golang-nuts">https://groups.google.com/forum/#!forum/golang-nuts</a></li>
+<li>Golang Weekly: <a href="https://golangweekly.com/">https://golangweekly.com/</a></li>
+</ul>
+
+
+<h1>Links</h1>
+
+<ul>
+<li>awesome-go: <a href="https://github.com/avelino/awesome-go">https://github.com/avelino/awesome-go</a></li>
+<li>Golang Proposal: <a href="https://go.googlesource.com/proposal/+/master/design">https://go.googlesource.com/proposal/+/master/design</a></li>
+</ul>
+
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Resources for Go Beginners by @nntruonghan&url=http://tieubao.github.io/notes/a/resources-for-go-beginners/" title="Share Resources for Go Beginners on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/resources-for-go-beginners/" title="Share Resources for Go Beginners on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/resources-for-go-beginners/" title="Share Resources for Go Beginners on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

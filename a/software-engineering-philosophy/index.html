@@ -1,0 +1,320 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Software Engineering Philosophy  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="My thought on software development. The philosophy help to shape up the way we think and react in our daily life. They are what we follow at Dwarves &hellip;"> <meta name="keywords" content="thought, philosophy, software, engineering">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Software Engineering Philosophy - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/software-engineering-philosophy/">
+ <meta name="twitter:description" content="My thought on software development. The philosophy help to shape up the way we think and react in our daily life. They are what we follow at Dwarves Foundation.">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Software Engineering Philosophy - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/software-engineering-philosophy/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="My thought on software development. The philosophy help to shape up the way we think and react in our daily life. They are what we follow at Dwarves Foundation." 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Software Engineering Philosophy</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2019-05-23T19:49:02+07:00" pubdate data-updated="true">May 23<span>rd</span>, 2019</time></div>
+	</header>
+	<div class="entry-content"><p><img src="/notes/images/blog/2019-05-23-software.png"></p>
+
+<h1>Software is changing the world</h1>
+
+<p>Software is all around us, yet few people think much about the many ways that software impacts the world every day. The history of computing is often said to start with the tactical problems engineers needed to solve in World War II, but it wasn&rsquo;t until 1941 that engineer Konrad Zuse designed a digital computer capable of using software to solve general problems. During the 1950s, standardized programming languages emerged from the need to reproduce old software on new hardware. By the 1960s, software &ndash; until then given away for free with new computers &ndash; was being produced and sold to end users. By the 1980s, software companies saw the potential in the user-friendly graphical interfaces we are now familiar with. Apple started producing operating systems in the mid-1980s and Microsoft in the early 1990s, leading to the era of convenient and fast software. Internet was invented in 1983 with cloud computing and big data era follow up in the next 20 years. Decentralization with p2p communication, blockchain and bitcoin are booming up in the last 5 years. Today, software is all around us.</p>
+
+<p>Software is used by businesses to communicate worldwide. It is used to operate some of the most complex medical machines. It regulates nuclear plants, electrical grids, and other utilities that provide the basics of life. Of course, it is also behind the safe operation of more than 31 million commercial airline flights in the U.S. each year.</p>
+
+<p>Software also helps make life convenient. For example, computer software has made it easier than ever to connect with friends all over the world using social networks. As software becomes more integrated into electronics and appliances, it will continue to simplify life&rsquo;s challenges. As an example, everyone is familiar with how much easier it is to drive from point A to point B thanks to on-board GPS software. Refrigerators can now notify owners about spoiled food; lights around town and in your home can brighten when they detect you walking in the dark; televisions can make suggestions and record your favorite shows based on your preferences.</p>
+
+<p>Whatever the future holds, it is a good bet that software will remain a very important part of it. As computer software becomes more sophisticated, it will help people with more complex challenges. In the future, software may even help us to regulate and improve our own bodies! Today&rsquo;s wearable technology and implanted medical devices are just the beginning of what the next generation of software can do.</p>
+
+<p>It&rsquo;s the pass to future. The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. The world can&rsquo;t operate without software.</p>
+
+<h1>The Dwarf Principles</h1>
+
+<p>Our definition of Engineering Philosophy, the guiding ideas that help to shape up the way we think and work, to ensure the core values and to deliver quality softwares.</p>
+
+<p>The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. This manifesto documents 15 principles that, our team believes, are the cornerstone to creating exceptional digital products that reach their objectives and stand the test of time.</p>
+
+<h2><strong>Engineering Drive</strong></h2>
+
+<p><em>We build a company where software engineering discipline could shine, innovative and quality products are shipped and change the world for the better.</em></p>
+
+<h4>SYSTEMATIC DISCIPLINE</h4>
+
+<p>Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.</p>
+
+<p>Not applying software engineering methods results in more expensive, less reliable software, and it can be detrimental on the long term, as the changes come in, the costs will dramatically increase.</p>
+
+<h4>ENGINEERS ARE NOT COMMODITIES</h4>
+
+<p>In every software, the engineering team is one of the most imporant factors to make it successful. Software is more of an artisanship, and software engineers aren&rsquo;t a replaceable cog.</p>
+
+<p>People have an assembly line mindset left over from the industrial age. Don’t believe the one-size-fits-all interview process with whiteboarding problems. These serve to grind away the individuality and make us feel like an assembly line worker.</p>
+
+<h4>THE BEST IDEA WINS</h4>
+
+<p>If you have a great idea and the will to see it through, you can effect great change. Nothing is off limits—we’re constantly looking for improvements in our products, our processes, and our people.</p>
+
+<p>All voices are equal here—we hire people to have an opinion and be creative. If your idea makes the most sense, that’s what we’re doing, regardless of your role or seniority.</p>
+
+<p>We learned the practice from an A team, and it is beneficial by helping to strengthen the flat organizational structure.</p>
+
+<p><img class="left half" src="/notes/images/blog/2019-05-23-dwarf.png"></p>
+
+<h2><strong>The Craftsmanship</strong></h2>
+
+<h4>WELL-CRAFTED SOFTWARE</h4>
+
+<p>We humbly demonstrate our expertise by delivering quality software. We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together. We do not tolerate preventable defects.</p>
+
+<h4>QUALITY PAYS</h4>
+
+<p>Good things take time. Quality must be the top priority. In software work, quality problems overwhelm everything else. When quality isn&rsquo;t managed, entire software projects are unmanageable. Software development is intellectual work. Crafting a high quality software requires not just lots of efforts from a team but also the disciplines and proper methods.</p>
+
+<h4>MIND THE DETAILS</h4>
+
+<p>Details matter. We believe small details equate to big success. As such, creating a product that charms users involves adjusting, refining, and perfecting, over and over again. This attention to detail makes all the difference and creates memorable user experiences.</p>
+
+<h4>CHOOSING THE BORING SOLUTION</h4>
+
+<p>Software development is complex enough by nature. When in doubt, go with the boring solution. Using such a boring solution means that you&rsquo;re using simple vocabulary, which greatly increases the chances of everybody understanding you. This will make it a lot easier for everybody to follow along.</p>
+
+<h4>THINK LONG-TERM</h4>
+
+<p>We do not believe in rushing for project and working overtime. We believe in working sustainably and balanced so that we are a happy bunch of sane workers. Software requires good brains to create good codes and good processes. We do not burn out.</p>
+
+<h4>APPLICATIONS NEED SOLID FOUNDATIONS</h4>
+
+<p>Quality products always rely on a solid foundation. There will be a lot of works running on days, weeks, months, and maybe even years building that application. This constant, never-ending maintenance and extension of an application means that its foundation becomes crucial. Much like with a house, it&rsquo;s not a clever idea to save some money by building just a cheap foundation.</p>
+
+<h4>NOTHING IS PERMANENT</h4>
+
+<p>Software moves fast. New technology has enabled us to create new things. The technology you used yesterday maybe deprecated today. Make sure you understand both the old technology and the new one before buying into the next new thing. New technology needs to provide actual value over existing solutions.</p>
+
+<h2><strong>Minifesto</strong></h2>
+
+<h4>RUNNING LEAN</h4>
+
+<p>Lean philosophy regards everything not adding value to the customer as waste. In order to eliminate waste, one should be able to recognize it. Partially done work, extra processes like paperwork and features not often used by customers are waste. Rework or unnecessarily complex solutions are waste. Waiting for other activities, teams, processes is waste. Managerial overhead not producing real value is waste.</p>
+
+<h4>DELIVER AS FAST AS POSSIBLE</h4>
+
+<p>Make it work. Perfect is an enemy of good. Look for perfection, but not yet. First do it, then do it right, then do it better. Any sufficiently complex system cannot be built out of design, it has to be evolved. The shorter the iterations, the better the learning and communication within the team. The sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration.</p>
+
+<h4>AIM FOR SIMPLICITY</h4>
+
+<p>Simplicity is complicated. Simple is harder than complex. We have to write code for humans not machines. We want readability. Readable means Reliable. It&rsquo;s easier to understand. It&rsquo;s easier to work on. If it breaks, it&rsquo;s easier to fix.</p>
+
+<h4>EFFECTIVE > PRODUCTIVE</h4>
+
+<p>Being productive is about occupying your time—filling your schedule to the brim and getting as much done as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. We don’t believe in busyness. We believe in effectiveness. Know your priority and do things that matter.</p>
+
+<h4>FAIL FAST, LEARN OFTEN</h4>
+
+<p>Don&rsquo;t be afraid of starting all over again. Evaluate your work constantly. Don&rsquo;t be afraid of throwing to the rubbish a project you&rsquo;ve working on last months. When you start from scratch, innovation comes organically inspired by previous experiences. Evaluate your work constantly.</p>
+
+<p><img src="/notes/images/blog/2019-05-23-team-images.png"></p>
+
+<h5>WE ARE HIRING</h5>
+
+<p>We are looking for more Dwarves joining us. Have the same DNA and want to build world class products with superb team? Find yourself a seat at: <a href="https://dwarves.careers">https://dwarves.careers</a></p>
+
+<p>We build a dynamic environment where engineers can spend their time working with disruptive startups and be cool at the same time. Checkout engineering life at Dwarves Foundation: <a href="https://dwarves.careers/life/">https://dwarves.careers/life/</a></p>
+
+<p><img src="/notes/images/blog/2019-05-23-engineering-life.png"></p>
+
+<blockquote><p>Here&rsquo;s our cat</p></blockquote>
+
+<p><img src="/notes/images/blog/2019-05-23-cat.JPG"></p>
+
+<p>&mdash;</p>
+
+<p>The web version: <a href="https://d.foundation/manifesto">https://d.foundation/manifesto</a></p>
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Software Engineering Philosophy by @nntruonghan&url=http://tieubao.github.io/notes/a/software-engineering-philosophy/" title="Share Software Engineering Philosophy on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/software-engineering-philosophy/" title="Share Software Engineering Philosophy on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/software-engineering-philosophy/" title="Share Software Engineering Philosophy on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

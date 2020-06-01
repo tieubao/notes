@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The NeXT Bytes: Prologue]]></title>
+    <link href="http://tieubao.github.io/notes/a/the-next-bytes/"/>
+    <updated>2020-06-02T01:11:46+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/the-next-bytes</id>
+    <content type="html"><![CDATA[<h2>The Standing-ground</h2>
+
+<p>I&rsquo;m a software engineer, innovation advocates and technology investor. I created <a href="golang.org.vn">Golang Vietnam</a> Community and helped run <a href="webuild.community">WeBuild Community</a>. On those platforms, we connect with all the makers and software engineers from different background and support them on their side projects.</p>
+
+<p>I&rsquo;m the founder of <a href="dwarves.foundation">Dwarves Foundation</a> (<a href="https://github.com/dwarvesf">@dwarvesf</a>), a technology firm that focuses on tech know-how R&amp;D and massive application/distribution via a wide range of activities and services, e.g. offshore centre, software consulting, open-source software development. At Dwarves Foundation, we choose innovation to be one of our core values that form ideas to affect the general society undoubtedly. Innovation is not for geniuses working alone; it is an activity that requires a team effort. Being innovative is a part to approach the new era.</p>
+
+<p>I also founded <a href="dwarves.ventures">Dwarves Ventures</a>, the investment arms of Dwarves Foundation. We invested in a few startups that want to build next favorite things. One of our investment is <a href="superbits.co">Super Bits</a>. It&rsquo;s a product team that dedicated to making software &amp; tools for programmers and development team.</p>
+
+<h2>We are heading to the future</h2>
+
+<p>Throughout the years, we still believe that the best way to predict the future is to invent it. In the run to the future, we are continually working and exploring new technologies, frameworks and methodologies. While we actively involve in software development, we also have the opportunity to work with many startups, founders, business owners and software team, which make us one of the best witness to pragmatic innovation transformation.</p>
+
+<p>The interest and area of knowledge keep expanding around technological know-how and practices to build sustainable businesses, in variety of</p>
+
+<ul>
+<li>Teamwork &amp; Leadership</li>
+<li>Business and Organization Structure</li>
+<li>Product Development</li>
+<li>Software Design</li>
+<li>Digital Transformation &amp; Automation</li>
+<li>Data-driven &amp; Business Intelligent</li>
+</ul>
+
+
+<p>And also</p>
+
+<ul>
+<li>Working with Startups</li>
+<li>Investment &amp; VC Point of View</li>
+<li>Business Model Analysis</li>
+<li>Innovation and Methodology</li>
+<li>Everything else Science x Technology related</li>
+</ul>
+
+
+<p>And <strong>The NeXT Bytes</strong> is a monthly memo where we want to share these experiences, observation and research summary. Together with my crew, we intend to provide a sense of the goings-on in the tech industry, with more than thousands subscribers who are founders, makers, software engineers, designers, product guys and technologist. As we are going to explore the future, we don&rsquo;t know what it holds, but the journey will be exciting.</p>
+
+<p>The name <a href="https://tinyletter.com/nextbytes/"><strong>The NeXT Bytes</strong></a> is inspired by Apple NeXTSTEP OS and also through the fact that Technology &amp; Software continues to drive the world. Everything is running on code which consists of trillion of billion of <em><strong>zero &amp; one</strong></em> bits combined. We want to look at the bright side of the future where the next generation of Bytes would be elegant, well-written and would make the world a better place.</p>
+
+<p>Subscribing to this newsletter is a way keep up with these updates, with a message sent directly to your inbox.</p>
+
+<blockquote><p>Subscribe: <strong>&lt;tinyletter.com/nextbytes/></strong></p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2020 Resolutions]]></title>
+    <link href="http://tieubao.github.io/notes/a/2020/"/>
+    <updated>2020-03-01T02:42:05+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/2020</id>
+    <content type="html"><![CDATA[<p>The last 10 years was quite a ride. Turning from a kid to a man, I have grown more than my expected thanks to a long list of mentors, brothers, and sisters. It is 2020, and I&rsquo;d like to make it special to kick start the next 10 years. Here come the resolutions for this year.</p>
+
+<h4>Dwarves Foundation</h4>
+
+<p>The company we founded in 2015 has turned 5 and reached its first milestone. It&rsquo;s about time to step down and let others take the throne.</p>
+
+<ul>
+<li>Transition: Some transitions are needed for the next generation to take over the company. Everything is quite in shape. The business model is firm. We have a great team of 50-ish, a growth rate of 60% since Day 1, a worth-to-pursue vision, a few missions ahead to accomplish, a playbook with all of our best practices, and a few good hires last year. I&rsquo;m looking for a new CEO for Dwarves Foundation.</li>
+<li>Territory: With a good record serving customers in the last 5 years and everything are in place; the business expansion expects to happen both online and offline. Most of the time, we meet and work with our clients via the internet. The pattern works so far, but I believe there&rsquo;s still room for improvement. Why not try to take another business approach? I&rsquo;m looking for business partners to explore the market that we haven&rsquo;t touched.</li>
+<li>Employee-owned company: Last year, we distributed company shares to the early employees and had the first batch of dividend pulled off. This year, we will continue to issue the ESOP to the rest privately. Every member who stays with the company for more than 2 years will have chances to earn company stakes.</li>
+<li>Fully automation &amp; Data-driven operations: The best part of running your tech company? You have a vast workforce to try all the cool kinds of stuff. We have the data of every part of daily operations, from project development to personal development. All the hiring, branding campaigns, or even accounting &amp; payroll adjustments should base on data. It will help reveal the hidden aspect that you&rsquo;ve ever notice.</li>
+<li>A getaway office: It&rsquo;s my dream to have an unconventional office space where the dwarves can escape the city and hang around. One in the mountain and one near the beach. Still, a long way to go.</li>
+</ul>
+
+
+<h4>Dwarves Ventures</h4>
+
+<p>Taking the build capability to the step further, Dwarves Ventures is a micro VC that makes use of our knowledge, experience for years to help tech startups with business &amp; financial models, pitch assist, product design, market testing, MVP &amp; platform development. All the materials, metrics, and tractions to achieve before getting to series A funding round.</p>
+
+<p>Last year, we made an investment into 2 local tech startups in Vietnam in exchange for 5 to 20 percent in equity. One major in Hospitality and one in Wholesale Marketplace. This year, among with the expansion of our core business and Craftsmanship Study Program, we hope to meet more exceptional founders.</p>
+
+<h4>Superbits</h4>
+
+<p>The internet used to be a fun place. Growing up, I couldn&rsquo;t find the same excitement. As per the prediction for the next decade, people tend to lean over the different &amp; personalized, I decided to found the Superbits to help bring those excitement bits back. And we are not the only team want to do that, there&rsquo;s another that bring cool bits back to the internet for years. One of them: <a href="https://100r.co">100r.co</a></p>
+
+<p>We started last year with a few macOS apps to help with the productivity boost. This year we will continue to look at this same topic.</p>
+
+<h4>A hedge fund for indie &amp; retail investors</h4>
+
+<p>We build an autobot &amp; apply quantitative methods into the global financial trading market, dedicated to producing exceptional returns. For the exceptional returns, I mean a few bucks for hundreds USD saving, LOL. It can&rsquo;t make us rich but can help make life easier, financially. It is still in beta testing, and I&rsquo;m looking for friends who are interested in &amp; also want to get the first taste. Please drop me a message at <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#104;&#x61;&#x6e;&#64;&#99;&#97;&#115;&#x68;&#98;&#x61;&#103;&#x2e;&#120;&#121;&#122;">&#104;&#97;&#x6e;&#x40;&#x63;&#x61;&#x73;&#104;&#98;&#x61;&#x67;&#x2e;&#120;&#x79;&#122;</a></p>
+
+<h4>Learn another language</h4>
+
+<p>I barely speak English. It&rsquo;s not so proficient, and I&rsquo;m not a type to learn anything to excellence. So instead of getting a higher degree in English, I&rsquo;d love to learn another language. Chinese &amp; Japanese are on my list for now.</p>
+
+<h4>Be a dad</h4>
+
+<p>And finally, be a good dad. Learn to parent. I&rsquo;m going to be a dad in about a month or two. I gave him a cool name, bought him a domain, hodl a few tokens in case they will go skyrocket. I&rsquo;m still not ready for this, but let see what may come in the future.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spring Internship 2019]]></title>
+    <link href="http://tieubao.github.io/notes/a/spring-internship-2019/"/>
+    <updated>2019-09-08T22:08:12+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/spring-internship-2019</id>
+    <content type="html"><![CDATA[<h3>The program</h3>
+
+<p>This is a second Internship Program at Dwarves Foundation. Held in Spring of 2019, we handpicked every single candidate that passed our CCAT test. Changing our measurement metrics from the last program, we aim to select the candidates not just with strong background, bilingual, and also we feel that they are unconventional.</p>
+
+<p>Over 160 candidates, we only selected 12. They are divided into three groups, each group with people from backend, mobile, and web.
+Golang is still the primary language that they have to learn and practice in the first month. Golang is a handy but straightforward language to get people on the same coding page. With Golang they can quickly pick up the language and then focus on the problem set they need to solve.</p>
+
+<p>After the first month, they went back to their career choice. If they want to do web, at this point in time, they will know a whole web front and the backend. If they want to do mobile development, they will know how the backend works, not just their view components. For the backend guy, we will continue to teach them a bit of how the deployment works. The main point is still to get them the whole picture of the system they gonna build.</p>
+
+<p>Learning from the last program, this year, we tried to add in the missing pieces of software development knowledge that they haven&rsquo;t been taught in school or in open source projects. To distinguish Coder, Programmer, and Software Engineer, they need to learn the difference. The training program includes a quick glance over</p>
+
+<ul>
+<li>Software Engineering Introduction</li>
+<li>Software Modelling</li>
+<li>Software Architecture</li>
+<li>Software Construction</li>
+<li>Software Process</li>
+<li>Software Quality</li>
+</ul>
+
+
+<script async="true" class="speakerdeck-embed" data-ratio="1.77777777777778" data-id="82a845337784492580099fc2fe264db5" src="https://speakerdeck.com/assets/embed.js"> </script>
+
+
+<h3>Its goal</h3>
+
+<p>The program was designed to bring hands-on experience to the candidates. Applying Pair Programming practice, we assign each group to a specific mentor. They had their time learned from the mentors on the developing products.</p>
+
+<ul>
+<li>A DevOps web app wrapping over Google Cloud, Azure, and AWS to provide a single interface, manage an entire lifecycle of an application.</li>
+<li>A system that aggregates schedule from all the sports events and deeply integrates to your personal calendar.</li>
+</ul>
+
+
+<p>Experience all the best practices from codebase structure; multiple environments from development, testing, staging, and production; gitflow with pull request and code review, microservices architecture, etc.
+All the cutting edge technologies from k8s, AWS deployment, react redux, Netlify, Cloudflare &hellip;</p>
+
+<h3>Highlights</h3>
+
+<h4>The metrics</h4>
+
+<ul>
+<li>Strong background</li>
+<li>Bilingual</li>
+<li>Unconventional</li>
+<li>Growth potential</li>
+</ul>
+
+
+<p>We say yes to students with a strong foundation, growth potential, and good English. The student with a strong foundation has a step forward compared to other students. They can pick up thing very quick and ready for the real project. The candidates with a right attitude toward professional will win the position.</p>
+
+<h4>Average age</h4>
+
+<p>The best year to apply for an internship at Dwarves Foundation?
+We think the senior students are the most suitable for the internship program. We are likely picking 80% of senior students than 3rd year and 2nd year. The senior students will have more chance to focus on fulltime job after their graduation.</p>
+
+<h4>Diversity</h4>
+
+<p>There are more female candidates this year. We love to increase gender diversity in the team to bring perspectives. Despite the fact that female staff still have disadvantages to win the leadership position due to stress and heavy workload.</p>
+
+<h4>Culture</h4>
+
+<p>The interns love our culture. Having a healthy team culture provides a good environment for self-developing. It feels like they are already a part of the team.</p>
+
+<h4>Time</h4>
+
+<p>Three months are still too short for them to absorb the program. The first month is for fundamental catching up. The next two months are for hands-on experience.</p>
+
+<h4>Next program</h4>
+
+<p>Despite the fact that all the metrics are essential, we feel that during the first days of their careers, the attitude is the most important characteristic. The next batch should be more on attitude over skill. 80% of interns with good attitude tend to be hardworking</p>
+
+<h4>University</h4>
+
+<p>Candidates from top universities like the University of Science or the University of Technology have a stronger background than others. But at the same time, they are not bilingual, which affect their confidence in working in multiple culture environment. Top candidates learned English by themselves.</p>
+
+<h4>Technology</h4>
+
+<p>80% of candidates want to learn technologies over foundation knowledge. Most of them can&rsquo;t tell the difference between software service firm and product company. Trendy technologies like blockchain and AI still catch their eyes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DFG: Dwarves Foundation Gem]]></title>
+    <link href="http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem/"/>
+    <updated>2019-08-27T01:01:41+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem</id>
+    <content type="html"><![CDATA[<h4>Foundation token: DFG</h4>
+
+<p>Following the practice of Securities Token Offering, we are getting our tokens considered as shares with <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md">ERC-884</a>. The tokens &amp; its transactions are recording in Ethereum decentralized computing network, powered by blockchain technology. In other terms, owning one token simply equals owning one share of the company, which entitles the shareholder of all his rights, notably voting and dividend rights.</p>
+
+<p>The token value reflected by the valuation of the company by evaluating</p>
+
+<ul>
+<li>Assets (furniture, computers, cash, AR, investments, etc)</li>
+<li>Liabilities (debt, AP, current payroll, leases, etc)</li>
+<li>Present value of expected future profits (growth rate)</li>
+</ul>
+
+
+<p>The token was naming:  DFG / Dwarves Foundation Gem. The first contract was deployed to Ethereum network last week, and you can track it on <a href="https://etherscan.io/token/0x36779A12eAb9B054bc991143751Ed5B05568eE8d">Etherscan</a>.</p>
+
+<p>This also marks our first milestone in building our global software firm. We have a plan for all of us to be financially happy in the long-term goal where the dwarves could own parts of the company.</p>
+
+<h4>The first allocation</h4>
+
+<p>The first batch of tokens (RSU) will be issued to those very first members of Dwarves Foundation who has dedicated themselves to the development of the company from Day 1.</p>
+
+<p>Beside the joined date and contribution, the allocation also reflects the risks that you decided to take with the team. High risk high pay.</p>
+
+<ul>
+<li>Quang Le: joined on Feb 2015, Quang is the 3rd member. During his soon-to-be five years serving the company vision, he has dedicated himself into everything, from day-to-day activities, project works, and the true craftsmen behind the company infrastructure. Thanks for all the hard works.</li>
+<li>Hieu Phan: joined on May 2015, the 5th member. Without his help and dynamics from Day 1, the team couldn&rsquo;t make it till today. Thanks for all the hard works.</li>
+<li>Huy Giang: joined on Sep 2016. Taking the position of Frontend Lead, his specialty, work ethic, and contributions help to increase the engineering standard. Thanks for all the hard works.</li>
+<li>Minh Tran: joined on April 2017 as Operations, PM and Frontend Dev. Although it was quite a challenge for Minh at the moment, his efforts to get things done was recognized and highly appreciated. Thanks for all the hard works.</li>
+</ul>
+
+
+<h4>What to expect after the first batch?</h4>
+
+<ul>
+<li>There&rsquo;s still a large amount of tokens reserved for people who can bring us to the next level as we are still missing a few important positions: VP of Engineering, VP of Business Development and Technical PM.</li>
+<li>On this October, the valuation dashboard will go live at <a href="https://ir.d.foundation">https://ir.d.foundation</a></li>
+<li>The Foundation directors who are committing to the company will receive the Options Plan with huge discount. Performance review required.</li>
+<li>End of this December, a few more tokens will be reserved for key members which they could buy via ESOP. Also a few rewards for 2019 contributions.</li>
+<li>Publish ESOP policy for all members. 20% discount.</li>
+<li>And finally, for members from last internship programs, you will be given the challenges when you reach the middle level.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Unconventional]]></title>
+    <link href="http://tieubao.github.io/notes/a/the-unconventional/"/>
+    <updated>2019-07-17T00:11:35+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/the-unconventional</id>
+    <content type="html"><![CDATA[<p>You might have known that I&rsquo;m building the software organization called The Dwarves in the last four years. The team reached the size of 50 several months ago. The average member age is around 26. They are smart and talented. They are young, well-educated, and hard-working toward success.</p>
+
+<p>With a different expectation in engineering standard, we rarely hire people outside of our circle. We handpick and recruit the individual whom we feel they are the one matching with the engineering-driven culture that we are pursuing. We also decided to hire high potential freshers and train them from scratch. It&rsquo;s costly to do such a thing, but we believe good things take time. That&rsquo;s the way we hire for culture (and values).</p>
+
+<p>The culture we are pursuing is the combination between the unconventional spirit and the will to do the right things in every piece of our decision, not just follow the existing of which has been said for years. From the outside perspective, it seems to be ridiculous to develop such an organization:</p>
+
+<ul>
+<li>from gather people with like mind and build the organization we&rsquo;d love to work at</li>
+<li>where judgments are fair and run by the right ideas</li>
+<li>people payout are equal to their contribution so they can make money and be cool at the same time</li>
+<li>people should commit to the quality, not the sales quantity</li>
+<li>the team members have time to think about the next problem they want to solve or can join the team on self-development progress.</li>
+</ul>
+
+
+<p>It&rsquo;s like Utopia for software engineers and innovators.</p>
+
+<p>The thought about an unusual business approach, high risk, and considerable chances to fail often appear in my head. But things are getting confident in me over time. There are few companies out there did the same thing, and they stood out.</p>
+
+<p>Remember when Steve Job talked about why he didn&rsquo;t hire the professional managers? In the fast-paced industry like tech, the developer turned manager rule the works. The professional managers can&rsquo;t do crap about that. Managing at Dwarves Foundation is a part-time occupation, next to being involved with doing the work itself.</p>
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/rQKis2Cfpeo" allowfullscreen></iframe></div>
+
+
+<p><strong>And running by ideas is the best way to hire great people.</strong></p>
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/f60dheI4ARg" allowfullscreen></iframe></div>
+
+
+<p><strong>Some companies care about the work output, not chairs.</strong></p>
+
+<p><a href="https://basecamp.com/books/remote"><img src="http://tieubao.github.io/notes/images/blog/2019-07-16-guessing.jpg" alt="" /></a></p>
+
+<p><strong>Or when they accept the truth that planning is guessing.</strong></p>
+
+<p><a href="https://basecamp.com/books/rework"><img src="http://tieubao.github.io/notes/images/blog/2019-07-16-planning.jpg" alt="" /></a></p>
+
+<p>I love the unconventional way they see and describe the world, not in the fascinating prism but the true nature.</p>
+
+<p>We seek those kinds of people to join our team. The one which is distinctive, with a different approach and can see things in their bare form, know the truth, and be optimistic about the future are the right people we&rsquo;d love to work.</p>
+
+<p>Recently, an intern shared <a href="https://qz.com/1279371/this-physicists-ideas-of-time-will-blow-your-mind/">this post</a> about quantum physics, time and it blew my mind. It reminds me of how lucky I am to have them in the team.</p>
+
+<p>Tech industry is the destination and interference zone between sectors. It&rsquo;s the most fast-pacing environment and the future where human will put all the effort to push its boundary. The Dwarves are running along with the world, and we are welcome you to join us on this journey. We can&rsquo;t promise you the world, but we can guarantee you it will be a fun ride.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Software Engineering Philosophy]]></title>
+    <link href="http://tieubao.github.io/notes/a/software-engineering-philosophy/"/>
+    <updated>2019-05-23T19:49:02+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/software-engineering-philosophy</id>
+    <content type="html"><![CDATA[<p><img src="http://tieubao.github.io/notes/images/blog/2019-05-23-software.png"></p>
+
+<h1>Software is changing the world</h1>
+
+<p>Software is all around us, yet few people think much about the many ways that software impacts the world every day. The history of computing is often said to start with the tactical problems engineers needed to solve in World War II, but it wasn&rsquo;t until 1941 that engineer Konrad Zuse designed a digital computer capable of using software to solve general problems. During the 1950s, standardized programming languages emerged from the need to reproduce old software on new hardware. By the 1960s, software &ndash; until then given away for free with new computers &ndash; was being produced and sold to end users. By the 1980s, software companies saw the potential in the user-friendly graphical interfaces we are now familiar with. Apple started producing operating systems in the mid-1980s and Microsoft in the early 1990s, leading to the era of convenient and fast software. Internet was invented in 1983 with cloud computing and big data era follow up in the next 20 years. Decentralization with p2p communication, blockchain and bitcoin are booming up in the last 5 years. Today, software is all around us.</p>
+
+<p>Software is used by businesses to communicate worldwide. It is used to operate some of the most complex medical machines. It regulates nuclear plants, electrical grids, and other utilities that provide the basics of life. Of course, it is also behind the safe operation of more than 31 million commercial airline flights in the U.S. each year.</p>
+
+<p>Software also helps make life convenient. For example, computer software has made it easier than ever to connect with friends all over the world using social networks. As software becomes more integrated into electronics and appliances, it will continue to simplify life&rsquo;s challenges. As an example, everyone is familiar with how much easier it is to drive from point A to point B thanks to on-board GPS software. Refrigerators can now notify owners about spoiled food; lights around town and in your home can brighten when they detect you walking in the dark; televisions can make suggestions and record your favorite shows based on your preferences.</p>
+
+<p>Whatever the future holds, it is a good bet that software will remain a very important part of it. As computer software becomes more sophisticated, it will help people with more complex challenges. In the future, software may even help us to regulate and improve our own bodies! Today&rsquo;s wearable technology and implanted medical devices are just the beginning of what the next generation of software can do.</p>
+
+<p>It&rsquo;s the pass to future. The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. The world can&rsquo;t operate without software.</p>
+
+<h1>The Dwarf Principles</h1>
+
+<p>Our definition of Engineering Philosophy, the guiding ideas that help to shape up the way we think and work, to ensure the core values and to deliver quality softwares.</p>
+
+<p>The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. This manifesto documents 15 principles that, our team believes, are the cornerstone to creating exceptional digital products that reach their objectives and stand the test of time.</p>
+
+<h2><strong>Engineering Drive</strong></h2>
+
+<p><em>We build a company where software engineering discipline could shine, innovative and quality products are shipped and change the world for the better.</em></p>
+
+<h4>SYSTEMATIC DISCIPLINE</h4>
+
+<p>Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.</p>
+
+<p>Not applying software engineering methods results in more expensive, less reliable software, and it can be detrimental on the long term, as the changes come in, the costs will dramatically increase.</p>
+
+<h4>ENGINEERS ARE NOT COMMODITIES</h4>
+
+<p>In every software, the engineering team is one of the most imporant factors to make it successful. Software is more of an artisanship, and software engineers aren&rsquo;t a replaceable cog.</p>
+
+<p>People have an assembly line mindset left over from the industrial age. Don’t believe the one-size-fits-all interview process with whiteboarding problems. These serve to grind away the individuality and make us feel like an assembly line worker.</p>
+
+<h4>THE BEST IDEA WINS</h4>
+
+<p>If you have a great idea and the will to see it through, you can effect great change. Nothing is off limits—we’re constantly looking for improvements in our products, our processes, and our people.</p>
+
+<p>All voices are equal here—we hire people to have an opinion and be creative. If your idea makes the most sense, that’s what we’re doing, regardless of your role or seniority.</p>
+
+<p>We learned the practice from an A team, and it is beneficial by helping to strengthen the flat organizational structure.</p>
+
+<p><img class="left half" src="http://tieubao.github.io/notes/images/blog/2019-05-23-dwarf.png"></p>
+
+<h2><strong>The Craftsmanship</strong></h2>
+
+<h4>WELL-CRAFTED SOFTWARE</h4>
+
+<p>We humbly demonstrate our expertise by delivering quality software. We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together. We do not tolerate preventable defects.</p>
+
+<h4>QUALITY PAYS</h4>
+
+<p>Good things take time. Quality must be the top priority. In software work, quality problems overwhelm everything else. When quality isn&rsquo;t managed, entire software projects are unmanageable. Software development is intellectual work. Crafting a high quality software requires not just lots of efforts from a team but also the disciplines and proper methods.</p>
+
+<h4>MIND THE DETAILS</h4>
+
+<p>Details matter. We believe small details equate to big success. As such, creating a product that charms users involves adjusting, refining, and perfecting, over and over again. This attention to detail makes all the difference and creates memorable user experiences.</p>
+
+<h4>CHOOSING THE BORING SOLUTION</h4>
+
+<p>Software development is complex enough by nature. When in doubt, go with the boring solution. Using such a boring solution means that you&rsquo;re using simple vocabulary, which greatly increases the chances of everybody understanding you. This will make it a lot easier for everybody to follow along.</p>
+
+<h4>THINK LONG-TERM</h4>
+
+<p>We do not believe in rushing for project and working overtime. We believe in working sustainably and balanced so that we are a happy bunch of sane workers. Software requires good brains to create good codes and good processes. We do not burn out.</p>
+
+<h4>APPLICATIONS NEED SOLID FOUNDATIONS</h4>
+
+<p>Quality products always rely on a solid foundation. There will be a lot of works running on days, weeks, months, and maybe even years building that application. This constant, never-ending maintenance and extension of an application means that its foundation becomes crucial. Much like with a house, it&rsquo;s not a clever idea to save some money by building just a cheap foundation.</p>
+
+<h4>NOTHING IS PERMANENT</h4>
+
+<p>Software moves fast. New technology has enabled us to create new things. The technology you used yesterday maybe deprecated today. Make sure you understand both the old technology and the new one before buying into the next new thing. New technology needs to provide actual value over existing solutions.</p>
+
+<h2><strong>Minifesto</strong></h2>
+
+<h4>RUNNING LEAN</h4>
+
+<p>Lean philosophy regards everything not adding value to the customer as waste. In order to eliminate waste, one should be able to recognize it. Partially done work, extra processes like paperwork and features not often used by customers are waste. Rework or unnecessarily complex solutions are waste. Waiting for other activities, teams, processes is waste. Managerial overhead not producing real value is waste.</p>
+
+<h4>DELIVER AS FAST AS POSSIBLE</h4>
+
+<p>Make it work. Perfect is an enemy of good. Look for perfection, but not yet. First do it, then do it right, then do it better. Any sufficiently complex system cannot be built out of design, it has to be evolved. The shorter the iterations, the better the learning and communication within the team. The sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration.</p>
+
+<h4>AIM FOR SIMPLICITY</h4>
+
+<p>Simplicity is complicated. Simple is harder than complex. We have to write code for humans not machines. We want readability. Readable means Reliable. It&rsquo;s easier to understand. It&rsquo;s easier to work on. If it breaks, it&rsquo;s easier to fix.</p>
+
+<h4>EFFECTIVE > PRODUCTIVE</h4>
+
+<p>Being productive is about occupying your time—filling your schedule to the brim and getting as much done as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. We don’t believe in busyness. We believe in effectiveness. Know your priority and do things that matter.</p>
+
+<h4>FAIL FAST, LEARN OFTEN</h4>
+
+<p>Don&rsquo;t be afraid of starting all over again. Evaluate your work constantly. Don&rsquo;t be afraid of throwing to the rubbish a project you&rsquo;ve working on last months. When you start from scratch, innovation comes organically inspired by previous experiences. Evaluate your work constantly.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-05-23-team-images.png"></p>
+
+<h5>WE ARE HIRING</h5>
+
+<p>We are looking for more Dwarves joining us. Have the same DNA and want to build world class products with superb team? Find yourself a seat at: <a href="https://dwarves.careers">https://dwarves.careers</a></p>
+
+<p>We build a dynamic environment where engineers can spend their time working with disruptive startups and be cool at the same time. Checkout engineering life at Dwarves Foundation: <a href="https://dwarves.careers/life/">https://dwarves.careers/life/</a></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-05-23-engineering-life.png"></p>
+
+<blockquote><p>Here&rsquo;s our cat</p></blockquote>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-05-23-cat.JPG"></p>
+
+<p>&mdash;</p>
+
+<p>The web version: <a href="https://d.foundation/manifesto">https://d.foundation/manifesto</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2018: Year of Achievement]]></title>
+    <link href="http://tieubao.github.io/notes/a/2018-year-of-achievement/"/>
+    <updated>2019-01-26T14:41:20+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/2018-year-of-achievement</id>
+    <content type="html"><![CDATA[<p><img src="http://tieubao.github.io/notes/images/blog/2019-01-26-homepage.png"></p>
+
+<p>Dwarves Foundation is a software development firm that based in South East Asia. Starting in 2014, we use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class software products.</p>
+
+<h1>The Dwarves of the Year</h1>
+
+<p>Many endeavors have significantly been made by our Dwarves to keep our boat moving over the past year. We have seen the sweat they drop. We have seen the effort they give. We have seen the time we spent together and we cannot stop ourselves treasuring those moments. It gratifies the team to eventually hold an award for the Dwarves of the year.</p>
+
+<p>We understand that success does not come by accident. Breakthrough arrives after hours of working and trying. It pushes us through many considerations to finally reach to these three top-notch nominees among those remarkable hard works:</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-01-26-hall-of-fame.png"></p>
+
+<h3>Huy Nguyen — Outstanding</h3>
+
+<p>Considered for his dynamic contribution, Huy distinguishes himself for being enthusiasm towards the work. His striking performance was shown throughout multiple products. Appears to be the frequent workaholic who dedicates his time more than others, Huy did achieve a remarkable growth.
+Beside successfully improving the internal competency, Huy is highly recognized for being a dedicated trainer for interns and co-workers.</p>
+
+<h3>Thanh Pham — Honorable Mention</h3>
+
+<p>Thanh differentiates his work performance during the process of development which assigned him the superior skills on visual and animation. Apart from being a devoted employee, he also plays an integral part of backing up the team and training front-end juniors.
+Nevertheless, Thanh finds himself hard to fit in with other Dwarves, which explains the reason his ability in leadership is still in need of improvement.</p>
+
+<h3>Hieu Nguyen — Honorable Mention</h3>
+
+<p>Along with achieving breakthrough change on technical skills and meeting deadline on time with high standard workability, Hieu is well known for being proactive and eager to learn new things. Hieu also proves himself as an adept for new Dwarves to look up and get feedback from.
+Though he truly give his best for the work, Hieu’s limited ability of teamwork and leadership still prevents him from being more outstanding.</p>
+
+<p>As there is nothing that can help us measure the contribution you have put, we decided to conduct the award by different means. They are expected to claim the prize based on their titles both in cash and in kind, along with a certificate of recognition as a proof of accomplishment, as well as being honored on our Hall of Fame. Every single piece of trying helps us gradually expand the picture. Live long and prosper has been chosen as one of the mindsets to constitute our woodland from the very first day.</p>
+
+<p>For the sake of that to happen, we understand that their benefit comes parallel to the team. So it will be dead wrong if you think there is a benchmark for the means of award. At Dwarves Foundation, recognition does not work that way. The more they contribute, the more guerdon they receive.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-01-26-certificate.jpg"></p>
+
+<h1>2018</h1>
+
+<p>2018 has been a fulfilling year for us with many achievements.</p>
+
+<p>We adapted the new team structure; we redefined things we value.</p>
+
+<p>We doubled the office space. We welcomed new dwarves to join us.</p>
+
+<p>We scaled up from 15 to 40ish with all the smart people gathering around and commit to the dream of building our first global software firm.</p>
+
+<p>We learn new ways to get things done; we live by that for a cutting edge product quality. And we wrap it up with the tedious belief of a better triumph.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-01-26-year-end-party.jpeg"></p>
+
+<p>Everything is just the beginning of our first chapters and it couldn’t be that great without you. I’m very thankful for all the contributions that you have made and looking forward to 2019 with all of you.</p>
+
+<hr />
+
+<h3>We are hiring</h3>
+
+<p>As we are expanding in 2019, we are looking for more Dwarves joining us. Find yourself a seat at: <a href="https://dwarves.careers">https://dwarves.careers</a></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2019-01-26-tech-stack.png"></p>
+
+<p>Read more at: <a href="http://bit.ly/dwarves-foundation-2018">Medium</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GopherCon Vietnam 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/gophercon-vietnam-2018/"/>
+    <updated>2019-01-09T00:19:26+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/gophercon-vietnam-2018</id>
+    <content type="html"><![CDATA[<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-homepage.png"></p>
+
+<p>Go (often referred to as Golang) is a free and open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. The language was announced in November 2009; it is used in some of Google&rsquo;s production systems, as well as by other firms.
+Over time, Golang has become the most popular language in large scale IT business where system performance and reliability are the most crucial successful key.</p>
+
+<h1>Golang Vietnam Community</h1>
+
+<p>Back in the day, the Chapter started in the late of 2014 as the playground of Dwarves Foundation, a software development firm based in Saigon. They invested in Go and wanted to help organize the community in Vietnam. In the beginning, there are only a few people in the city that takes Go seriously. They used Go for some of their toy projects. Being one of the first gophers in Vietnam in 2013, Han decided to gather the group of gophers to start the Golang Vietnam Community and put it under the help of Google Developer Group (GDG) Vietnam.</p>
+
+<p>The first meetup was held on 2015 March with more than 50 gophers, and it marked the beginning of the Vietnam chapter. Joining the <a href="https://github.com/golang/go/wiki/GoUserGroups#asia">Go User Groups</a>, Golang Vietnam helps to improve the tech scene by providing lots of activities to gather the community in Vietnam.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-meetup-01.jpg"></p>
+
+<h1>The GopherCon</h1>
+
+<p>GopherCon is one of the largest Golang events in the world. The first GopherCon was taking place in 2013, held annually in Denver, Colorado by Gopher Academy. Thousand of gophers gather every year to GopherCon to meet and celebrate at the conference together. Followed by the first GopherCon, other communities started their chapter after that.</p>
+
+<p>As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the most significant event in Vietnam dedicated exclusively to Go. A community of a passionate Gophers organizes GopherCon Vietnam on a volunteer basis.</p>
+
+<p>The event was expected to serve 200 &ndash; 250 gophers and last for two days from Dec 08 to Dec 09 with the conference on the first day and the workshop on the second day. The organization rolled out slowly from August with the thought that five months was good enough for us to prepare.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-sponsors.png"></p>
+
+<p>Since 2014, Golang adoption has been increasing from 3 to more than 50 companies using Go as the primary language in their systems. Therefore, we don&rsquo;t have many struggles finding bits of help and sponsorship from those companies.</p>
+
+<h1>The Conference</h1>
+
+<p>The conference is open for talks from the developer community. Discussions will be for beginners, intermediate and advanced levels, as well as for the interest of everyone. Our scope of topics will include a broad area, anything in the realm of Go language development.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-stage.jpg"></p>
+
+<p>Speakers submit their talks through PaperCall: <a href="https://www.papercall.io/events/1359">https://www.papercall.io/events/1359</a> and we will pick the best topics from that. List of talks as follows</p>
+
+<ol>
+<li>Opening &ndash; 9 Years of Go</li>
+<li>Starting Serverless with Go</li>
+<li>Go on a journey away from the mammoth C/C++ monolith</li>
+<li>Anatomy of a Docker container</li>
+<li>Golang and infrastructure works</li>
+<li>How we build scalable architecture at Sendo</li>
+<li>An investigative walkthrough of Go channels</li>
+<li>Large Scale Data Capture &amp; Experimentation Platform at Grab</li>
+<li>Production Ready Microservices at Scale</li>
+</ol>
+
+
+<h1>The Workshop</h1>
+
+<p>Two sessions were conducted by the members from the Golang Vietnam Community, who worked with Go for years will walk you through those topics with hands-on experience. The attendees prepare themselves with laptop and Golang installed on it.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-workshop-02.png"></p>
+
+<h3>Go Fundamentals</h3>
+
+<p>This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Using Pointers</li>
+<li>Arrays, Slices, and Maps</li>
+<li>Methods and Interfaces</li>
+<li>Packaging and Exporting</li>
+<li>Testing</li>
+<li>Managing External Dependencies</li>
+<li>Standard Library</li>
+</ul>
+
+
+<h3>Go Intermediates</h3>
+
+<p>This class is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Data Structures</li>
+<li>Interface</li>
+<li>Decoupling</li>
+<li>Architecture</li>
+<li>Concurrency</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-workshop.jpg"></p>
+
+<h1>The Highlights</h1>
+
+<p>The first GopherCon in Vietnam achieved trust and welcoming from the community. We are pleased with that. A quick look at several numbers</p>
+
+<ul>
+<li>440 tickets were sold out in 2 weeks including Conference and Workshop.</li>
+<li>In 3 months we received more than 50 talks from companies and the Golang community.</li>
+<li>More than 65 companies participated in GopherCon Vietnam.</li>
+<li>Years of experience distribution of the attendees: Most of the gophers use Golang from 1 to 3 years.</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-year-of-exp.png"></p>
+
+<ul>
+<li>Golang was most used for API Development</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-usage-of-golang.png"></p>
+
+<h1>Looking forward</h1>
+
+<p>The GopherCon Vietnam 2018 was a successful event. I want to say thank you to all the people, the volunteers, companies, and organizations that help to make it happened. You guys rock.</p>
+
+<p>For 2019, we would love to hold another one next year and still keep it as volunteer basis with the collaboration from companies that massively adopted Go and from other communities. See you then.</p>
+
+<ul>
+<li><a href="https://gophercon.vn">https://gophercon.vn</a></li>
+<li><a href="https://golang.org.vn">https://golang.org.vn</a></li>
+</ul>
+
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/i72-TSxRmpQ" allowfullscreen></iframe></div>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-36.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-62.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-63.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-82.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-171.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-242.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-326.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-344.jpg"></p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-12-08-352.jpg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Internship 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/summer-internship-2018/"/>
+    <updated>2018-11-08T21:52:50+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/summer-internship-2018</id>
+    <content type="html"><![CDATA[<p>Dwarves Foundation is a software development firm that based in South East Asia. We use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class products. We build software and scale cloud platform.</p>
+
+<p>In 2018, we launched the first Summer Internship Program for students with or without Engineering background from top universities in southern Vietnam. The program was designed with the purpose to give an opportunity for candidates to experience the real world projects. No coffee runs here. We love watching talented people learn and explore their skills.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-11-08-banner.png" alt="" /></p>
+
+<p>If you apply for a full-time position, we only want to know if you can bring anything to the table. We get you into the real working environment to see if you can perform well among the team and that’s it. For interns, our approach is different. They are usually quite young and without any experience, so no clues to ask if they can bring in something. The intern candidates will walk through two rounds</p>
+
+<ul>
+<li>The first one is the Pre-assessment test in 30 minutes for Computer Software Engineer which is including Criteria Cognitive Aptitude Test (CCAT) and Employee Personality Profile (EPP). CCAT measures your ability to problem solve, use new information, and think critically. It will tell employers how quickly you’ll pick up training for your new role. Research shows that cognitive aptitude is one of the best predictors of your job performance. It’s significantly more predictive than interviews, previous job experience, and your education level. Meanwhile, EPP is a general personality inventory that measures twelve personality traits that provide valuable insights into a person’s work styles and how they are likely to interact with co-workers, management, and customers. It can be used for any position and contains position-specific benchmarks that allow administrators to compare an individual’s scores against composite profiles to determine possible job fit.</li>
+<li>The candidates scoring more than 23 points in the first round will go to the second to have an interview with our VP of Engineering. We evaluate the background, the problem-solving mindset and a bit of personality to see if the candidate is the right person.</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-11-08-evaluation.png" alt="" /></p>
+
+<p>The program was prepared in 1 month. We posted about the program at the beginning of June and started it from July to October. In such a coincidence, it was also my very first three months working as an Intern when I was 20.</p>
+
+<p>There were 283 applications in total, 142 applicants passed the pre-assessment test and only 14 offers to the interns. That was over our expectation and was the first success for us.</p>
+
+<p>The interns were divided into three small groups: web, mobile, and devops.</p>
+
+<p>We got them to learn Golang as the primary backend language. Golang is Dwarves language of choice to rewrite the modern world. We think as the team the engineers need to understand the core problem that the business wanted to solve, also what is the value that the firm proposes to the customer. Every team members should know the core backend system by getting involved in before building the frontend or dig into the system.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-11-08-golang.png" alt="" /></p>
+
+<p>Even though Golang is a quick language to pick up and get things done, the schedule was pretty tight with three weeks learning Go and then one week for a small assignment. All the interns were stretched out to their limit.</p>
+
+<p>After the first month, we arranged them to multiple projects with different challenges:</p>
+
+<ul>
+<li>Find Friends is a mobile application with instant location sharing features will allow people to locate friends and family easily.</li>
+<li>Smithy is an admin dashboard written in Go and VueJS. It is designed to support multiple existed architectures and databases.</li>
+<li>Yggdrasil is a business service mesh written in Go.</li>
+</ul>
+
+
+<p>The internship program was tough but fun. Thank you and congratulation for all the hard work.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-11-08-cert.png" alt="" /></p>
+
+<p>Some other fun facts:</p>
+
+<ul>
+<li>Most of the interns come from HCM University of Science (US) and University of Information Technology (UIT). They seemed to be more confident and have better engineering background.</li>
+<li>Most of them don’t care too much about the company. They want to learn from the people in the company. The internship allowance is not essential.</li>
+<li>The average age is 22. The oldest in the batch is 27.</li>
+<li>There are three interns studied in a different major, but they decided to join us as Engineer Interns. Brilliant people.</li>
+<li>The university in Vietnam teaches them .NET, Java or C++.</li>
+<li>And they all think that Blockchain and AI is the most cooling field to work in.</li>
+</ul>
+
+
+<p>More at: <a href="http://dwarves.careers/internship/2018/">http://dwarves.careers/internship/2018/</a></p>
+
+<p>End of the Summer program, we received a few messages from the interns that bring us positive motivation for the next program.</p>
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/FWW6hve0GR8" allowfullscreen></iframe></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A separated blog or Medium publications]]></title>
+    <link href="http://tieubao.github.io/notes/a/a-separated-blog-or-medium-publications/"/>
+    <updated>2018-09-27T11:16:06+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/a-separated-blog-or-medium-publications</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Japan 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/japan-2018/"/>
+    <updated>2018-09-27T00:59:00+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/japan-2018</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Top attractions in the world]]></title>
+    <link href="http://tieubao.github.io/notes/a/top-attractions-in-the-world/"/>
+    <updated>2018-07-16T23:25:25+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/top-attractions-in-the-world</id>
+    <content type="html"><![CDATA[<h1>The list</h1>
+
+<p>Being an advocate traveler, I spent quite a lot time planning for the next trip. Last year, I took a trip around Vietnam, from Saigon to Hanoi and all the nearby areas, including Dien Bien, Ha Giang and Ha Long city. That was really fun and I am proud of doing it.</p>
+
+<p>Recently I have found a short list of <a href="https://www.listchallenges.com/top-250-world-destinations-and-attractions">250 world destinations and attractions</a>. Most of the places are great, though it is a bit biased toward Europe and Americas.</p>
+
+<p>Below are a few places I&rsquo;m planning to visit this 2018. I will visit Japan in Sept and Taiwan in Nov.</p>
+
+<h4>Japan</h4>
+
+<ol>
+<li>Tokyo Tower</li>
+<li>Osaka Castle</li>
+<li>Sensoji Temple</li>
+<li>Mount Fuji</li>
+<li>Kiyomizu Temple</li>
+<li>Tokyo Imperial Palace</li>
+</ol>
+
+
+<h4>Taiwan</h4>
+
+<ol>
+<li>Jiufen</li>
+<li>?</li>
+</ol>
+
+
+<p>Not so much attractions could be found in Taiwan maybe they are not at the same level with the others.</p>
+
+<h3>Updated</h3>
+
+<p>I have visited Japan and it was <a href="">awesome</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Dwarves Foundation Stand For]]></title>
+    <link href="http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for/"/>
+    <updated>2018-03-19T10:30:20+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for</id>
+    <content type="html"><![CDATA[<p>Innovation happens. There are many startups found and raise fund every day. They focus on making significant positive changes, impact millions of people, lead to breakthroughs and support the foundation of economic growth.</p>
+
+<p>Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.</p>
+
+<p>At some points, growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.</p>
+
+<p>Another motivations for Dwarves Foundation was the lack of respect that service firms receive. Most software companies out there focus on digital transformation and consultancy. They do tricks. They hit and run. The codebase they produced is full of crap and it damages our pride.</p>
+
+<p>This is where Dwarves Foundation comes in.
+Despite the fact that service firms scale linearly, their ultimate size is capped and small, they don’t have life-changing exits for their founders, we start Dwarves Foundation as we want to build things right. I’ve always felt that companies like Dwarves Foundation are more important to the economy than the mildly pejorative phrase used to describe them.</p>
+
+<p>Dwarves Foundation is an innovation service firm. We have been building an organization with high standard software practices and business growth capabilities, helping tech startups, entrepreneurs and makers deliver their innovative software product since 2013.</p>
+
+<p><strong>We stand for the craftsmanship in software development</strong>. More than telling people how to do things, as a firm, we take responsibility for collaboratively creating the product of innovation with the client. We value the long-term partnership, and we brought the economic impact through massive product distribution and brought to the market by the clients.</p>
+
+<p>We empower innovation with software craftsmanship. This is what we do here. It takes many forms, and we’re always working towards it.</p>
+
+<h3>The Dwarves</h3>
+
+<p>The story begins in Norse Mythology. After the executed of Ymir, the very first giant of the universe, by Odin has conceived a whole new universe. In the new world, Yggdrasill is a giant ash tree located at the center cradles the nine realms of the cosmos.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-03-19-yggdrasill.png"></p>
+
+<p>Dwarf is the small and misshapen creatures that originated as maggots from Ymir’s corpse. They dwell in the mountains deep down in the dark underground of <strong>Svartalfheim</strong>. Dwarves are wisdom, natural good at smithing, mining, and crafting. They are well known for being the best blacksmiths throughout the nine worlds, not only do they have natural abilities to craft weapons and jewelry. They are also excellent engineers and architects.</p>
+
+<p>Dwarvish magic was fundamentally technological know how. They had an unusually high level of skill. There was no shimmering light around the Dwarves, just first rate workmanship. Dwarves greatly pride themselves in their craftsmanship, be it smithing or anything else.</p>
+
+<p>The dwarf is an example of a creature who has the ability that surpasses the known world, presaging the rise of a universe beyond this physical realm. Whatever their origin, the dwarf’s existence plays a role in expanding the imagination.</p>
+
+<p>Aspiring to create a positive breakthrough that can be able to rewrite the new world, we chose the name Dwarves Foundation as the commitment to the vision that we follow.</p>
+
+<p>At our woodland, the Dwarves are encouraged to thoroughly assess and evaluate the product quality before handing it to the customers. By participate in every detail of the work, we take craftsmanship as one of the most fundamental factors of the career transformation for engineers. World-class products require world-class engineers and craftsmanship is what makes it done. Craftsmanship is what flows among the team spirit, or does not exist at all.</p>
+
+<p>We choose innovation to be one of our core values that form ideas to affect the general society undoubtedly. Innovation is not for geniuses working alone, it is an activity that requires the team effort. Being innovative is a part to approach the new era. What that rewards, what can I say, can genuinely lead to significantly remodel the cosmo.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2018-03-19-dwarves.jpg"></p>
+
+<hr />
+
+<p>Empower innovation is the lifestyle we choose and we are always welcome the like minded people to join us on this journey. A network with all the people who want to change the world would be really awesome. Drop us a message <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x74;&#x65;&#x61;&#109;&#x40;&#100;&#x2e;&#102;&#x6f;&#x75;&#110;&#100;&#x61;&#116;&#x69;&#111;&#110;">&#x74;&#101;&#97;&#109;&#64;&#x64;&#46;&#x66;&#111;&#117;&#110;&#x64;&#x61;&#116;&#105;&#111;&#x6e;</a> anytime.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cofounder Agreement]]></title>
+    <link href="http://tieubao.github.io/notes/a/cofounder-agreement/"/>
+    <updated>2018-02-15T17:41:37+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/cofounder-agreement</id>
+    <content type="html"><![CDATA[<h1>Ensure Alignment of Vision</h1>
+
+<p>As you and your cofounder (or cofounders) embark on your entrepreneurial journey together, it’s imperative that you all share the same vision for the purpose and future of your company. It’s easy to get caught up in the thrill of launching a potentially successful startup together, but you all must take the time to establish the existential foundations of the company, and as early as possible, to help prevent the possibility of a drastic falling out later on.</p>
+
+<h3>What Are Your Goals?</h3>
+
+<ul>
+<li>Why are you creating this startup?</li>
+<li>What need will it fill?</li>
+<li>What will your initial product/service offering be?</li>
+<li>And what is your strategy for growing the company?</li>
+</ul>
+
+
+<h3>What Are Your Company Values and Philosophy?</h3>
+
+<p>Your company’s success depends on vision alignment (alignment between you and your investors, your employees, and your customers, etc.). Do you share the same priorities? Do you agree on what’s most important to you both personally and for the future of your company?</p>
+
+<h3>How Do You Measure Success?</h3>
+
+<ul>
+<li>What do you and your co-founder(s) hope to get out of this business?</li>
+<li>How will you know if you’ve achieved your goals?</li>
+<li>If you don’t agree on the same goals, how will you know when you’ve achieved them?</li>
+</ul>
+
+
+<blockquote><p>&ldquo;Discussing these issues with your co-founder could get uncomfortable, create rifts, or even uncover deal-breakers. If you are able to successfully have these difficult conversations, this is a testament to your partnership and to the strength of your relationship &mdash; and will serve as a solid foundation from which to grow your business.&rdquo; &ndash; David Ehrenberg</p></blockquote>
+
+<h3>Working Styles and Culture</h3>
+
+<p>Once you and your cofounder have laid down the aspirational and philosophical groundwork for your startup, this is also the ideal time to determine what kind of working environment best complements the vision of your startup.</p>
+
+<ul>
+<li>What 3 words best describe the startup culture you want to create (e.g. open, hard-working, eccentric, etc.)? Pro-tip: If you’re really serious and far along go visit few office spaces together to get a sense of what each of you likes work environments wise and why.</li>
+<li>What values do we want to instill in our employees?</li>
+<li>If you could pick 2 things to change about our company, and two things to bring with you from your previous experience, what would they be and why?</li>
+<li>How much equity are we allocating for future employees?</li>
+<li>What should we look for in our first 5 hires?</li>
+<li>Describe your ideal working style.</li>
+</ul>
+
+
+<h1>Legal Decisions &amp; Definitions</h1>
+
+<h3>General Questions</h3>
+
+<ul>
+<li>Is the percentage ownership subject to vesting based on continued participation in the business?</li>
+<li>If one founder leaves, does the company or the other founder have the right to buy back that founder’s shares? At what price?=</li>
+<li>What salaries (if any), are the founders entitled to? How can that be changed?</li>
+<li>How are key decisions and day-to-day decisions of the business to be made?</li>
+</ul>
+
+
+<h3>Basic Legal Definitions</h3>
+
+<p>Harroch&rsquo;s article also explores numerous basic legal terms associated with launching a startup, all of which you and your business partner should familiarize yourselves with.</p>
+
+<ul>
+<li>Confidentiality Agreements &ndash; These are also referred to as Non-Disclosure Agreements or NDAs. The purpose of the agreement is to allow the holder of confidential information to share it with a third party.</li>
+<li>Copyright &ndash; A copyright gives the owner the exclusive right to make copies of the work and to prepare derivative works (such as sequels or revisions) based on the work.</li>
+<li>General Partnership &ndash; If there is more than one founder, a general partnership is often chosen as the legal form of business entity.</li>
+<li>Patent &ndash; A patent gives its inventor the right to prevent others from making, using, or selling the patented subjected matter described in words in the patent’s claims.</li>
+<li>Service marks &ndash; Service marks resemble trademarks and are used to identify services.</li>
+<li>Tax Incentive &ndash; Depending on the nature of the business, various tax incentives may be available, such as renewable energy tax credits and investment tax credits.</li>
+<li>Trademark &ndash; A trademark right protects the symbolic value of a word, name, symbol, or device that the trademark owner used to identify or distinguish its good from those of others.</li>
+<li>Trade Secret &ndash; A trade secret right allows the owner of the right to take action against anyone who breaches an agreement or confidential relationship or who steals or uses other improper means to obtain secret information.</li>
+</ul>
+
+
+<h3>Include a Vesting Schedule When Issuing Shares to Co-founders</h3>
+
+<p>When you create a vesting schedule, this means that the co-founder will earn their shares over time and protects you and the company if that a co-founder leaves the company or doesn&rsquo;t pull their weight. The standard vesting period is four years, with monthly vesting of shares. Unvested shares should be subject to repurchase by the company if the co-founder leaves the company.</p>
+
+<h3>Protect Your Valuable Intellectual Property</h3>
+
+<p>If intellectual property is a vital element of your business, it&rsquo;s important to protect that IP during the formative stages of a company. You can address this issue by relying on patents, trademarks, copyrights, and trade secrets to protect your valuable IP. Another step you can take is requiring all co-founders and any third-party developers to assign to the company their rights in IP they created and that is utilized by the company. Doing this will help prevent trouble if a co-founder leaves the company and takes a crucial patent with them.</p>
+
+<h1>How to Split Equity</h1>
+
+<h3>Ideas are Valuable</h3>
+
+<p>If you brought the original concept to the table, increase your share holdings by about 5 percent. While execution is more important in the long run, whoever conceived the original idea deserves a little extra credit.</p>
+
+<h3>That First Step is a Doozy</h3>
+
+<p>Bringing something of value to the company during its formative stages – like a filed patent (not a provisional), a compelling demo, an early version of the product, or something else that means much of the work towards financing or revenue is already done – you should receive a considerable part of the equity.</p>
+
+<h3>Full Time Commitment is Expensive</h3>
+
+<p>Bottom line, if you’re working more, then you’re risking a lot more if the project fails, which means that you are entitled to more if the project succeeds. Also, keep in mind that part-time cofounders are a big minus to someone considering an investment, so choose your partners wisely.</p>
+
+<h3>The CEO Gets More. Always.</h3>
+
+<p>Splitting equity equally means that no one controls the company more than anyone else. But if that’s the case, than having a CEO is useless, as well as having any form of upper management. So, whoever is the designated CEO should get another slightly more equity. If you think that’s unfair, remember that market rate for a great CEO is higher than market rate for a great CTO, which means that’s how it is everywhere.</p>
+
+<h3>Reputation Counts</h3>
+
+<p>If you’re a beginning entrepreneur and your partner is an experienced founder with an established reputation, they deserve more equity. If that founder has an expansive network that benefits the company, they deserve more equity. If that founder can help secure more funding for your company, they deserve more equity.</p>
+
+<blockquote><p>&ldquo;The question of equity brings out the most fundamental differences, perceptions, and values in an aspiring startup. In fact the equity question, more than any other, may strangle a young company before it can even get started. And that’s a damn good thing.&rdquo; &ndash; Dan Shapiro</p></blockquote>
+
+<h1>Final Thoughts</h1>
+
+<p>Yes, talking about such topics as company roles and vision and equity and the like can be uncomfortable among founders. However, these discussions are vital to a successful partnership, as well as a successful startup, and must be held before any of you invest too much time, energy, and money into a potential company. Keep in mind that whoever you decide to launch a company with, you all will have to make countless difficult decisions once your company is actually up and running. If you take nothing else from this blog post, at least follow the bit of advice below:</p>
+
+<blockquote><p>&ldquo;Choose co-founders the way you would choose a spouse. The reality is that you will, at least in the early days, spend far more time with your co-founders than your partner.&rdquo; &ndash; Danielle Newnham</p></blockquote>
+
+<h4>Source: <a href="https://fi.co/insight/how-to-create-the-perfect-cofounder-agreement-with-your-business-partner">fi.co</a></h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to contribute to tech community]]></title>
+    <link href="http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community/"/>
+    <updated>2017-10-20T01:23:01+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community</id>
+    <content type="html"><![CDATA[<p>Even though Vietnam is one of the booming countries for tech talents, there is still a whole gap between top developers around the world and us. Most of the points are related to how professional we are, our collaboration skill or soft skill.</p>
+
+<p>Being a part of the tech community, realizing a few issues, also wanting to contribute a bit, this blog post is my precious and is a part of the whole series to improve the quality of next generation of developers.</p>
+
+<p>Below is the short list of recommended things to do to contribute to the tech community.</p>
+
+<h2>Start by listening</h2>
+
+<p>Walking into a project and saying “Hi, here’s what I think this project should be doing” is usually not taken as a good thing. Some projects may welcome that sort of approach, but if the project has been running a while, the chances of that attitude being embraced are small. Listening is the best way to know what the project needs.</p>
+
+<p><strong>Join a mailing list</strong></p>
+
+<p>For a large scale and open project or community that involve many people, communication through a mailing list is one of the most effective ways to not distract others and good for you to follow the entire discussion.</p>
+
+<p>Some of the mailing lists I followed over the past two years.</p>
+
+<ul>
+<li>Viet Infosec</li>
+<li>golang-dev</li>
+<li>golang-nuts</li>
+</ul>
+
+
+<p><strong>Follow a blog</strong></p>
+
+<p>Elite developers blog are great knowledge sources that you should follow and learn from them. Some of the rock stars they don’t have their blog. Instead, they use Twitter for daily updates.</p>
+
+<ul>
+<li>Dave Cheney: <a href="https://dave.cheney.net">Dave Cheney | The acme of foolishness</a></li>
+<li>Dan Luu: <a href="https://danluu.com">Dan Luu</a></li>
+<li>Rob Pike: <a href="https://commandcenter.blogspot.com">command center</a></li>
+<li>Golang: <a href="https://blog.golang.org">The Go Programming Language Blog</a></li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2017-10-20-golang.png"></p>
+
+<p><strong>Join online discussions via Slack or IRC</strong></p>
+
+<p>Most of the communities have their channel to keep in touch and discuss the project or things related to the community with other members.</p>
+
+<p>IRC is one of the most popular tools that have been used by many projects, e.g. Python, PostgreSQL, OpenStack. IRC is free software. You need to download a client and ask for the node address to log in.</p>
+
+<p>Beside IRC, there are several modern communication platforms. They are commercial products that serve the teamwork very well. Some with a free plan has been applied to the new community: Gitter, Slack, Discord. Also, new members are always welcome there.</p>
+
+<ul>
+<li>Reactiflux: <a href="https://discordapp.com/invite/reactiflux">Discord</a></li>
+<li>Golang: <a href="https://gophers.slack.com">Slack</a></li>
+<li>Sails: <a href="https://gitter.im/balderdashy/sails">balderdashy/sails &ndash; Gitter</a></li>
+</ul>
+
+
+<p>Some communities in Vietnam I take participation in</p>
+
+<ul>
+<li>Golang Vietnam: <a href="http://golang.org.vn">http://golang.org.vn</a></li>
+<li>Ruby Vietnam: <a href="http://ruby.org.vn">http://ruby.org.vn</a></li>
+<li>Grokking Engineering: <a href="http://grokking.net">http://grokking.net</a></li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2017-10-20-golang-slack.png"></p>
+
+<h2>Participating</h2>
+
+<p><strong>Organizing events</strong></p>
+
+<p>The event organizer is a difficult job and very time consuming, but it’s the most critical factor to keep the community alive. People might not find it necessary as it depends on the interest. During the days in 201x, more and more events were held by the various scale of organizations and companies. Some activities that you may find</p>
+
+<ul>
+<li>Technical Meetup (Golang, Ruby, Geeky, Grokking)</li>
+<li>Product Meetup</li>
+<li>Design Workshop</li>
+<li>Mobile Day</li>
+<li>Web Summit</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2017-10-20-websummit.png"></p>
+
+<p><strong>Sponsor an Event</strong></p>
+
+<p>Sponsoring a participant in a program can be a great way to show your support, especially when you have your friends or employees participating in that event.</p>
+
+<p>Usual the local events are just at a small scale from 50 &ndash; 100 participants. If they are meetup or workshop event, most of their needs are a venue to organize or food and beverage or a small amount of money for operating costs.</p>
+
+<p><strong>Sharing your knowledge</strong></p>
+
+<p>In every event, if you can’t afford to sponsor an event or have enough time to be an organizing member, you still can give your hand to the community by sharing your thoughts, your knowledge to other people.</p>
+
+<p><strong>Answer a question</strong>
+The best way to help build the community is by helping others. Answering someone questions especially when he is just getting his feet wet is very helpful for him. I see a lot Viet Community doesn’t have that culture. They usually piss off the newbies and don’t want to give out their hands.</p>
+
+<p><strong>Write a blog post</strong></p>
+
+<p>If you’ve got a blog, write about your experiences with the project that you’re using. Tell about a problem you faced utilizing the software and what you did to solve it. You’ll be helping in two ways, both by helping keep the project on the minds of others around you and by creating a record for anyone else who has your problem in the future and searches the web for the answer.</p>
+
+<h3>Contributing to Open Source</h3>
+
+<p>Open source software (OSS) is distributed under a licensing agreement which allows computer code to be shared, viewed and modified by other users and organizations.</p>
+
+<p>Alternatively, in slightly more user-friendly language, open source software is available for the general public to use and modify from its original design free of charge. What it means is that a piece of software can evolve and be iterated upon by other developers anywhere in the world. Ideally, this says that the software is improved over time, but it can often take plenty of exciting twists and turns with all of that evolution and can change form and shape entirely. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p><strong>Diagnose a bug</strong></p>
+
+<p>Bugs are often poorly reported. Building an attitude to help narrow down the problem make it easier for the developers to fix it. Whatever you discover, add it to the ticket in the bug system for all to see.</p>
+
+<p><strong>Fix a bug</strong></p>
+
+<p>Finding an interesting bug in the ticket system and try to fix it is the best practical way to contribute to the open source project. Remember to follow the guideline and during your working period, document whatever you know to help the later contributors. Write some tests if you can.</p>
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2017-10-20-issue.png"></p>
+
+<p><strong>Write a test</strong></p>
+
+<p>Adding the test to the open source project will help to improve the quality and make it more stable. In some cases, test cases and test suites are more like the documents for the project.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>https://en.wikipedia.org/wiki/Open-source_software<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dwarves Foundation tuyển dụng]]></title>
+    <link href="http://tieubao.github.io/notes/a/dwarves-foundation-tuyen-dung/"/>
+    <updated>2017-07-12T18:08:25+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/dwarves-foundation-tuyen-dung</id>
+    <content type="html"><![CDATA[<p>Long story short: Hiện tại bọn mình cần tuyển và cần các bạn giúp đỡ giới thiệu đến bạn bè nếu thấy phù hợp</p>
+
+<ul>
+<li>4 bạn Frontend &amp; Web Developer với stack React / Vue</li>
+<li>3 bạn Backend &amp; DevOps với stack Go / Elixir / Docker centric workflow</li>
+<li>2 bạn QA Engineer muốn học và tham gia vào xây dựng automation process</li>
+<li>2 bạn UI/UX Designer biết sử dụng Sketch / XD</li>
+<li>N bạn thực tập sinh cho tất cả các mảng.</li>
+</ul>
+
+
+<p>Liên lạc với bọn mình qua email <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#116;&#101;&#97;&#x6d;&#64;&#x64;&#119;&#97;&#114;&#118;&#101;&#x73;&#x66;&#x2e;&#x63;&#x6f;&#x6d;">&#x74;&#101;&#x61;&#109;&#x40;&#100;&#x77;&#x61;&#x72;&#118;&#x65;&#115;&#102;&#x2e;&#99;&#111;&#x6d;</a> | Title: &ldquo;Be an awesome dwarf&rdquo; kèm lời giới thiệu về bạn</p>
+
+<hr />
+
+<h1>Tuổi trẻ Khởi nghiệp</h1>
+
+<p>Người đang nói chuyện với các bạn là một trong những thành viên đầu tiên của team Dwarves Foundation. Dwarves Foundation là một startup được thành lập từ cuối năm 2014, đầu năm 2015 với niềm tin và niềm tự hào vào High Engineering Culture, thứ philosophy mà mình tin sẽ góp phần tạo nên thế hệ lập trình viên ưu tú, là những người theo đuổi và có ảnh hưởng trực tiếp vào những phát minh tiếp theo của thế giới Internet. Các công nghệ và sản phẩm nổi bật hiện tại đã nói lên điều này. Sẽ không có Facebook &ndash; Connecting the World, GotIt &ndash; Organizing the World’s Brainpower, Bitcoin / Ethereum &ndash; Decentralized Economy &hellip; nếu không có đóng góp của các lập trình viên.</p>
+
+<p>Ở Dwarves Foundation bọn mình không có những lời hứa hẹn. Ở đây bọn mình đang xây dựng nên một môi trường năng động, tạo nên những khác biệt mà các team tech khác không thể nào có được, nhất là khi môi trường ngoài kia các công ty đối xử với developer như &ldquo;thợ xây cao cấp&rdquo;. Những thành viên ở Dwarves Foundation đang viết nên những kỳ tích như 108 Lương Sơn, như Thục Hán lập quốc.</p>
+
+<p>Ở đây bọn mình không chơi với những dự án &ldquo;ăn xổi ở thì&rdquo; hay làm cho nhanh gọn &ldquo;giao hàng&rdquo; rồi thoát. Ở đây bọn mình làm việc cùng các founders và entrepreneurs, đến từ khắp nơi, của nhiều dự án sáng tạo mang tính đột phá. Ông nào cũng muốn disrupt thị trường mới chịu. Nhưng để góp phần làm được điều đó, bọn mình phải theo đuổi world-class quality. Các câu hỏi để phát triển bản thân và làm sao nâng cao chất lượng công việc luôn là chủ đề chính trong các cuộc tranh luận.</p>
+
+<h1>Prerequise</h1>
+
+<p>Yêu cầu cơ bản cần từ bạn là tự tin vào bản thân, tiếng Anh cơ bản là cần thiết (tiếng Anh siêu hơn thì càng tốt), làm được việc và hòa hợp được với mọi người. Bạn sẽ là người phù hợp nếu bạn mong muốn được đóng góp sự sáng tạo vào công việc, được ghi nhận và làm chủ công việc của mình. Lợi ích của bạn song hành cùng lợi ích của team. Live long and prosper 🖖</p>
+
+<h1>Team</h1>
+
+<p>Bạn sẽ làm việc cùng ai? Team hiện tại khoảng 15 thành viên, độ tuổi trung bình 25, chủ yếu xuất thân từ các trường Đại học trong cả nước như CNTT, Tự Nhiên, Bách Khoa, Ngoại Thương&hellip; và bạn sẽ làm việc với 15 bạn này để cùng nhau đóng góp và phát triển thế hệ tiếp theo.</p>
+
+<p>Bọn mình hiện đang offer range lương <strong>từ 7tr đến 25tr/tháng</strong> tùy theo khả năng và sự đóng góp cho việc xây dựng đế chế này. Các options về shares sẽ luôn được cân nhắc cho những thành viên xuất sắc hoặc sau khi chúng ta gặp mặt và làm việc cùng nhau. Live long and prosper 🖖</p>
+
+<p>Team based ở Saigon nên các bạn từ 3 miền nếu muốn Nam tiến xây dựng sự nghiệp thì liên hệ bọn mình để nhận được hỗ trợ nhé.
+Thông tin khác có thể tìm hiểu ở link Github:</p>
+
+<ul>
+<li><a href="https://github.com/dwarvesf/team">https://github.com/dwarvesf/team</a></li>
+<li><a href="https://github.com/dwarvesf/WeAreHiring">https://github.com/dwarvesf/WeAreHiring</a></li>
+</ul>
+
+
+<h1>Tái bút: Những thứ bọn mình đang làm</h1>
+
+<ul>
+<li><p>Automation: Tự động hóa các bước trong quy trình phát triển và triển khai phần mềm: Bạn nghe qua về CI/CD workflow, from idea to production philosophy? hay vertical scaling and horizontal scaling chưa? Bọn mình đang xây dựng những thứ này với Docker trên các nền tảng DC/OS | Kubernetes | AWS</p></li>
+<li><p>Sản phẩm thứ nhất (codename DFUB) là một platform giúp tự động hóa việc vận chuyển đơn đặt hàng bằng cách liên kết tất cả các eCommerce Systems (Magento, WooCommerce, Shopify, eBay, Amazon &hellip;) và các Carriers (DHL, UPS, FedEx &hellip;). Thử tưởng tượng bạn là chủ một cái shop, sau khi khách lên đặt hàng hệ thống tự tìm bên vận chuyển, chọn giá vận chuyển thấp nhất cho bạn, bạn chỉ việc ngồi chờ bên vận chuyển &ldquo;đến thăm nhà&rdquo; (Sướng chưa 😬). Sản phẩm đang phát triển trong giai đoạn đầu và dự tính sẽ launch vào cuối năm nay ở SG và Malay.</p></li>
+<li><p>Sản phẩm thứ hai (codename DFCL) là một mạng xã hội nghề nghiệp như LinkedIn với việc tập trung khai thác các mối quan hệ giữa ứng viên và người giới thiệu, nhằm giúp người tuyển dụng có thể lựa chọn được ứng viên phù hợp nhất. Sản phẩm đang ở giữa giai đoạn phát triển và dự tính sẽ launch vào tháng 10 năm nay ở UK.</p></li>
+<li><p>Sản phẩm thứ ba (codename DFAM) là một mobile platform phục vụ trong lĩnh vực bất động sản. Với việc tập trung vào các thuật toán xếp hạng thông minh dựa vào độ liên quan, địa điểm,  và sở thích của user, mặc khác cung cấp công cụ thể Real Estate broker có thể tạo một profile riêng cho mình trên đó, sản phẩm đang được đầu tư hơi bị nhiều chất xám và passion tuổi trẻ. Gần đây mình có post một bài liên quan đến product này trên Golang Vietnam: <a href="https://www.facebook.com/golang.org.vn/posts/1459227294376272">https://www.facebook.com/golang.org.vn/posts/1459227294376272</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vấn đề của tuổi trẻ]]></title>
+    <link href="http://tieubao.github.io/notes/a/van-de-cua-tuoi-tre/"/>
+    <updated>2017-07-11T12:37:15+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/van-de-cua-tuoi-tre</id>
+    <content type="html"><![CDATA[<h1>Vấn đề của tuổi trẻ</h1>
+
+<p>Sau hơn 27 năm sống trên quả đất này, học và tiếp thu một khối lượng kiến thức đồ sộ; trong đó là 5 năm ra đời, sinh hoạt và làm việc dưới nhiều vai trò trong cộng đồng đi từ thực tập, fresher là một đứa trắng tinh mơ lên đến Lead Engineer, Giám đốc Kỹ thuật rồi đến Giám đốc Điều hành kiêm luôn sales và growth của một công ty công nghệ nho nhỏ, chuyên xây dựng các platform, sản phẩm, ứng dụng cho nhiều công ty startups trên thế giới; tiếp xúc với rất nhiều người từ đủ mọi tầng lớp; làm mọi việc từ lợi nhuận đến phi lợi nhuận, culi cho đến điều hành; làm việc cùng đủ loại đối tác từ Tây đến Ta &hellip; mình xin note lại vài dòng dưới đây như là lời chia sẻ và định hướng cho các bạn trẻ hơn hoặc lớn hơn, đang tham gia làm việc cùng mình hoặc không làm việc cùng mình.</p>
+
+<p>Bài viết được chia làm nhiều phần, trong đó phần đầu tiên mình sẽ tập trung đi vào vấn đề chung của các bạn trẻ, góc nhìn cuộc đời của bạn bè, người thân, đồng nghiệp &hellip; Những vấn đề được nêu bên dưới hầu như không phân chia tuổi tác. Nếu cuộc đời là một tựa game thì người chơi trong game không phân biệt tuổi tác, kinh nghiệm cũng chỉ mang tính tương đối, chơi dở hay chơi giỏi, vượt qua các chướng ngại dễ dàng hay không là do kỹ năng.</p>
+
+<p>Danh sách bài viết:</p>
+
+<ol>
+<li>Vấn đề của tuổi trẻ</li>
+<li>Vấn đề xin việc và cho việc</li>
+<li>Sống có mục tiêu</li>
+</ol>
+
+
+<h1>Vấn đề chung của xã hội</h1>
+
+<p>Bản chất con người là tổng hòa các mối quan hệ xã hội. Hay gọn hơn &ldquo;Con người là sản phẩm của xã hội&rdquo;. Có nhiều câu nói đùa như: &ldquo;Tôi là sản phẩm hoàn hảo của chế độ X&rdquo;. Câu nói này mang ý nghĩa trung lập, không khen cũng không chê, phụ thuộc hoàn toàn vào suy nghĩ người đọc. Việc các bạn trẻ được sinh ra và lớn lên ở đâu, trong một xã hội pháp quyền với sự giáo dục của chế độ tại nơi đó sẽ ảnh hưởng rất lớn đến suy nghĩ và hệ thống niềm tin của các bạn.</p>
+
+<h2>Sự bảo bọc &amp; Các cột mốc cuộc đời</h2>
+
+<p>Mặc định các bạn lớn lên ở các gia đình ở thành thị được gia đình và xã hội định sẵn một số mốc sau đây</p>
+
+<ul>
+<li>Từ 0 &ndash; 5 tuổi: Học Mẫu giáo</li>
+<li>Từ 6 &ndash; 18 tuổi: Học kiến thức phổ thông</li>
+<li>Từ 19 &ndash; 22 tuổi: Học Đại học hoặc Cao đẳng</li>
+<li>Từ 22 &ndash; 30 tuổi: Bắt đầu tham gia vào xã hội, tìm việc làm và trở thành người lớn.</li>
+<li>Từ 30 trở đi mình sẽ để ở một bài khác.</li>
+</ul>
+
+
+<p>Từ sau đó trở đi việc tiếp tục sống cuộc sống như thế nào là một ẩn số, không còn ai có thể bày cho bạn được như thời còn sống trong vòng tay của bố mẹ được. Tuổi 22 là một độ tuổi quan trọng. Từ tuổi trở đi coi như bắt đầu một mốc đặc biệt của cuộc đời, bạn tham gia vào sự vận hành xã hội với vai trò một cá thể độc lập. Lần đầu tiên bạn nhận được câu hỏi: &ldquo;Định hướng sau này của mày là gì? Sau này mày muốn làm gì?&rdquo;</p>
+
+<p>Mấy bạn trai ở độ tuổi này lại càng thê thảm hơn. Bạn nào mà có bạn gái bằng tuổi thì ôi thôi xác định, những câu hỏi về định hướng cuộc đời từ bạn gái cứ thế mà đập vào nhau xong đập thẳng vào mặt cậu bạn trai. Trả lời không được hoặc không thực hiện &ldquo;kịp thời gian&rdquo; thì cũng xác định luôn.</p>
+
+<p>Nói ra để thấy nếu các bạn có cùng góc nhìn ít nhất là đến khúc này hoặc hướng cho cuộc đời mình theo kịch bản trên này thì chúc mừng, bạn nằm trong danh sách gặp các vấn đề chung rồi đó.</p>
+
+<p>Đa số các gia đình kha khá một chút đều có định hướng sẵn cho con cháu. Từ việc học, việc nhà, chọn chỗ làm, lớn lên lúc nào bố mẹ còn sống thì mày cứ an tâm. Các bạn này thì sướng lắm. All the good times. But good times create weak men. Weak men create hard time. Khi nào đến hard time thì không nói được. Nói như mấy bạn hater thì Karma will hit you, bitch.</p>
+
+<h2>Thiếu kỹ năng</h2>
+
+<p>Khoảng này đối với giới trẻ trí thức thì mình cũng không có nhiều lời lắm. Hệ thống giáo dục hiện tại nếu bạn học chăm chỉ thì bảo đảm có kỹ năng. Thợ giỏi ở Việt Nam có, chỉ là chưa nhiều. Điển hình nhất là ngành Công nghệ Thông tin xuất khẩu engineers đi ầm ầm. Các bạn code như máy, chỉ có điều đa số khi được hỏi đến sẽ không biết mình muốn xây dựng những gì thôi. Chủ đề này thì báo chí nói muôn đời. Thi cử quốc tế giải nhiều nấm sau mưa, không thua nước nào cả, có điều không biết để làm gì. Những bạn lười học thì mình không nói đến. Chúng ta cần những người hiểu được ý nghĩa của việc mình đang làm, suy nghĩ phản biện để tìm ra cái tốt hơn là chỉ biết cắm đầu làm theo lời người khác.</p>
+
+<p>Con bé Nhiên, gấu của thằng Tùng, nó hỏi mình, nếu ai cũng làm thầy hết thì ai làm thợ anh ơi? Mình không trả lời mà dành câu đố cho các bạn đó? Trả lời được coi như hiểu được dòng chảy lịch sử văn minh nhân loại 😌</p>
+
+<h2>Thiếu tầm nhìn</h2>
+
+<p>Góc nhìn hạn hẹp, sống trong thế giới quan do bản thân vẽ ra. Từ chối tìm hiểu các kiến thức cần thiết và kĩ năng sống cần thiết. Không cảm giác việc tìm hiểu thế giới xung quanh là quan trọng lắm, sống trong thế giới của riêng mình là quá đủ rồi. Việc nhận định như vậy đang là thiếu tầm nhìn và không có cái nhìn tổng quát rồi. Đối với các bạn đang có suy nghĩ như vậy thì mình không có ý định tranh cãi hay khuyên nhủ gì cả. Dòng chảy của xã hội là một chuỗi các quy luật đè lên nhau, những tác động sẽ ít bao giờ là trực tiếp như có đứa nào ghét lại đấm vào mặt bạn; mà sẽ tác động một cách gián tiếp hơn.</p>
+
+<p>Việc thiếu cái nhìn tổng quát về những gì đang diễn ra rất tai hại. Những tác hại này khi bạn cảm nhận được thì thường vô phương cứu chữa rồi.</p>
+
+<p>Ví như việc cách đây vài năm, giá xăng tăng mỗi kì lên 1000, nhiều anh chị thi nhau post status: &ldquo;Biết vậy nãy về chạy ra đổ đầy bình&rdquo;. Mình nhìn mà phải thốt lên đầy bình WTF?! Việc thiếu kiến thức và thiếu cái nhìn tổng quát chỉ cho bạn biết được bạn bị lỗ vài nghìn; mà không biết là sau đó kéo theo một loạt thứ khác tăng giá do chi phí vận chuyển, thuế và các phí khác sẽ tăng theo, giá nhập khẩu sẽ tăng theo, cùng lượng tiền mua được ít thứ hơn, trong khi lương bạn thì không tăng.</p>
+
+<h2>Thiếu định hướng</h2>
+
+<p>Nói ra chắc bạn bè mình không tin, từng có một giai đoạn năm 20 tuổi mình rơi vào khủng hoảng trầm trọng sau khi chia tay bạn gái. Chuyện tình yêu mình xin bàn ở một bài khác. Riêng ở giai đoạn buồn ơi là buồn đó, mình vô tình rơi vào cảnh mỗi ngày thức dậy không biết làm gì một cách tích cực. Suy nghĩ &ldquo;Làm gì cho hết ngày bây giờ?&rdquo; cứ lẫn quẩn mãi ở trong đầu cho đến khi hết ngày. Đây là một trong những trải nghiệm mà đến bây giờ mình đánh giá thuộc loại thú vị nhất.</p>
+
+<p>Đây là cảm giác trỗng rỗng tận cùng của việc mất định hướng, nếu đã từng một lần xuống được tới đây rồi thì xin chúc mừng bạn. Điều này là tiền đề cho mọi nỗ lực của bạn sau này. Nó giống như kiểu người sắp mất đi tánh mạng với biết quý giá mạng sống và sức khỏe của mình; người đã từng sống trong nghèo khổ mới biết quý giá và tôn trọng của cải, vật chất.</p>
+
+<p>Mình có một thằng bạn tên Anh, thuộc loại trâu bò, chơi với nhau, học cùng với nhau mấy năm trời từ cấp 2 đến cấp 3, lúc nào nó cũng giỏi hơn, phong cách hơn, nhạy hơn. Đời xui khiến sao lên đại học mình vào Công nghệ Thông tin còn nó thì chọn Vật lý. Ra trường công việc của ngành không mang lại đủ thu nhập làm nó cảm thấy chán nản. Nhiều tuần tìm hướng đi mới nhưng rồi cũng rơi vào cảnh như mình ở trên. &ldquo;Làm gì cho hết ngày bây giờ?&rdquo;</p>
+
+<p>Nếu bạn chưa từng đến được tận cùng thì cũng không sao, thiếu một chút trải nghiệm thôi chứ cũng không sao. Đừng buồn.</p>
+
+<p>Định hướng là mục tiêu xác định ở phía trước. Sống có định hướng của bạn, do bạn đề ra ở đây khác với loại định hướng do người khác vẽ ra cho bạn mà mình có đề cập ở phần trên.</p>
+
+<h2>Không hiểu luật chơi</h2>
+
+<p>Những kiến thức về cuộc sống, xã hội, cách đối nhân xử thế &hellip; là những thứ hiện tại chúng ta không được dạy. Các bài Đạo Đức học hiện tại được các giáo viên chương trình giáo dục phổ thông lược bớt. Các kiến thức về luật pháp, kinh tế và chính trị nói chung không được phổ biến rộng rãi. Điều này thật sự tai hại.</p>
+
+<p>Là một sản phẩm của xã hội như trên, các bạn không hiểu các luật của xã hội được tạo ra như thế nào, các thành phần tham gia vào xã hội; ai là người nắm quyền; tiền từ đâu mà ra và sự lưu hành của đồng tiền trong xã hội đang như thế nào. Các bạn không hiểu được đồng tiền là công cụ và đơn giản hơn là các bạn không biết cách để tạo ra tiền; tại sao người khác phải trả tiền cho bạn và các bạn không hiểu bản chất của sự giàu có. Điều này mình cho là điều căn bản nhất mà chương trình giáo dục không dạy cho các bạn.</p>
+
+<p>Việc thiếu hiểu biết về thứ công cụ này làm các bạn sinh ra suy nghĩ lệch lạc: tiền là mục tiêu lớn nhất của cuộc đời bạn và từng quyết định, hành động hay các mối quan hệ đều có khả năng quy đổi qua tiền.</p>
+
+<p>Nếu cuộc sống là một tựa game, việc hiểu luật của game để có thể chơi game một cách dễ dàng nhất là một điều thực sự cần thiết. Trong các bài sau mình sẽ bàn về những góc nhìn khác về các vấn đề trên, cùng một số kiến thức mà mình thu nhặt được từ khắp nơi, được dạy bảo từ các thế hệ đi trước &hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[12 Signs Your Company Has An Enviable Workplace Culture]]></title>
+    <link href="http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture/"/>
+    <updated>2017-01-09T16:36:00+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture</id>
+    <content type="html"><![CDATA[<p>This article is one of my favorites about company culture. At <a href="http://dwarvesf.com">Dwarves Foundation</a>, we pursue the path of high tech Ventures Builder where we can be the foundation for all tech startups for now and even for Industry 4.0. Building the culture for engineer team is the highest priority.</p>
+
+<hr />
+
+<p><strong>Source:</strong> <a href="https://www.fastcompany.com/3040723/12-signs-your-company-has-an-enviable-workplace-culture">fastcompany</a></p>
+
+<p>Many years ago I worked for a small organization that was effecting change on a national level. It was known for excellence, vision, and world-class leadership. It had a clear mission and strategy. With my acceptance into this organization came the respect of my friends and family for the achievement of such an honor.</p>
+
+<p>But within a few months, I began to realize the department where I was placed did not represent the values of the overall organization. The leadership was more interested in saving face than making decisions based on integrity. Staff members talked about one another in highly negative terms. Complaining and whining were the most common modes of communication. There was little respect for the contribution of others on the team.</p>
+
+<p>A friend and I tried to swing things back to a positive place, but we were sarcastically branded &ldquo;Danny and Darla Do-Right&rdquo; since we wouldn’t participate in the negativity. Efforts to make central leadership aware of the toxic nature of the culture were directed back to department leadership—which, of course, was where the problems began. The department completely fractured toward the end of our assignment, and most team members left the organization hurt and disillusioned. Richard Dore, the director of Proteus Leadership Centres, explains what happened this way:</p>
+
+<blockquote><p>Having a great workplace culture can appear to be rare—and creating one is elusive and near impossible for some managers. People are often frustrated by their culture, with some describing their workplace as being dominated by negative and toxic personalities, with underhanded and manipulative infighting that stifles growth, innovation and results.</p></blockquote>
+
+<p>There is nothing worse than working in an organization that has a bad culture. It doesn’t matter how much money you make or how many weeks of vacation you are given; when you work in a toxic environment, you still come home tense and stressed at the end of each day. And that isn’t worth it.</p>
+
+<p>On the other hand, there is nothing better than working at an organization with a great culture. You wake up every day looking forward to getting back to work on the mission with people you enjoy being around.</p>
+
+<p>I’m sure this list isn’t exhaustive, but here are twelve signs that a great culture exists in your organization or company:</p>
+
+<h3>1. PEOPLE ARE WAITING IN LINE TO JOIN YOUR TEAM</h3>
+
+<p>It’s not because you are offering more money than they could find somewhere else. Many times the pay is less. But people have heard about your team, and they would give anything to be a part of it.</p>
+
+<h3>2. TURNOVER IS LOW</h3>
+
+<p>You should especially pay attention to this in entry-level and mid-level jobs. Often top leaders will stay forever because it’s safe and the pay is good. But if you see people staying for an unexpectedly long time in facility care or accounting, you are probably looking at a healthy culture.</p>
+
+<h3>3. TOP LEADERS ARE NOT INSECURE ABOUT OTHER LEADERS SUCCEEDING</h3>
+
+<p>In fact, they encourage it.</p>
+
+<h3>4. GOSSIP ISN’T TOLERATED</h3>
+
+<p>It isn’t just the leaders calling for people to take the high road in their communication. At every level, gossip is shut down with an encouragement to speak directly to the individual.</p>
+
+<h3>5. LATERAL LEADERSHIP IS OUTSTANDING</h3>
+
+<p>Leading people below you is easy. That is, it’s easy compared to leading people next to you over whom you have no authority. A great culture sees people coming alongside their peers to encourage, or occasionally to correct and redirect.</p>
+
+<h3>6. TEAM MEMBERS ARE ENERGIZED BY THE MISSION</h3>
+
+<p>You hear leaders at all levels of the organization talking about the mission. It gives them energy, and they are constantly thinking of ways to get it done.</p>
+
+<h3>7. IT’S NOT JUST A JOB</h3>
+
+<p>People go to movies, hang out at one another’s homes, and sometimes even vacation together. This doesn’t mean they don’t have other friends, but they really enjoy the company of the people they work with.</p>
+
+<h3>8. THE TEAM BELIEVES THEY ARE MORE IMPORTANT THAN THE TASK</h3>
+
+<p>There is a sense that, as employees, they really matter. They aren’t just people filling tasks; but the culture, systems, language, and structure communicate value. Even in tough times with salary freezes or benefit changes, the vibe is still, &ldquo;You matter!&rdquo;</p>
+
+<h3>9. PEOPLE ARE SMILING</h3>
+
+<p>Walk the hallways and you will see people smiling, enjoying conversations, and having a good time in the midst of high productivity and intense focus.</p>
+
+<h3>10. FEAR IS MISSING</h3>
+
+<p>People don’t fret if they say the wrong thing in front of the wrong person. There aren’t hushed conversations because of the fear of what will happen if they are overheard. Employees in an organization with a great culture can walk into the boss’s office with a concern and walk out knowing they were heard.</p>
+
+<h3>11. COMMUNICATION IS STRONG</h3>
+
+<p>From the top to the bottom, people communicate. The staff isn’t surprised with information they didn’t hear until it was announced at a Sunday service or came out in a new product brochure. It is communicated well in advance, with leaders even asking the staff to help find solutions.</p>
+
+<h3>12. CHANGE IS WELCOME</h3>
+
+<p>People aren’t afraid of change. It’s not that everyone likes change, but most have been through it so many times and have seen the leaders manage change with care and dignity that they no longer dread it. Identifying the evidences of a great culture is all fine and good.</p>
+
+<p>This list might be discouraging if you aren’t working in an environment with such a healthy culture. To that person I would suggest: You have the power to change the culture, one day at a time! Building a healthy culture starts with a few determined people.</p>
+
+<p>In just one department, in one corner of the building, a new culture can begin to emerge. As others interact with the healthy department, they are attracted to it. At their core, no one wants to live in a culture of negativity. People want to love their job. They might not know how to act in a positive environment, and they might resist as you call them out of a place of mediocrity, but ultimately love and positivity always wins out.</p>
+
+<p>Get with others who have the same desire, and take that first step!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The CEO roles: Idea to Continuous Growth]]></title>
+    <link href="http://tieubao.github.io/notes/a/the-ceo-roles-idea-to-continuous-growth/"/>
+    <updated>2016-09-17T12:37:33+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/the-ceo-roles-idea-to-continuous-growth</id>
+    <content type="html"><![CDATA[<p>A CEO role must evolve to sustain growth. Where are you in the growth journey?</p>
+
+<h1>Start Up</h1>
+
+<p>Here CEOs are:</p>
+
+<ul>
+<li>Doers, the &lsquo;Jacks and Janes&rsquo; of all trades.</li>
+<li>Decision makers</li>
+</ul>
+
+
+<h1>Initial Growth</h1>
+
+<p>CEOs must:</p>
+
+<ul>
+<li>Learn to delegate</li>
+<li>Learn how to attract and recruit the right people</li>
+<li>Set the company direction</li>
+</ul>
+
+
+<h1>Rapid Growth</h1>
+
+<p>CEOs need to:</p>
+
+<ul>
+<li>Hire people with more knowledge than themselves in the key business functions</li>
+<li>Get the team to function as a &lsquo;team&rsquo;, to plan and communicate</li>
+</ul>
+
+
+<h1>Continuous Growth</h1>
+
+<p>CEOs need to:</p>
+
+<ul>
+<li>Become strategic innovators &amp; change catalysts</li>
+<li>Lead the company culture</li>
+</ul>
+
+
+<p><img src="http://tieubao.github.io/notes/images/blog/2016-09-17-ceo-roles.png"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Sleep Revolution Manifesto]]></title>
+    <link href="http://tieubao.github.io/notes/a/the-sleep-revolution-manifesto/"/>
+    <updated>2016-09-17T12:11:43+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/the-sleep-revolution-manifesto</id>
+    <content type="html"><![CDATA[<p>The below manifesto is excerp from the book. Reading them carefully help me a lot. Work &amp; Life balance is always a nice &amp; endless topic.</p>
+
+<ol>
+<li>Sleep is a fundamental and non-negotiable human need.</li>
+<li>Sleep allows us to see the world with fresh eyes and a reinvigorated spirit.</li>
+<li>We may be what we eat, but also, to be sure, we are how we sleep.</li>
+<li>Exhaustion is a sign of chaos, not a badge of honor.</li>
+<li>A good day starts the night before.</li>
+<li>We will treat ourselves as well as we treat our smartphones, making sure we sleep until fully recharged.</li>
+<li>A bedroom should be an oasis: a beautiful, relaxing escape from the demands of the day.</li>
+<li>We will usher our smartphones out of the bedroom when we go to bed.</li>
+<li>We will not drive if we are drowsy!</li>
+<li>We will choose Ògoing-to-bed clothes,&ldquo; not to be confused with Ògoing-to-the-gym clothes.&rdquo; Pajamas, nightdresses, and even special T-shirts send a sleep-friendly signal to our bodies: time to shut down!</li>
+<li>We will choose sleep over busywork.</li>
+<li>When we walk through the door of our bedroom, we will leave the day–with all of its problems and unfinished business–behind.</li>
+</ol>
+
+
+<h4>Source: <a href="https://www.amazon.com/Sleep-Revolution-Transforming-Your-Night/dp/110190402X">Sleep Revolution</a></h4>
+]]></content>
+  </entry>
+  
+</feed>

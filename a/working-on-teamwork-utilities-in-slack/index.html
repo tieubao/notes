@@ -1,0 +1,238 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Working On: Teamwork utilities in Slack  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Teamwork is one of many factors to the success. In my team, all members have to care about 2 main things of teamwork, Synchronization and &hellip;"> <meta name="keywords" content="teamwork, slack, working-on">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Working On: Teamwork utilities in Slack - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/">
+ <meta name="twitter:description" content="Teamwork is one of many factors to the success. In my team, all members have to care about 2 main things of teamwork, Synchronization and Collaboration. Working On is a side project that integrated &hellip;">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Working On: Teamwork utilities in Slack - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Teamwork is one of many factors to the success. In my team, all members have to care about 2 main things of teamwork, Synchronization and Collaboration. Working On is a side project that integrated &hellip;" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Working on: Teamwork Utilities in Slack</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-08-31T04:09:54+07:00" pubdate data-updated="true">Aug 31<span>st</span>, 2015</time></div>
+	</header>
+	<div class="entry-content"><h1>Teamwork</h1>
+
+<p>It all happened because of the important of the true teamwork in every project. Teamwork is one of many factors to the success of the team. I also wrote a <a href="http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/">post</a> about it last year. At Dwarves Foundation, teamwork is all about Synchronization and Collaboration, which mean, as a members, you need to know about and align your goal to the team goal; you have to know what other people are doing and let people know what you&rsquo;re doing. It&rsquo;s also about the way of communication between members, it&rsquo;s not just hard skill, it&rsquo;s better if you can stay and play well with others. We applied Slack and Trello to keep us posted, but it seems it&rsquo;s not enough. The information about other members work need to be more details but should not some kind of micro management. There is a difference between the proactive and micro management, the awareness about the micro management will kill team productivity.</p>
+
+<h1>Digest Systems</h1>
+
+<p>And I think about how could I make the team better? Last time at Lifebox, we created Lifebox Daily, a productivity tool based on <a href="">Done list theory</a> which is very similar with <a href="https://idonethis.com">iDoneThis</a>. Later we found that Google Group digest system is free and good enough to replace the old Lifebox Daily. Everyday, team memmbers just need to send an email with the same title (like current date) to Google Group Email and on next day morning, Google Group will send a digest message including all done items of other members. So that the team can aware of what happened yesterday and keep them motivated.</p>
+
+<p><img src="/notes/images/blog/2015-08-30-google-digest-01.png"></p>
+
+<p><img src="/notes/images/blog/2015-08-30-google-digest-02.png"></p>
+
+<p>After 2 months experiment, some members said that they felt the others are a little inactive and team culture cannot build from there. That is really a big issue that we need to solve it as soon as possible. If the team don&rsquo;t share the same things, they can easily be broken up. So we decided to apply daily scrum in the morning and digest at the end of the day but things turned out there was lots of process and we spent more time on meeting.</p>
+
+<h1>Working On</h1>
+
+<p>To keep thing simple but work, we built <a href="https://github.com/dwarvesf/working-on">working-on</a>, a combination of donelist theory and scrum daily concept, integrated with Slack slash command, support public channel and project group for multiple teams. We had successfully applied it to our team and we want to share it to you. Too simple to setup via Heroku.</p>
+
+<h3>How to use</h3>
+
+<p>When you start to do something, go to Slack and use slash command <code>/working-on &lt;what are you going to do&gt;</code> to let your teammates know about it. The geek can use cli. And it just take you 5 seconds.</p>
+
+<p>On the next day morning, the bot will make the digest and post it to the digest channel, so that everyone else can have a full view, even the manager or leader. It&rsquo;s also make others motivated by seeing what you&rsquo;ve achieved.</p>
+
+<p><img src="/notes/images/blog/2015-08-30-working-on.png"></p>
+
+<p>And the team feel happy with Working On bot. They started using it daily.</p>
+
+<p>Working On is built on <strong>Golang</strong>, <strong>Gin</strong> framework with support from <strong>Heroku</strong> One click deploy button. You can deploy one for your team at <a href="https://github.com/dwarvesf/working-on"><em>Github</em></a>.</p>
+
+<p><strong>Repository</strong>: <a href="https://github.com/dwarvesf/working-on">https://github.com/dwarvesf/working-on</a></p>
+
+<p><a href="https://heroku.com/deploy?template=https://github.com/dwarvesf/working-on"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy" /></a></p>
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Working On: Teamwork utilities in Slack by @nntruonghan&url=http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/" title="Share Working On: Teamwork utilities in Slack on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/" title="Share Working On: Teamwork utilities in Slack on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/" title="Share Working On: Teamwork utilities in Slack on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

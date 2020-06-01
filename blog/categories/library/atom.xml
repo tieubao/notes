@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: library | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/library/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Add library to Android Project]]></title>
+    <link href="http://tieubao.github.io/notes/a/add-library-to-android-project/"/>
+    <updated>2013-12-07T01:25:36+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/add-library-to-android-project</id>
+    <content type="html"><![CDATA[<p>Android community has grown fast and faster today. They contribute a lot of open source plugins and components mentioned on <a href="http://tieubao.22journeys.com/writing/2013/12/05/resources-every-android-developer-should-know/">previous topic</a>. You don&rsquo;t need to start new project from scratch.</p>
+
+<p>Some of them were released as <code>.jar</code> which was compiled. Some were released as <code>folder</code>.</p>
+
+<p><img src="/images/blog/2013-12-07-hierarchical.png"></p>
+
+<p>For <code>*.jar</code> library, just simply drag and drop it into your <code>libs</code> directory and make sure they appear in <code>Java Build Path</code></p>
+
+<p><img src="/images/blog/2013-12-07-java-build-path.png"></p>
+
+<p>For those were released as folder like <a href="https://github.com/amigold/FunDapter">FunDapter</a>, you need to</p>
+
+<ul>
+<li>Download or clone the repository</li>
+<li>Copy <code>library</code> folder into your project</li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-07-add-folder.png"></p>
+
+<ul>
+<li>Back to <code>Eclipse</code>, import this folder as <code>Existing Android Code ...</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-07-import.png"></p>
+
+<ul>
+<li>Go to <code>Project Properties</code> > <code>Android</code>, then <code>Add</code> Reference to this library > <code>OK</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-07-add-ref.png"></p>
+
+<h4>Notes</h4>
+
+<p>Some libraries like <code>Android Annotation</code>, known as <code>custom compiler</code>, cannot be used like others. You need to add them <code>Java Compiler</code> section.</p>
+
+<ul>
+<li>Go to <code>Project Properties</code> > <code>Java Compiler</code> > <code>Annotation Processing</code> > <code>Factory Path</code></li>
+<li>Configure <code>Factory Path</code> > <code>OK</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-07-factory-path.png"></p>
+]]></content>
+  </entry>
+  
+</feed>

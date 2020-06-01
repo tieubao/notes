@@ -1,0 +1,342 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>GopherCon Vietnam 2018  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="GopherCon is one of the largest Golang event in the world. As a part of the Golang community, we are pleased to be launching the first GopherCon &hellip;"> <meta name="keywords" content="golang, vietnam, community, conference">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="GopherCon Vietnam 2018 - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/gophercon-vietnam-2018/">
+ <meta name="twitter:description" content="GopherCon is one of the largest Golang event in the world. As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the largest event in Vietnam dedicated &hellip;">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="GopherCon Vietnam 2018 - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/gophercon-vietnam-2018/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="GopherCon is one of the largest Golang event in the world. As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the largest event in Vietnam dedicated &hellip;" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">GopherCon Vietnam 2018</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2019-01-09T00:19:26+07:00" pubdate data-updated="true">Jan 9<span>th</span>, 2019</time></div>
+	</header>
+	<div class="entry-content"><p><img src="/notes/images/blog/2018-12-08-homepage.png"></p>
+
+<p>Go (often referred to as Golang) is a free and open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. The language was announced in November 2009; it is used in some of Google&rsquo;s production systems, as well as by other firms.
+Over time, Golang has become the most popular language in large scale IT business where system performance and reliability are the most crucial successful key.</p>
+
+<h1>Golang Vietnam Community</h1>
+
+<p>Back in the day, the Chapter started in the late of 2014 as the playground of Dwarves Foundation, a software development firm based in Saigon. They invested in Go and wanted to help organize the community in Vietnam. In the beginning, there are only a few people in the city that takes Go seriously. They used Go for some of their toy projects. Being one of the first gophers in Vietnam in 2013, Han decided to gather the group of gophers to start the Golang Vietnam Community and put it under the help of Google Developer Group (GDG) Vietnam.</p>
+
+<p>The first meetup was held on 2015 March with more than 50 gophers, and it marked the beginning of the Vietnam chapter. Joining the <a href="https://github.com/golang/go/wiki/GoUserGroups#asia">Go User Groups</a>, Golang Vietnam helps to improve the tech scene by providing lots of activities to gather the community in Vietnam.</p>
+
+<p><img src="/notes/images/blog/2018-12-08-meetup-01.jpg"></p>
+
+<h1>The GopherCon</h1>
+
+<p>GopherCon is one of the largest Golang events in the world. The first GopherCon was taking place in 2013, held annually in Denver, Colorado by Gopher Academy. Thousand of gophers gather every year to GopherCon to meet and celebrate at the conference together. Followed by the first GopherCon, other communities started their chapter after that.</p>
+
+<p>As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the most significant event in Vietnam dedicated exclusively to Go. A community of a passionate Gophers organizes GopherCon Vietnam on a volunteer basis.</p>
+
+<p>The event was expected to serve 200 &ndash; 250 gophers and last for two days from Dec 08 to Dec 09 with the conference on the first day and the workshop on the second day. The organization rolled out slowly from August with the thought that five months was good enough for us to prepare.</p>
+
+<p><img src="/notes/images/blog/2018-12-08-sponsors.png"></p>
+
+<p>Since 2014, Golang adoption has been increasing from 3 to more than 50 companies using Go as the primary language in their systems. Therefore, we don&rsquo;t have many struggles finding bits of help and sponsorship from those companies.</p>
+
+<h1>The Conference</h1>
+
+<p>The conference is open for talks from the developer community. Discussions will be for beginners, intermediate and advanced levels, as well as for the interest of everyone. Our scope of topics will include a broad area, anything in the realm of Go language development.</p>
+
+<p><img src="/notes/images/blog/2018-12-08-stage.jpg"></p>
+
+<p>Speakers submit their talks through PaperCall: <a href="https://www.papercall.io/events/1359">https://www.papercall.io/events/1359</a> and we will pick the best topics from that. List of talks as follows</p>
+
+<ol>
+<li>Opening &ndash; 9 Years of Go</li>
+<li>Starting Serverless with Go</li>
+<li>Go on a journey away from the mammoth C/C++ monolith</li>
+<li>Anatomy of a Docker container</li>
+<li>Golang and infrastructure works</li>
+<li>How we build scalable architecture at Sendo</li>
+<li>An investigative walkthrough of Go channels</li>
+<li>Large Scale Data Capture &amp; Experimentation Platform at Grab</li>
+<li>Production Ready Microservices at Scale</li>
+</ol>
+
+
+<h1>The Workshop</h1>
+
+<p>Two sessions were conducted by the members from the Golang Vietnam Community, who worked with Go for years will walk you through those topics with hands-on experience. The attendees prepare themselves with laptop and Golang installed on it.</p>
+
+<p><img src="/notes/images/blog/2018-12-08-workshop-02.png"></p>
+
+<h3>Go Fundamentals</h3>
+
+<p>This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Using Pointers</li>
+<li>Arrays, Slices, and Maps</li>
+<li>Methods and Interfaces</li>
+<li>Packaging and Exporting</li>
+<li>Testing</li>
+<li>Managing External Dependencies</li>
+<li>Standard Library</li>
+</ul>
+
+
+<h3>Go Intermediates</h3>
+
+<p>This class is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Data Structures</li>
+<li>Interface</li>
+<li>Decoupling</li>
+<li>Architecture</li>
+<li>Concurrency</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2018-12-08-workshop.jpg"></p>
+
+<h1>The Highlights</h1>
+
+<p>The first GopherCon in Vietnam achieved trust and welcoming from the community. We are pleased with that. A quick look at several numbers</p>
+
+<ul>
+<li>440 tickets were sold out in 2 weeks including Conference and Workshop.</li>
+<li>In 3 months we received more than 50 talks from companies and the Golang community.</li>
+<li>More than 65 companies participated in GopherCon Vietnam.</li>
+<li>Years of experience distribution of the attendees: Most of the gophers use Golang from 1 to 3 years.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2018-12-08-year-of-exp.png"></p>
+
+<ul>
+<li>Golang was most used for API Development</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2018-12-08-usage-of-golang.png"></p>
+
+<h1>Looking forward</h1>
+
+<p>The GopherCon Vietnam 2018 was a successful event. I want to say thank you to all the people, the volunteers, companies, and organizations that help to make it happened. You guys rock.</p>
+
+<p>For 2019, we would love to hold another one next year and still keep it as volunteer basis with the collaboration from companies that massively adopted Go and from other communities. See you then.</p>
+
+<ul>
+<li><a href="https://gophercon.vn">https://gophercon.vn</a></li>
+<li><a href="https://golang.org.vn">https://golang.org.vn</a></li>
+</ul>
+
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/i72-TSxRmpQ" allowfullscreen></iframe></div>
+
+
+<p><img src="/notes/images/blog/2018-12-08-36.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-62.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-63.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-82.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-171.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-242.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-326.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-344.jpg"></p>
+
+<p><img src="/notes/images/blog/2018-12-08-352.jpg"></p>
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=GopherCon Vietnam 2018 by @nntruonghan&url=http://tieubao.github.io/notes/a/gophercon-vietnam-2018/" title="Share GopherCon Vietnam 2018 on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/gophercon-vietnam-2018/" title="Share GopherCon Vietnam 2018 on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/gophercon-vietnam-2018/" title="Share GopherCon Vietnam 2018 on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

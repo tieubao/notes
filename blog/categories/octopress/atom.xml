@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A mapbox plugin for octopress]]></title>
+    <link href="http://tieubao.github.io/notes/a/a-mapbox-plugin-for-octopress/"/>
+    <updated>2013-12-03T01:22:01+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/a-mapbox-plugin-for-octopress</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a></p>
+
+<p>I&rsquo;m building an octopress blog for my friend and need a map for markup purposes. I found <code>octolayer</code> working but <code>Open Street Maps</code> interface is too urly. After an hour searching, I meet <a href="https://www.mapbox.com/">Mapbox</a> which is a map-as-a-service, beautiful design for publishing.</p>
+
+<p><img src="/images/blog/2013-12-03-mapbox.png"></p>
+
+<p>With some free time, I make a <a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a> and place it on Github. You can install it like other octopress plugins and easy to integrate with Mapbox by following these steps.</p>
+
+<ul>
+<li>Create a Mapbox account, configure your map and get map-id.</li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-03-mapid.png"></p>
+
+<ul>
+<li>Clone <a href="https://github.com/tieubao/octopress-mapbox">octopress-mapbox</a> repository.</li>
+<li>Copy all files from <code>plugins</code>, <code>sass</code> and <code>source</code> to your octopress directory.</li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-03-tag.png"></p>
+
+<p><img src="/images/blog/2013-12-03-scss.png"></p>
+
+<p><img src="/images/blog/2013-12-03-head.png"></p>
+
+<ul>
+<li>Include <code>mapbox_head</code> in <code>source/_includes/head.html</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-03-include-head.png"></p>
+
+<ul>
+<li>Import <code>_mapbox.scss</code> to your <code>screen.scss</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-03-include-scss.png"></p>
+
+<ul>
+<li>Add <code>mapbox_id</code> to <code>_config.xml</code></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-03-config.png"></p>
+
+<ul>
+<li>Use <code>mapbox</code> in your blog content with syntax: <code>{ mapbox lat long zoomLevel }</code></li>
+</ul>
+
+
+<p><div id='map' style='height:420px'></div><script type='text/javascript'>jQuery(document).ready(function() {L.mapbox.map('map', 'mrcexii.gei10h9n', {legendControl: true, shareControl: true}).setView([10.8148, 106.6748], 16);});</script></p>
+
+<p>OK, that&rsquo;s all. Please feel free to use this.</p>
+]]></content>
+  </entry>
+  
+</feed>

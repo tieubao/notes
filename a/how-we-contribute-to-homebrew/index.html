@@ -1,0 +1,435 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>How we contribute to Homebrew  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="How we (Dwarves Foundation) contribute to Homebrew, one of the most famous repo in Github."> <meta name="keywords" content="homebrew, brew, glod, glod-cli">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="How we contribute to Homebrew - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/">
+ <meta name="twitter:description" content="How we (Dwarves Foundation) contribute to Homebrew, one of the most famous repo in Github.">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="How we contribute to Homebrew - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="How we (Dwarves Foundation) contribute to Homebrew, one of the most famous repo in Github." 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">How We Contribute to Homebrew</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-03-13T10:35:21+07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2016</time></div>
+	</header>
+	<div class="entry-content"><h2>Homebrew</h2>
+
+<p>Homebrew (or brew) is one of the biggest repo on Github with more than 29k stars, 14k forks and 1k watches. It was started by Max Howell in 2009 to build the missing package manager for OS X. Back to before 2009, in Mac OSX, if we wanted to install something, we had to install it via pkg files or bin files. We didn&rsquo;t have anything fancy like <code>apt-get</code> in Ubuntu or <code>yum</code> in Fedora. MacPort was an only option but it was not too good. Check the very old article about it: <a href="http://www.engadget.com/2009/12/25/homebrew-the-perfect-gift-for-command-line-lovers/">Homebrew, the perfect gift for command line lovers</a></p>
+
+<p>For now, you can access homebrew via</p>
+
+<ul>
+<li>Homepage: <a href="http://brew.sh">http://brew.sh</a></li>
+<li>Github: <a href="https://github.com/Homebrew/homebrew">https://github.com/Homebrew/homebrew</a></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew.png"></p>
+
+<p>To install homebrew, you just need to run the ruby script and you will get <code>brew</code> command ready in couple of minutes.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Homebrew is developed in Ruby and its program will be defined as a formula which is simple Ruby script. Most of tools can be found in Homebrew such as: docker, ruby, python, ansible, todo.txt, &hellip; At this time they have over 3k5 formulas that was contributed by community.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>class Wget &lt; Formula
+</span><span class='line'>  homepage "https://www.gnu.org/software/wget/"
+</span><span class='line'>  url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
+</span><span class='line'>  sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
+</span><span class='line'>
+</span><span class='line'>  def install
+</span><span class='line'>    system "./configure", "--prefix=#{prefix}"
+</span><span class='line'>    system "make", "install"
+</span><span class='line'>  end
+</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Simple use cases for Homebrew after you got it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>// $FORMULA is the name of your formula
+</span><span class='line'>$ brew install $FORMULA</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Brew makes it really easy to update and upgrade. Because everything is based on Git, you just need to run those below commands then everything will be done automatically.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update
+</span><span class='line'>$ brew upgrade</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>How to contribute to Homebrew</h2>
+
+<p>Note: In this post, we just cover the command line or tool part of Homebrew. The example is taken from our <a href="https://github.com/dwarvesf/glod-cli"><strong>glod-cli</strong></a></p>
+
+<p>When you look into the repo of Homebrew, you can easily find the doc directory in <code>homebrew/share/doc/homebrew/</code> which contains all the information. The most important file for this tutorial is the <code>Formula-Cookbook.md</code>.</p>
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew-doc.png"></p>
+
+<p>Basically, when you use homebrew, it will create a separate folder on your machine. Everything usually will be installed in <code>/usr/local/Cellar</code> and all formulas was stored at <code>/usr/local/Library/Formula</code>.</p>
+
+<p>So in short, if you want to contribute a new one, you need to create a new formula in your local and submit a pull request to <code>https://github.com/Homebrew/homebrew</code>.</p>
+
+<h3>Fork from homebrew</h3>
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew.png"></p>
+
+<p>For us, we will have a repo called <code>dwarvesf/homebrew</code> which we can clone and start from there.</p>
+
+<h3>Create new formula</h3>
+
+<p>Make sure you have installed <code>brew</code> on your machine (you have to!) and your new formula must meets all their <a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md">Acceptable Formulae</a> requirements.</p>
+
+<p>Then we can start from create a new branch (like git workflow) or not. For us we skip it and use the master branch (plot twist: we forgot to do this step)</p>
+
+<p>We move to the step of create new formula by run the command</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew create &lt;URL.tar.gz&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Example for us, we use the archive url of our github repo <code>https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz</code>. You can get it by combining</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>https://github.com/&lt;YOUR REPO&gt;/archive/&lt;COMMIT SHA | TAG&gt;.tar.gz</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This command will help to create a local formula in <code>/usr/local/Library/Formula</code> and open with your default $EDITOR. You have to write a small Ruby script to <code>install</code> and <code>test</code> the formula. You can refer to other formulas to make it easier. Check out the main repo <code>https://github.com/Homebrew/homebrew/tree/master/Library/Formula</code> or the forked one. If you have Go formula like us, you can easily search for more than 100 existed Go formulas. It&rsquo;s a great source for references.</p>
+
+<p>Our formula looks like this</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s2">&quot;language/go&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">GlodCli</span> <span class="o">&lt;</span> <span class="no">Formula</span>
+</span><span class='line'>  <span class="n">desc</span> <span class="s2">&quot;Glod command-line interface tools&quot;</span>
+</span><span class='line'>  <span class="n">homepage</span> <span class="s2">&quot;https://github.com/dwarvesf/glod-cli&quot;</span>
+</span><span class='line'>  <span class="n">url</span> <span class="s2">&quot;https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz&quot;</span>
+</span><span class='line'>  <span class="n">sha256</span> <span class="s2">&quot;1826e8b5398f10a12d5f315a9f5a670f05ac3e0f6ead7c4edddf621c2260ae6c&quot;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">depends_on</span> <span class="s2">&quot;go&quot;</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
+</span><span class='line'>  <span class="n">depends_on</span> <span class="s2">&quot;godep&quot;</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">go_resource</span> <span class="s2">&quot;github.com/kr/fs&quot;</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">url</span> <span class="s2">&quot;https://github.com/kr/fs.git&quot;</span><span class="p">,</span> <span class="ss">:revision</span> <span class="o">=&gt;</span> <span class="s2">&quot;2788f0dbd16903de03cb8186e5c7d97b69ad387b&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">install</span>
+</span><span class='line'>    <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;GOPATH&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="n">buildpath</span>
+</span><span class='line'>    <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;GO15VENDOREXPERIMENT&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;0&quot;</span>
+</span><span class='line'>    <span class="n">mkdir_p</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src/github.com/dwarvesf/&quot;</span>
+</span><span class='line'>    <span class="n">ln_s</span> <span class="n">buildpath</span><span class="p">,</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src/github.com/dwarvesf/glod-cli&quot;</span>
+</span><span class='line'>    <span class="ss">Language</span><span class="p">:</span><span class="ss">:Go</span><span class="o">.</span><span class="n">stage_deps</span> <span class="n">resources</span><span class="p">,</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;godep&quot;</span><span class="p">,</span> <span class="s2">&quot;go&quot;</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">,</span> <span class="s2">&quot;-o&quot;</span><span class="p">,</span> <span class="s2">&quot;glod-cli&quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span>
+</span><span class='line'>    <span class="n">bin</span><span class="o">.</span><span class="n">install</span> <span class="s2">&quot;glod-cli&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nb">test</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">output</span> <span class="o">=</span> <span class="n">shell_output</span><span class="p">(</span><span class="n">bin</span><span class="o">/</span><span class="s2">&quot;glod-cli --version&quot;</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">assert_match</span> <span class="s2">&quot;glod-cli version </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">output</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nb">system</span> <span class="n">bin</span><span class="o">/</span><span class="s2">&quot;glod-cli&quot;</span><span class="p">,</span> <span class="s2">&quot;http://mp3.zing.vn/bai-hat/Hello-Vietnam-Pham-Quynh-Anh/ZWZ9C8EB.html&quot;</span>
+</span><span class='line'>    <span class="nb">sleep</span> <span class="mi">2</span>
+</span><span class='line'>    <span class="n">assert</span> <span class="no">File</span><span class="o">.</span><span class="n">exist?</span><span class="p">(</span><span class="s2">&quot;Hello Vietnam.mp3&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Install / Debug local formula</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">install</span> <span class="o">--</span><span class="n">verbose</span> <span class="o">--</span><span class="n">debug</span> <span class="vg">$FORMULA</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This command will help to install your formula at <code>/usr/local/Library/Formula</code>. Happy debugging until you can install it smoothly.</p>
+
+<p>Sometimes you will need to uninstall the formula, you can use this command</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">unlink</span> <span class="vg">$FORMULA</span>
+</span><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">cleanup</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Test the formula</h3>
+
+<p>One note for the test block, there are still a lot of formula that try to cheat by printing out the help or version. As a good contributor, you should write good tests for your formulas or your pull request will be rejected (like us)</p>
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew-failed-test.png"></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="nb">test</span> <span class="vg">$FORMULA</span>
+</span><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">audit</span> <span class="o">--</span><span class="n">strict</span> <span class="o">--</span><span class="n">online</span> <span class="vg">$FORMULA</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Those tests should be passed to make sure your formula is qualified. The second command is provided to check if your formula have</p>
+
+<ul>
+<li>More than 50 stars</li>
+<li>More than 20 forks</li>
+<li>More than 20 watchers</li>
+<li>And initialized more than 30 days</li>
+</ul>
+
+
+<h3>Submit pull request</h3>
+
+<p>Bravo! It&rsquo;s really great if you can get here, your formula is qualified. Let&rsquo;s copy the local formula to your git repo. Example</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">cp</span> <span class="o">-</span><span class="n">f</span> <span class="sr">/usr/</span><span class="n">local</span><span class="o">/</span><span class="no">Library</span><span class="o">/</span><span class="no">Formula</span><span class="o">/</span><span class="n">glod</span><span class="o">-</span><span class="n">cli</span><span class="o">.</span><span class="n">rb</span> <span class="o">~</span><span class="sr">/Workspace/</span><span class="n">dwarvesf</span><span class="o">/</span><span class="n">homebrew</span><span class="o">/</span><span class="no">Library</span><span class="o">/</span><span class="no">Formula</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Commit and push your changes to <strong>YOUR</strong> Github. Then we open the Github Repo (still yours), click on button <code>New pull request</code> and we get</p>
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew-pull-request.png"></p>
+
+<p><img src="/notes/images/blog/2016-03-13-homebrew-pull-request-02.png"></p>
+
+<p>We did it! You only still need the feedback from Homebrew team. You can leave your keyboard and take a cup of coffee. If everything goes well, well done boss! you have just contribute to one of the famous repo in the internet. Congratulations!</p>
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=How we contribute to Homebrew by @nntruonghan&url=http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/" title="Share How we contribute to Homebrew on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/" title="Share How we contribute to Homebrew on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/" title="Share How we contribute to Homebrew on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

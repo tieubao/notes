@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: teamwork | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/teamwork/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Working On: Teamwork utilities in Slack]]></title>
+    <link href="http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/"/>
+    <updated>2015-08-31T04:09:54+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack</id>
+    <content type="html"><![CDATA[<h1>Teamwork</h1>
+
+<p>It all happened because of the important of the true teamwork in every project. Teamwork is one of many factors to the success of the team. I also wrote a <a href="http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/">post</a> about it last year. At Dwarves Foundation, teamwork is all about Synchronization and Collaboration, which mean, as a members, you need to know about and align your goal to the team goal; you have to know what other people are doing and let people know what you&rsquo;re doing. It&rsquo;s also about the way of communication between members, it&rsquo;s not just hard skill, it&rsquo;s better if you can stay and play well with others. We applied Slack and Trello to keep us posted, but it seems it&rsquo;s not enough. The information about other members work need to be more details but should not some kind of micro management. There is a difference between the proactive and micro management, the awareness about the micro management will kill team productivity.</p>
+
+<h1>Digest Systems</h1>
+
+<p>And I think about how could I make the team better? Last time at Lifebox, we created Lifebox Daily, a productivity tool based on <a href="">Done list theory</a> which is very similar with <a href="https://idonethis.com">iDoneThis</a>. Later we found that Google Group digest system is free and good enough to replace the old Lifebox Daily. Everyday, team memmbers just need to send an email with the same title (like current date) to Google Group Email and on next day morning, Google Group will send a digest message including all done items of other members. So that the team can aware of what happened yesterday and keep them motivated.</p>
+
+<p><img src="/images/blog/2015-08-30-google-digest-01.png"></p>
+
+<p><img src="/images/blog/2015-08-30-google-digest-02.png"></p>
+
+<p>After 2 months experiment, some members said that they felt the others are a little inactive and team culture cannot build from there. That is really a big issue that we need to solve it as soon as possible. If the team don&rsquo;t share the same things, they can easily be broken up. So we decided to apply daily scrum in the morning and digest at the end of the day but things turned out there was lots of process and we spent more time on meeting.</p>
+
+<h1>Working On</h1>
+
+<p>To keep thing simple but work, we built <a href="https://github.com/dwarvesf/working-on">working-on</a>, a combination of donelist theory and scrum daily concept, integrated with Slack slash command, support public channel and project group for multiple teams. We had successfully applied it to our team and we want to share it to you. Too simple to setup via Heroku.</p>
+
+<h3>How to use</h3>
+
+<p>When you start to do something, go to Slack and use slash command <code>/working-on &lt;what are you going to do&gt;</code> to let your teammates know about it. The geek can use cli. And it just take you 5 seconds.</p>
+
+<p>On the next day morning, the bot will make the digest and post it to the digest channel, so that everyone else can have a full view, even the manager or leader. It&rsquo;s also make others motivated by seeing what you&rsquo;ve achieved.</p>
+
+<p><img src="/images/blog/2015-08-30-working-on.png"></p>
+
+<p>And the team feel happy with Working On bot. They started using it daily.</p>
+
+<p>Working On is built on <strong>Golang</strong>, <strong>Gin</strong> framework with support from <strong>Heroku</strong> One click deploy button. You can deploy one for your team at <a href="https://github.com/dwarvesf/working-on"><em>Github</em></a>.</p>
+
+<p><strong>Repository</strong>: <a href="https://github.com/dwarvesf/working-on">https://github.com/dwarvesf/working-on</a></p>
+
+<p><a href="https://heroku.com/deploy?template=https://github.com/dwarvesf/working-on"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It is hard to become a team member]]></title>
+    <link href="http://tieubao.github.io/notes/a/it-is-hard-to-become-a-team-member/"/>
+    <updated>2014-12-05T09:11:21+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/it-is-hard-to-become-a-team-member</id>
+    <content type="html"><![CDATA[<p>I was working at a tech startup called CloudJay (former Lifebox JSC). Our team has nine including engineers and business development. As we&rsquo;ve known, there are many factors to make a successful business and teamwork is one of them. In my opinion, this is the most important.</p>
+
+<p><img src="/images/blog/2014-02-05-teamwork-01.jpg"></p>
+
+<p>The startup, in common sense, is founded to solve people problems, real problems; to provide works for society, also to bring values and make money. That is a thing that people called the vision, team vision, company vision. As the team member, you should understand it clearly, love it or hate it and follow it, make it your life, your working purpose. A team does not need employees but contributors.</p>
+
+<p>The team still need heroes, and there should be an &lsquo;I&rsquo; in the team but <strong>the only way to make the boat go fast is perfect coordination</strong>, it also means perfect teamwork and synchronization. The skill set is essential, but it isn&rsquo;t important as vision and coordination. The &lsquo;I&rsquo; must be unselfish and think about the team first. As a team member, it’s important to remember that no one is perfect; everyone has something that they could improve upon, including yourself. So, be supportive. Offer constructive criticism. Listen, listen, listen. People who always talk, but never listen will be stunted in growth. Remember that everyone knows something you don’t know.</p>
+
+<p><img src="/images/blog/2014-02-05-teamwork-02.jpg"></p>
+
+<p>We effectively have an environment in which competition and collaboration co-exist and feed off each other. Competition, synchronization or collaborating perfectly; make the boat go fast is always the main point. Remember, even if you work harder than anyone else, <strong>if you lose synchronization, you slow the boat down.</strong></p>
+
+<p>```</p>
+
+<p><em>They told me there is no “I” in the team.</em></p>
+
+<p>I am an athlete.
+I am an individual.
+I am strong.
+I am weak.
+I have desires, hopes, and dreams.
+I have goals.
+I have fears.
+As a team, my opponent will never see my weaknesses.
+Only my strength, never my fears, only my goals as they unfold before them.
+I am not afraid that my team will see my fears, my hopes, dreams, or desires.
+I trust them to an unlimited level.
+I am not afraid that my team will see my faults, because
+With them I can overcome my faults, with them I am
+fearless, with them I have hopes and dreams.
+With my team I am not weak, I do not have the strength
+of one athlete, but many, combined, focused,
+And dangerous to my un-united opponent.
+I become my team, and my team becomes me.
+I do not judge, and I am not judged.
+I have a goal, and the team has a goal.
+The team goal is my goal.
+All that matters is that the team reaches its goal.
+They always told me there is no “I” in “Team”.
+They were wrong.
+I am the team.
+I became the team.
+The team became me.
+The team becomes an entity unto itself.
+The team is strong, creative, compassionate, caring,
+Authoritative, disciplined.
+The team absorbs “I”, and then there is “I” in “Team”.
+The “I” becomes part of something much more powerful.</p>
+
+<p>They were right there is no “I” in “Team”,
+But there is “Team” in me.</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>

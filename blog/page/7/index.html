@@ -1,0 +1,956 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>me.toString();  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Life Hacker and Lifelong Learner"> <meta name="keywords" content="nntruonghan, tieubao, tieubao blog, tieubao writing">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/blog/page/7/">
+ <meta name="twitter:description" content="Life Hacker and Lifelong Learner">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Han Ngo"/>
+ <meta property="og:type" content="blog"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/blog/page/7/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Life Hacker and Lifelong Learner" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/eventbus-by-greenrobot/">
+			
+				EventBus by Greenrobot</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-28T18:14:27+07:00" pubdate data-updated="true">Dec 28<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p><a href="https://github.com/greenrobot/EventBus">EventBus</a> is a library from <a href="https://github.com/greenrobot"><code>greenrobot</code></a> support publish/subscribe architecture in communication between Activities, Threads, Fragments and Services &hellip;</p>
+
+<p>EventBus is inspired by Guava&rsquo;s EventBus. And this is from greenrobot who is author of <a href="https://github.com/greenrobot/greenDAO">greenDAO</a>.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/15314813 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
+
+
+<p></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/">
+			
+				Hướng Dẫn Học Nhanh Một Platform Bất Kỳ</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-26T22:42:03+07:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<h3>Task 1: Làm quen với platform <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></h3>
+
+<ul>
+<li>Đặc điểm của platform.</li>
+<li>Kiến trúc của platform.</li>
+<li>Các version của platform, các version có điểm khác biệt nổi trội nào.</li>
+<li>Cài đặt môi trường lập trình, cần cài đặt các công cụ gì.</li>
+<li>Những lưu ý khi cài đặt môi trường lập trình, yêu cầu phần cứng, phần mềm, có cấu hình gì đặc biệt không.</li>
+<li>Tìm tutorial làm thử ứng dụng helloworld để đảm bảo rằng mình đã cài đặt thành công môi trường lập trình.</li>
+<li>Tìm các diễn đàn, trang web hướng dẫn từng kỹ thuật riêng biệt trên platform, trang web hướng dẫn học nhanh (trong 30 ngày), ebook.</li>
+</ul>
+
+
+<h3>Task 2: Làm quen với các khái niệm cơ bản</h3>
+
+<ul>
+<li>Cấu trúc thư mục của project, ý nghĩa các tập tin, thư mục trong project.</li>
+<li>Tìm hiểu cách thức triển khai ứng dụng trên máy thật như thế nào.</li>
+<li>Tìm hiểu cấu trúc các lớp trong project (cấu trúc của framework), ý nghĩa của các lớp.</li>
+<li>Các loại ứng dụng có thể có trên platform.</li>
+<li>Nếu platform sử dụng ngôn ngữ lập trình hoàn toàn mới, nên bỏ thời gian ra tìm hiểu kỹ thuật lập trình hướng đối tượng với ngôn ngữ này.</li>
+</ul>
+
+
+<h3>Task 3: Làm quen với đối tượng thể hiện (giao diện) cơ bản</h3>
+
+<ul>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có kích thước màn hình khác nhau (layout)</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có ngôn ngữ khác nhau (localization, multi-lingual language). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có version platform khác nhau (dùng hàm kiểm tra version platform đang chạy, hoặc dùng kỹ thuật reflection). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-26-components.jpg"></p>
+
+<h3>Task 4: Làm quen với đối tượng thể hiện (giao diện) đơn</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện đơn như label, textbox, button, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 5: Làm quen với đối tượng thể hiện (giao diện) phức hợp</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện phức hợp như: list, gird, horizontal view, vertical view, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 6: Làm quen với ứng dụng có nhiều màn hình và truyền tham số giữa các màn hình</h3>
+
+<ul>
+<li>Làm sao chuyển 1 màn hình bất kỳ thành màn hình chính (hiển thị khi khởi động ứng dụng)</li>
+<li>Làm sao để hiển thị một màn hình B từ một màn hình A.</li>
+<li>Làm sao để màn hình A truyền tham số cho màn hình B. Khi màn hình B kết thúc thì lại truyền tham số ngược lại cho màn hình A.</li>
+<li>Làm sao để ẩn hoặc tắt một màn hình.</li>
+<li>Làm sao để thoát khỏi ứng dụng.</li>
+</ul>
+
+
+<h3>Task 7: Làm quen với menu ứng dụng</h3>
+
+<ul>
+<li>Có mấy loại menu ứng dụng, các thức tạo lập ra sao.</li>
+<li>Thường menu được load từ resource (design), có cách thức nào tạo menu động không (runtime).</li>
+<li>Quản lý sự kiện cho các loại menu như thế nào.</li>
+</ul>
+
+
+<h3>Task 8: Tìm hiểu khái niệm Lifecycle</h3>
+
+<ul>
+<li>Tùy theo từng platform mà việc quản lý vòng đời có thể theo application lifecycle (Windows Phone, iOS) hoặc screen lifecycle (Android, iOS)</li>
+<li>Khi có cuộc gọi gọi đến thì ứng dụng hành xử ra sao.</li>
+<li>Khi ứng dụng (màn hình) A được ẩn đi, một ứng dụng (màn hình) B khác đang chạy cần tài nguyên RAM, CPU buộc hệ thống phải tắt ứng dụng (màn hình) A, thì lúc đó ứng dụng (màn hình) A hành xử ra sao. Sau này ứng dụng (màn hình) A được gọi lại thì A sẽ hành xử ra sao.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-26-activity-lifecycle.png"></p>
+
+<h3>Task 9: Tìm hiểu cách thức lưu trữ trên platform</h3>
+
+<p>Tùy theo từng platform mà việc lưu trữ có thể ở thư mục riêng của ứng dụng (iOS, Android, Windows Phone) hoặc giống như trên Windows (Android). Thử tìm hiểu các thư mục, hoặc giới hạn phạm vi mà platform cho phép lưu trữ.
+Bất kỳ platform nào cũng có thể lưu trữ dữ liệu dạng:
+&ndash; Text thông thường
+&ndash; Text có cấu trúc: xml, json, ini, v.v…
+&ndash; Binary thông thường
+&ndash; Binary có cấu trúc: hình ảnh, video, tự định nghĩa, v.v..
+&ndash; Binary dạng cơ sở dữ liệu. SQLite (iOS, Android), SQL CE</p>
+
+<p>Chú ý có nhiều tool hoặc thư viện nguồn mở hỗ trợ truy xuất CSDL, cần tìm hiểu sử dụng các thư viện, tool này.</p>
+
+<h3>Task 10: Tìm hiểu các chức năng viễn thông</h3>
+
+<ul>
+<li>Tìm hiểu gọi, chặn cuộc gọi.</li>
+<li>Tìm hiểu gởi, chặn tin nhắn.</li>
+<li>Thao tác với danh bạ.</li>
+</ul>
+
+
+<h3>Task 11: Tìm hiểu các chức năng multimedia</h3>
+
+<ul>
+<li>Hiển thị hình ảnh.</li>
+<li>Chơi nhạc và video</li>
+<li>Tương tác với camera (quay phim, chụp ảnh)</li>
+<li>Tương tác với micro (thu âm)</li>
+</ul>
+
+
+<h3>Task 12: Tương tác với các ứng dụng sẵn có</h3>
+
+<ul>
+<li>“Open file with” một ứng dụng được xác định</li>
+<li>Mở một ứng dụng với một tham số nào đó (web tham số là từ khóa search hoặc URL, ứng dụng tin nhắn tham số là số điện thoại và nội dung tin nhắn)</li>
+<li>Đọc dữ liệu của một ứng dụng có sẵn: contact, call log, message log, v.v…</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Bài viết được sưu tầm từ bài giảng của thầy <code>Bùi Tấn Lộc</code>, giảng viên khoa CNTT, Đại học Khoa Học, TP. HCM<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/">
+			
+				Câu Chuyện Khởi Nghiệp - Từ Lifebox đến CloudJay (P1)</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-26T21:56:38+07:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<h3>Lifebox 365 và sự ra đời của Lifebox</h3>
+
+<p>Cách đây một năm, khi còn là sinh viên ngồi trên ghế giảng đường đại học Khoa Học TP Hồ Chí Minh, tôi vẫn thường mơ ước về những ngày thỏa thích thực hiện hoài bão của mình sau khi tốt nghiệp. Được sự giới thiệu của một người bạn thân, tôi bắt đầu công việc chính thức đầu tiên của mình với vai trò là một lập trình viên .NET, tham gia vào nhóm dự án <code>eSuccess</code> của công ty <code>HPT Vietnam</code>.</p>
+
+<p>Tại thời điểm đó, <code>RIM</code> tổ chức cuộc thi <code>BlackBerry JamHack 2012</code> tại <code>MLAB</code>, nằm trong khuôn viên khu Công Nghệ cao TP. Hồ Chí Minh (SHTP), nhằm quảng bá cho dòng hệ điều hành mới, BlackBerry 10. Tôi cùng anh <strong>Quốc Anh</strong> (trưởng nhóm giải pháp Workflow tại eSuccess), <strong>Hồng anh</strong> và <strong>Khải Bobby</strong> đã lập thành một nhóm tham gia cuộc thi và lấy tên đội là <code>Lifebox</code>, sản phẩm dự thi mang tên <code>Lifebox 365</code>.</p>
+
+<p><img src="/notes/images/blog/2013-12-26-lifebox-feature-image.png"></p>
+
+<p><code>Lifebox 365</code> là một mạng xã hội hoạt động trên các thiết bị <code>BlackBerry 10</code>, đó là sự kết hợp của tâm lý học và hình ảnh giúp mọi người có thể chụp hình cùng một người, căn nhà, dự án &hellip; vào mỗi ngày để nhận thấy sự phát triển, tiến bộ của nó, qua đó sẽ giúp nâng cao tinh thần để dẫn đường đến sự thành công. Chi tiết về sản phẩm có thể được tham khảo tại <a href="http://www.projectpage.info/lifebox365/page">http://www.projectpage.info/lifebox365/page</a></p>
+
+<p><img src="/notes/images/blog/2013-12-26-lifebox-365-concept.jpg"></p>
+
+<p>Nhờ sự giúp đỡ của anh <code>BBKeeper</code> (<code>@Louis_Keeper</code>) và một phần may mắn, Lifebox 365 đã đạt giải Nhất cuộc thi tại Vietnam và giải Nhì cuộc thi <code>Blackerry Jam Asia 2012</code> diễn ra ở <code>Thailand</code>. Nhóm Lifebox cũng từ đó mà hình thành.</p>
+
+<p><img src="/notes/images/blog/2013-12-26-award.jpg"></p>
+
+<h3>Lifebox Daily &ndash; Bắt đầu những ngày startup</h3>
+
+<p>Sau những ngày từ Thailand trở về, nhóm chúng tôi quyết định đem sản phẩm này tham dự vào lớp accelerator <a href="http://www.f6s.com/jfdiasia-2013a">2013a</a> của <a href="http://jfdi.asia/"><code>JFDI</code></a> với một số sự tự tin nhất định. Tuy nhiên, dưới góc nhìn về chiến lược phát triển và khía cạnh “tâm lý học” được coi là secret sauce bên trong sản phẩm, cả hai yếu tố trên đều không đủ mạnh để tạo nên một sự đột phá lớn. Do đó, Meng và Ray đã không đánh giá cao Lifebox 365 và Lifebox đã bị loại sau khi thực hiện phỏng vấn.</p>
+
+<p>Bên cạnh đó, khi ngồi lại với nhau để quyết định có nên đi tiếp hay không, Lifebox 365 thuộc về nhóm ứng dụng mạng xã hội, cần rất nhiều thời gian để xây dựng lên một cộng đồng người dùng đủ lớn, không có model nào có thể kéo cả team đi tiếp trong lúc này. Vì vậy, nhóm quyết định dừng phát triển và hỗ trợ cho Lifebox 365.</p>
+
+<p>Lúc này, do nhu cầu thực tế trong việc quản lý một team nhỏ từ 5 đến 10 thành viên, anh Lê Việt Hồng đã đề xuất phát triển các sản phẩm nâng cao hiệu suất làm việc (Productivity) và kết hợp với hướng tiếp cận <code>email first</code>. <code>Lifebox Daily</code> đã ra đời trong hoàn cảnh đó.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/add-library-to-android-project/">
+			
+				Add Library to Android Project</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-07T01:25:36+07:00" pubdate data-updated="true">Dec 7<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>Android community has grown fast and faster today. They contribute a lot of open source plugins and components mentioned on <a href="http://tieubao.22journeys.com/writing/2013/12/05/resources-every-android-developer-should-know/">previous topic</a>. You don&rsquo;t need to start new project from scratch.</p>
+
+<p>Some of them were released as <code>.jar</code> which was compiled. Some were released as <code>folder</code>.</p>
+
+<p><img src="/notes/images/blog/2013-12-07-hierarchical.png"></p>
+
+<p>For <code>*.jar</code> library, just simply drag and drop it into your <code>libs</code> directory and make sure they appear in <code>Java Build Path</code></p>
+
+<p><img src="/notes/images/blog/2013-12-07-java-build-path.png"></p>
+
+<p>For those were released as folder like <a href="https://github.com/amigold/FunDapter">FunDapter</a>, you need to</p>
+
+<ul>
+<li>Download or clone the repository</li>
+<li>Copy <code>library</code> folder into your project</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-07-add-folder.png"></p>
+
+<ul>
+<li>Back to <code>Eclipse</code>, import this folder as <code>Existing Android Code ...</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-07-import.png"></p>
+
+<ul>
+<li>Go to <code>Project Properties</code> > <code>Android</code>, then <code>Add</code> Reference to this library > <code>OK</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-07-add-ref.png"></p>
+
+<h4>Notes</h4>
+
+<p>Some libraries like <code>Android Annotation</code>, known as <code>custom compiler</code>, cannot be used like others. You need to add them <code>Java Compiler</code> section.</p>
+
+<ul>
+<li>Go to <code>Project Properties</code> > <code>Java Compiler</code> > <code>Annotation Processing</code> > <code>Factory Path</code></li>
+<li>Configure <code>Factory Path</code> > <code>OK</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-07-factory-path.png"></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/resources-every-android-developer-should-know/">
+			
+				Resources Every Android Developer Should Know</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-05T00:10:52+07:00" pubdate data-updated="true">Dec 5<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>Below is some resources and knowledge that I have learned when I work with android after 3 months. It will help you guys a lots from scratch.</p>
+
+<h1>Books</h1>
+
+<p>I recommend these 2 books:</p>
+
+<ul>
+<li><p><a href="http://commonsware.com/Android/">The Busy Coder’s Guide to Android Development</a> by <a href="http://commonsware.com/blog/">Mark Murphy</a>. Book samples are hosted on <a href="https://github.com/commonsguy/cw-omnibus/">github</a>. Highly recommended.</p></li>
+<li><p><a href="http://www.androiduipatterns.com/p/smashing-android-ui.html">Smashing UI</a> by <a href="https://plus.google.com/102272971619910906878/posts">Juhani Lehtimaki</a>. An excellent book for any Android developer who cares about great UI design. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></li>
+</ul>
+
+
+<p>Beside above books, I found a <code>vietnamese</code> course from <code>Dong Nai University of Technology</code> by <code>Duy Thanh</code>. First lesson can be found <a href="http://duythanhcse.wordpress.com/2013/03/19/bai-t%E1%BA%ADp-1-lam-quen-v%E1%BB%9Bi-moi-tr%C6%B0%E1%BB%9Dng-phat-tri%E1%BB%83n-di%E1%BB%87n-tho%E1%BA%A1i-di-d%E1%BB%99ng/">here</a>.</p>
+
+<h1>Top 10 shortcuts for Eclipse on Mac OS X and Windows</h1>
+
+<table>
+<thead>
+<tr>
+<th>Top</th>
+<th>Description</th>
+<th></th>
+<th>Mac</th>
+<th></th>
+<th>Windows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>  Auto complete               </td>
+<td></td>
+<td> <i class='key'>&#x2303;</i> + <i class='key'>&nbsp;</i>  </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>&nbsp;</i></td>
+</tr>
+<tr>
+<td>2</td>
+<td>  Open/Search for resources   </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>R</i> </td>
+<td></td>
+<td> <i class='key'>&#x2303;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>R</i></td>
+</tr>
+<tr>
+<td>3</td>
+<td>   Open/Search for Types      </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>T</i> </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>T</i></td>
+</tr>
+<tr>
+<td>4</td>
+<td>   Open class outline view    </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>O</i>   </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>O</i></td>
+</tr>
+<tr>
+<td>5</td>
+<td>   Quickfix                   </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>1</i>   </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>1</i></td>
+</tr>
+<tr>
+<td>6</td>
+<td>   Search for references      </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>G</i> </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>&#x21e7;</i> + <i class='key'>G</i></td>
+</tr>
+<tr>
+<td>7</td>
+<td>   Show type hierarchy        </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>T</i>   </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>T</i></td>
+</tr>
+<tr>
+<td>8</td>
+<td>   Maximize Java editor       </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>M</i>   </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>M</i></td>
+</tr>
+<tr>
+<td>9</td>
+<td>   Delete line                </td>
+<td></td>
+<td> <i class='key'>&#x2318;</i> + <i class='key'>D</i> + <i class='key'>R</i>    </td>
+<td></td>
+<td>  <i class='key'>&#x2303;</i> + <i class='key'>D</i> + <i class='key'>R</i></td>
+</tr>
+<tr>
+<td>10</td>
+<td>   Move line/block           </td>
+<td></td>
+<td> <i class='key'>&#x2325;</i> + <i class='key'>&#x21e1;</i> or <i class='key'>&#x21e3;</i> </td>
+<td></td>
+<td>  <i class='key'>&#x2325;</i> + <i class='key'>&#x21e1;</i> or <i class='key'>&#x21e3;</i></td>
+</tr>
+</tbody>
+</table>
+
+
+<h1>Library</h1>
+
+<ul>
+<li>Toolbox from <code>Android Weekly</code>: <a href="http://androidweekly.net/toolbox">http://androidweekly.net/toolbox</a></li>
+<li>Android Libraries from <code>OpenIntents</code>: <a href="http://www.openintents.org/en/libraries">http://www.openintents.org/en/libraries</a></li>
+<li>Custom Android UI Views: <a href="http://www.androidviews.net/">http://www.androidviews.net/</a></li>
+<li>Github: <a href="https://github.com/search?q=%5Bandroid%5D&amp;ref=cmdform">https://github.com/search?q=%5Bandroid%5D&amp;ref=cmdform</a></li>
+</ul>
+
+
+<h1>Android Design</h1>
+
+<p>You need to know about android design principles and its style by reading official design <a href="http://developer.android.com/design/get-started/principles.html">document</a></p>
+
+<ul>
+<li><a href="http://developer.android.com/design/style/devices-displays.html">Devices and Displays</a></li>
+<li><a href="http://developer.android.com/design/style/touch-feedback.html">Touch Feedback</a></li>
+<li><a href="http://developer.android.com/design/style/metrics-grids.html">Metrics and Grids</a></li>
+<li><a href="http://developer.android.com/design/style/iconography.html">Iconography</a></li>
+</ul>
+
+
+<p>And some resources<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> that designers can use, reuse or reference:</p>
+
+<ul>
+<li><a href="http://developer.android.com/design/index.html">Android Design &ndash; Official Android Design Guide</a></li>
+<li><a href="http://androidpatterns.com/">Android Patterns</a></li>
+<li><a href="http://www.androiddesign.info/">Android 4.0 Design Startkit</a></li>
+<li><a href="http://androidniceties.tumblr.com/">Android Niceties</a></li>
+<li><a href="http://ics-apps.tumblr.com/">ICS Apps &ndash; Ice Cream Sandwich optimized apps</a></li>
+<li><a href="http://android-app-patterns.com/">Android App Patterns</a></li>
+<li><a href="http://blog.stylingandroid.com/">Styling Android</a></li>
+<li><a href="http://labs.skinkers.com/content/android_dp_px_calculator/">Android DP / PX converter</a></li>
+<li><a href="http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html">Android Asset Studio</a></li>
+<li><a href="http://jgilfelt.github.com/android-actionbarstylegenerator/index.html">Android Action Bar Style Generator</a></li>
+<li><a href="http://blog.edwinevans.me/?p=131">Android Units Explained</a></li>
+<li><a href="http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/">Android Cheatsheet for Graphic Designers</a> <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
+</ul>
+
+
+<h1>Summary (by expert)</h1>
+
+<blockquote><ul>
+<li>First, read the books. Did I mention you should read the books? This will lay the proper foundation of your Android knowledge.</li>
+<li>Subscribe to blogs and stackoverflow answer feeds via RSS.</li>
+<li>Set up an android-dev circle in Google+.</li>
+</ul>
+</blockquote>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Full article can be found at: http://www.bongizmo.com/blog/android-resources-each-developer-should-know/<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Thank to AppDevWiki<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>This is one of the most valuable article and you should read it carefully.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/android-with-eclipse-and-genymotion-on-mac-os-x/">
+			
+				Android With Eclipse and Genymotion on Mac OS X</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-03T23:22:08+07:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<h1>Setup Eclipse</h1>
+
+<p>Download <code>Android SDK</code> from <a href="http://developer.android.com/sdk/index.html">Official Site</a> which including Eclipse and ADT plugin. You don&rsquo;t need to setup manually.</p>
+
+<p><img src="/notes/images/blog/2013-12-03-sdk.png"></p>
+
+<p>Extract then Open <code>Eclipse.app</code></p>
+
+<p><img src="/notes/images/blog/2013-12-03-open-eclipse.png"></p>
+
+<p>Configure <code>IntelliSense</code> by following <a href="http://tieubao.22journeys.com/writing/2013/11/30/intellisense-in-eclipse/">these steps</a>.</p>
+
+<h1>Genymotion: the faster Android Emulator</h1>
+
+<p><img src="/notes/images/blog/2013-12-04-genymotion.png"></p>
+
+<p>I use Genymotion instead of default emulator in Android SDK. For me, using Genymotion bring the feeling of better performance than the default. There&rsquo;re many arguments but it doesn&rsquo;t really matter.</p>
+
+<p>First, you need an account to download it and its plugin. Visit <a href="https://cloud.genymotion.com/page/launchpad/download/">download page.</a></p>
+
+<p><img src="/notes/images/blog/2013-12-04-download-genymotion.png"></p>
+
+<p><img src="/notes/images/blog/2013-12-04-eclipse-plugin.png"></p>
+
+<p>Follow the instruction in <a href="https://cloud.genymotion.com/page/doc/"><code>document</code></a> to setup Genymotion Client and Eclipse plugin <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p><img src="/notes/images/blog/2013-12-04-doc.png"></p>
+
+<p>Then you need to get some devices with various resolution from Genymotion server.</p>
+
+<p><img src="/notes/images/blog/2013-12-04-multi-resolution.png"></p>
+
+<p>Finally, you will get it works if nothing goes wrong.</p>
+
+<p><img src="/notes/images/blog/2013-12-04-virtual-device.png"></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>At this time we don&rsquo;t use Android Studio which is an customized version of IntelliJ because of its pre-mature support from community.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/a-mapbox-plugin-for-octopress/">
+			
+				A Mapbox Plugin for Octopress</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-03T01:22:01+07:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p><a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a></p>
+
+<p>I&rsquo;m building an octopress blog for my friend and need a map for markup purposes. I found <code>octolayer</code> working but <code>Open Street Maps</code> interface is too urly. After an hour searching, I meet <a href="https://www.mapbox.com/">Mapbox</a> which is a map-as-a-service, beautiful design for publishing.</p>
+
+<p><img src="/notes/images/blog/2013-12-03-mapbox.png"></p>
+
+<p>With some free time, I make a <a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a> and place it on Github. You can install it like other octopress plugins and easy to integrate with Mapbox by following these steps.</p>
+
+<ul>
+<li>Create a Mapbox account, configure your map and get map-id.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-03-mapid.png"></p>
+
+<ul>
+<li>Clone <a href="https://github.com/tieubao/octopress-mapbox">octopress-mapbox</a> repository.</li>
+<li>Copy all files from <code>plugins</code>, <code>sass</code> and <code>source</code> to your octopress directory.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-03-tag.png"></p>
+
+<p><img src="/notes/images/blog/2013-12-03-scss.png"></p>
+
+<p><img src="/notes/images/blog/2013-12-03-head.png"></p>
+
+<ul>
+<li>Include <code>mapbox_head</code> in <code>source/_includes/head.html</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-03-include-head.png"></p>
+
+<ul>
+<li>Import <code>_mapbox.scss</code> to your <code>screen.scss</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-03-include-scss.png"></p>
+
+<ul>
+<li>Add <code>mapbox_id</code> to <code>_config.xml</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-03-config.png"></p>
+
+<ul>
+<li>Use <code>mapbox</code> in your blog content with syntax: <code>{ mapbox lat long zoomLevel }</code></li>
+</ul>
+
+
+<div id='map' style='height:420px'></div>
+
+
+<script type='text/javascript'>jQuery(document).ready(function() {L.mapbox.map('map', 'mrcexii.gei10h9n', {legendControl: true, shareControl: true}).setView([10.8148, 106.6748], 16);});</script>
+
+
+<p>OK, that&rsquo;s all. Please feel free to use this.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/intellisense-in-eclipse/">
+			
+				Intellisense in Eclipse</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-30T23:27:01+07:00" pubdate data-updated="true">Nov 30<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>IntelliSense is Microsoft implementation for auto-completion in IDE like Visual Studio. When you switch to Eclipse for Java or Android, you must use <code>Ctrl + Space</code> to trigger auto-completion and it really sucks.</p>
+
+<p>Here&rsquo;s a tip to enable auto-completion in Eclipse. This is for Mac OS but you can do the same hacky thing in other platforms.</p>
+
+<p><img src="/notes/images/blog/2013-11-30-auto-completion-java.png"></p>
+
+<ul>
+<li>Open <code>Preferences ...</code></li>
+<li><code>Java &gt; Editor &gt; Content Assist</code></li>
+<li>Fill in <code>Auto activation triggers for Java:</code> with value <code>.abcdefghijklmnopqrstuvwxyz&lt;</code></li>
+<li>Decrease <code>Auto activation delay</code> to <code>100</code> ms for better performance</li>
+<li><code>XML &gt; XML Files &gt; Editor &gt; Content Assist</code></li>
+<li>Do the same thing for <code>XML</code> with value <code>&lt;=:.abcdefghijklmnopqrstuvwxyz</code></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-01-auto-complete-xml.png"></p>
+
+<ul>
+<li>Apply then feel the beat</li>
+</ul>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/how-to-use-jaypix-beta/">
+			
+				How to Use JayPix Beta</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-19T05:18:50+07:00" pubdate data-updated="true">Oct 19<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>If you are reading this post, your team registered for trial of JayPix, a visual log book for field works. You should have been received an Email from us which contains the following information and have installed successfully JayPix beta.</p>
+
+<ul>
+<li>Account Information for Login into JayPix system.</li>
+<li>A AirOnApp Link for Installing the iOS JayPix app. E.g.</li>
+</ul>
+
+
+<h2>Now How to use JayPix beta</h2>
+
+
+		
+		<a href="/notes/a/how-to-use-jaypix-beta/" class="more-link">Read on &rarr;</a>
+	</div>
+
+</article>
+
+<nav id="pagenavi">
+    
+        <a href="/notes/blog/page/6/" class="prev">Previous</a>
+    
+    
+</nav>
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

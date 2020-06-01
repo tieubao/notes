@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: cocoa | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/cocoa/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I learn Swift]]></title>
+    <link href="http://tieubao.github.io/notes/a/i-learn-swift/"/>
+    <updated>2015-01-04T00:28:17+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/i-learn-swift</id>
+    <content type="html"><![CDATA[<p>Last month, <a href="https://www.facebook.com/cloudjay">CloudJay</a> received an offer from HCMC Vietnam National University (VNU) to make a application that help highschool student find out what they are interested in and what major that they should study in university. We planned to build a standalone app in Android and iOS platform and they will be integrated Admod to make some money. It&rsquo;s such an easy app and I take it as a chance to try iOS development.</p>
+
+<p>To begin, I take the video course named <code>The Complete IOS 8 Course with Swift</code> from <code>bitfoundtain.io</code> which brings overview and some sample about iOS development with Swift.</p>
+
+<p><img src="/images/blog/2015-01-04-ios-swift-course.png"></p>
+
+<p>I read and practice articles from <a href="https://github.com/codepath/ios_guides/wiki"><code>CodePath</code> repository</a>. They gather all useful links and resources, from beginning to end.</p>
+
+<p><img src="/images/blog/2015-01-04-ios-codepath.png"></p>
+
+<p>As a android developer, I find something similars and something difference that make the learn progress slow down.</p>
+
+<p>iOS also have dependency manager likes gradle in Android, it&rsquo;s a ruby gem called <a href="http://cocoapods.org/">CocoaPods</a>. Currently it have Swift support in beta release.</p>
+
+<p><img src="/images/blog/2015-01-04-cocoapods.png"></p>
+
+<p>Swift is new programming language introduced by Apple last year. iOS developer used Objective-C before and they&rsquo;re still not want to convert them to Swift. So it is harder to find tutorial in Swift than Objective-C though you can find sth in <a href="https://developer.apple.com/library/prerelease/ios/navigation/#section=Resource%20Types&amp;topic=Guides">Apple Documents</a></p>
+
+<p>UI Layout in iOS is different from Android. In android, screen resolution is devided into <a href="http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/">ldpi to xxhdpi</a> and images size should match those resolutions. In iOS, you will have 1x, 2x and 3x resolution which can be referenced from <a href="http://iosdesign.ivomynttinen.com/">cheatsheet</a></p>
+
+<p><img src="/images/blog/2015-01-04-ios-resolution.png"></p>
+
+<p>In Android, to make a responsive layout, we often define UI in xml files, use <code>layout_weight</code> to make the scalable container. Views are wrapped by ViewGroup or some kinds of Layout. We rarely have to create UI programmatically. But in iOS, people usually render UI in code despite of Xcode6 support matured Storyboard. They find it the easier way. You have to define UIViews and add the <code>constraints</code> between them to make them <a href="http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/">Auto Layout</a>. Some still find Storyboard is better because they can easy manage the screen flows visually.</p>
+]]></content>
+  </entry>
+  
+</feed>

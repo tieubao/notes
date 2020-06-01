@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: software development | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/software-development/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hướng dẫn học nhanh một platform bất kỳ]]></title>
+    <link href="http://tieubao.github.io/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/"/>
+    <updated>2013-12-26T22:42:03+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky</id>
+    <content type="html"><![CDATA[<h3>Task 1: Làm quen với platform <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></h3>
+
+<ul>
+<li>Đặc điểm của platform.</li>
+<li>Kiến trúc của platform.</li>
+<li>Các version của platform, các version có điểm khác biệt nổi trội nào.</li>
+<li>Cài đặt môi trường lập trình, cần cài đặt các công cụ gì.</li>
+<li>Những lưu ý khi cài đặt môi trường lập trình, yêu cầu phần cứng, phần mềm, có cấu hình gì đặc biệt không.</li>
+<li>Tìm tutorial làm thử ứng dụng helloworld để đảm bảo rằng mình đã cài đặt thành công môi trường lập trình.</li>
+<li>Tìm các diễn đàn, trang web hướng dẫn từng kỹ thuật riêng biệt trên platform, trang web hướng dẫn học nhanh (trong 30 ngày), ebook.</li>
+</ul>
+
+
+<h3>Task 2: Làm quen với các khái niệm cơ bản</h3>
+
+<ul>
+<li>Cấu trúc thư mục của project, ý nghĩa các tập tin, thư mục trong project.</li>
+<li>Tìm hiểu cách thức triển khai ứng dụng trên máy thật như thế nào.</li>
+<li>Tìm hiểu cấu trúc các lớp trong project (cấu trúc của framework), ý nghĩa của các lớp.</li>
+<li>Các loại ứng dụng có thể có trên platform.</li>
+<li>Nếu platform sử dụng ngôn ngữ lập trình hoàn toàn mới, nên bỏ thời gian ra tìm hiểu kỹ thuật lập trình hướng đối tượng với ngôn ngữ này.</li>
+</ul>
+
+
+<h3>Task 3: Làm quen với đối tượng thể hiện (giao diện) cơ bản</h3>
+
+<ul>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có kích thước màn hình khác nhau (layout)</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có ngôn ngữ khác nhau (localization, multi-lingual language). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có version platform khác nhau (dùng hàm kiểm tra version platform đang chạy, hoặc dùng kỹ thuật reflection). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-26-components.jpg"></p>
+
+<h3>Task 4: Làm quen với đối tượng thể hiện (giao diện) đơn</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện đơn như label, textbox, button, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 5: Làm quen với đối tượng thể hiện (giao diện) phức hợp</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện phức hợp như: list, gird, horizontal view, vertical view, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 6: Làm quen với ứng dụng có nhiều màn hình và truyền tham số giữa các màn hình</h3>
+
+<ul>
+<li>Làm sao chuyển 1 màn hình bất kỳ thành màn hình chính (hiển thị khi khởi động ứng dụng)</li>
+<li>Làm sao để hiển thị một màn hình B từ một màn hình A.</li>
+<li>Làm sao để màn hình A truyền tham số cho màn hình B. Khi màn hình B kết thúc thì lại truyền tham số ngược lại cho màn hình A.</li>
+<li>Làm sao để ẩn hoặc tắt một màn hình.</li>
+<li>Làm sao để thoát khỏi ứng dụng.</li>
+</ul>
+
+
+<h3>Task 7: Làm quen với menu ứng dụng</h3>
+
+<ul>
+<li>Có mấy loại menu ứng dụng, các thức tạo lập ra sao.</li>
+<li>Thường menu được load từ resource (design), có cách thức nào tạo menu động không (runtime).</li>
+<li>Quản lý sự kiện cho các loại menu như thế nào.</li>
+</ul>
+
+
+<h3>Task 8: Tìm hiểu khái niệm Lifecycle</h3>
+
+<ul>
+<li>Tùy theo từng platform mà việc quản lý vòng đời có thể theo application lifecycle (Windows Phone, iOS) hoặc screen lifecycle (Android, iOS)</li>
+<li>Khi có cuộc gọi gọi đến thì ứng dụng hành xử ra sao.</li>
+<li>Khi ứng dụng (màn hình) A được ẩn đi, một ứng dụng (màn hình) B khác đang chạy cần tài nguyên RAM, CPU buộc hệ thống phải tắt ứng dụng (màn hình) A, thì lúc đó ứng dụng (màn hình) A hành xử ra sao. Sau này ứng dụng (màn hình) A được gọi lại thì A sẽ hành xử ra sao.</li>
+</ul>
+
+
+<p><img src="/images/blog/2013-12-26-activity-lifecycle.png"></p>
+
+<h3>Task 9: Tìm hiểu cách thức lưu trữ trên platform</h3>
+
+<p>Tùy theo từng platform mà việc lưu trữ có thể ở thư mục riêng của ứng dụng (iOS, Android, Windows Phone) hoặc giống như trên Windows (Android). Thử tìm hiểu các thư mục, hoặc giới hạn phạm vi mà platform cho phép lưu trữ.
+Bất kỳ platform nào cũng có thể lưu trữ dữ liệu dạng:
+&ndash; Text thông thường
+&ndash; Text có cấu trúc: xml, json, ini, v.v…
+&ndash; Binary thông thường
+&ndash; Binary có cấu trúc: hình ảnh, video, tự định nghĩa, v.v..
+&ndash; Binary dạng cơ sở dữ liệu. SQLite (iOS, Android), SQL CE</p>
+
+<p>Chú ý có nhiều tool hoặc thư viện nguồn mở hỗ trợ truy xuất CSDL, cần tìm hiểu sử dụng các thư viện, tool này.</p>
+
+<h3>Task 10: Tìm hiểu các chức năng viễn thông</h3>
+
+<ul>
+<li>Tìm hiểu gọi, chặn cuộc gọi.</li>
+<li>Tìm hiểu gởi, chặn tin nhắn.</li>
+<li>Thao tác với danh bạ.</li>
+</ul>
+
+
+<h3>Task 11: Tìm hiểu các chức năng multimedia</h3>
+
+<ul>
+<li>Hiển thị hình ảnh.</li>
+<li>Chơi nhạc và video</li>
+<li>Tương tác với camera (quay phim, chụp ảnh)</li>
+<li>Tương tác với micro (thu âm)</li>
+</ul>
+
+
+<h3>Task 12: Tương tác với các ứng dụng sẵn có</h3>
+
+<ul>
+<li>“Open file with” một ứng dụng được xác định</li>
+<li>Mở một ứng dụng với một tham số nào đó (web tham số là từ khóa search hoặc URL, ứng dụng tin nhắn tham số là số điện thoại và nội dung tin nhắn)</li>
+<li>Đọc dữ liệu của một ứng dụng có sẵn: contact, call log, message log, v.v…</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Bài viết được sưu tầm từ bài giảng của thầy <code>Bùi Tấn Lộc</code>, giảng viên khoa CNTT, Đại học Khoa Học, TP. HCM<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: marketing | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/marketing/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Everything is marketing]]></title>
+    <link href="http://tieubao.github.io/notes/a/everything-is-marketing/"/>
+    <updated>2014-12-12T02:13:02+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/everything-is-marketing</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-11-marketing.png"></p>
+
+<p><strong>Marketing is not a department</strong> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>Do you have a marketing department? If not, good. If you do, don’t think these are the only people responsible for marketing. Accounting is a department. Marketing isn’t. Marketing is something everyone in your company is doing 24/7/365.</p>
+
+<p>Just as you cannot not communicate, you cannot not market:</p>
+
+<ul>
+<li>Every time you answer the phone, it’s marketing.</li>
+<li>Every time you send an e-mail, it’s marketing.</li>
+<li>Every time someone uses your product, it’s marketing.</li>
+<li>Every word you write on your Web site is marketing.</li>
+<li>If you build software, every error message is marketing.</li>
+<li>If you’re in the restaurant business, the after-dinner mint is marketing.</li>
+<li>If you’re in the retail business, the checkout counter is marketing.</li>
+<li>If you’re in a service business, your invoice is marketing.</li>
+</ul>
+
+
+<p>Recognize that all of these little things are more important than choosing which piece of swag to throw into a conference goodie bag. Marketing isn’t just a few individual events. It’s the sum total of everything you do.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Excerpt from <a href="http://37signals.com/rework/">Rework</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

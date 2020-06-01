@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: software | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Software Engineering Philosophy]]></title>
+    <link href="http://tieubao.github.io/notes/a/software-engineering-philosophy/"/>
+    <updated>2019-05-23T19:49:02+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/software-engineering-philosophy</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2019-05-23-software.png"></p>
+
+<h1>Software is changing the world</h1>
+
+<p>Software is all around us, yet few people think much about the many ways that software impacts the world every day. The history of computing is often said to start with the tactical problems engineers needed to solve in World War II, but it wasn&rsquo;t until 1941 that engineer Konrad Zuse designed a digital computer capable of using software to solve general problems. During the 1950s, standardized programming languages emerged from the need to reproduce old software on new hardware. By the 1960s, software &ndash; until then given away for free with new computers &ndash; was being produced and sold to end users. By the 1980s, software companies saw the potential in the user-friendly graphical interfaces we are now familiar with. Apple started producing operating systems in the mid-1980s and Microsoft in the early 1990s, leading to the era of convenient and fast software. Internet was invented in 1983 with cloud computing and big data era follow up in the next 20 years. Decentralization with p2p communication, blockchain and bitcoin are booming up in the last 5 years. Today, software is all around us.</p>
+
+<p>Software is used by businesses to communicate worldwide. It is used to operate some of the most complex medical machines. It regulates nuclear plants, electrical grids, and other utilities that provide the basics of life. Of course, it is also behind the safe operation of more than 31 million commercial airline flights in the U.S. each year.</p>
+
+<p>Software also helps make life convenient. For example, computer software has made it easier than ever to connect with friends all over the world using social networks. As software becomes more integrated into electronics and appliances, it will continue to simplify life&rsquo;s challenges. As an example, everyone is familiar with how much easier it is to drive from point A to point B thanks to on-board GPS software. Refrigerators can now notify owners about spoiled food; lights around town and in your home can brighten when they detect you walking in the dark; televisions can make suggestions and record your favorite shows based on your preferences.</p>
+
+<p>Whatever the future holds, it is a good bet that software will remain a very important part of it. As computer software becomes more sophisticated, it will help people with more complex challenges. In the future, software may even help us to regulate and improve our own bodies! Today&rsquo;s wearable technology and implanted medical devices are just the beginning of what the next generation of software can do.</p>
+
+<p>It&rsquo;s the pass to future. The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. The world can&rsquo;t operate without software.</p>
+
+<h1>The Dwarf Principles</h1>
+
+<p>Our definition of Engineering Philosophy, the guiding ideas that help to shape up the way we think and work, to ensure the core values and to deliver quality softwares.</p>
+
+<p>The performance and survival of a large number of organizations now depend on their ability to integrate digital at the heart of their business strategy. This manifesto documents 15 principles that, our team believes, are the cornerstone to creating exceptional digital products that reach their objectives and stand the test of time.</p>
+
+<h2><strong>Engineering Drive</strong></h2>
+
+<p><em>We build a company where software engineering discipline could shine, innovative and quality products are shipped and change the world for the better.</em></p>
+
+<h4>SYSTEMATIC DISCIPLINE</h4>
+
+<p>Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.</p>
+
+<p>Not applying software engineering methods results in more expensive, less reliable software, and it can be detrimental on the long term, as the changes come in, the costs will dramatically increase.</p>
+
+<h4>ENGINEERS ARE NOT COMMODITIES</h4>
+
+<p>In every software, the engineering team is one of the most imporant factors to make it successful. Software is more of an artisanship, and software engineers aren&rsquo;t a replaceable cog.</p>
+
+<p>People have an assembly line mindset left over from the industrial age. Don’t believe the one-size-fits-all interview process with whiteboarding problems. These serve to grind away the individuality and make us feel like an assembly line worker.</p>
+
+<h4>THE BEST IDEA WINS</h4>
+
+<p>If you have a great idea and the will to see it through, you can effect great change. Nothing is off limits—we’re constantly looking for improvements in our products, our processes, and our people.</p>
+
+<p>All voices are equal here—we hire people to have an opinion and be creative. If your idea makes the most sense, that’s what we’re doing, regardless of your role or seniority.</p>
+
+<p>We learned the practice from an A team, and it is beneficial by helping to strengthen the flat organizational structure.</p>
+
+<p><img class="left half" src="/images/blog/2019-05-23-dwarf.png"></p>
+
+<h2><strong>The Craftsmanship</strong></h2>
+
+<h4>WELL-CRAFTED SOFTWARE</h4>
+
+<p>We humbly demonstrate our expertise by delivering quality software. We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together. We do not tolerate preventable defects.</p>
+
+<h4>QUALITY PAYS</h4>
+
+<p>Good things take time. Quality must be the top priority. In software work, quality problems overwhelm everything else. When quality isn&rsquo;t managed, entire software projects are unmanageable. Software development is intellectual work. Crafting a high quality software requires not just lots of efforts from a team but also the disciplines and proper methods.</p>
+
+<h4>MIND THE DETAILS</h4>
+
+<p>Details matter. We believe small details equate to big success. As such, creating a product that charms users involves adjusting, refining, and perfecting, over and over again. This attention to detail makes all the difference and creates memorable user experiences.</p>
+
+<h4>CHOOSING THE BORING SOLUTION</h4>
+
+<p>Software development is complex enough by nature. When in doubt, go with the boring solution. Using such a boring solution means that you&rsquo;re using simple vocabulary, which greatly increases the chances of everybody understanding you. This will make it a lot easier for everybody to follow along.</p>
+
+<h4>THINK LONG-TERM</h4>
+
+<p>We do not believe in rushing for project and working overtime. We believe in working sustainably and balanced so that we are a happy bunch of sane workers. Software requires good brains to create good codes and good processes. We do not burn out.</p>
+
+<h4>APPLICATIONS NEED SOLID FOUNDATIONS</h4>
+
+<p>Quality products always rely on a solid foundation. There will be a lot of works running on days, weeks, months, and maybe even years building that application. This constant, never-ending maintenance and extension of an application means that its foundation becomes crucial. Much like with a house, it&rsquo;s not a clever idea to save some money by building just a cheap foundation.</p>
+
+<h4>NOTHING IS PERMANENT</h4>
+
+<p>Software moves fast. New technology has enabled us to create new things. The technology you used yesterday maybe deprecated today. Make sure you understand both the old technology and the new one before buying into the next new thing. New technology needs to provide actual value over existing solutions.</p>
+
+<h2><strong>Minifesto</strong></h2>
+
+<h4>RUNNING LEAN</h4>
+
+<p>Lean philosophy regards everything not adding value to the customer as waste. In order to eliminate waste, one should be able to recognize it. Partially done work, extra processes like paperwork and features not often used by customers are waste. Rework or unnecessarily complex solutions are waste. Waiting for other activities, teams, processes is waste. Managerial overhead not producing real value is waste.</p>
+
+<h4>DELIVER AS FAST AS POSSIBLE</h4>
+
+<p>Make it work. Perfect is an enemy of good. Look for perfection, but not yet. First do it, then do it right, then do it better. Any sufficiently complex system cannot be built out of design, it has to be evolved. The shorter the iterations, the better the learning and communication within the team. The sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration.</p>
+
+<h4>AIM FOR SIMPLICITY</h4>
+
+<p>Simplicity is complicated. Simple is harder than complex. We have to write code for humans not machines. We want readability. Readable means Reliable. It&rsquo;s easier to understand. It&rsquo;s easier to work on. If it breaks, it&rsquo;s easier to fix.</p>
+
+<h4>EFFECTIVE > PRODUCTIVE</h4>
+
+<p>Being productive is about occupying your time—filling your schedule to the brim and getting as much done as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. We don’t believe in busyness. We believe in effectiveness. Know your priority and do things that matter.</p>
+
+<h4>FAIL FAST, LEARN OFTEN</h4>
+
+<p>Don&rsquo;t be afraid of starting all over again. Evaluate your work constantly. Don&rsquo;t be afraid of throwing to the rubbish a project you&rsquo;ve working on last months. When you start from scratch, innovation comes organically inspired by previous experiences. Evaluate your work constantly.</p>
+
+<p><img src="/images/blog/2019-05-23-team-images.png"></p>
+
+<h5>WE ARE HIRING</h5>
+
+<p>We are looking for more Dwarves joining us. Have the same DNA and want to build world class products with superb team? Find yourself a seat at: <a href="https://dwarves.careers">https://dwarves.careers</a></p>
+
+<p>We build a dynamic environment where engineers can spend their time working with disruptive startups and be cool at the same time. Checkout engineering life at Dwarves Foundation: <a href="https://dwarves.careers/life/">https://dwarves.careers/life/</a></p>
+
+<p><img src="/images/blog/2019-05-23-engineering-life.png"></p>
+
+<blockquote><p>Here&rsquo;s our cat</p></blockquote>
+
+<p><img src="/images/blog/2019-05-23-cat.JPG"></p>
+
+<p>&mdash;</p>
+
+<p>The web version: <a href="https://d.foundation/manifesto">https://d.foundation/manifesto</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2018: Year of Achievement]]></title>
+    <link href="http://tieubao.github.io/notes/a/2018-year-of-achievement/"/>
+    <updated>2019-01-26T14:41:20+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/2018-year-of-achievement</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2019-01-26-homepage.png"></p>
+
+<p>Dwarves Foundation is a software development firm that based in South East Asia. Starting in 2014, we use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class software products.</p>
+
+<h1>The Dwarves of the Year</h1>
+
+<p>Many endeavors have significantly been made by our Dwarves to keep our boat moving over the past year. We have seen the sweat they drop. We have seen the effort they give. We have seen the time we spent together and we cannot stop ourselves treasuring those moments. It gratifies the team to eventually hold an award for the Dwarves of the year.</p>
+
+<p>We understand that success does not come by accident. Breakthrough arrives after hours of working and trying. It pushes us through many considerations to finally reach to these three top-notch nominees among those remarkable hard works:</p>
+
+<p><img src="/images/blog/2019-01-26-hall-of-fame.png"></p>
+
+<h3>Huy Nguyen — Outstanding</h3>
+
+<p>Considered for his dynamic contribution, Huy distinguishes himself for being enthusiasm towards the work. His striking performance was shown throughout multiple products. Appears to be the frequent workaholic who dedicates his time more than others, Huy did achieve a remarkable growth.
+Beside successfully improving the internal competency, Huy is highly recognized for being a dedicated trainer for interns and co-workers.</p>
+
+<h3>Thanh Pham — Honorable Mention</h3>
+
+<p>Thanh differentiates his work performance during the process of development which assigned him the superior skills on visual and animation. Apart from being a devoted employee, he also plays an integral part of backing up the team and training front-end juniors.
+Nevertheless, Thanh finds himself hard to fit in with other Dwarves, which explains the reason his ability in leadership is still in need of improvement.</p>
+
+<h3>Hieu Nguyen — Honorable Mention</h3>
+
+<p>Along with achieving breakthrough change on technical skills and meeting deadline on time with high standard workability, Hieu is well known for being proactive and eager to learn new things. Hieu also proves himself as an adept for new Dwarves to look up and get feedback from.
+Though he truly give his best for the work, Hieu’s limited ability of teamwork and leadership still prevents him from being more outstanding.</p>
+
+<p>As there is nothing that can help us measure the contribution you have put, we decided to conduct the award by different means. They are expected to claim the prize based on their titles both in cash and in kind, along with a certificate of recognition as a proof of accomplishment, as well as being honored on our Hall of Fame. Every single piece of trying helps us gradually expand the picture. Live long and prosper has been chosen as one of the mindsets to constitute our woodland from the very first day.</p>
+
+<p>For the sake of that to happen, we understand that their benefit comes parallel to the team. So it will be dead wrong if you think there is a benchmark for the means of award. At Dwarves Foundation, recognition does not work that way. The more they contribute, the more guerdon they receive.</p>
+
+<p><img src="/images/blog/2019-01-26-certificate.jpg"></p>
+
+<h1>2018</h1>
+
+<p>2018 has been a fulfilling year for us with many achievements.</p>
+
+<p>We adapted the new team structure; we redefined things we value.</p>
+
+<p>We doubled the office space. We welcomed new dwarves to join us.</p>
+
+<p>We scaled up from 15 to 40ish with all the smart people gathering around and commit to the dream of building our first global software firm.</p>
+
+<p>We learn new ways to get things done; we live by that for a cutting edge product quality. And we wrap it up with the tedious belief of a better triumph.</p>
+
+<p><img src="/images/blog/2019-01-26-year-end-party.jpeg"></p>
+
+<p>Everything is just the beginning of our first chapters and it couldn’t be that great without you. I’m very thankful for all the contributions that you have made and looking forward to 2019 with all of you.</p>
+
+<hr />
+
+<h3>We are hiring</h3>
+
+<p>As we are expanding in 2019, we are looking for more Dwarves joining us. Find yourself a seat at: <a href="https://dwarves.careers">https://dwarves.careers</a></p>
+
+<p><img src="/images/blog/2019-01-26-tech-stack.png"></p>
+
+<p>Read more at: <a href="http://bit.ly/dwarves-foundation-2018">Medium</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Dwarves Foundation Stand For]]></title>
+    <link href="http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for/"/>
+    <updated>2018-03-19T10:30:20+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for</id>
+    <content type="html"><![CDATA[<p>Innovation happens. There are many startups found and raise fund every day. They focus on making significant positive changes, impact millions of people, lead to breakthroughs and support the foundation of economic growth.</p>
+
+<p>Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.</p>
+
+<p>At some points, growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.</p>
+
+<p>Another motivations for Dwarves Foundation was the lack of respect that service firms receive. Most software companies out there focus on digital transformation and consultancy. They do tricks. They hit and run. The codebase they produced is full of crap and it damages our pride.</p>
+
+<p>This is where Dwarves Foundation comes in.
+Despite the fact that service firms scale linearly, their ultimate size is capped and small, they don’t have life-changing exits for their founders, we start Dwarves Foundation as we want to build things right. I’ve always felt that companies like Dwarves Foundation are more important to the economy than the mildly pejorative phrase used to describe them.</p>
+
+<p>Dwarves Foundation is an innovation service firm. We have been building an organization with high standard software practices and business growth capabilities, helping tech startups, entrepreneurs and makers deliver their innovative software product since 2013.</p>
+
+<p><strong>We stand for the craftsmanship in software development</strong>. More than telling people how to do things, as a firm, we take responsibility for collaboratively creating the product of innovation with the client. We value the long-term partnership, and we brought the economic impact through massive product distribution and brought to the market by the clients.</p>
+
+<p>We empower innovation with software craftsmanship. This is what we do here. It takes many forms, and we’re always working towards it.</p>
+
+<h3>The Dwarves</h3>
+
+<p>The story begins in Norse Mythology. After the executed of Ymir, the very first giant of the universe, by Odin has conceived a whole new universe. In the new world, Yggdrasill is a giant ash tree located at the center cradles the nine realms of the cosmos.</p>
+
+<p><img src="/images/blog/2018-03-19-yggdrasill.png"></p>
+
+<p>Dwarf is the small and misshapen creatures that originated as maggots from Ymir’s corpse. They dwell in the mountains deep down in the dark underground of <strong>Svartalfheim</strong>. Dwarves are wisdom, natural good at smithing, mining, and crafting. They are well known for being the best blacksmiths throughout the nine worlds, not only do they have natural abilities to craft weapons and jewelry. They are also excellent engineers and architects.</p>
+
+<p>Dwarvish magic was fundamentally technological know how. They had an unusually high level of skill. There was no shimmering light around the Dwarves, just first rate workmanship. Dwarves greatly pride themselves in their craftsmanship, be it smithing or anything else.</p>
+
+<p>The dwarf is an example of a creature who has the ability that surpasses the known world, presaging the rise of a universe beyond this physical realm. Whatever their origin, the dwarf’s existence plays a role in expanding the imagination.</p>
+
+<p>Aspiring to create a positive breakthrough that can be able to rewrite the new world, we chose the name Dwarves Foundation as the commitment to the vision that we follow.</p>
+
+<p>At our woodland, the Dwarves are encouraged to thoroughly assess and evaluate the product quality before handing it to the customers. By participate in every detail of the work, we take craftsmanship as one of the most fundamental factors of the career transformation for engineers. World-class products require world-class engineers and craftsmanship is what makes it done. Craftsmanship is what flows among the team spirit, or does not exist at all.</p>
+
+<p>We choose innovation to be one of our core values that form ideas to affect the general society undoubtedly. Innovation is not for geniuses working alone, it is an activity that requires the team effort. Being innovative is a part to approach the new era. What that rewards, what can I say, can genuinely lead to significantly remodel the cosmo.</p>
+
+<p><img src="/images/blog/2018-03-19-dwarves.jpg"></p>
+
+<hr />
+
+<p>Empower innovation is the lifestyle we choose and we are always welcome the like minded people to join us on this journey. A network with all the people who want to change the world would be really awesome. Drop us a message <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x74;&#101;&#97;&#109;&#64;&#100;&#46;&#102;&#x6f;&#117;&#x6e;&#100;&#x61;&#x74;&#x69;&#111;&#110;">&#x74;&#x65;&#x61;&#109;&#64;&#100;&#x2e;&#102;&#x6f;&#117;&#x6e;&#100;&#x61;&#116;&#x69;&#111;&#x6e;</a> anytime.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dwarves Foundation]]></title>
+    <link href="http://tieubao.github.io/notes/a/dwarves-foundation/"/>
+    <updated>2015-05-29T00:53:06+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/dwarves-foundation</id>
+    <content type="html"><![CDATA[<p>After an interesting journey at <a href="/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/">CloudJay</a>, I took a short break for a month and feel that startup life is too hard for young people but it&rsquo;s really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.</p>
+
+<p><img src="/images/blog/2015-06-17-entrepreneur.jpg"></p>
+
+<p>I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found <a href="https://golang.org.vn">Golang Vietnam</a>, a network of Golang Developers in Vietnam.</p>
+
+<p>Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team <a href="https://dwarves.foundation">Dwarves Foundation</a>. Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.</p>
+
+<p><img src="/images/blog/2015-06-17-dwarves.jpg"></p>
+
+<h2>Our values</h2>
+
+<p>We are a team of geeks, hustles and startup veterans. We live around the world but most of us based in Saigon, Vietnam. We are (forever) young and always eager to learn. We have passion and experience in making cool products, esp. cloud and mobile apps. We want to help entrepreneurs solve real problems using our approachs and solutions.</p>
+
+<ul>
+<li><strong>Customer first</strong>: We provide the service with high quality and no latency response time. Customers have to be happy.</li>
+<li><strong>Geeky style</strong>: We can do anything, wear multiple hats, take multiple approachs from official to tricky way to achieve the goal.</li>
+<li><strong>Teamwork</strong>: <strong><em>Synchronisation</em></strong> and <strong><em>Collaboration</em></strong> are the most important key things. You can read this topic: <a href="/a/it-is-hard-to-become-a-team-member/">It&rsquo;s hard to become a team member</a>. We apply agile process to keep our spirits stick together.</li>
+<li><strong>Proactive</strong>: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.</li>
+<li><strong>Growth and sharing</strong>: You can learn another skill from other teammates. We are happy to share it to you. And we believe that working hard and improving yourself everyday will make you paid back later. Read <a href="https://www.quora.com/How-can-I-motivate-myself-to-work-hard">this topic</a> to keep yourself motivated.</li>
+</ul>
+
+
+<h2>Our services</h2>
+
+<ul>
+<li><p><strong>Startup Factory</strong>: Our woodland is the trustworthy place where lots of ideas are validated, incubated, developed, iterated until product-market fit simultaneously and for successful ones, we turn them into new businesses. The formula repeats on its own. Moreover, we also provide startups with hands-on mentorship and seed investment programs, usually in exchange for equity.</p></li>
+<li><p><strong>Development Lab</strong>: Our woodland is the trustworthy place where founders could come and acquire expertise for their business models. We offer a technical partnership that takes over their whole systems and applications from development, operation to maintenance stages. We are backed by a talented, ambitious and technology-heavy workforce with years of experience. Consequently, we guarantee world-class quality for delivered products across all platforms (Web, iOS, Android).</p></li>
+<li><p><strong>Talent pool</strong>: Our woodland is the trustworthy bridge for the founders who are outsourcing products to connect with talented developers in Vietnam. We guarantee the most competitive prices among competitors in local market. It is the outcome of continuously building a wide network of trust between founders and talents. The price is worth it!</p></li>
+</ul>
+
+
+<p><script async="true" class="speakerdeck-embed" data-ratio="1.77777777777778" data-id="1f4ffd51e8b049e6bce5dbdefad3786e" src="https://speakerdeck.com/assets/embed.js"> </script></p>
+
+<h2>Workflow at Dwarves Foundation</h2>
+
+<h3>For project management</h3>
+
+<p>We use Trello with Kanban theory to organize tasks. Tasks will be flew from left list to right list. We also organize lists into Scrum steps. So this will be liked:</p>
+
+<ul>
+<li>Sprint Planning</li>
+<li>Current Sprint</li>
+<li>In Progress</li>
+<li>Blocked</li>
+<li>Testing</li>
+<li>Bugs Report</li>
+<li>Approved</li>
+</ul>
+
+
+<p><img src="/images/blog/2015-06-17-trello.png"></p>
+
+<p>For each project, we will have <em>Sprint planning meeting</em> for Project Manager to explain project details to project members. User stories will be converted into cards or tickets and added to Trello list > <strong>Sprint Planning</strong>.</p>
+
+<p>Usually, one sprint is about 1 or 2 weeks, we have weekly meeting to break user stories into tasks and add them to list Current Sprint. It&rsquo;s also our target for this week, we have to get in done. This time, cards need to have requirement and non requirement specification. And sometimes, if this task has some special requirement that developers need to care about, the Project Manager need to add <strong>Acceptance Criteria</strong>.</p>
+
+<p><img src="/images/blog/2015-06-17-criteria.png"></p>
+
+<p>As a customer, you are granted permission to access Trello Board to give feedback or be a tester. And most of my customers are happy with it.</p>
+
+<p>The template for this workflow can be found at <a href="https://trello.com/b/WYgcFBgl/sprint-template">https://trello.com/b/WYgcFBgl/sprint-template</a></p>
+
+<h3>For source code management</h3>
+
+<p>We use <code>git</code> and GitLab. It&rsquo;s more like GitHub but for enterprise. You can have one by downloading and deploying it yourself.</p>
+
+<p>We apply <a href="http://danielkummer.github.io/git-flow-cheatsheet/">Gitflow</a> and <code>Merge Request</code> (some people may call it Pull Request) between developers to gain some benefits from it:</p>
+
+<ul>
+<li>Can deliver anytime because branch <code>master</code> is always stable.</li>
+<li>Quality source code: always review it after it&rsquo;s merged into branch <code>develep</code></li>
+<li>High efficiency collaboration between team members.</li>
+</ul>
+
+
+<p><img src="/images/blog/2015-06-17-gitflow.png"></p>
+
+<p>There&rsquo;s another article about it on Atlassian site: <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow</a></p>
+
+<p>Project Manager will be the one that init the repository on Git with some imporatant informations. For every ticket on Trello, developers need to create one issue in GitLab, create new feature branch and start the implementation on it. The <code>git commit</code> command must attach with one or more than one issue.</p>
+
+<p><img src="/images/blog/2015-06-17-commit.png"></p>
+
+<p>After that, one merge request will be created and the person who has responsibility to review this request need to check over the source code then <code>Accept</code> or <code>Reject</code> the <code>Merge Request</code>.</p>
+
+<p>This card will be moved to list <code>Testing</code>, QC will be assigned to test this feature and so on.</p>
+
+<h3>For Communication</h3>
+
+<p>We use <a href="http://slack.com">Slack</a> as the main hub for all informations, from team meeting, hangout, manage tasks and source code &hellip;</p>
+
+<p><img src="/images/blog/2015-06-17-slack.png"></p>
+
+<p>Slack support lots of methods to add integration. So the powerful it can be depends on what you integrate into it.</p>
+
+<p>Finally, at the end of the day, we do daily meeting via hangout or face to face at the office to summary what we have done today and what we plan to do tomorrow. The project manager will be the one to write it down and make weekly report to customer.</p>
+
+<p>All the processes out there are just to make the team stick together and development plan works. All team members need to understand their roles, team vision and know how to make things go on the right tracks.</p>
+
+<p>Read more about <a href="/2014/12/05/it-is-hard-to-become-a-team-member/">Teamwork</a>.</p>
+
+<ul>
+<li>About us: <a href="http://www.dwarvesf.com">http://www.dwarvesf.com</a></li>
+<li>Github: <a href="https://github.com/dwarvesf">https://github.com/dwarvesf</a></li>
+<li>Hiring: <a href="https://github.com/dwarvesf/WeAreHiring">https://github.com/dwarvesf/WeAreHiring</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Semantic Versioning 2.0.0]]></title>
+    <link href="http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/"/>
+    <updated>2014-01-09T13:03:30+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0</id>
+    <content type="html"><![CDATA[<h2>Summary</h2>
+
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+
+<ol>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible
+manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
+
+
+<p>Additional labels for pre-release and build metadata are available as extensions
+to the MAJOR.MINOR.PATCH format.</p>
+
+<h2>Introduction</h2>
+
+<p>In the world of software management there exists a dread place called
+&ldquo;dependency hell.&rdquo; The bigger your system grows and the more packages you
+integrate into your software, the more likely you are to find yourself, one
+day, in this pit of despair.</p>
+
+<p>In systems with many dependencies, releasing new package versions can quickly
+become a nightmare. If the dependency specifications are too tight, you are in
+danger of version lock (the inability to upgrade a package without having to
+release new versions of every dependent package). If dependencies are
+specified too loosely, you will inevitably be bitten by version promiscuity
+(assuming compatibility with more future versions than is reasonable).
+Dependency hell is where you are when version lock and/or version promiscuity
+prevent you from easily and safely moving your project forward.</p>
+
+<p>As a solution to this problem, I propose a simple set of rules and
+requirements that dictate how version numbers are assigned and incremented.
+These rules are based on but not necessarily limited to pre-existing
+widespread common practices in use in both closed and open-source software.
+For this system to work, you first need to declare a public API. This may
+consist of documentation or be enforced by the code itself. Regardless, it is
+important that this API be clear and precise. Once you identify your public
+API, you communicate changes to it with specific increments to your version
+number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not
+affecting the API increment the patch version, backwards compatible API
+additions/changes increment the minor version, and backwards incompatible API
+changes increment the major version.</p>
+
+<p>I call this system &ldquo;Semantic Versioning.&rdquo; Under this scheme, version numbers
+and the way they change convey meaning about the underlying code and what has
+been modified from one version to the next.</p>
+
+<h2>Why Use Semantic Versioning?</h2>
+
+<p>This is not a new or revolutionary idea. In fact, you probably do something
+close to this already. The problem is that &ldquo;close&rdquo; isn&rsquo;t good enough. Without
+compliance to some sort of formal specification, version numbers are
+essentially useless for dependency management. By giving a name and clear
+definition to the above ideas, it becomes easy to communicate your intentions
+to the users of your software. Once these intentions are clear, flexible (but
+not too flexible) dependency specifications can finally be made.</p>
+
+<p>A simple example will demonstrate how Semantic Versioning can make dependency
+hell a thing of the past. Consider a library called &ldquo;Firetruck.&rdquo; It requires a
+Semantically Versioned package named &ldquo;Ladder.&rdquo; At the time that Firetruck is
+created, Ladder is at version 3.1.0. Since Firetruck uses some functionality
+that was first introduced in 3.1.0, you can safely specify the Ladder
+dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when
+Ladder version 3.1.1 and 3.2.0 become available, you can release them to your
+package management system and know that they will be compatible with existing
+dependent software.</p>
+
+<p>As a responsible developer you will, of course, want to verify that any
+package upgrades function as advertised. The real world is a messy place;
+there&rsquo;s nothing we can do about that but be vigilant. What you can do is let
+Semantic Versioning provide you with a sane way to release and upgrade
+packages without having to roll new versions of dependent packages, saving you
+time and hassle.</p>
+
+<p>If all of this sounds desirable, all you need to do to start using Semantic
+Versioning is to declare that you are doing so and then follow the rules. Link
+to this website from your README so others know the rules and can benefit from
+them.</p>
+
+<h2>FAQ</h2>
+
+<h3>How should I deal with revisions in the 0.y.z initial development phase?</h3>
+
+<p>The simplest thing to do is start your initial development release at 0.1.0
+and then increment the minor version for each subsequent release.</p>
+
+<h3>How do I know when to release 1.0.0?</h3>
+
+<p>If your software is being used in production, it should probably already be
+1.0.0. If you have a stable API on which users have come to depend, you should
+be 1.0.0. If you&rsquo;re worrying a lot about backwards compatibility, you should
+probably already be 1.0.0.</p>
+
+<h3>Doesn&rsquo;t this discourage rapid development and fast iteration?</h3>
+
+<p>Major version zero is all about rapid development. If you&rsquo;re changing the API
+every day you should either still be in version 0.y.z or on a separate
+development branch working on the next major version.</p>
+
+<h3>If even the tiniest backwards incompatible changes to the public API require a major version bump, won&rsquo;t I end up at version 42.0.0 very rapidly?</h3>
+
+<p>This is a question of responsible development and foresight. Incompatible
+changes should not be introduced lightly to software that has a lot of
+dependent code. The cost that must be incurred to upgrade can be significant.
+Having to bump major versions to release incompatible changes means you&rsquo;ll
+think through the impact of your changes, and evaluate the cost/benefit ratio
+involved.</p>
+
+<h3>Documenting the entire public API is too much work!</h3>
+
+<p>It is your responsibility as a professional developer to properly document
+software that is intended for use by others. Managing software complexity is a
+hugely important part of keeping a project efficient, and that&rsquo;s hard to do if
+nobody knows how to use your software, or what methods are safe to call. In
+the long run, Semantic Versioning, and the insistence on a well defined public
+API can keep everyone and everything running smoothly.</p>
+
+<h3>What do I do if I accidentally release a backwards incompatible change as a minor version?</h3>
+
+<p>As soon as you realize that you&rsquo;ve broken the Semantic Versioning spec, fix
+the problem and release a new minor version that corrects the problem and
+restores backwards compatibility. Even under this circumstance, it is
+unacceptable to modify versioned releases. If it&rsquo;s appropriate,
+document the offending version and inform your users of the problem so that
+they are aware of the offending version.</p>
+
+<h3>What should I do if I update my own dependencies without changing the public API?</h3>
+
+<p>That would be considered compatible since it does not affect the public API.
+Software that explicitly depends on the same dependencies as your package
+should have their own dependency specifications and the author will notice any
+conflicts. Determining whether the change is a patch level or minor level
+modification depends on whether you updated your dependencies in order to fix
+a bug or introduce new functionality. I would usually expect additional code
+for the latter instance, in which case it&rsquo;s obviously a minor level increment.</p>
+
+<h3>What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)</h3>
+
+<p>Use your best judgment. If you have a huge audience that will be drastically
+impacted by changing the behavior back to what the public API intended, then
+it may be best to perform a major version release, even though the fix could
+strictly be considered a patch release. Remember, Semantic Versioning is all
+about conveying meaning by how the version number changes. If these changes
+are important to your users, use the version number to inform them.</p>
+
+<h3>How should I handle deprecating functionality?</h3>
+
+<p>Deprecating existing functionality is a normal part of software development and
+is often required to make forward progress. When you deprecate part of your
+public API, you should do two things: (1) update your documentation to let
+users know about the change, (2) issue a new minor release with the deprecation
+in place. Before you completely remove the functionality in a new major release
+there should be at least one minor release that contains the deprecation so
+that users can smoothly transition to the new API.</p>
+
+<h3>Does SemVer have a size limit on the version string?</h3>
+
+<p>No, but use good judgment. A 255 character version string is probably overkill,
+for example. Also, specific systems may impose their own limits on the size of
+the string.</p>
+
+<h4>Source: <a href="http://semver.org/">Semver</a></h4>
+]]></content>
+  </entry>
+  
+</feed>

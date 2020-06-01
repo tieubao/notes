@@ -1,0 +1,259 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>dotfiles  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Is it first time you've heard about dotfiles? It is not something special but you should care about."> <meta name="keywords" content="dotfiles">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="dotfiles - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/dotfiles/">
+ <meta name="twitter:description" content="Is it first time you've heard about dotfiles? It is not something special but you should care about.">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="dotfiles - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/dotfiles/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Is it first time you've heard about dotfiles? It is not something special but you should care about." 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Dotfiles</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-05T03:20:06+07:00" pubdate data-updated="true">Nov 5<span>th</span>, 2015</time></div>
+	</header>
+	<div class="entry-content"><h1>The developer</h1>
+
+<p>In linux, the files start with a dot &ldquo;.&rdquo; are hidden. If you list files in the directory, they normally don&rsquo;t show up and keep them safe from the users. Because of that reason, the developer usually use it to store configurations of their tools. Those files are so called dotfiles. The first dot file for most of us is maybe the shell configuration file (.bashrc | .bash_profile)</p>
+
+<blockquote><p>Nowsday, you can find the dotfiles everywhere in your system.</p></blockquote>
+
+<p>Do you use git? vim?
+Do you use your ssh identities to authenticate with git server?
+Do you have any env configurations or even the backup from other apps?</p>
+
+<p>We are software developer. Our machine is more like our second home. We spend more than 8 hours per day with it. I have a friend from Singapore. Last time when I was with him drunk, I asked him for who is his gf and suddenly he pointed at his laptop. What a nerd!</p>
+
+<p>Back to the point, as a developer, we use a lot of tools and applications that need to back up.</p>
+
+<h1>The community</h1>
+
+<p>Years ago, people don&rsquo;t think about back up the dotfiles. Because we spend a lot of time with the shell, so most of the time, people just value their config for the shell. There are some topics around for people to show off their shell config. But this turned out a good start of the community.</p>
+
+<ul>
+<li><a href="http://ubuntuforums.org/showthread.php?t=679762">Show us your .bashrc!</a></li>
+<li><a href="https://bbs.archlinux.org/viewtopic.php?id=41331">Share your bashrc!</a></li>
+<li><p><a href="https://www.reddit.com/r/programming/comments/9he4v/share_your_bashrc_vimrc_or_other_settings_file_i">Share your .bashrc, .vimrc, or other settings file</a></p>
+
+<p>  <img src="/notes/images/blog/2015-11-05-allias.png"></p></li>
+</ul>
+
+
+<p>After a few years, technology changed really fast and bring developers lots of useful tools like homebrew, z, logcat-color, &hellip; Developers use different tech stacks and they have their own setting for the workspace. Once they change the workspace or move from machine to machine, it takes so many hours to setup again. That&rsquo;s why some guys start to think about all their dotfiles and back up their workspace config.</p>
+
+<p>If you are new for dotfiles, you can have a quick look at: <a href="https://dotfiles.github.io.">https://dotfiles.github.io.</a> They organise most popular dotfiles for you to look at or start with. You can browse some repo to learn from the community, discover new tools for your toolbox and new tricks for the ones you already use.</p>
+
+<h1>Mine</h1>
+
+<p>I&rsquo;m a geek and a tech entreprenuer. I&rsquo;m also the founder of Dwarves Foundation. We offer venture builder service and a strong tech team to help people build their tech company.</p>
+
+<p>I began to care about my dotfiles for a year. You can find it around Github @ <a href="https://github.com/tieubao/dotfiles">tieubao/dotfiles</a></p>
+
+<p>And you can find my dotfiles helpful if you are using the same stack as me:</p>
+
+<ul>
+<li>OSX user</li>
+<li>Install stuffs via homebrew</li>
+<li>Editor: vim (or sublime)</li>
+<li>Develop backend in Golang</li>
+<li>Frontend with React</li>
+<li>Terminal addicted with zsh and prezto framework</li>
+<li>Not another git newbie</li>
+<li><p>Docker centric workflow</p>
+
+<p>  <img src="/notes/images/blog/2015-11-05-vim.png">
+  <img src="/notes/images/blog/2015-11-05-zsh.png">
+  <img src="/notes/images/blog/2015-11-05-vim-go.png"></p></li>
+</ul>
+
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=dotfiles by @nntruonghan&url=http://tieubao.github.io/notes/a/dotfiles/" title="Share dotfiles on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/dotfiles/" title="Share dotfiles on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/dotfiles/" title="Share dotfiles on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

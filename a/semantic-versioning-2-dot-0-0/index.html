@@ -1,0 +1,368 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Semantic Versioning 2.0.0  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Introduction to Sematic Versioning"> <meta name="keywords" content="version, versioning, practice, software development">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Semantic Versioning 2.0.0 - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/">
+ <meta name="twitter:description" content="Introduction to Sematic Versioning">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Semantic Versioning 2.0.0 - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Introduction to Sematic Versioning" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Semantic Versioning 2.0.0</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-09T13:03:30+07:00" pubdate data-updated="true">Jan 9<span>th</span>, 2014</time></div>
+	</header>
+	<div class="entry-content"><h2>Summary</h2>
+
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+
+<ol>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible
+manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
+
+
+<p>Additional labels for pre-release and build metadata are available as extensions
+to the MAJOR.MINOR.PATCH format.</p>
+
+<h2>Introduction</h2>
+
+<p>In the world of software management there exists a dread place called
+&ldquo;dependency hell.&rdquo; The bigger your system grows and the more packages you
+integrate into your software, the more likely you are to find yourself, one
+day, in this pit of despair.</p>
+
+<p>In systems with many dependencies, releasing new package versions can quickly
+become a nightmare. If the dependency specifications are too tight, you are in
+danger of version lock (the inability to upgrade a package without having to
+release new versions of every dependent package). If dependencies are
+specified too loosely, you will inevitably be bitten by version promiscuity
+(assuming compatibility with more future versions than is reasonable).
+Dependency hell is where you are when version lock and/or version promiscuity
+prevent you from easily and safely moving your project forward.</p>
+
+<p>As a solution to this problem, I propose a simple set of rules and
+requirements that dictate how version numbers are assigned and incremented.
+These rules are based on but not necessarily limited to pre-existing
+widespread common practices in use in both closed and open-source software.
+For this system to work, you first need to declare a public API. This may
+consist of documentation or be enforced by the code itself. Regardless, it is
+important that this API be clear and precise. Once you identify your public
+API, you communicate changes to it with specific increments to your version
+number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not
+affecting the API increment the patch version, backwards compatible API
+additions/changes increment the minor version, and backwards incompatible API
+changes increment the major version.</p>
+
+<p>I call this system &ldquo;Semantic Versioning.&rdquo; Under this scheme, version numbers
+and the way they change convey meaning about the underlying code and what has
+been modified from one version to the next.</p>
+
+<h2>Why Use Semantic Versioning?</h2>
+
+<p>This is not a new or revolutionary idea. In fact, you probably do something
+close to this already. The problem is that &ldquo;close&rdquo; isn&rsquo;t good enough. Without
+compliance to some sort of formal specification, version numbers are
+essentially useless for dependency management. By giving a name and clear
+definition to the above ideas, it becomes easy to communicate your intentions
+to the users of your software. Once these intentions are clear, flexible (but
+not too flexible) dependency specifications can finally be made.</p>
+
+<p>A simple example will demonstrate how Semantic Versioning can make dependency
+hell a thing of the past. Consider a library called &ldquo;Firetruck.&rdquo; It requires a
+Semantically Versioned package named &ldquo;Ladder.&rdquo; At the time that Firetruck is
+created, Ladder is at version 3.1.0. Since Firetruck uses some functionality
+that was first introduced in 3.1.0, you can safely specify the Ladder
+dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when
+Ladder version 3.1.1 and 3.2.0 become available, you can release them to your
+package management system and know that they will be compatible with existing
+dependent software.</p>
+
+<p>As a responsible developer you will, of course, want to verify that any
+package upgrades function as advertised. The real world is a messy place;
+there&rsquo;s nothing we can do about that but be vigilant. What you can do is let
+Semantic Versioning provide you with a sane way to release and upgrade
+packages without having to roll new versions of dependent packages, saving you
+time and hassle.</p>
+
+<p>If all of this sounds desirable, all you need to do to start using Semantic
+Versioning is to declare that you are doing so and then follow the rules. Link
+to this website from your README so others know the rules and can benefit from
+them.</p>
+
+<h2>FAQ</h2>
+
+<h3>How should I deal with revisions in the 0.y.z initial development phase?</h3>
+
+<p>The simplest thing to do is start your initial development release at 0.1.0
+and then increment the minor version for each subsequent release.</p>
+
+<h3>How do I know when to release 1.0.0?</h3>
+
+<p>If your software is being used in production, it should probably already be
+1.0.0. If you have a stable API on which users have come to depend, you should
+be 1.0.0. If you&rsquo;re worrying a lot about backwards compatibility, you should
+probably already be 1.0.0.</p>
+
+<h3>Doesn&rsquo;t this discourage rapid development and fast iteration?</h3>
+
+<p>Major version zero is all about rapid development. If you&rsquo;re changing the API
+every day you should either still be in version 0.y.z or on a separate
+development branch working on the next major version.</p>
+
+<h3>If even the tiniest backwards incompatible changes to the public API require a major version bump, won&rsquo;t I end up at version 42.0.0 very rapidly?</h3>
+
+<p>This is a question of responsible development and foresight. Incompatible
+changes should not be introduced lightly to software that has a lot of
+dependent code. The cost that must be incurred to upgrade can be significant.
+Having to bump major versions to release incompatible changes means you&rsquo;ll
+think through the impact of your changes, and evaluate the cost/benefit ratio
+involved.</p>
+
+<h3>Documenting the entire public API is too much work!</h3>
+
+<p>It is your responsibility as a professional developer to properly document
+software that is intended for use by others. Managing software complexity is a
+hugely important part of keeping a project efficient, and that&rsquo;s hard to do if
+nobody knows how to use your software, or what methods are safe to call. In
+the long run, Semantic Versioning, and the insistence on a well defined public
+API can keep everyone and everything running smoothly.</p>
+
+<h3>What do I do if I accidentally release a backwards incompatible change as a minor version?</h3>
+
+<p>As soon as you realize that you&rsquo;ve broken the Semantic Versioning spec, fix
+the problem and release a new minor version that corrects the problem and
+restores backwards compatibility. Even under this circumstance, it is
+unacceptable to modify versioned releases. If it&rsquo;s appropriate,
+document the offending version and inform your users of the problem so that
+they are aware of the offending version.</p>
+
+<h3>What should I do if I update my own dependencies without changing the public API?</h3>
+
+<p>That would be considered compatible since it does not affect the public API.
+Software that explicitly depends on the same dependencies as your package
+should have their own dependency specifications and the author will notice any
+conflicts. Determining whether the change is a patch level or minor level
+modification depends on whether you updated your dependencies in order to fix
+a bug or introduce new functionality. I would usually expect additional code
+for the latter instance, in which case it&rsquo;s obviously a minor level increment.</p>
+
+<h3>What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)</h3>
+
+<p>Use your best judgment. If you have a huge audience that will be drastically
+impacted by changing the behavior back to what the public API intended, then
+it may be best to perform a major version release, even though the fix could
+strictly be considered a patch release. Remember, Semantic Versioning is all
+about conveying meaning by how the version number changes. If these changes
+are important to your users, use the version number to inform them.</p>
+
+<h3>How should I handle deprecating functionality?</h3>
+
+<p>Deprecating existing functionality is a normal part of software development and
+is often required to make forward progress. When you deprecate part of your
+public API, you should do two things: (1) update your documentation to let
+users know about the change, (2) issue a new minor release with the deprecation
+in place. Before you completely remove the functionality in a new major release
+there should be at least one minor release that contains the deprecation so
+that users can smoothly transition to the new API.</p>
+
+<h3>Does SemVer have a size limit on the version string?</h3>
+
+<p>No, but use good judgment. A 255 character version string is probably overkill,
+for example. Also, specific systems may impose their own limits on the size of
+the string.</p>
+
+<h4>Source: <a href="http://semver.org/">Semver</a></h4>
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Semantic Versioning 2.0.0 by @nntruonghan&url=http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/" title="Share Semantic Versioning 2.0.0 on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/" title="Share Semantic Versioning 2.0.0 on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/" title="Share Semantic Versioning 2.0.0 on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

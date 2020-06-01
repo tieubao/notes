@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tokenize | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/tokenize/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DFG: Dwarves Foundation Gem]]></title>
+    <link href="http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem/"/>
+    <updated>2019-08-27T01:01:41+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem</id>
+    <content type="html"><![CDATA[<h4>Foundation token: DFG</h4>
+
+<p>Following the practice of Securities Token Offering, we are getting our tokens considered as shares with <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md">ERC-884</a>. The tokens &amp; its transactions are recording in Ethereum decentralized computing network, powered by blockchain technology. In other terms, owning one token simply equals owning one share of the company, which entitles the shareholder of all his rights, notably voting and dividend rights.</p>
+
+<p>The token value reflected by the valuation of the company by evaluating</p>
+
+<ul>
+<li>Assets (furniture, computers, cash, AR, investments, etc)</li>
+<li>Liabilities (debt, AP, current payroll, leases, etc)</li>
+<li>Present value of expected future profits (growth rate)</li>
+</ul>
+
+
+<p>The token was naming:  DFG / Dwarves Foundation Gem. The first contract was deployed to Ethereum network last week, and you can track it on <a href="https://etherscan.io/token/0x36779A12eAb9B054bc991143751Ed5B05568eE8d">Etherscan</a>.</p>
+
+<p>This also marks our first milestone in building our global software firm. We have a plan for all of us to be financially happy in the long-term goal where the dwarves could own parts of the company.</p>
+
+<h4>The first allocation</h4>
+
+<p>The first batch of tokens (RSU) will be issued to those very first members of Dwarves Foundation who has dedicated themselves to the development of the company from Day 1.</p>
+
+<p>Beside the joined date and contribution, the allocation also reflects the risks that you decided to take with the team. High risk high pay.</p>
+
+<ul>
+<li>Quang Le: joined on Feb 2015, Quang is the 3rd member. During his soon-to-be five years serving the company vision, he has dedicated himself into everything, from day-to-day activities, project works, and the true craftsmen behind the company infrastructure. Thanks for all the hard works.</li>
+<li>Hieu Phan: joined on May 2015, the 5th member. Without his help and dynamics from Day 1, the team couldn&rsquo;t make it till today. Thanks for all the hard works.</li>
+<li>Huy Giang: joined on Sep 2016. Taking the position of Frontend Lead, his specialty, work ethic, and contributions help to increase the engineering standard. Thanks for all the hard works.</li>
+<li>Minh Tran: joined on April 2017 as Operations, PM and Frontend Dev. Although it was quite a challenge for Minh at the moment, his efforts to get things done was recognized and highly appreciated. Thanks for all the hard works.</li>
+</ul>
+
+
+<h4>What to expect after the first batch?</h4>
+
+<ul>
+<li>There&rsquo;s still a large amount of tokens reserved for people who can bring us to the next level as we are still missing a few important positions: VP of Engineering, VP of Business Development and Technical PM.</li>
+<li>On this October, the valuation dashboard will go live at <a href="https://ir.d.foundation">https://ir.d.foundation</a></li>
+<li>The Foundation directors who are committing to the company will receive the Options Plan with huge discount. Performance review required.</li>
+<li>End of this December, a few more tokens will be reserved for key members which they could buy via ESOP. Also a few rewards for 2019 contributions.</li>
+<li>Publish ESOP policy for all members. 20% discount.</li>
+<li>And finally, for members from last internship programs, you will be given the challenges when you reach the middle level.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

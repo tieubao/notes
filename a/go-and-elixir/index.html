@@ -1,0 +1,239 @@
+
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Go and Elixir  | Han Ngo</title>
+
+	<meta name="author" content="Han Ngo">
+
+<meta name="description" content="Life Hacker and Lifelong Learner"> <meta name="keywords" content="thought, programming, language">
+
+    <meta name="p:domain_verify" content="9cfd925a8a8bd39d7595ad0c077bddb3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/notes/atom.xml" rel="alternate" title="Han Ngo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/notes/favicon.png" rel="shortcut icon">
+	<link href="/notes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/notes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/notes/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el,
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	<!-- You can update Mapbox.js at https://www.mapbox.com/mapbox.js/ -->
+
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+	 
+ 
+
+ <!-- twitter card -->
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:site" content="@mrcexii">
+ <meta name="twitter:creator" content="@mrcexii">
+ <meta name="twitter:title" content="Go and Elixir - Han Ngo">
+ <meta name="twitter:url" content="http://tieubao.github.io/notes/a/go-and-elixir/">
+ <meta name="twitter:description" content="Life Hacker and Lifelong Learner">
+
+  <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+ <!--  -->
+
+
+
+ <!-- open graph -->
+ <meta property="og:title" content="Go and Elixir - Han Ngo"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:url" content="http://tieubao.github.io/notes/a/go-and-elixir/"/>
+ <meta property="og:site_name" content="Han Ngo" />
+<meta property="og:description" content="Life Hacker and Lifelong Learner" 
+/>
+
+ <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
+
+<!--  -->
+
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/notes/">Han Ngo</a></h1>
+<span class="tagline">me.toString();</span>
+<!-- <nav id="main-nav"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</nav> -->
+<!-- <nav id="mobile-nav"> -->
+<!-- 	<div class="alignleft menu"> -->
+<!-- 		<a class="button">Menu</a> -->
+<!-- 		<div class="container"><ul>
+	<li><a href="/notes/about">About</a></li>
+	<li><a href="/notes/archives">Archives</a></li>
+	<li><a href="/notes/contact">Contact</a></li>
+</ul>
+</div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<header>
+		<h2 class="title">Go and Elixir</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-03-11T14:24:20+07:00" pubdate data-updated="true">Mar 11<span>th</span>, 2016</time></div>
+	</header>
+	<div class="entry-content"><p>I&rsquo;m the founder of Dwarves Foundation, a software development firm that based in South East Asia. We use both languages in production and have developed some web apps, systems using Go and Elixir.</p>
+
+<p>First of all, I have to say both languages are great, same as the communities. They are both concurrency languages, but there are some differences in their souls.</p>
+
+<p>If you come from the background of Python, Go take the same approach of &lsquo;manual language.&rsquo; Go is a minimal language. Go replaces the inheritance by the composition (which said by someone &ldquo;Inheritance was a bad dream that (most) people have woken up from.&rdquo;) There is no magic in Go source code. Also, with the support of &lsquo;gofmt&rsquo; (syntax formatter), it brings you the transparency of knowledge between your source code and others. You will feel no hesitation to read the source code of your friends or open source libraries in Github.</p>
+
+<p><strong>Go is the best fit for API services and command line tool development</strong>. Go is a &lsquo;have-to-learn&rsquo; language for engineers.</p>
+
+<p>Go brings you the feel of &lsquo;it just works&rsquo; language after years working with it in several projects. Talking a little bit more about Go web frameworks, they do have a good framework for web development: Gin, echo, goji &hellip; are the minimal one like Flask, Express or Sinatra; Beego, Revel are full-fledged or battery included frameworks like Django, Sails or Rails. However, at the end of the day, you don&rsquo;t want to use those frameworks or ORMs at all, you will just want to use built-in components of Go to build your new system. That&rsquo;s the moment when you have been enlightened to feel the minimalism of Go. &ldquo;It just works,&rdquo; the gopher in you will speak to yourself.</p>
+
+<p>You can take reference to <a href="https://github.com/mattermost/mattermost-server">mattermost</a> repository to learn more the stack of Go as API server and React for web front-end.</p>
+
+<hr />
+
+<p>After the long time working with Go and if you are the type of lazy developers, you will find that Go language itself isn&rsquo;t wise enough. Go makes sense outside of the web dev world. As a web developer, you still need the super fast speed, but you want something as cool as Rails, Elixir/Phoenix is good for you.</p>
+
+<ul>
+<li>Functional Programming vs. OOP (<a href="https://medium.com/@brianwill/object-oriented-programming-a-personal-disaster-1b044c2383ab">Object-Oriented Programming: A Disaster Story</a>)</li>
+<li>Fault tolerance. It&rsquo;s something Go doesn&rsquo;t have. If an Erlang process (not an OS process, an Erlang process) dies, it dies. Every other process on the system is fine and Erlang has facilities to have processes monitor other processes and bring each other back up if one dies. It&rsquo;s just amazing. Absolutely beautiful.</li>
+<li>Abstract Syntax Trees. The one that brings <strong>Homoiconicity</strong> which is believed to be the source of power of Lisp.</li>
+</ul>
+
+
+<hr />
+
+<p>We are soldiers. We use different guns or knives in different purposes.
+At the moment, our stack is as below.</p>
+
+<ul>
+<li>Go for API server, cmd line tools, and DevOps scripts.</li>
+<li>Elixir for web development.</li>
+<li>Vue.js for frontend development</li>
+</ul>
+
+</div>
+
+</article>
+
+	
+	<div class="share">
+	  <ul>
+	    <li>
+  <a href="https://twitter.com/intent/tweet?text=Go and Elixir by @nntruonghan&url=http://tieubao.github.io/notes/a/go-and-elixir/" title="Share Go and Elixir on Twitter">
+    <img src="/notes/images/social/twitter.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://www.facebook.com/sharer.php?u=http://tieubao.github.io/notes/a/go-and-elixir/" title="Share Go and Elixir on Facebook">
+    <img src="/notes/images/social/facebook.png" />
+  </a>
+</li>
+
+	    <li>
+  <a href="https://plus.google.com/share?url=http://tieubao.github.io/notes/a/go-and-elixir/" title="Share Go and Elixir on Google Plus">
+    <img src="/notes/images/social/google.png" />
+  </a>
+</li>
+
+	  </ul>
+	</div>
+
+
+
+
+</div>
+	<footer id="footer" class="inner"><br>
+<br>
+<br>
+<br>
+&copy; 2020
+
+    Han Ngo
+
+</footer>
+	<script src="/notes/javascripts/slash.js"></script>
+<script src="/notes/javascripts/hyphenator.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-57628334-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+  // Make images center
+  $('p:has(img)').css('text-align', 'center');
+  });
+</script>
+</html>

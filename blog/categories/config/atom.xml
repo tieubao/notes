@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: config | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/config/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[dotfiles]]></title>
+    <link href="http://tieubao.github.io/notes/a/dotfiles/"/>
+    <updated>2015-11-05T03:20:06+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/dotfiles</id>
+    <content type="html"><![CDATA[<h1>The developer</h1>
+
+<p>In linux, the files start with a dot &ldquo;.&rdquo; are hidden. If you list files in the directory, they normally don&rsquo;t show up and keep them safe from the users. Because of that reason, the developer usually use it to store configurations of their tools. Those files are so called dotfiles. The first dot file for most of us is maybe the shell configuration file (.bashrc | .bash_profile)</p>
+
+<blockquote><p>Nowsday, you can find the dotfiles everywhere in your system.</p></blockquote>
+
+<p>Do you use git? vim?
+Do you use your ssh identities to authenticate with git server?
+Do you have any env configurations or even the backup from other apps?</p>
+
+<p>We are software developer. Our machine is more like our second home. We spend more than 8 hours per day with it. I have a friend from Singapore. Last time when I was with him drunk, I asked him for who is his gf and suddenly he pointed at his laptop. What a nerd!</p>
+
+<p>Back to the point, as a developer, we use a lot of tools and applications that need to back up.</p>
+
+<h1>The community</h1>
+
+<p>Years ago, people don&rsquo;t think about back up the dotfiles. Because we spend a lot of time with the shell, so most of the time, people just value their config for the shell. There are some topics around for people to show off their shell config. But this turned out a good start of the community.</p>
+
+<ul>
+<li><a href="http://ubuntuforums.org/showthread.php?t=679762">Show us your .bashrc!</a></li>
+<li><a href="https://bbs.archlinux.org/viewtopic.php?id=41331">Share your bashrc!</a></li>
+<li><p><a href="https://www.reddit.com/r/programming/comments/9he4v/share_your_bashrc_vimrc_or_other_settings_file_i">Share your .bashrc, .vimrc, or other settings file</a></p>
+
+<p>  <img src="/images/blog/2015-11-05-allias.png"></p></li>
+</ul>
+
+
+<p>After a few years, technology changed really fast and bring developers lots of useful tools like homebrew, z, logcat-color, &hellip; Developers use different tech stacks and they have their own setting for the workspace. Once they change the workspace or move from machine to machine, it takes so many hours to setup again. That&rsquo;s why some guys start to think about all their dotfiles and back up their workspace config.</p>
+
+<p>If you are new for dotfiles, you can have a quick look at: <a href="https://dotfiles.github.io.">https://dotfiles.github.io.</a> They organise most popular dotfiles for you to look at or start with. You can browse some repo to learn from the community, discover new tools for your toolbox and new tricks for the ones you already use.</p>
+
+<h1>Mine</h1>
+
+<p>I&rsquo;m a geek and a tech entreprenuer. I&rsquo;m also the founder of Dwarves Foundation. We offer venture builder service and a strong tech team to help people build their tech company.</p>
+
+<p>I began to care about my dotfiles for a year. You can find it around Github @ <a href="https://github.com/tieubao/dotfiles">tieubao/dotfiles</a></p>
+
+<p>And you can find my dotfiles helpful if you are using the same stack as me:</p>
+
+<ul>
+<li>OSX user</li>
+<li>Install stuffs via homebrew</li>
+<li>Editor: vim (or sublime)</li>
+<li>Develop backend in Golang</li>
+<li>Frontend with React</li>
+<li>Terminal addicted with zsh and prezto framework</li>
+<li>Not another git newbie</li>
+<li><p>Docker centric workflow</p>
+
+<p>  <img src="/images/blog/2015-11-05-vim.png">
+  <img src="/images/blog/2015-11-05-zsh.png">
+  <img src="/images/blog/2015-11-05-vim-go.png"></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

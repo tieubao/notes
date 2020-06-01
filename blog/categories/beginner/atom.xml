@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: beginner | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/beginner/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Resources for Go Beginners]]></title>
+    <link href="http://tieubao.github.io/notes/a/resources-for-go-beginners/"/>
+    <updated>2015-04-03T15:41:41+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/resources-for-go-beginners</id>
+    <content type="html"><![CDATA[<h1>Overview</h1>
+
+<p><img src="/images/blog/2015-04-02-golang-in-a-nutshell.png"></p>
+
+<p>Go is a better C++. In 2015, its mission is to be a cloud language and to replace C in some points. Many companies had ported a few parts of their system to Go. Go currently competes with Java in performance; with amazing syntax and features. Go is used to design system or web service. Somebody try to compare it to Rust, but they are not the same. Rust is lower level than Go and so called the better C.</p>
+
+<p>For beginner:</p>
+
+<ul>
+<li>Read some background about Go to get motivation.</li>
+<li>Pick your editor</li>
+<li><p>Learn syntax through the Playground, which can be found on Golang.org</p>
+
+<ul>
+<li>Go by example: <a href="https://gobyexample.com/">https://gobyexample.com/</a></li>
+<li>Tour of Go: <a href="https://tour.golang.org/">https://tour.golang.org/</a></li>
+<li>Effective Go: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Go 101: <a href="https://go101.org/article/101.html">https://go101.org/article/101.html</a></li>
+</ul>
+</li>
+<li><p>Try one full-fledged MVC Web Framework to write a web app</p></li>
+<li>Explore the Community and Golang packages</li>
+</ul>
+
+
+<p><div class="embed-video-container"><iframe src="https://www.youtube.com/embed/FTl0tl9BGdc?list=PLtTY3_zVDGOCwQ8SVTiUSrfOGFCC8G8du" allowfullscreen></iframe></div></p>
+
+<h1>Language Background</h1>
+
+<ul>
+<li>The purpose of the language, the story behind can be found at: <a href="https://golang.org/doc/faq">https://golang.org/doc/faq</a></li>
+<li>Convention: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Wiki: <a href="https://code.google.com/p/go-wiki/w/list">https://code.google.com/p/go-wiki/w/list</a></li>
+</ul>
+
+
+<h1>Workflow</h1>
+
+<p><a href="https://www.youtube.com/watch?v=XCsL89YtqCs">Writing, building, installing, and testing Go code</a></p>
+
+<p><div class="embed-video-container"><iframe src="https://www.youtube.com/embed/XCsL89YtqCs" allowfullscreen></iframe></div></p>
+
+<h1>Language &amp; Syntax</h1>
+
+<ul>
+<li>Gocon Tokyo 2014: <a href="http://talks.golang.org/2014/gocon-tokyo.slide#1">http://talks.golang.org/2014/gocon-tokyo.slide#1</a></li>
+<li>Go Training: <a href="https://github.com/ArdanStudios/gotraining">https://github.com/ArdanStudios/gotraining</a></li>
+<li>Introdution to Go: <a href="http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1">http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1</a></li>
+</ul>
+
+
+<h1>Editor</h1>
+
+<h3>Sublime Text with GoSublime:</h3>
+
+<ul>
+<li><a href="http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">Using Sublime Text for Go Development</a></li>
+</ul>
+
+
+<h3>Vim with Vim-go:</h3>
+
+<ul>
+<li><a href="http://farazdagi.com/blog/2015/vim-as-golang-ide/">Vim as Go language IDE</a></li>
+<li><a href="http://blog.gopheracademy.com/vimgo-development-environment/">Go development environment for Vim</a></li>
+</ul>
+
+
+<h1>Web Framework</h1>
+
+<h3>Minimal</h3>
+
+<ul>
+<li><a href="https://github.com/gin-gonic/gin">gin</a>: Gin is a HTTP web framework written in Go</li>
+<li><a href="https://github.com/labstack/echo">echo</a>: High performance, minimalist Go web framework</li>
+<li><a href="https://github.com/astaxie/beego">Beego</a>: Full-fledged web framework</li>
+</ul>
+
+
+<h3>Microservices</h3>
+
+<ul>
+<li><a href="https://gokit.io/">Go kit</a>: A standard library for microservices.</li>
+</ul>
+
+
+<h1>Dependency Manager</h1>
+
+<p>In 2018, Golang published its official dependencies manager and integrated to go tooling. The <code>dep</code> repo can be found at: <a href="https://golang.github.io/dep/">https://golang.github.io/dep/</a></p>
+
+<p>Before that, there a list of package management tools: <a href="https://github.com/golang/go/wiki/PackageManagementTools.">https://github.com/golang/go/wiki/PackageManagementTools.</a> They are divided into</p>
+
+<ul>
+<li>Vendoring: Like Bundler in Ruby or npm in Node</li>
+<li>Go Version Managers: Like rvm in Ruby</li>
+<li>Revision Locking</li>
+<li>Import Proxies</li>
+</ul>
+
+
+<h1>Community</h1>
+
+<h3>Global</h3>
+
+<ul>
+<li>Slack: <a href="https://invite.slack.golangbridge.org/">https://invite.slack.golangbridge.org/</a></li>
+<li>Go Users: <a href="https://github.com/golang/go/wiki/GoUsers">https://github.com/golang/go/wiki/GoUsers</a></li>
+<li>Go User Groups: <a href="https://github.com/golang/go/wiki/GoUserGroups">https://github.com/golang/go/wiki/GoUserGroups</a></li>
+</ul>
+
+
+<h3>Community in Vietnam</h3>
+
+<ul>
+<li>Homepage: <a href="https://golang.org.vn">https://golang.org.vn</a></li>
+<li>Facebook: <a href="https://facebook.com/golang.org.vn">https://facebook.com/golang.org.vn</a></li>
+<li>Github: <a href="https://github.com/golang-vietnam">https://github.com/golang-vietnam</a></li>
+<li>YouTube: <a href="https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ">https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ</a></li>
+</ul>
+
+
+<h1>News</h1>
+
+<ul>
+<li>Reddit: <a href="https://www.reddit.com/r/golang/">https://www.reddit.com/r/golang/</a></li>
+<li>golang-nuts: <a href="https://groups.google.com/forum/#!forum/golang-nuts">https://groups.google.com/forum/#!forum/golang-nuts</a></li>
+<li>Golang Weekly: <a href="https://golangweekly.com/">https://golangweekly.com/</a></li>
+</ul>
+
+
+<h1>Links</h1>
+
+<ul>
+<li>awesome-go: <a href="https://github.com/avelino/awesome-go">https://github.com/avelino/awesome-go</a></li>
+<li>Golang Proposal: <a href="https://go.googlesource.com/proposal/+/master/design">https://go.googlesource.com/proposal/+/master/design</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

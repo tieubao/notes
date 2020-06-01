@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: gophercon | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/gophercon/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GopherCon Vietnam 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/gophercon-vietnam-2018/"/>
+    <updated>2019-01-09T00:19:26+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/gophercon-vietnam-2018</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2018-12-08-homepage.png"></p>
+
+<p>Go (often referred to as Golang) is a free and open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. The language was announced in November 2009; it is used in some of Google&rsquo;s production systems, as well as by other firms.
+Over time, Golang has become the most popular language in large scale IT business where system performance and reliability are the most crucial successful key.</p>
+
+<h1>Golang Vietnam Community</h1>
+
+<p>Back in the day, the Chapter started in the late of 2014 as the playground of Dwarves Foundation, a software development firm based in Saigon. They invested in Go and wanted to help organize the community in Vietnam. In the beginning, there are only a few people in the city that takes Go seriously. They used Go for some of their toy projects. Being one of the first gophers in Vietnam in 2013, Han decided to gather the group of gophers to start the Golang Vietnam Community and put it under the help of Google Developer Group (GDG) Vietnam.</p>
+
+<p>The first meetup was held on 2015 March with more than 50 gophers, and it marked the beginning of the Vietnam chapter. Joining the <a href="https://github.com/golang/go/wiki/GoUserGroups#asia">Go User Groups</a>, Golang Vietnam helps to improve the tech scene by providing lots of activities to gather the community in Vietnam.</p>
+
+<p><img src="/images/blog/2018-12-08-meetup-01.jpg"></p>
+
+<h1>The GopherCon</h1>
+
+<p>GopherCon is one of the largest Golang events in the world. The first GopherCon was taking place in 2013, held annually in Denver, Colorado by Gopher Academy. Thousand of gophers gather every year to GopherCon to meet and celebrate at the conference together. Followed by the first GopherCon, other communities started their chapter after that.</p>
+
+<p>As a part of the Golang community, we are pleased to be launching the first GopherCon Vietnam, the most significant event in Vietnam dedicated exclusively to Go. A community of a passionate Gophers organizes GopherCon Vietnam on a volunteer basis.</p>
+
+<p>The event was expected to serve 200 &ndash; 250 gophers and last for two days from Dec 08 to Dec 09 with the conference on the first day and the workshop on the second day. The organization rolled out slowly from August with the thought that five months was good enough for us to prepare.</p>
+
+<p><img src="/images/blog/2018-12-08-sponsors.png"></p>
+
+<p>Since 2014, Golang adoption has been increasing from 3 to more than 50 companies using Go as the primary language in their systems. Therefore, we don&rsquo;t have many struggles finding bits of help and sponsorship from those companies.</p>
+
+<h1>The Conference</h1>
+
+<p>The conference is open for talks from the developer community. Discussions will be for beginners, intermediate and advanced levels, as well as for the interest of everyone. Our scope of topics will include a broad area, anything in the realm of Go language development.</p>
+
+<p><img src="/images/blog/2018-12-08-stage.jpg"></p>
+
+<p>Speakers submit their talks through PaperCall: <a href="https://www.papercall.io/events/1359">https://www.papercall.io/events/1359</a> and we will pick the best topics from that. List of talks as follows</p>
+
+<ol>
+<li>Opening &ndash; 9 Years of Go</li>
+<li>Starting Serverless with Go</li>
+<li>Go on a journey away from the mammoth C/C++ monolith</li>
+<li>Anatomy of a Docker container</li>
+<li>Golang and infrastructure works</li>
+<li>How we build scalable architecture at Sendo</li>
+<li>An investigative walkthrough of Go channels</li>
+<li>Large Scale Data Capture &amp; Experimentation Platform at Grab</li>
+<li>Production Ready Microservices at Scale</li>
+</ol>
+
+
+<h1>The Workshop</h1>
+
+<p>Two sessions were conducted by the members from the Golang Vietnam Community, who worked with Go for years will walk you through those topics with hands-on experience. The attendees prepare themselves with laptop and Golang installed on it.</p>
+
+<p><img src="/images/blog/2018-12-08-workshop-02.png"></p>
+
+<h3>Go Fundamentals</h3>
+
+<p>This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Using Pointers</li>
+<li>Arrays, Slices, and Maps</li>
+<li>Methods and Interfaces</li>
+<li>Packaging and Exporting</li>
+<li>Testing</li>
+<li>Managing External Dependencies</li>
+<li>Standard Library</li>
+</ul>
+
+
+<h3>Go Intermediates</h3>
+
+<p>This class is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. Course outline</p>
+
+<ul>
+<li>Language Syntax</li>
+<li>Data Structures</li>
+<li>Interface</li>
+<li>Decoupling</li>
+<li>Architecture</li>
+<li>Concurrency</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-workshop.jpg"></p>
+
+<h1>The Highlights</h1>
+
+<p>The first GopherCon in Vietnam achieved trust and welcoming from the community. We are pleased with that. A quick look at several numbers</p>
+
+<ul>
+<li>440 tickets were sold out in 2 weeks including Conference and Workshop.</li>
+<li>In 3 months we received more than 50 talks from companies and the Golang community.</li>
+<li>More than 65 companies participated in GopherCon Vietnam.</li>
+<li>Years of experience distribution of the attendees: Most of the gophers use Golang from 1 to 3 years.</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-year-of-exp.png"></p>
+
+<ul>
+<li>Golang was most used for API Development</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-12-08-usage-of-golang.png"></p>
+
+<h1>Looking forward</h1>
+
+<p>The GopherCon Vietnam 2018 was a successful event. I want to say thank you to all the people, the volunteers, companies, and organizations that help to make it happened. You guys rock.</p>
+
+<p>For 2019, we would love to hold another one next year and still keep it as volunteer basis with the collaboration from companies that massively adopted Go and from other communities. See you then.</p>
+
+<ul>
+<li><a href="https://gophercon.vn">https://gophercon.vn</a></li>
+<li><a href="https://golang.org.vn">https://golang.org.vn</a></li>
+</ul>
+
+
+<p><div class="embed-video-container"><iframe src="https://www.youtube.com/embed/i72-TSxRmpQ" allowfullscreen></iframe></div></p>
+
+<p><img src="/images/blog/2018-12-08-36.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-62.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-63.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-82.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-171.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-242.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-326.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-344.jpg"></p>
+
+<p><img src="/images/blog/2018-12-08-352.jpg"></p>
+]]></content>
+  </entry>
+  
+</feed>

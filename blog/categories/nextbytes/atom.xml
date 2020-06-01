@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: nextbytes | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/nextbytes/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The NeXT Bytes: Prologue]]></title>
+    <link href="http://tieubao.github.io/notes/a/the-next-bytes/"/>
+    <updated>2020-06-02T01:11:46+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/the-next-bytes</id>
+    <content type="html"><![CDATA[<h2>The Standing-ground</h2>
+
+<p>I&rsquo;m a software engineer, innovation advocates and technology investor. I created <a href="golang.org.vn">Golang Vietnam</a> Community and helped run <a href="webuild.community">WeBuild Community</a>. On those platforms, we connect with all the makers and software engineers from different background and support them on their side projects.</p>
+
+<p>I&rsquo;m the founder of <a href="dwarves.foundation">Dwarves Foundation</a> (<a href="https://github.com/dwarvesf">@dwarvesf</a>), a technology firm that focuses on tech know-how R&amp;D and massive application/distribution via a wide range of activities and services, e.g. offshore centre, software consulting, open-source software development. At Dwarves Foundation, we choose innovation to be one of our core values that form ideas to affect the general society undoubtedly. Innovation is not for geniuses working alone; it is an activity that requires a team effort. Being innovative is a part to approach the new era.</p>
+
+<p>I also founded <a href="dwarves.ventures">Dwarves Ventures</a>, the investment arms of Dwarves Foundation. We invested in a few startups that want to build next favorite things. One of our investment is <a href="superbits.co">Super Bits</a>. It&rsquo;s a product team that dedicated to making software &amp; tools for programmers and development team.</p>
+
+<h2>We are heading to the future</h2>
+
+<p>Throughout the years, we still believe that the best way to predict the future is to invent it. In the run to the future, we are continually working and exploring new technologies, frameworks and methodologies. While we actively involve in software development, we also have the opportunity to work with many startups, founders, business owners and software team, which make us one of the best witness to pragmatic innovation transformation.</p>
+
+<p>The interest and area of knowledge keep expanding around technological know-how and practices to build sustainable businesses, in variety of</p>
+
+<ul>
+<li>Teamwork &amp; Leadership</li>
+<li>Business and Organization Structure</li>
+<li>Product Development</li>
+<li>Software Design</li>
+<li>Digital Transformation &amp; Automation</li>
+<li>Data-driven &amp; Business Intelligent</li>
+</ul>
+
+
+<p>And also</p>
+
+<ul>
+<li>Working with Startups</li>
+<li>Investment &amp; VC Point of View</li>
+<li>Business Model Analysis</li>
+<li>Innovation and Methodology</li>
+<li>Everything else Science x Technology related</li>
+</ul>
+
+
+<p>And <strong>The NeXT Bytes</strong> is a monthly memo where we want to share these experiences, observation and research summary. Together with my crew, we intend to provide a sense of the goings-on in the tech industry, with more than thousands subscribers who are founders, makers, software engineers, designers, product guys and technologist. As we are going to explore the future, we don&rsquo;t know what it holds, but the journey will be exciting.</p>
+
+<p>The name <a href="https://tinyletter.com/nextbytes/"><strong>The NeXT Bytes</strong></a> is inspired by Apple NeXTSTEP OS and also through the fact that Technology &amp; Software continues to drive the world. Everything is running on code which consists of trillion of billion of <em><strong>zero &amp; one</strong></em> bits combined. We want to look at the bright side of the future where the next generation of Bytes would be elegant, well-written and would make the world a better place.</p>
+
+<p>Subscribing to this newsletter is a way keep up with these updates, with a message sent directly to your inbox.</p>
+
+<blockquote><p>Subscribe: <strong>&lt;tinyletter.com/nextbytes/></strong></p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

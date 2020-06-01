@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: internship | Han Ngo]]></title>
+  <link href="http://tieubao.github.io/notes/blog/categories/internship/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/notes/"/>
+  <updated>2020-06-02T01:54:41+07:00</updated>
+  <id>http://tieubao.github.io/notes/</id>
+  <author>
+    <name><![CDATA[Han Ngo]]></name>
+    <email><![CDATA[nntruonghan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Spring Internship 2019]]></title>
+    <link href="http://tieubao.github.io/notes/a/spring-internship-2019/"/>
+    <updated>2019-09-08T22:08:12+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/spring-internship-2019</id>
+    <content type="html"><![CDATA[<h3>The program</h3>
+
+<p>This is a second Internship Program at Dwarves Foundation. Held in Spring of 2019, we handpicked every single candidate that passed our CCAT test. Changing our measurement metrics from the last program, we aim to select the candidates not just with strong background, bilingual, and also we feel that they are unconventional.</p>
+
+<p>Over 160 candidates, we only selected 12. They are divided into three groups, each group with people from backend, mobile, and web.
+Golang is still the primary language that they have to learn and practice in the first month. Golang is a handy but straightforward language to get people on the same coding page. With Golang they can quickly pick up the language and then focus on the problem set they need to solve.</p>
+
+<p>After the first month, they went back to their career choice. If they want to do web, at this point in time, they will know a whole web front and the backend. If they want to do mobile development, they will know how the backend works, not just their view components. For the backend guy, we will continue to teach them a bit of how the deployment works. The main point is still to get them the whole picture of the system they gonna build.</p>
+
+<p>Learning from the last program, this year, we tried to add in the missing pieces of software development knowledge that they haven&rsquo;t been taught in school or in open source projects. To distinguish Coder, Programmer, and Software Engineer, they need to learn the difference. The training program includes a quick glance over</p>
+
+<ul>
+<li>Software Engineering Introduction</li>
+<li>Software Modelling</li>
+<li>Software Architecture</li>
+<li>Software Construction</li>
+<li>Software Process</li>
+<li>Software Quality</li>
+</ul>
+
+
+<p><script async="true" class="speakerdeck-embed" data-ratio="1.77777777777778" data-id="82a845337784492580099fc2fe264db5" src="https://speakerdeck.com/assets/embed.js"> </script></p>
+
+<h3>Its goal</h3>
+
+<p>The program was designed to bring hands-on experience to the candidates. Applying Pair Programming practice, we assign each group to a specific mentor. They had their time learned from the mentors on the developing products.</p>
+
+<ul>
+<li>A DevOps web app wrapping over Google Cloud, Azure, and AWS to provide a single interface, manage an entire lifecycle of an application.</li>
+<li>A system that aggregates schedule from all the sports events and deeply integrates to your personal calendar.</li>
+</ul>
+
+
+<p>Experience all the best practices from codebase structure; multiple environments from development, testing, staging, and production; gitflow with pull request and code review, microservices architecture, etc.
+All the cutting edge technologies from k8s, AWS deployment, react redux, Netlify, Cloudflare &hellip;</p>
+
+<h3>Highlights</h3>
+
+<h4>The metrics</h4>
+
+<ul>
+<li>Strong background</li>
+<li>Bilingual</li>
+<li>Unconventional</li>
+<li>Growth potential</li>
+</ul>
+
+
+<p>We say yes to students with a strong foundation, growth potential, and good English. The student with a strong foundation has a step forward compared to other students. They can pick up thing very quick and ready for the real project. The candidates with a right attitude toward professional will win the position.</p>
+
+<h4>Average age</h4>
+
+<p>The best year to apply for an internship at Dwarves Foundation?
+We think the senior students are the most suitable for the internship program. We are likely picking 80% of senior students than 3rd year and 2nd year. The senior students will have more chance to focus on fulltime job after their graduation.</p>
+
+<h4>Diversity</h4>
+
+<p>There are more female candidates this year. We love to increase gender diversity in the team to bring perspectives. Despite the fact that female staff still have disadvantages to win the leadership position due to stress and heavy workload.</p>
+
+<h4>Culture</h4>
+
+<p>The interns love our culture. Having a healthy team culture provides a good environment for self-developing. It feels like they are already a part of the team.</p>
+
+<h4>Time</h4>
+
+<p>Three months are still too short for them to absorb the program. The first month is for fundamental catching up. The next two months are for hands-on experience.</p>
+
+<h4>Next program</h4>
+
+<p>Despite the fact that all the metrics are essential, we feel that during the first days of their careers, the attitude is the most important characteristic. The next batch should be more on attitude over skill. 80% of interns with good attitude tend to be hardworking</p>
+
+<h4>University</h4>
+
+<p>Candidates from top universities like the University of Science or the University of Technology have a stronger background than others. But at the same time, they are not bilingual, which affect their confidence in working in multiple culture environment. Top candidates learned English by themselves.</p>
+
+<h4>Technology</h4>
+
+<p>80% of candidates want to learn technologies over foundation knowledge. Most of them can&rsquo;t tell the difference between software service firm and product company. Trendy technologies like blockchain and AI still catch their eyes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Internship 2018]]></title>
+    <link href="http://tieubao.github.io/notes/a/summer-internship-2018/"/>
+    <updated>2018-11-08T21:52:50+07:00</updated>
+    <id>http://tieubao.github.io/notes/a/summer-internship-2018</id>
+    <content type="html"><![CDATA[<p>Dwarves Foundation is a software development firm that based in South East Asia. We use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class products. We build software and scale cloud platform.</p>
+
+<p>In 2018, we launched the first Summer Internship Program for students with or without Engineering background from top universities in southern Vietnam. The program was designed with the purpose to give an opportunity for candidates to experience the real world projects. No coffee runs here. We love watching talented people learn and explore their skills.</p>
+
+<p><img src="/images/blog/2018-11-08-banner.png" alt="" /></p>
+
+<p>If you apply for a full-time position, we only want to know if you can bring anything to the table. We get you into the real working environment to see if you can perform well among the team and that’s it. For interns, our approach is different. They are usually quite young and without any experience, so no clues to ask if they can bring in something. The intern candidates will walk through two rounds</p>
+
+<ul>
+<li>The first one is the Pre-assessment test in 30 minutes for Computer Software Engineer which is including Criteria Cognitive Aptitude Test (CCAT) and Employee Personality Profile (EPP). CCAT measures your ability to problem solve, use new information, and think critically. It will tell employers how quickly you’ll pick up training for your new role. Research shows that cognitive aptitude is one of the best predictors of your job performance. It’s significantly more predictive than interviews, previous job experience, and your education level. Meanwhile, EPP is a general personality inventory that measures twelve personality traits that provide valuable insights into a person’s work styles and how they are likely to interact with co-workers, management, and customers. It can be used for any position and contains position-specific benchmarks that allow administrators to compare an individual’s scores against composite profiles to determine possible job fit.</li>
+<li>The candidates scoring more than 23 points in the first round will go to the second to have an interview with our VP of Engineering. We evaluate the background, the problem-solving mindset and a bit of personality to see if the candidate is the right person.</li>
+</ul>
+
+
+<p><img src="/images/blog/2018-11-08-evaluation.png" alt="" /></p>
+
+<p>The program was prepared in 1 month. We posted about the program at the beginning of June and started it from July to October. In such a coincidence, it was also my very first three months working as an Intern when I was 20.</p>
+
+<p>There were 283 applications in total, 142 applicants passed the pre-assessment test and only 14 offers to the interns. That was over our expectation and was the first success for us.</p>
+
+<p>The interns were divided into three small groups: web, mobile, and devops.</p>
+
+<p>We got them to learn Golang as the primary backend language. Golang is Dwarves language of choice to rewrite the modern world. We think as the team the engineers need to understand the core problem that the business wanted to solve, also what is the value that the firm proposes to the customer. Every team members should know the core backend system by getting involved in before building the frontend or dig into the system.</p>
+
+<p><img src="/images/blog/2018-11-08-golang.png" alt="" /></p>
+
+<p>Even though Golang is a quick language to pick up and get things done, the schedule was pretty tight with three weeks learning Go and then one week for a small assignment. All the interns were stretched out to their limit.</p>
+
+<p>After the first month, we arranged them to multiple projects with different challenges:</p>
+
+<ul>
+<li>Find Friends is a mobile application with instant location sharing features will allow people to locate friends and family easily.</li>
+<li>Smithy is an admin dashboard written in Go and VueJS. It is designed to support multiple existed architectures and databases.</li>
+<li>Yggdrasil is a business service mesh written in Go.</li>
+</ul>
+
+
+<p>The internship program was tough but fun. Thank you and congratulation for all the hard work.</p>
+
+<p><img src="/images/blog/2018-11-08-cert.png" alt="" /></p>
+
+<p>Some other fun facts:</p>
+
+<ul>
+<li>Most of the interns come from HCM University of Science (US) and University of Information Technology (UIT). They seemed to be more confident and have better engineering background.</li>
+<li>Most of them don’t care too much about the company. They want to learn from the people in the company. The internship allowance is not essential.</li>
+<li>The average age is 22. The oldest in the batch is 27.</li>
+<li>There are three interns studied in a different major, but they decided to join us as Engineer Interns. Brilliant people.</li>
+<li>The university in Vietnam teaches them .NET, Java or C++.</li>
+<li>And they all think that Blockchain and AI is the most cooling field to work in.</li>
+</ul>
+
+
+<p>More at: <a href="http://dwarves.careers/internship/2018/">http://dwarves.careers/internship/2018/</a></p>
+
+<p>End of the Summer program, we received a few messages from the interns that bring us positive motivation for the next program.</p>
+
+<p><div class="embed-video-container"><iframe src="https://www.youtube.com/embed/FWW6hve0GR8" allowfullscreen></iframe></div></p>
+]]></content>
+  </entry>
+  
+</feed>
