@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: sleep | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/sleep/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/sleep/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Sleep Revolution Manifesto]]></title>
-    <link href="http://tieubao.github.io/notes/a/the-sleep-revolution-manifesto/"/>
+    <link href="http://tieubao.github.io/writing/a/the-sleep-revolution-manifesto/"/>
     <updated>2016-09-17T12:11:43+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/the-sleep-revolution-manifesto</id>
+    <id>http://tieubao.github.io/writing/a/the-sleep-revolution-manifesto</id>
     <content type="html"><![CDATA[<p>The below manifesto is excerp from the book. Reading them carefully help me a lot. Work &amp; Life balance is always a nice &amp; endless topic.</p>
 
 <ol>

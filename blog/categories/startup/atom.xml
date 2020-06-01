@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: startup | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/startup/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cofounder Agreement]]></title>
-    <link href="http://tieubao.github.io/notes/a/cofounder-agreement/"/>
+    <link href="http://tieubao.github.io/writing/a/cofounder-agreement/"/>
     <updated>2018-02-15T17:41:37+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/cofounder-agreement</id>
+    <id>http://tieubao.github.io/writing/a/cofounder-agreement</id>
     <content type="html"><![CDATA[<h1>Ensure Alignment of Vision</h1>
 
 <p>As you and your cofounder (or cofounders) embark on your entrepreneurial journey together, it’s imperative that you all share the same vision for the purpose and future of your company. It’s easy to get caught up in the thrill of launching a potentially successful startup together, but you all must take the time to establish the existential foundations of the company, and as early as possible, to help prevent the possibility of a drastic falling out later on.</p>
@@ -133,9 +133,9 @@
   
   <entry>
     <title type="html"><![CDATA[12 Signs Your Company Has An Enviable Workplace Culture]]></title>
-    <link href="http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture/"/>
+    <link href="http://tieubao.github.io/writing/a/12-signs-your-company-has-an-enviable-workplace-culture/"/>
     <updated>2017-01-09T16:36:00+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture</id>
+    <id>http://tieubao.github.io/writing/a/12-signs-your-company-has-an-enviable-workplace-culture</id>
     <content type="html"><![CDATA[<p>This article is one of my favorites about company culture. At <a href="http://dwarvesf.com">Dwarves Foundation</a>, we pursue the path of high tech Ventures Builder where we can be the foundation for all tech startups for now and even for Industry 4.0. Building the culture for engineer team is the highest priority.</p>
 
 <hr />
@@ -214,9 +214,9 @@
   
   <entry>
     <title type="html"><![CDATA[The CEO roles: Idea to Continuous Growth]]></title>
-    <link href="http://tieubao.github.io/notes/a/the-ceo-roles-idea-to-continuous-growth/"/>
+    <link href="http://tieubao.github.io/writing/a/the-ceo-roles-idea-to-continuous-growth/"/>
     <updated>2016-09-17T12:37:33+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/the-ceo-roles-idea-to-continuous-growth</id>
+    <id>http://tieubao.github.io/writing/a/the-ceo-roles-idea-to-continuous-growth</id>
     <content type="html"><![CDATA[<p>A CEO role must evolve to sustain growth. Where are you in the growth journey?</p>
 
 <h1>Start Up</h1>
@@ -266,9 +266,9 @@
   
   <entry>
     <title type="html"><![CDATA[Happy Startup]]></title>
-    <link href="http://tieubao.github.io/notes/a/happy-startup/"/>
+    <link href="http://tieubao.github.io/writing/a/happy-startup/"/>
     <updated>2015-07-10T09:59:05+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/happy-startup</id>
+    <id>http://tieubao.github.io/writing/a/happy-startup</id>
     <content type="html"><![CDATA[<p>Follow these 10 tips and you’ll be on the right track to a happy startup:</p>
 
 <ul>
@@ -292,9 +292,9 @@
   
   <entry>
     <title type="html"><![CDATA[How do we split equity between co-founders?]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-do-we-split-equity-between-us-co-founders/"/>
+    <link href="http://tieubao.github.io/writing/a/how-do-we-split-equity-between-us-co-founders/"/>
     <updated>2015-02-09T17:06:03+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-do-we-split-equity-between-us-co-founders</id>
+    <id>http://tieubao.github.io/writing/a/how-do-we-split-equity-between-us-co-founders</id>
     <content type="html"><![CDATA[<p>It’s a very fair question to ask. My own co-founder Bryan and I asked the same question of ourselves when we launched our startup Embarke. Bryan and I had only known each other for a couple months, yet it was important to both of us to have an open and honest partnership from day one. We also knew the importance of figuring this stuff out early, while we could still look at it objectively.</p>
 
 <p>The purpose of this post is to not just share with you what we did and the process we went through, but to also give you the tool we built to help us along the way.</p>

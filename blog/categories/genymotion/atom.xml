@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: genymotion | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/genymotion/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/genymotion/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Android with Eclipse and Genymotion on Mac OS X]]></title>
-    <link href="http://tieubao.github.io/notes/a/android-with-eclipse-and-genymotion-on-mac-os-x/"/>
+    <link href="http://tieubao.github.io/writing/a/android-with-eclipse-and-genymotion-on-mac-os-x/"/>
     <updated>2013-12-03T23:22:08+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/android-with-eclipse-and-genymotion-on-mac-os-x</id>
+    <id>http://tieubao.github.io/writing/a/android-with-eclipse-and-genymotion-on-mac-os-x</id>
     <content type="html"><![CDATA[<h1>Setup Eclipse</h1>
 
 <p>Download <code>Android SDK</code> from <a href="http://developer.android.com/sdk/index.html">Official Site</a> which including Eclipse and ADT plugin. You don&rsquo;t need to setup manually.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: golang | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/golang/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/golang/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Resources for Go Beginners]]></title>
-    <link href="http://tieubao.github.io/notes/a/resources-for-go-beginners/"/>
+    <link href="http://tieubao.github.io/writing/a/resources-for-go-beginners/"/>
     <updated>2015-04-03T15:41:41+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/resources-for-go-beginners</id>
+    <id>http://tieubao.github.io/writing/a/resources-for-go-beginners</id>
     <content type="html"><![CDATA[<h1>Overview</h1>
 
 <p><img src="/images/blog/2015-04-02-golang-in-a-nutshell.png"></p>

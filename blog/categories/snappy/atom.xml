@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: snappy | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/snappy/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/snappy/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Le me at Barcamp Saigon 2014]]></title>
-    <link href="http://tieubao.github.io/notes/a/barcamp-saigon-2014/"/>
+    <link href="http://tieubao.github.io/writing/a/barcamp-saigon-2014/"/>
     <updated>2014-12-14T23:57:40+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/barcamp-saigon-2014</id>
+    <id>http://tieubao.github.io/writing/a/barcamp-saigon-2014</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-14-barcamp.png"></p>
 
 <p>It had been an year since Barcamp 2013 at RMIT. &ldquo;<a href="http://www.barcampsaigon.org/">BarcampSaigon</a> is an unconference that was created in the tech community in 2005. Organizers of the event only organized the space and the people from the community were the presenters. That means the quality of the event depends on the community. Today, Barcamps are held in over 350 cities across the world. BarcampSaigon was started in 2008 and there have been 6 in Saigon so far. So come to BarcampSaigon and present about anything you want! The community will vote on topics and the top topics will get the biggest rooms.&rdquo; They said.</p>

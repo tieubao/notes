@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://tieubao.github.io/notes/sitemap.xml 
+Sitemap: http://tieubao.github.io/writing/sitemap.xml 

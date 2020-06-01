@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: layout | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/layout/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/layout/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Auto Layout in iOS]]></title>
-    <link href="http://tieubao.github.io/notes/a/auto-layout-in-ios/"/>
+    <link href="http://tieubao.github.io/writing/a/auto-layout-in-ios/"/>
     <updated>2015-01-05T01:07:49+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/auto-layout-in-ios</id>
+    <id>http://tieubao.github.io/writing/a/auto-layout-in-ios</id>
     <content type="html"><![CDATA[<p>I spend a day to learn how to make auto layout in iOS. I begin with an article <a href="http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/">How to use UIViews with auto layout programmatically</a>. It teaches me add views from the first then add size constraints and position contraints later. They are using <code>NSLayoutConstraint</code>.</p>
 
 <p>After that, I find a thread at <a href="http://stackoverflow.com/questions/26180822/swift-adding-constraints-programmatically">StackOverflow</a>. They show off 3 ways to make Auto Layout programmatically</p>

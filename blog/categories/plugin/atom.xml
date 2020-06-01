@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: plugin | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/plugin/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/plugin/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A mapbox plugin for octopress]]></title>
-    <link href="http://tieubao.github.io/notes/a/a-mapbox-plugin-for-octopress/"/>
+    <link href="http://tieubao.github.io/writing/a/a-mapbox-plugin-for-octopress/"/>
     <updated>2013-12-03T01:22:01+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/a-mapbox-plugin-for-octopress</id>
+    <id>http://tieubao.github.io/writing/a/a-mapbox-plugin-for-octopress</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/tieubao/octopress-mapbox"><strong>octopress-mapbox</strong></a></p>
 
 <p>I&rsquo;m building an octopress blog for my friend and need a map for markup purposes. I found <code>octolayer</code> working but <code>Open Street Maps</code> interface is too urly. After an hour searching, I meet <a href="https://www.mapbox.com/">Mapbox</a> which is a map-as-a-service, beautiful design for publishing.</p>

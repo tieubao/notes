@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: app | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/app/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/app/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to use JayPix beta]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-to-use-jaypix-beta/"/>
+    <link href="http://tieubao.github.io/writing/a/how-to-use-jaypix-beta/"/>
     <updated>2013-10-19T05:18:50+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-to-use-jaypix-beta</id>
+    <id>http://tieubao.github.io/writing/a/how-to-use-jaypix-beta</id>
     <content type="html"><![CDATA[<p>If you are reading this post, your team registered for trial of JayPix, a visual log book for field works. You should have been received an Email from us which contains the following information and have installed successfully JayPix beta.</p>
 
 <ul>
@@ -83,7 +83,7 @@
 
 <p>Congratulation, Now let&rsquo;s start new Journey with your team at JayPix</p>
 
-<p>If you have any questions, please do not hesitate to contact us at <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#99;&#x6f;&#x6e;&#x74;&#x61;&#99;&#x74;&#x40;&#x63;&#x6c;&#x6f;&#117;&#x64;&#x6a;&#x61;&#x79;&#46;&#x63;&#111;&#x6d;">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#x74;&#x40;&#x63;&#108;&#x6f;&#x75;&#100;&#x6a;&#97;&#x79;&#x2e;&#x63;&#111;&#109;</a></p>
+<p>If you have any questions, please do not hesitate to contact us at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#x63;&#111;&#110;&#116;&#x61;&#x63;&#116;&#64;&#x63;&#x6c;&#111;&#117;&#100;&#106;&#x61;&#x79;&#x2e;&#99;&#x6f;&#109;">&#99;&#111;&#x6e;&#116;&#x61;&#99;&#116;&#64;&#99;&#108;&#111;&#x75;&#100;&#106;&#x61;&#x79;&#x2e;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
   </entry>
   

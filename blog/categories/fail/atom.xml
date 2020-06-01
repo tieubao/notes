@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: fail | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/fail/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/fail/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tying lessons learned to project failure]]></title>
-    <link href="http://tieubao.github.io/notes/a/tying-lessons-learned-to-project-failure/"/>
+    <link href="http://tieubao.github.io/writing/a/tying-lessons-learned-to-project-failure/"/>
     <updated>2015-02-28T17:29:15+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/tying-lessons-learned-to-project-failure</id>
+    <id>http://tieubao.github.io/writing/a/tying-lessons-learned-to-project-failure</id>
     <content type="html"><![CDATA[<p>If one of the main benefits of lessons learned discussions is to prevent future project failure, then why not structure your lessons learned around the top 5 causes of project failure? You’d be capturing targeted lessons that could be fed into the Project Management Office and project teams to provide tangible routes for improvement.</p>
 
 <p>According to a survey by PM Solutions, the top 5 causes of troubled projects are:

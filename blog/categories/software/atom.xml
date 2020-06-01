@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: software | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/software/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Software Engineering Philosophy]]></title>
-    <link href="http://tieubao.github.io/notes/a/software-engineering-philosophy/"/>
+    <link href="http://tieubao.github.io/writing/a/software-engineering-philosophy/"/>
     <updated>2019-05-23T19:49:02+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/software-engineering-philosophy</id>
+    <id>http://tieubao.github.io/writing/a/software-engineering-philosophy</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2019-05-23-software.png"></p>
 
 <h1>Software is changing the world</h1>
@@ -138,9 +138,9 @@
   
   <entry>
     <title type="html"><![CDATA[2018: Year of Achievement]]></title>
-    <link href="http://tieubao.github.io/notes/a/2018-year-of-achievement/"/>
+    <link href="http://tieubao.github.io/writing/a/2018-year-of-achievement/"/>
     <updated>2019-01-26T14:41:20+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/2018-year-of-achievement</id>
+    <id>http://tieubao.github.io/writing/a/2018-year-of-achievement</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2019-01-26-homepage.png"></p>
 
 <p>Dwarves Foundation is a software development firm that based in South East Asia. Starting in 2014, we use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class software products.</p>
@@ -204,9 +204,9 @@ Though he truly give his best for the work, Hieu’s limited ability of teamwork
   
   <entry>
     <title type="html"><![CDATA[What Dwarves Foundation Stand For]]></title>
-    <link href="http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for/"/>
+    <link href="http://tieubao.github.io/writing/a/what-dwarves-foundation-stand-for/"/>
     <updated>2018-03-19T10:30:20+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/what-dwarves-foundation-stand-for</id>
+    <id>http://tieubao.github.io/writing/a/what-dwarves-foundation-stand-for</id>
     <content type="html"><![CDATA[<p>Innovation happens. There are many startups found and raise fund every day. They focus on making significant positive changes, impact millions of people, lead to breakthroughs and support the foundation of economic growth.</p>
 
 <p>Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.</p>
@@ -246,15 +246,15 @@ Despite the fact that service firms scale linearly, their ultimate size is cappe
 
 <hr />
 
-<p>Empower innovation is the lifestyle we choose and we are always welcome the like minded people to join us on this journey. A network with all the people who want to change the world would be really awesome. Drop us a message <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x74;&#101;&#97;&#109;&#64;&#100;&#46;&#102;&#x6f;&#117;&#x6e;&#100;&#x61;&#x74;&#x69;&#111;&#110;">&#x74;&#x65;&#x61;&#109;&#64;&#100;&#x2e;&#102;&#x6f;&#117;&#x6e;&#100;&#x61;&#116;&#x69;&#111;&#x6e;</a> anytime.</p>
+<p>Empower innovation is the lifestyle we choose and we are always welcome the like minded people to join us on this journey. A network with all the people who want to change the world would be really awesome. Drop us a message <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#116;&#101;&#x61;&#x6d;&#64;&#100;&#46;&#x66;&#111;&#x75;&#x6e;&#100;&#x61;&#116;&#105;&#111;&#x6e;">&#116;&#101;&#97;&#109;&#x40;&#x64;&#x2e;&#x66;&#111;&#x75;&#110;&#x64;&#x61;&#116;&#x69;&#111;&#x6e;</a> anytime.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Dwarves Foundation]]></title>
-    <link href="http://tieubao.github.io/notes/a/dwarves-foundation/"/>
+    <link href="http://tieubao.github.io/writing/a/dwarves-foundation/"/>
     <updated>2015-05-29T00:53:06+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/dwarves-foundation</id>
+    <id>http://tieubao.github.io/writing/a/dwarves-foundation</id>
     <content type="html"><![CDATA[<p>After an interesting journey at <a href="/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/">CloudJay</a>, I took a short break for a month and feel that startup life is too hard for young people but it&rsquo;s really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.</p>
 
 <p><img src="/images/blog/2015-06-17-entrepreneur.jpg"></p>
@@ -368,9 +368,9 @@ Despite the fact that service firms scale linearly, their ultimate size is cappe
   
   <entry>
     <title type="html"><![CDATA[Semantic Versioning 2.0.0]]></title>
-    <link href="http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0/"/>
+    <link href="http://tieubao.github.io/writing/a/semantic-versioning-2-dot-0-0/"/>
     <updated>2014-01-09T13:03:30+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/semantic-versioning-2-dot-0-0</id>
+    <id>http://tieubao.github.io/writing/a/semantic-versioning-2-dot-0-0</id>
     <content type="html"><![CDATA[<h2>Summary</h2>
 
 <p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>

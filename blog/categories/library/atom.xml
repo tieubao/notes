@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: library | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/library/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/library/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Add library to Android Project]]></title>
-    <link href="http://tieubao.github.io/notes/a/add-library-to-android-project/"/>
+    <link href="http://tieubao.github.io/writing/a/add-library-to-android-project/"/>
     <updated>2013-12-07T01:25:36+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/add-library-to-android-project</id>
+    <id>http://tieubao.github.io/writing/a/add-library-to-android-project</id>
     <content type="html"><![CDATA[<p>Android community has grown fast and faster today. They contribute a lot of open source plugins and components mentioned on <a href="http://tieubao.22journeys.com/writing/2013/12/05/resources-every-android-developer-should-know/">previous topic</a>. You don&rsquo;t need to start new project from scratch.</p>
 
 <p>Some of them were released as <code>.jar</code> which was compiled. Some were released as <code>folder</code>.</p>

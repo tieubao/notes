@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: practice | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/practice/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/practice/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cofounder Agreement]]></title>
-    <link href="http://tieubao.github.io/notes/a/cofounder-agreement/"/>
+    <link href="http://tieubao.github.io/writing/a/cofounder-agreement/"/>
     <updated>2018-02-15T17:41:37+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/cofounder-agreement</id>
+    <id>http://tieubao.github.io/writing/a/cofounder-agreement</id>
     <content type="html"><![CDATA[<h1>Ensure Alignment of Vision</h1>
 
 <p>As you and your cofounder (or cofounders) embark on your entrepreneurial journey together, it’s imperative that you all share the same vision for the purpose and future of your company. It’s easy to get caught up in the thrill of launching a potentially successful startup together, but you all must take the time to establish the existential foundations of the company, and as early as possible, to help prevent the possibility of a drastic falling out later on.</p>
@@ -133,9 +133,9 @@
   
   <entry>
     <title type="html"><![CDATA[Git practices at Dwarves Foundation]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-practices-at-dwarves-foundation/"/>
+    <link href="http://tieubao.github.io/writing/a/git-practices-at-dwarves-foundation/"/>
     <updated>2016-06-20T04:32:09+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-practices-at-dwarves-foundation</id>
+    <id>http://tieubao.github.io/writing/a/git-practices-at-dwarves-foundation</id>
     <content type="html"><![CDATA[<p>Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase team productivity. In this post, I will try to cover some of the best practices from the community and the way we applied them at <a href="https://www.dwarves.foundation">Dwarves Foundation</a>.</p>
 
 <h1>Know how to write good commit message</h1>
@@ -378,9 +378,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[How do we split equity between co-founders?]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-do-we-split-equity-between-us-co-founders/"/>
+    <link href="http://tieubao.github.io/writing/a/how-do-we-split-equity-between-us-co-founders/"/>
     <updated>2015-02-09T17:06:03+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-do-we-split-equity-between-us-co-founders</id>
+    <id>http://tieubao.github.io/writing/a/how-do-we-split-equity-between-us-co-founders</id>
     <content type="html"><![CDATA[<p>It’s a very fair question to ask. My own co-founder Bryan and I asked the same question of ourselves when we launched our startup Embarke. Bryan and I had only known each other for a couple months, yet it was important to both of us to have an open and honest partnership from day one. We also knew the importance of figuring this stuff out early, while we could still look at it objectively.</p>
 
 <p>The purpose of this post is to not just share with you what we did and the process we went through, but to also give you the tool we built to help us along the way.</p>
@@ -415,9 +415,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[Divide Founders Stock Equally? Bad Idea]]></title>
-    <link href="http://tieubao.github.io/notes/a/divide-founders-stock-equally-bad-idea/"/>
+    <link href="http://tieubao.github.io/writing/a/divide-founders-stock-equally-bad-idea/"/>
     <updated>2015-02-05T16:51:32+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/divide-founders-stock-equally-bad-idea</id>
+    <id>http://tieubao.github.io/writing/a/divide-founders-stock-equally-bad-idea</id>
     <content type="html"><![CDATA[<p>You and some co-venturers have come up with a business plan and an idea that you want to bring to fruition. How do you decide how much each person will own in the company?</p>
 
 <p>Many entrepreneurs think that each founder should own equal shares. This can be problematic, for many reasons.</p>
@@ -443,9 +443,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[Startup notes]]></title>
-    <link href="http://tieubao.github.io/notes/a/startup-notes/"/>
+    <link href="http://tieubao.github.io/writing/a/startup-notes/"/>
     <updated>2015-01-22T20:59:25+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/startup-notes</id>
+    <id>http://tieubao.github.io/writing/a/startup-notes</id>
     <content type="html"><![CDATA[<ul>
 <li>CEO > all: The CEO gets more. Always.</li>
 <li>Startup: Team &mdash; way to &mdash;> market</li>

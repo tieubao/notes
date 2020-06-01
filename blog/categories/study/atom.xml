@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: study | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/study/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/study/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hướng dẫn học nhanh một platform bất kỳ]]></title>
-    <link href="http://tieubao.github.io/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/"/>
+    <link href="http://tieubao.github.io/writing/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/"/>
     <updated>2013-12-26T22:42:03+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky</id>
+    <id>http://tieubao.github.io/writing/a/huong-dan-hoc-nhanh-mot-platform-bat-ky</id>
     <content type="html"><![CDATA[<h3>Task 1: Làm quen với platform <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></h3>
 
 <ul>

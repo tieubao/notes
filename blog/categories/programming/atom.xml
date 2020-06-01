@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Go and Elixir]]></title>
-    <link href="http://tieubao.github.io/notes/a/go-and-elixir/"/>
+    <link href="http://tieubao.github.io/writing/a/go-and-elixir/"/>
     <updated>2016-03-11T14:24:20+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/go-and-elixir</id>
+    <id>http://tieubao.github.io/writing/a/go-and-elixir</id>
     <content type="html"><![CDATA[<p>I&rsquo;m the founder of Dwarves Foundation, a software development firm that based in South East Asia. We use both languages in production and have developed some web apps, systems using Go and Elixir.</p>
 
 <p>First of all, I have to say both languages are great, same as the communities. They are both concurrency languages, but there are some differences in their souls.</p>

@@ -67,7 +67,7 @@ $(document).ready(
  <meta name="twitter:site" content="@mrcexii">
  <meta name="twitter:creator" content="@mrcexii">
  <meta name="twitter:title" content="Han Ngo">
- <meta name="twitter:url" content="http://tieubao.github.io/notes/blog/page/3/">
+ <meta name="twitter:url" content="http://tieubao.github.io/writing/blog/page/3/">
  <meta name="twitter:description" content="Life Hacker and Lifelong Learner">
 
   <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
@@ -79,7 +79,7 @@ $(document).ready(
  <!-- open graph -->
  <meta property="og:title" content="Han Ngo"/>
  <meta property="og:type" content="blog"/>
- <meta property="og:url" content="http://tieubao.github.io/notes/blog/page/3/"/>
+ <meta property="og:url" content="http://tieubao.github.io/writing/blog/page/3/"/>
  <meta property="og:site_name" content="Han Ngo" />
 <meta property="og:description" content="Life Hacker and Lifelong Learner" 
 />
@@ -116,899 +116,6 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/gitflow-and-pull-request/">
-			
-				Gitflow and Pull Request</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-06-20T04:32:09+07:00" pubdate data-updated="true">Jun 20<span>th</span>, 2016</time></div>
-	</header>
-	<div class="entry-content">
-		<p>Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase the team productivity. In this post, I will try to cover some of the best practices from the community and the way we applied them at <a href="https://www.dwarvesf.com">Dwarves Foundation</a>.</p>
-
-<h1>Git branching model</h1>
-
-<blockquote><p>Source: <a href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a></p></blockquote>
-
-<p><img src="/notes/images/blog/2016-06-27-git-model.png"></p>
-
-<p>In sort, you will organise your repository into 5 types of branches:</p>
-
-<h3>The main branches</h3>
-
-<ul>
-<li>master: the main branch where the source code of HEAD always reflects a <em>production-ready</em> state</li>
-<li>develop: the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. Some would call this the &ldquo;integration branch&rdquo;.</li>
-</ul>
-
-
-<h3>feature</h3>
-
-<ul>
-<li>May branch off from: develop</li>
-<li>Must merge back into: develop</li>
-<li>Branch naming convention: anything except master, develop, release-*, or hotfix-*</li>
-</ul>
-
-
-<p>Feature branches (or sometimes called topic branches) are used to develop new features for the upcoming or a distant future release. When starting development of a feature, the target release in which this feature will be incorporated may well be unknown at that point.</p>
-
-<h3>release</h3>
-
-<ul>
-<li>May branch off from: develop</li>
-<li>Must merge back into: develop and master</li>
-<li>Branch naming convention: release-*</li>
-</ul>
-
-
-<p>Release branches are created from the develop branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of develop is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number</p>
-
-<h3>hotfix</h3>
-
-<ul>
-<li>May branch off from: master</li>
-<li>Must merge back into: develop and master</li>
-<li>Branch naming convention: hotfix-*</li>
-</ul>
-
-
-<p>Hotfix branches are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned. They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.</p>
-
-<h2>Gitflow</h2>
-
-<p>Inspired by Vincent Driessen&rsquo;s branching model, git-flow are a set of git extensions to provide high-level repository operations for it. Git-flow is a merge based solution. It doesn&rsquo;t rebase feature branches.</p>
-
-<ul>
-<li>Checkout gitflow cheatsheet: <a href="http://danielkummer.github.io/git-flow-cheatsheet/">http://danielkummer.github.io/git-flow-cheatsheet/</a></li>
-<li>Apps that support gitflow:
-
-<ul>
-<li>Source Tree: <a href="https://www.sourcetreeapp.com">https://www.sourcetreeapp.com</a></li>
-<li>Git Tower: <a href="https://www.git-tower.com">https://www.git-tower.com</a></li>
-</ul>
-</li>
-</ul>
-
-
-<p>Note: Maybe after working for a long time with merge based Gitflow, you will find your git log a little bit confusing and look like that:</p>
-
-<p><img src="/notes/images/blog/2016-06-27-gitflow-mess.png"></p>
-
-<p>Please take no worries about this, because there is still a part about <code>git rebase</code>. For now, you can continue to read the article <a href="http://endoflineblog.com/gitflow-considered-harmful">GitFlow considered harmful</a> to know more about the author issue.</p>
-
-<h1>How to write commit message</h1>
-
-<blockquote><p>Source: <a href="http://chris.beams.io/posts/git-commit/">http://chris.beams.io/posts/git-commit/</a></p></blockquote>
-
-<p><img src="/notes/images/blog/2016-06-27-git-commit.png"></p>
-
-<p>Have you ever read some repos with commit messages like above?</p>
-
-<p>While many repositories&#8217; logs look like the former, there are exceptions. The <a href="https://github.com/torvalds/linux/commits/master">Linux kernel</a> and <a href="https://github.com/git/git/commits/master">git itself</a> are great examples. Look at <a href="https://github.com/spring-projects/spring-boot/commits/master">Spring Boot</a>, or any repository managed by <a href="https://github.com/tpope/vim-pathogen/commits/master">Tim Pope</a>. The contributors to these repositories know that a well-crafted git commit message is the best way to communicate context about a change to fellow developers (and indeed to their future selves). A diff will tell you what changed, but only the commit message can properly tell you why.</p>
-
-<p>Being known that, a project&rsquo;s long-term success rests (among other things) on its maintainability, reviewing others commits and pull requests is also the big reason that you should write great commit messages.</p>
-
-<p>In the post, the author wants to address the most basic elements of keeping a healthy commit history: how to write an individual commit message. You can checkout the source article or just follow the <strong>seven rules</strong> below and you&rsquo;re on your way to committing like a pro</p>
-
-<ol>
-<li>Separate subject from body with a blank line</li>
-<li>Limit the subject line to 50 characters</li>
-<li>Capitalize the subject line</li>
-<li>Do not end the subject line with a period</li>
-<li>Use the imperative mood in the subject line</li>
-<li>Wrap the body at 72 characters</li>
-<li>Use the body to explain what and why vs. how</li>
-</ol>
-
-
-<h1>Pull Request</h1>
-
-<p>Pull request is a feature that makes it easier for developers to collaborate. Pull request is a mechanism for a developer to notify team members that they have completed a feature.</p>
-
-<p>Some tricks to make Pull Requests more awesome for your project:</p>
-
-<ul>
-<li>Open a Pull Request as early as possible</li>
-</ul>
-
-
-<p>Pull Requests are a great way to start a conversation of a feature, so start one as soon as possible- even before you are finished with the code. Your team can comment on the feature as it evolves, instead of providing all their feedback at the very end.</p>
-
-<ul>
-<li>Pull Requests work branch to branch</li>
-</ul>
-
-
-<p>No one has a fork of github/github. We make Pull Requests in the same repository by opening Pull Requests for branches.</p>
-
-<ul>
-<li>A Pull Request doesn&rsquo;t have to be merged</li>
-</ul>
-
-
-<p>Pull Requests are easy to make and a great way to get feedback and track progress on a branch. But some ideas don&rsquo;t make it. It&rsquo;s okay to close a Pull Request without merging; we do it all the time.</p>
-
-<p>Hint: Based on an article <a href="http://ben.balter.com/2015/12/08/types-of-pull-requests/">Type of Pull Request</a>, there are 6 types of PR. But <a href="http://ben.straub.cc/2015/04/02/wip-pull-request/"><code>WIP pattern</code></a> is the one that is using by lots of teams and companies. It follows the mantra of &ldquo;<strong>Open a Pull Request as early as possible</strong>&rdquo;.</p>
-
-<h1>Code Review</h1>
-
-<blockquote><p>Source: <a href="https://github.com/thoughtbot/guides/tree/master/code-review">https://github.com/thoughtbot/guides/tree/master/code-review</a></p></blockquote>
-
-<h3>Everyone</h3>
-
-<ul>
-<li>Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.</li>
-<li>Ask questions; don&rsquo;t make demands. (&ldquo;What do you think about naming this :user_id?&rdquo;)</li>
-<li>Ask for clarification. (&ldquo;I didn&rsquo;t understand. Can you clarify?&rdquo;)</li>
-<li>Avoid selective ownership of code. (&ldquo;mine&rdquo;, &ldquo;not mine&rdquo;, &ldquo;yours&rdquo;)</li>
-<li>Avoid using terms that could be seen as referring to personal traits. (&ldquo;dumb&rdquo;, &ldquo;stupid&rdquo;). Assume everyone is attractive, &ndash; intelligent, and well-meaning.</li>
-<li>Be explicit. Remember people don&rsquo;t always understand your intentions online.</li>
-<li>Be humble. (&ldquo;I&rsquo;m not sure &ndash; let&rsquo;s look it up.&rdquo;)</li>
-<li>Don&rsquo;t use hyperbole. (&ldquo;always&rdquo;, &ldquo;never&rdquo;, &ldquo;endlessly&rdquo;, &ldquo;nothing&rdquo;)</li>
-<li>Don&rsquo;t use sarcasm.</li>
-<li>Keep it real. If emoji, animated gifs, or humor aren&rsquo;t you, don&rsquo;t force them. If they are, use them with aplomb.</li>
-<li>Talk synchronously (e.g. chat, screensharing, in person) if there are too many &ldquo;I didn&rsquo;t understand&rdquo; or &ldquo;Alternative solution:&rdquo; comments. Post a follow-up comment summarizing the discussion.</li>
-</ul>
-
-
-<h3>Having Your Code Reviewed</h3>
-
-<ul>
-<li>Be grateful for the reviewer&rsquo;s suggestions. (&ldquo;Good call. I&rsquo;ll make that change.&rdquo;)</li>
-<li>Don&rsquo;t take it personally. The review is of the code, not you.</li>
-<li>Explain why the code exists. (&ldquo;It&rsquo;s like that because of these reasons. Would it be more clear if I rename this class/file/&ndash; method/variable?&rdquo;)</li>
-<li>Extract some changes and refactorings into future tickets/stories.</li>
-<li>Link to the code review from the ticket/story. (&ldquo;Ready for review: <a href="https://github.com/organization/project/pull/1">https://github.com/organization/project/pull/1</a>&rdquo;)</li>
-<li>Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready &ndash; to merge. Reviewers should be able to read individual updates based on their earlier feedback.</li>
-<li>Seek to understand the reviewer&rsquo;s perspective.</li>
-<li>Try to respond to every comment.</li>
-<li>Wait to merge the branch until Continuous Integration tells you the test suite is green in the &ndash; branch.</li>
-<li>Merge once you feel confident in the code and its impact on the project.</li>
-</ul>
-
-
-<h3>Reviewing code</h3>
-
-<p>Understand why the change is necessary (fixes a bug, improves the user experience, refactors the existing code). Then:</p>
-
-<ul>
-<li>Communicate which ideas you feel strongly about and those you don&rsquo;t.</li>
-<li>Identify ways to simplify the code while still solving the problem.</li>
-<li>If discussions turn too philosophical or academic, move the discussion offline to a regular Friday afternoon technique &ndash; discussion. In the meantime, let the author make the final decision on alternative implementations.</li>
-<li>Offer alternative implementations, but assume the author already considered them. (&ldquo;What do you think about using a custom &ndash; validator here?&rdquo;)</li>
-<li>Seek to understand the author&rsquo;s perspective.</li>
-<li>Sign off on the pull request with a 👍 or &ldquo;Ready to merge&rdquo; comment.</li>
-</ul>
-
-
-<h1>Rebase vs Merge</h1>
-
-<blockquote><p>Source: <a href="https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/">https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/</a></p></blockquote>
-
-<p><img src="/notes/images/blog/2016-06-27-merge-rebase.png"></p>
-
-<ul>
-<li>Merging brings two lines of development together while preserving the ancestry of each commit history.</li>
-<li>In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.</li>
-</ul>
-
-
-<h4>Merging Pros</h4>
-
-<ul>
-<li>Simple to use and understand.</li>
-<li>Maintains the original context of the source branch.</li>
-<li>The commits on the source branch remain separate from other branch commits, provided you don’t perform a fast-forward merge. This separation can be useful in the case of feature branches, where you might want to take a feature and merge it into another branch later.</li>
-<li>Existing commits on the source branch are unchanged and remain valid; it doesn’t matter if they’ve been shared with others.</li>
-</ul>
-
-
-<h4>Merging Cons</h4>
-
-<ul>
-<li>If the need to merge arises simply because multiple people are working on the same branch in parallel, the merges don’t serve any useful historic purpose and create clutter.</li>
-</ul>
-
-
-<h4>Rebase Pros</h4>
-
-<ul>
-<li>Simplifies your history.</li>
-<li>Is the most intuitive and clutter-free way to combine commits from multiple developers in a shared branch</li>
-</ul>
-
-
-<h4>Rebase Cons</h4>
-
-<ul>
-<li>Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.</li>
-<li>Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.</li>
-</ul>
-
-
-<p>Note: Other post from Atlassian: <a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing">https://www.atlassian.com/git/tutorials/merging-vs-rebasing</a></p>
-
-<h1>Git templates</h1>
-
-<p>To make things easier, we have adopted Issue template and Pull Request template that we think they are great to help the team to improve the productivity</p>
-
-<blockquote><p><a href="https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md">https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md</a></p></blockquote>
-
-<div><script src='https://gist.github.com/2a9fc10be45a67ab315ef3f8ead6530d.js'></script>
-<noscript><pre><code>&lt;!--
-Please use the following template to submit your issue. Following this template will allow us to quickly investigate and help you with your issue. Please be aware that issues which do not conform to this template may be closed.
---&gt;
-
-### Status
-
-BUG REPORT / TASK
-
-### Checklist
-
-Add checklist if this is a task
-
-- [x] Add Facebook login
-- [ ] Support X
-
-### Steps to reproduce
-
-1. First step
-2. Second step
-3. Third step
-
-### Expected behaviour
-
-How do you think the program should work? Add screenshots and code blocks if necessary.
-
-### Actual behaviour
-
-How does the program work in its current state?
-
-### Environment
-
-You may write here the specifications like the version of the project, operating system, or hardware if applicable.
-
-### Logs / Stack trace
-
-```
-Insert your log/stack trace here
-```
-
-</code></pre></noscript></div>
-
-
-<blockquote><p><a href="https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md">https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md</a></p></blockquote>
-
-<div><script src='https://gist.github.com/98a83f179d06fe3e33e4dfe4f1395904.js'></script>
-<noscript><pre><code>&lt;!--
-This is a guide to use this Pull Request Template
-&gt; DELETE THIS BLOCK TO AFTER READING
-
-# Title
-- Put [WIP] in front of the Pull Request that you are working on
-- Clear [WIP] after you completed and ping the reviewer
-
-# Body
-- You have to fill out all the sections
-- Delete or put N/A if the section is nil
---&gt;
-
-#### Status
-
-READY / IN DEVELOPMENT / HOLD
-
-#### What does this PR accomplish?
-
-- [x] Adds a shiny new button
-- [ ] Fixed serious memory leak
-- [ ] ...
-
-#### Where should the reviewer start?
-
-#### How should this be manually tested?
-
-#### Any background context you want to provide?
-
-#### What are the relevant Git tickets?
-
-Use [Github closing words](https://help.github.com/articles/closing-issues-via-commit-messages/) such as:  
-This closes #x
-
-#### Screenshots (if appropriate)
-
-#### Questions:
-
-- Is there a blog post?
-- Does the knowledge base need an update?
-- Does this add new dependencies which need to be added to?
-</code></pre></noscript></div>
-
-
-
-
-<br>
-
-
-<hr />
-
-<p><sup>And finally, Atlassian has a full tutorials from scratch, you can find it at: <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">https://www.atlassian.com/git/tutorials/what-is-version-control</a><sup></p>
-
-<blockquote><p>Source: tieubao.me/writing/2016/06/20/gitflow-and-pull-request/</p></blockquote>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/git-practices-at-dwarves-foundation/">
-			
-				Git Practices at Dwarves Foundation</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-06-20T04:32:09+07:00" pubdate data-updated="true">Jun 20<span>th</span>, 2016</time></div>
-	</header>
-	<div class="entry-content">
-		<p>Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase team productivity. In this post, I will try to cover some of the best practices from the community and the way we applied them at <a href="https://www.dwarves.foundation">Dwarves Foundation</a>.</p>
-
-<h1>Know how to write good commit message</h1>
-
-<blockquote><p>Source: <a href="http://chris.beams.io/posts/git-commit/">http://chris.beams.io/posts/git-commit/</a></p></blockquote>
-
-<p><img src="/notes/images/blog/2016-06-27-git-commit.png"></p>
-
-<p>Have you ever read some repos with commit messages like above?</p>
-
-<p>While many repositories&#8217; logs look like the former, there are exceptions. The <a href="https://github.com/torvalds/linux/commits/master">Linux kernel</a> and <a href="https://github.com/git/git/commits/master">git itself</a> are great examples. Look at <a href="https://github.com/spring-projects/spring-boot/commits/master">Spring Boot</a>, or any repository managed by <a href="https://github.com/tpope/vim-pathogen/commits/master">Tim Pope</a>. The contributors to these repositories know that a well-crafted git commit message is the best way to communicate context about a change to fellow developers (and indeed to their future selves). A diff will tell you what changed, but only the commit message can properly tell you why.</p>
-
-<p>Being known that, a project&rsquo;s long-term success rests (among other things) on its maintainability, reviewing others commits and pull requests is also the big reason that you should write great commit messages.</p>
-
-<p>In the post, the author wants to address the most basic elements of keeping a healthy commit history: how to write an individual commit message. You can checkout the source article or just follow the <strong>seven rules</strong> below and you&rsquo;re on your way to committing like a pro</p>
-
-<ol>
-<li>Separate subject from body with a blank line</li>
-<li>Limit the subject line to 50 characters</li>
-<li>Capitalize the subject line</li>
-<li>Do not end the subject line with a period</li>
-<li>Use the imperative mood in the subject line</li>
-<li>Wrap the body at 72 characters</li>
-<li>Use the body to explain what and why vs. how</li>
-</ol>
-
-
-<h1>Git branching model</h1>
-
-<h1>Gitflow</h1>
-
-<p>Inspired by Vincent Driessen&rsquo;s branching model, git-flow are a set of git extensions to provide high-level repository operations for it. Git-flow is a merge based solution. It doesn&rsquo;t rebase feature branches.</p>
-
-<ul>
-<li>Checkout gitflow cheatsheet: <a href="http://danielkummer.github.io/git-flow-cheatsheet/">http://danielkummer.github.io/git-flow-cheatsheet/</a></li>
-<li>Apps that support gitflow:
-
-<ul>
-<li>Source Tree: <a href="https://www.sourcetreeapp.com">https://www.sourcetreeapp.com</a></li>
-<li>Git Tower: <a href="https://www.git-tower.com">https://www.git-tower.com</a></li>
-</ul>
-</li>
-</ul>
-
-
-<p>Note: Maybe after working for a long time with merge based Gitflow, you will find your git log a little bit confusing and look like that:</p>
-
-<p><img src="/notes/images/blog/2016-06-27-gitflow-mess.png"></p>
-
-<p>Please take no worries about this, because there is still a part about <code>git rebase</code>. For now, you can continue to read the article <a href="http://endoflineblog.com/gitflow-considered-harmful">GitFlow considered harmful</a> to know more about the author issue.</p>
-
-<h3>Gitflow pitfall</h3>
-
-<ul>
-<li>It makes the project&rsquo;s history completely unreadable with the <a href="https://stackoverflow.com/questions/9069061/what-is-the-difference-between-git-merge-and-git-merge-no-ff"><code>--no-ff</code> flag</a>. The &mdash;no-ff flag prevents git merge from executing a &ldquo;fast-forward&rdquo; if it detects that your current HEAD is an ancestor of the commit you&rsquo;re trying to merge. A fast-forward is when, instead of constructing a merge commit, git just moves your branch pointer to point at the incoming commit.</li>
-<li>The master/develop split is redundant.</li>
-<li>It&rsquo;s needlessly complex. And people make mistakes and break them by accident.</li>
-</ul>
-
-
-<h3>The Anti-gitflow</h3>
-
-<ul>
-<li>There is only one eternal branch &ndash; you can call it master, develop, current, next &ndash; whatever. I personally like &ldquo;master&rdquo;, and that&rsquo;s the name I&rsquo;ll use in the rest of the description, as it&rsquo;s convention by now in the Git world and immediately conveys its purpose.</li>
-<li>All other branches (feature, release, hotfix, and whatever else you need) are temporary and only used as a convenience to share code with other developers and as a backup measure. They are always removed once the changes present on them land on master.</li>
-<li>Features are integrated onto the master branch primarily in a way which keeps the history linear. You have a lot of leeway in how you want to enforce this. You can make it simply a convention that developers are encouraged, but not forced, to follow. On the other side of the spectrum, if you use something like Gerrit to manage your Git repositories (which I recommend, even if you don&rsquo;t practice code reviews &ndash; the permission system is fantastic, and if you ever decide you want code reviews, it&rsquo;ll be very easy to start doing them), you can set up permissions in such a way that actually forbids pushing merge commits to master, and that way ensure linear history.</li>
-<li>Releases are done similarly to in GitFlow. You create a new branch for the release, branching off at the point in master that you decide has all the necessary features. From then on new work, aimed for the next release, is pushed to master as always, and any necessary changes are pushed to the release branch (in my opinion, it&rsquo;s an anti-pattern and a huge red flag if your release requires separate commits to work, but that&rsquo;s a topic for another article &ndash; for simplicity, let&rsquo;s assume you can&rsquo;t or don&rsquo;t want to change that). Finally, once the release is ready, you tag the top of the release branch. Then, because there is one eternal branch, there is only one way to get your release to be versioned permanently &ndash; and that is to merge the release branch into master and push that changed master. After that, all the changes that were made during the release are now part of master, and the release branch is deleted.</li>
-<li>Hotfixes are very similar to releases, except you don&rsquo;t branch from an arbitrary commit on master, but from the release tag that you want to make the fix in. Again, work on master continues as always, and the necessary fixes are pushed to the hotfix branch. Once the fix is ready, the procedure is exactly the same as for a release &ndash; tag the top of the branch creating a new release, merge it into master, then delete the hotfix branch.</li>
-</ul>
-
-
-<h1>Pull Request</h1>
-
-<p>Pull request is a feature that makes it easier for developers to collaborate. Pull request is a mechanism for a developer to notify team members that they have completed a feature. Some tricks to make Pull Requests more awesome for your project:</p>
-
-<ul>
-<li>Open a Pull Request as early as possible: Pull Requests are a great way to start a conversation of a feature, so start one as soon as possible- even before you are finished with the code. Your team can comment on the feature as it evolves, instead of providing all their feedback at the very end.</li>
-<li>Pull Requests work branch to branch: No one has a fork of github/github. We make Pull Requests in the same repository by opening Pull Requests for branches.</li>
-<li>A Pull Request doesn&rsquo;t have to be merged: Pull Requests are easy to make and a great way to get feedback and track progress on a branch. But some ideas don&rsquo;t make it. It&rsquo;s okay to close a Pull Request without merging; we do it all the time.</li>
-</ul>
-
-
-<p>Hint: Based on an article <a href="http://ben.balter.com/2015/12/08/types-of-pull-requests/">Type of Pull Request</a>, there are 6 types of PR. But <a href="http://ben.straub.cc/2015/04/02/wip-pull-request/"><code>WIP pattern</code></a> is the one that is using by lots of teams and companies. It follows the mantra of &ldquo;<strong>Open a Pull Request as early as possible</strong>&rdquo;.</p>
-
-<h1>Doing Code Review</h1>
-
-<blockquote><p>Source: <a href="https://github.com/thoughtbot/guides/tree/master/code-review">https://github.com/thoughtbot/guides/tree/master/code-review</a></p></blockquote>
-
-<h3>Everyone</h3>
-
-<ul>
-<li>Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.</li>
-<li>Ask questions; don&rsquo;t make demands. (&ldquo;What do you think about naming this :user_id?&rdquo;)</li>
-<li>Ask for clarification. (&ldquo;I didn&rsquo;t understand. Can you clarify?&rdquo;)</li>
-<li>Avoid selective ownership of code. (&ldquo;mine&rdquo;, &ldquo;not mine&rdquo;, &ldquo;yours&rdquo;)</li>
-<li>Avoid using terms that could be seen as referring to personal traits. (&ldquo;dumb&rdquo;, &ldquo;stupid&rdquo;). Assume everyone is attractive, &ndash; intelligent, and well-meaning.</li>
-<li>Be explicit. Remember people don&rsquo;t always understand your intentions online.</li>
-<li>Be humble. (&ldquo;I&rsquo;m not sure &ndash; let&rsquo;s look it up.&rdquo;)</li>
-<li>Don&rsquo;t use hyperbole. (&ldquo;always&rdquo;, &ldquo;never&rdquo;, &ldquo;endlessly&rdquo;, &ldquo;nothing&rdquo;)</li>
-<li>Don&rsquo;t use sarcasm.</li>
-<li>Keep it real. If emoji, animated gifs, or humor aren&rsquo;t you, don&rsquo;t force them. If they are, use them with aplomb.</li>
-<li>Talk synchronously (e.g. chat, screensharing, in person) if there are too many &ldquo;I didn&rsquo;t understand&rdquo; or &ldquo;Alternative solution:&rdquo; comments. Post a follow-up comment summarizing the discussion.</li>
-</ul>
-
-
-<h3>Having Your Code Reviewed</h3>
-
-<ul>
-<li>Be grateful for the reviewer&rsquo;s suggestions. (&ldquo;Good call. I&rsquo;ll make that change.&rdquo;)</li>
-<li>Don&rsquo;t take it personally. The review is of the code, not you.</li>
-<li>Explain why the code exists. (&ldquo;It&rsquo;s like that because of these reasons. Would it be more clear if I rename this class/file/&ndash; method/variable?&rdquo;)</li>
-<li>Extract some changes and refactorings into future tickets/stories.</li>
-<li>Link to the code review from the ticket/story. (&ldquo;Ready for review: <a href="https://github.com/organization/project/pull/1">https://github.com/organization/project/pull/1</a>&rdquo;)</li>
-<li>Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready &ndash; to merge. Reviewers should be able to read individual updates based on their earlier feedback.</li>
-<li>Seek to understand the reviewer&rsquo;s perspective.</li>
-<li>Try to respond to every comment.</li>
-<li>Wait to merge the branch until Continuous Integration tells you the test suite is green in the &ndash; branch.</li>
-<li>Merge once you feel confident in the code and its impact on the project.</li>
-</ul>
-
-
-<h3>Reviewing code</h3>
-
-<p>Understand why the change is necessary (fixes a bug, improves the user experience, refactors the existing code). Then:</p>
-
-<ul>
-<li>Communicate which ideas you feel strongly about and those you don&rsquo;t.</li>
-<li>Identify ways to simplify the code while still solving the problem.</li>
-<li>If discussions turn too philosophical or academic, move the discussion offline to a regular Friday afternoon technique &ndash; discussion. In the meantime, let the author make the final decision on alternative implementations.</li>
-<li>Offer alternative implementations, but assume the author already considered them. (&ldquo;What do you think about using a custom &ndash; validator here?&rdquo;)</li>
-<li>Seek to understand the author&rsquo;s perspective.</li>
-<li>Sign off on the pull request with a 👍 or &ldquo;Ready to merge&rdquo; comment.</li>
-</ul>
-
-
-<h1>Git templates</h1>
-
-<p>To make things easier, we have adopted Issue template and Pull Request template that we think they are great to help the team to improve the productivity</p>
-
-<blockquote><p><a href="https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md">https://gist.githubusercontent.com/tieubao/2a9fc10be45a67ab315ef3f8ead6530d/raw/e99d04268bf83389f4f728f386f79d9da3132480/issue-template.md</a></p></blockquote>
-
-<div><script src='https://gist.github.com/2a9fc10be45a67ab315ef3f8ead6530d.js'></script>
-<noscript><pre><code>&lt;!--
-Please use the following template to submit your issue. Following this template will allow us to quickly investigate and help you with your issue. Please be aware that issues which do not conform to this template may be closed.
---&gt;
-
-### Status
-
-BUG REPORT / TASK
-
-### Checklist
-
-Add checklist if this is a task
-
-- [x] Add Facebook login
-- [ ] Support X
-
-### Steps to reproduce
-
-1. First step
-2. Second step
-3. Third step
-
-### Expected behaviour
-
-How do you think the program should work? Add screenshots and code blocks if necessary.
-
-### Actual behaviour
-
-How does the program work in its current state?
-
-### Environment
-
-You may write here the specifications like the version of the project, operating system, or hardware if applicable.
-
-### Logs / Stack trace
-
-```
-Insert your log/stack trace here
-```
-
-</code></pre></noscript></div>
-
-
-<blockquote><p><a href="https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md">https://gist.githubusercontent.com/tieubao/98a83f179d06fe3e33e4dfe4f1395904/raw/4cd5eaa3586503c9a89b7cac34886e2769db01d1/pr-template.md</a></p></blockquote>
-
-<div><script src='https://gist.github.com/98a83f179d06fe3e33e4dfe4f1395904.js'></script>
-<noscript><pre><code>&lt;!--
-This is a guide to use this Pull Request Template
-&gt; DELETE THIS BLOCK TO AFTER READING
-
-# Title
-- Put [WIP] in front of the Pull Request that you are working on
-- Clear [WIP] after you completed and ping the reviewer
-
-# Body
-- You have to fill out all the sections
-- Delete or put N/A if the section is nil
---&gt;
-
-#### Status
-
-READY / IN DEVELOPMENT / HOLD
-
-#### What does this PR accomplish?
-
-- [x] Adds a shiny new button
-- [ ] Fixed serious memory leak
-- [ ] ...
-
-#### Where should the reviewer start?
-
-#### How should this be manually tested?
-
-#### Any background context you want to provide?
-
-#### What are the relevant Git tickets?
-
-Use [Github closing words](https://help.github.com/articles/closing-issues-via-commit-messages/) such as:  
-This closes #x
-
-#### Screenshots (if appropriate)
-
-#### Questions:
-
-- Is there a blog post?
-- Does the knowledge base need an update?
-- Does this add new dependencies which need to be added to?
-</code></pre></noscript></div>
-
-
-
-
-<br>
-
-
-<hr />
-
-<p><sup>And finally, Atlassian has a full tutorials from scratch, you can find it at: <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">https://www.atlassian.com/git/tutorials/what-is-version-control</a><sup></p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/how-we-contribute-to-homebrew/">
-			
-				How We Contribute to Homebrew</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-03-13T10:35:21+07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2016</time></div>
-	</header>
-	<div class="entry-content">
-		<h2>Homebrew</h2>
-
-<p>Homebrew (or brew) is one of the biggest repo on Github with more than 29k stars, 14k forks and 1k watches. It was started by Max Howell in 2009 to build the missing package manager for OS X. Back to before 2009, in Mac OSX, if we wanted to install something, we had to install it via pkg files or bin files. We didn&rsquo;t have anything fancy like <code>apt-get</code> in Ubuntu or <code>yum</code> in Fedora. MacPort was an only option but it was not too good. Check the very old article about it: <a href="http://www.engadget.com/2009/12/25/homebrew-the-perfect-gift-for-command-line-lovers/">Homebrew, the perfect gift for command line lovers</a></p>
-
-<p>For now, you can access homebrew via</p>
-
-<ul>
-<li>Homepage: <a href="http://brew.sh">http://brew.sh</a></li>
-<li>Github: <a href="https://github.com/Homebrew/homebrew">https://github.com/Homebrew/homebrew</a></li>
-</ul>
-
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew.png"></p>
-
-<p>To install homebrew, you just need to run the ruby script and you will get <code>brew</code> command ready in couple of minutes.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Homebrew is developed in Ruby and its program will be defined as a formula which is simple Ruby script. Most of tools can be found in Homebrew such as: docker, ruby, python, ansible, todo.txt, &hellip; At this time they have over 3k5 formulas that was contributed by community.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>class Wget &lt; Formula
-</span><span class='line'>  homepage "https://www.gnu.org/software/wget/"
-</span><span class='line'>  url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
-</span><span class='line'>  sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
-</span><span class='line'>
-</span><span class='line'>  def install
-</span><span class='line'>    system "./configure", "--prefix=#{prefix}"
-</span><span class='line'>    system "make", "install"
-</span><span class='line'>  end
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Simple use cases for Homebrew after you got it:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>// $FORMULA is the name of your formula
-</span><span class='line'>$ brew install $FORMULA</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Brew makes it really easy to update and upgrade. Because everything is based on Git, you just need to run those below commands then everything will be done automatically.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update
-</span><span class='line'>$ brew upgrade</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>How to contribute to Homebrew</h2>
-
-<p>Note: In this post, we just cover the command line or tool part of Homebrew. The example is taken from our <a href="https://github.com/dwarvesf/glod-cli"><strong>glod-cli</strong></a></p>
-
-<p>When you look into the repo of Homebrew, you can easily find the doc directory in <code>homebrew/share/doc/homebrew/</code> which contains all the information. The most important file for this tutorial is the <code>Formula-Cookbook.md</code>.</p>
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew-doc.png"></p>
-
-<p>Basically, when you use homebrew, it will create a separate folder on your machine. Everything usually will be installed in <code>/usr/local/Cellar</code> and all formulas was stored at <code>/usr/local/Library/Formula</code>.</p>
-
-<p>So in short, if you want to contribute a new one, you need to create a new formula in your local and submit a pull request to <code>https://github.com/Homebrew/homebrew</code>.</p>
-
-<h3>Fork from homebrew</h3>
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew.png"></p>
-
-<p>For us, we will have a repo called <code>dwarvesf/homebrew</code> which we can clone and start from there.</p>
-
-<h3>Create new formula</h3>
-
-<p>Make sure you have installed <code>brew</code> on your machine (you have to!) and your new formula must meets all their <a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md">Acceptable Formulae</a> requirements.</p>
-
-<p>Then we can start from create a new branch (like git workflow) or not. For us we skip it and use the master branch (plot twist: we forgot to do this step)</p>
-
-<p>We move to the step of create new formula by run the command</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew create &lt;URL.tar.gz&gt;</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Example for us, we use the archive url of our github repo <code>https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz</code>. You can get it by combining</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>https://github.com/&lt;YOUR REPO&gt;/archive/&lt;COMMIT SHA | TAG&gt;.tar.gz</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This command will help to create a local formula in <code>/usr/local/Library/Formula</code> and open with your default $EDITOR. You have to write a small Ruby script to <code>install</code> and <code>test</code> the formula. You can refer to other formulas to make it easier. Check out the main repo <code>https://github.com/Homebrew/homebrew/tree/master/Library/Formula</code> or the forked one. If you have Go formula like us, you can easily search for more than 100 existed Go formulas. It&rsquo;s a great source for references.</p>
-
-<p>Our formula looks like this</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s2">&quot;language/go&quot;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">class</span> <span class="nc">GlodCli</span> <span class="o">&lt;</span> <span class="no">Formula</span>
-</span><span class='line'>  <span class="n">desc</span> <span class="s2">&quot;Glod command-line interface tools&quot;</span>
-</span><span class='line'>  <span class="n">homepage</span> <span class="s2">&quot;https://github.com/dwarvesf/glod-cli&quot;</span>
-</span><span class='line'>  <span class="n">url</span> <span class="s2">&quot;https://github.com/dwarvesf/glod-cli/archive/1.0.3.2.tar.gz&quot;</span>
-</span><span class='line'>  <span class="n">sha256</span> <span class="s2">&quot;1826e8b5398f10a12d5f315a9f5a670f05ac3e0f6ead7c4edddf621c2260ae6c&quot;</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="n">depends_on</span> <span class="s2">&quot;go&quot;</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
-</span><span class='line'>  <span class="n">depends_on</span> <span class="s2">&quot;godep&quot;</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="n">go_resource</span> <span class="s2">&quot;github.com/kr/fs&quot;</span> <span class="k">do</span>
-</span><span class='line'>    <span class="n">url</span> <span class="s2">&quot;https://github.com/kr/fs.git&quot;</span><span class="p">,</span> <span class="ss">:revision</span> <span class="o">=&gt;</span> <span class="s2">&quot;2788f0dbd16903de03cb8186e5c7d97b69ad387b&quot;</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="k">def</span> <span class="nf">install</span>
-</span><span class='line'>    <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;GOPATH&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="n">buildpath</span>
-</span><span class='line'>    <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;GO15VENDOREXPERIMENT&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;0&quot;</span>
-</span><span class='line'>    <span class="n">mkdir_p</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src/github.com/dwarvesf/&quot;</span>
-</span><span class='line'>    <span class="n">ln_s</span> <span class="n">buildpath</span><span class="p">,</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src/github.com/dwarvesf/glod-cli&quot;</span>
-</span><span class='line'>    <span class="ss">Language</span><span class="p">:</span><span class="ss">:Go</span><span class="o">.</span><span class="n">stage_deps</span> <span class="n">resources</span><span class="p">,</span> <span class="n">buildpath</span><span class="o">/</span><span class="s2">&quot;src&quot;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;godep&quot;</span><span class="p">,</span> <span class="s2">&quot;go&quot;</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">,</span> <span class="s2">&quot;-o&quot;</span><span class="p">,</span> <span class="s2">&quot;glod-cli&quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span>
-</span><span class='line'>    <span class="n">bin</span><span class="o">.</span><span class="n">install</span> <span class="s2">&quot;glod-cli&quot;</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nb">test</span> <span class="k">do</span>
-</span><span class='line'>    <span class="n">output</span> <span class="o">=</span> <span class="n">shell_output</span><span class="p">(</span><span class="n">bin</span><span class="o">/</span><span class="s2">&quot;glod-cli --version&quot;</span><span class="p">)</span>
-</span><span class='line'>    <span class="n">assert_match</span> <span class="s2">&quot;glod-cli version </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">output</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="nb">system</span> <span class="n">bin</span><span class="o">/</span><span class="s2">&quot;glod-cli&quot;</span><span class="p">,</span> <span class="s2">&quot;http://mp3.zing.vn/bai-hat/Hello-Vietnam-Pham-Quynh-Anh/ZWZ9C8EB.html&quot;</span>
-</span><span class='line'>    <span class="nb">sleep</span> <span class="mi">2</span>
-</span><span class='line'>    <span class="n">assert</span> <span class="no">File</span><span class="o">.</span><span class="n">exist?</span><span class="p">(</span><span class="s2">&quot;Hello Vietnam.mp3&quot;</span><span class="p">)</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Install / Debug local formula</h3>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">install</span> <span class="o">--</span><span class="n">verbose</span> <span class="o">--</span><span class="n">debug</span> <span class="vg">$FORMULA</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This command will help to install your formula at <code>/usr/local/Library/Formula</code>. Happy debugging until you can install it smoothly.</p>
-
-<p>Sometimes you will need to uninstall the formula, you can use this command</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">unlink</span> <span class="vg">$FORMULA</span>
-</span><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">cleanup</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Test the formula</h3>
-
-<p>One note for the test block, there are still a lot of formula that try to cheat by printing out the help or version. As a good contributor, you should write good tests for your formulas or your pull request will be rejected (like us)</p>
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew-failed-test.png"></p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="nb">test</span> <span class="vg">$FORMULA</span>
-</span><span class='line'><span class="err">$</span> <span class="n">brew</span> <span class="n">audit</span> <span class="o">--</span><span class="n">strict</span> <span class="o">--</span><span class="n">online</span> <span class="vg">$FORMULA</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Those tests should be passed to make sure your formula is qualified. The second command is provided to check if your formula have</p>
-
-<ul>
-<li>More than 50 stars</li>
-<li>More than 20 forks</li>
-<li>More than 20 watchers</li>
-<li>And initialized more than 30 days</li>
-</ul>
-
-
-<h3>Submit pull request</h3>
-
-<p>Bravo! It&rsquo;s really great if you can get here, your formula is qualified. Let&rsquo;s copy the local formula to your git repo. Example</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">cp</span> <span class="o">-</span><span class="n">f</span> <span class="sr">/usr/</span><span class="n">local</span><span class="o">/</span><span class="no">Library</span><span class="o">/</span><span class="no">Formula</span><span class="o">/</span><span class="n">glod</span><span class="o">-</span><span class="n">cli</span><span class="o">.</span><span class="n">rb</span> <span class="o">~</span><span class="sr">/Workspace/</span><span class="n">dwarvesf</span><span class="o">/</span><span class="n">homebrew</span><span class="o">/</span><span class="no">Library</span><span class="o">/</span><span class="no">Formula</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Commit and push your changes to <strong>YOUR</strong> Github. Then we open the Github Repo (still yours), click on button <code>New pull request</code> and we get</p>
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew-pull-request.png"></p>
-
-<p><img src="/notes/images/blog/2016-03-13-homebrew-pull-request-02.png"></p>
-
-<p>We did it! You only still need the feedback from Homebrew team. You can leave your keyboard and take a cup of coffee. If everything goes well, well done boss! you have just contribute to one of the famous repo in the internet. Congratulations!</p>
-
-		
-		
-	</div>
-
-</article>
 
 
     <article class="post">
@@ -1415,6 +522,391 @@ It happens usually that people can think that is monthly event.</p>
 <p><a href="http://dwarvesf.com/9owl/"><strong>9owl</strong></a> is <strong>invite only</strong> group and it costs you nothing. Join us for the midnight coffee, good talks, warm bed and cool work place.</p>
 
 <p>Updated: We moved to new office on 2017 Sept and it&rsquo;s too dam cool. I&rsquo;m very happy to have you guys here.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/dwarves-foundation/">
+			
+				Dwarves Foundation</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-29T00:53:06+07:00" pubdate data-updated="true">May 29<span>th</span>, 2015</time></div>
+	</header>
+	<div class="entry-content">
+		<p>After an interesting journey at <a href="/notes/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/">CloudJay</a>, I took a short break for a month and feel that startup life is too hard for young people but it&rsquo;s really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.</p>
+
+<p><img src="/notes/images/blog/2015-06-17-entrepreneur.jpg"></p>
+
+<p>I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found <a href="https://golang.org.vn">Golang Vietnam</a>, a network of Golang Developers in Vietnam.</p>
+
+<p>Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team <a href="https://dwarves.foundation">Dwarves Foundation</a>. Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.</p>
+
+<p><img src="/notes/images/blog/2015-06-17-dwarves.jpg"></p>
+
+<h2>Our values</h2>
+
+<p>We are a team of geeks, hustles and startup veterans. We live around the world but most of us based in Saigon, Vietnam. We are (forever) young and always eager to learn. We have passion and experience in making cool products, esp. cloud and mobile apps. We want to help entrepreneurs solve real problems using our approachs and solutions.</p>
+
+<ul>
+<li><strong>Customer first</strong>: We provide the service with high quality and no latency response time. Customers have to be happy.</li>
+<li><strong>Geeky style</strong>: We can do anything, wear multiple hats, take multiple approachs from official to tricky way to achieve the goal.</li>
+<li><strong>Teamwork</strong>: <strong><em>Synchronisation</em></strong> and <strong><em>Collaboration</em></strong> are the most important key things. You can read this topic: <a href="/notes/a/it-is-hard-to-become-a-team-member/">It&rsquo;s hard to become a team member</a>. We apply agile process to keep our spirits stick together.</li>
+<li><strong>Proactive</strong>: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.</li>
+<li><strong>Growth and sharing</strong>: You can learn another skill from other teammates. We are happy to share it to you. And we believe that working hard and improving yourself everyday will make you paid back later. Read <a href="https://www.quora.com/How-can-I-motivate-myself-to-work-hard">this topic</a> to keep yourself motivated.</li>
+</ul>
+
+
+<h2>Our services</h2>
+
+<ul>
+<li><p><strong>Startup Factory</strong>: Our woodland is the trustworthy place where lots of ideas are validated, incubated, developed, iterated until product-market fit simultaneously and for successful ones, we turn them into new businesses. The formula repeats on its own. Moreover, we also provide startups with hands-on mentorship and seed investment programs, usually in exchange for equity.</p></li>
+<li><p><strong>Development Lab</strong>: Our woodland is the trustworthy place where founders could come and acquire expertise for their business models. We offer a technical partnership that takes over their whole systems and applications from development, operation to maintenance stages. We are backed by a talented, ambitious and technology-heavy workforce with years of experience. Consequently, we guarantee world-class quality for delivered products across all platforms (Web, iOS, Android).</p></li>
+<li><p><strong>Talent pool</strong>: Our woodland is the trustworthy bridge for the founders who are outsourcing products to connect with talented developers in Vietnam. We guarantee the most competitive prices among competitors in local market. It is the outcome of continuously building a wide network of trust between founders and talents. The price is worth it!</p></li>
+</ul>
+
+
+<script async="true" class="speakerdeck-embed" data-ratio="1.77777777777778" data-id="1f4ffd51e8b049e6bce5dbdefad3786e" src="https://speakerdeck.com/assets/embed.js"> </script>
+
+
+<h2>Workflow at Dwarves Foundation</h2>
+
+<h3>For project management</h3>
+
+<p>We use Trello with Kanban theory to organize tasks. Tasks will be flew from left list to right list. We also organize lists into Scrum steps. So this will be liked:</p>
+
+<ul>
+<li>Sprint Planning</li>
+<li>Current Sprint</li>
+<li>In Progress</li>
+<li>Blocked</li>
+<li>Testing</li>
+<li>Bugs Report</li>
+<li>Approved</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2015-06-17-trello.png"></p>
+
+<p>For each project, we will have <em>Sprint planning meeting</em> for Project Manager to explain project details to project members. User stories will be converted into cards or tickets and added to Trello list > <strong>Sprint Planning</strong>.</p>
+
+<p>Usually, one sprint is about 1 or 2 weeks, we have weekly meeting to break user stories into tasks and add them to list Current Sprint. It&rsquo;s also our target for this week, we have to get in done. This time, cards need to have requirement and non requirement specification. And sometimes, if this task has some special requirement that developers need to care about, the Project Manager need to add <strong>Acceptance Criteria</strong>.</p>
+
+<p><img src="/notes/images/blog/2015-06-17-criteria.png"></p>
+
+<p>As a customer, you are granted permission to access Trello Board to give feedback or be a tester. And most of my customers are happy with it.</p>
+
+<p>The template for this workflow can be found at <a href="https://trello.com/b/WYgcFBgl/sprint-template">https://trello.com/b/WYgcFBgl/sprint-template</a></p>
+
+<h3>For source code management</h3>
+
+<p>We use <code>git</code> and GitLab. It&rsquo;s more like GitHub but for enterprise. You can have one by downloading and deploying it yourself.</p>
+
+<p>We apply <a href="http://danielkummer.github.io/git-flow-cheatsheet/">Gitflow</a> and <code>Merge Request</code> (some people may call it Pull Request) between developers to gain some benefits from it:</p>
+
+<ul>
+<li>Can deliver anytime because branch <code>master</code> is always stable.</li>
+<li>Quality source code: always review it after it&rsquo;s merged into branch <code>develep</code></li>
+<li>High efficiency collaboration between team members.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2015-06-17-gitflow.png"></p>
+
+<p>There&rsquo;s another article about it on Atlassian site: <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow</a></p>
+
+<p>Project Manager will be the one that init the repository on Git with some imporatant informations. For every ticket on Trello, developers need to create one issue in GitLab, create new feature branch and start the implementation on it. The <code>git commit</code> command must attach with one or more than one issue.</p>
+
+<p><img src="/notes/images/blog/2015-06-17-commit.png"></p>
+
+<p>After that, one merge request will be created and the person who has responsibility to review this request need to check over the source code then <code>Accept</code> or <code>Reject</code> the <code>Merge Request</code>.</p>
+
+<p>This card will be moved to list <code>Testing</code>, QC will be assigned to test this feature and so on.</p>
+
+<h3>For Communication</h3>
+
+<p>We use <a href="http://slack.com">Slack</a> as the main hub for all informations, from team meeting, hangout, manage tasks and source code &hellip;</p>
+
+<p><img src="/notes/images/blog/2015-06-17-slack.png"></p>
+
+<p>Slack support lots of methods to add integration. So the powerful it can be depends on what you integrate into it.</p>
+
+<p>Finally, at the end of the day, we do daily meeting via hangout or face to face at the office to summary what we have done today and what we plan to do tomorrow. The project manager will be the one to write it down and make weekly report to customer.</p>
+
+<p>All the processes out there are just to make the team stick together and development plan works. All team members need to understand their roles, team vision and know how to make things go on the right tracks.</p>
+
+<p>Read more about <a href="/notes/2014/12/05/it-is-hard-to-become-a-team-member/">Teamwork</a>.</p>
+
+<ul>
+<li>About us: <a href="http://www.dwarvesf.com">http://www.dwarvesf.com</a></li>
+<li>Github: <a href="https://github.com/dwarvesf">https://github.com/dwarvesf</a></li>
+<li>Hiring: <a href="https://github.com/dwarvesf/WeAreHiring">https://github.com/dwarvesf/WeAreHiring</a></li>
+</ul>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/resources-for-go-beginners/">
+			
+				Resources for Go Beginners</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-03T15:41:41+07:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2015</time></div>
+	</header>
+	<div class="entry-content">
+		<h1>Overview</h1>
+
+<p><img src="/notes/images/blog/2015-04-02-golang-in-a-nutshell.png"></p>
+
+<p>Go is a better C++. In 2015, its mission is to be a cloud language and to replace C in some points. Many companies had ported a few parts of their system to Go. Go currently competes with Java in performance; with amazing syntax and features. Go is used to design system or web service. Somebody try to compare it to Rust, but they are not the same. Rust is lower level than Go and so called the better C.</p>
+
+<p>For beginner:</p>
+
+<ul>
+<li>Read some background about Go to get motivation.</li>
+<li>Pick your editor</li>
+<li><p>Learn syntax through the Playground, which can be found on Golang.org</p>
+
+<ul>
+<li>Go by example: <a href="https://gobyexample.com/">https://gobyexample.com/</a></li>
+<li>Tour of Go: <a href="https://tour.golang.org/">https://tour.golang.org/</a></li>
+<li>Effective Go: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Go 101: <a href="https://go101.org/article/101.html">https://go101.org/article/101.html</a></li>
+</ul>
+</li>
+<li><p>Try one full-fledged MVC Web Framework to write a web app</p></li>
+<li>Explore the Community and Golang packages</li>
+</ul>
+
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/FTl0tl9BGdc?list=PLtTY3_zVDGOCwQ8SVTiUSrfOGFCC8G8du" allowfullscreen></iframe></div>
+
+
+<h1>Language Background</h1>
+
+<ul>
+<li>The purpose of the language, the story behind can be found at: <a href="https://golang.org/doc/faq">https://golang.org/doc/faq</a></li>
+<li>Convention: <a href="https://golang.org/doc/effective_go.html">https://golang.org/doc/effective_go.html</a></li>
+<li>Wiki: <a href="https://code.google.com/p/go-wiki/w/list">https://code.google.com/p/go-wiki/w/list</a></li>
+</ul>
+
+
+<h1>Workflow</h1>
+
+<p><a href="https://www.youtube.com/watch?v=XCsL89YtqCs">Writing, building, installing, and testing Go code</a></p>
+
+<div class="embed-video-container"><iframe src="https://www.youtube.com/embed/XCsL89YtqCs" allowfullscreen></iframe></div>
+
+
+<h1>Language &amp; Syntax</h1>
+
+<ul>
+<li>Gocon Tokyo 2014: <a href="http://talks.golang.org/2014/gocon-tokyo.slide#1">http://talks.golang.org/2014/gocon-tokyo.slide#1</a></li>
+<li>Go Training: <a href="https://github.com/ArdanStudios/gotraining">https://github.com/ArdanStudios/gotraining</a></li>
+<li>Introdution to Go: <a href="http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1">http://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide#1</a></li>
+</ul>
+
+
+<h1>Editor</h1>
+
+<h3>Sublime Text with GoSublime:</h3>
+
+<ul>
+<li><a href="http://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">Using Sublime Text for Go Development</a></li>
+</ul>
+
+
+<h3>Vim with Vim-go:</h3>
+
+<ul>
+<li><a href="http://farazdagi.com/blog/2015/vim-as-golang-ide/">Vim as Go language IDE</a></li>
+<li><a href="http://blog.gopheracademy.com/vimgo-development-environment/">Go development environment for Vim</a></li>
+</ul>
+
+
+<h1>Web Framework</h1>
+
+<h3>Minimal</h3>
+
+<ul>
+<li><a href="https://github.com/gin-gonic/gin">gin</a>: Gin is a HTTP web framework written in Go</li>
+<li><a href="https://github.com/labstack/echo">echo</a>: High performance, minimalist Go web framework</li>
+<li><a href="https://github.com/astaxie/beego">Beego</a>: Full-fledged web framework</li>
+</ul>
+
+
+<h3>Microservices</h3>
+
+<ul>
+<li><a href="https://gokit.io/">Go kit</a>: A standard library for microservices.</li>
+</ul>
+
+
+<h1>Dependency Manager</h1>
+
+<p>In 2018, Golang published its official dependencies manager and integrated to go tooling. The <code>dep</code> repo can be found at: <a href="https://golang.github.io/dep/">https://golang.github.io/dep/</a></p>
+
+<p>Before that, there a list of package management tools: <a href="https://github.com/golang/go/wiki/PackageManagementTools.">https://github.com/golang/go/wiki/PackageManagementTools.</a> They are divided into</p>
+
+<ul>
+<li>Vendoring: Like Bundler in Ruby or npm in Node</li>
+<li>Go Version Managers: Like rvm in Ruby</li>
+<li>Revision Locking</li>
+<li>Import Proxies</li>
+</ul>
+
+
+<h1>Community</h1>
+
+<h3>Global</h3>
+
+<ul>
+<li>Slack: <a href="https://invite.slack.golangbridge.org/">https://invite.slack.golangbridge.org/</a></li>
+<li>Go Users: <a href="https://github.com/golang/go/wiki/GoUsers">https://github.com/golang/go/wiki/GoUsers</a></li>
+<li>Go User Groups: <a href="https://github.com/golang/go/wiki/GoUserGroups">https://github.com/golang/go/wiki/GoUserGroups</a></li>
+</ul>
+
+
+<h3>Community in Vietnam</h3>
+
+<ul>
+<li>Homepage: <a href="https://golang.org.vn">https://golang.org.vn</a></li>
+<li>Facebook: <a href="https://facebook.com/golang.org.vn">https://facebook.com/golang.org.vn</a></li>
+<li>Github: <a href="https://github.com/golang-vietnam">https://github.com/golang-vietnam</a></li>
+<li>YouTube: <a href="https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ">https://www.youtube.com/channel/UCd52P8QD7ptDrDahP-HgyiQ</a></li>
+</ul>
+
+
+<h1>News</h1>
+
+<ul>
+<li>Reddit: <a href="https://www.reddit.com/r/golang/">https://www.reddit.com/r/golang/</a></li>
+<li>golang-nuts: <a href="https://groups.google.com/forum/#!forum/golang-nuts">https://groups.google.com/forum/#!forum/golang-nuts</a></li>
+<li>Golang Weekly: <a href="https://golangweekly.com/">https://golangweekly.com/</a></li>
+</ul>
+
+
+<h1>Links</h1>
+
+<ul>
+<li>awesome-go: <a href="https://github.com/avelino/awesome-go">https://github.com/avelino/awesome-go</a></li>
+<li>Golang Proposal: <a href="https://go.googlesource.com/proposal/+/master/design">https://go.googlesource.com/proposal/+/master/design</a></li>
+</ul>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/tying-lessons-learned-to-project-failure/">
+			
+				Tying Lessons Learned to Project Failure</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-28T17:29:15+07:00" pubdate data-updated="true">Feb 28<span>th</span>, 2015</time></div>
+	</header>
+	<div class="entry-content">
+		<p>If one of the main benefits of lessons learned discussions is to prevent future project failure, then why not structure your lessons learned around the top 5 causes of project failure? You’d be capturing targeted lessons that could be fed into the Project Management Office and project teams to provide tangible routes for improvement.</p>
+
+<p>According to a survey by PM Solutions, the top 5 causes of troubled projects are:
+Requirements Resources Schedules Planning Risk. Let’s look more closely at some of the lesson that might result from these areas.</p>
+
+<h1>1. Requirements</h1>
+
+<p>Unclear or ambiguous requirements Lessons for future projects: finalise requirements in advance or adopt Agile practices that make it possible to manage unclear requirements.</p>
+
+<p>Lack of agreement; contradictory requirements Lessons for future projects: make sure that one person has authority to resolve requirements disputes. Ensure change management processes are in place with someone prioritising changes. Note that personalities and departmental culture combined with a silo mentality might make this problem worse.</p>
+
+<p>Lack of priority Lessons for future projects: ensure project priority overall is known, especially in relation to other projects. While you might not be working on the highest priority projects in the company, you should know where you fit and how that might play out when it comes to negotiating for resources. Prioritise individual requirements on the project in case resource conflicts mean not everything can be achieved and some requirements have to wait for a future phase.</p>
+
+<h1>2. Resources</h1>
+
+<p>Lack of resources; losing key resources Lessons for future projects: Prepare adequate estimates for the resources required. Schedule people at 80% (or less) not 100% of their time on your project. Manage staff turnover on the project team by planning properly for upcoming vacations and longer absences like maternity leave. Work closely with line managers to watch out for project resources who are likely to leave the company and ensure you have training plans to upskill others if necessary.</p>
+
+<p>Resource conflicts Lessons for future projects: Plan adequately. Work with other project managers to identify where part-time resources may be required on your project and theirs to ensure that you create an overall resource plan at portfolio level (even if in practice that’s just sharing the resource between the two projects).</p>
+
+<p>Poor planning Lessons for future projects: Project team members need adequate notice of tasks and the information and resources required to get the work done. Ensure all of this is provided, along with adequate support and training to provide the skills required to complete the tasks. Involve the team in preparing estimates.</p>
+
+<h1>3. Schedules</h1>
+
+<p>Unrealistic scheduling Lessons for future projects: There could be lots of lessons here! Plan in contingency time based on the risk profile of your project. Use good change management processes to ensure that any changes are adequately scoped and incorporated including any time changes required. Involve project team members in preparing the estimates and confirming that the plan looks realistic</p>
+
+<p>Overly optimistic scheduling Lessons for future projects: Avoid what Roland Hoffman calls confirmation bias (the risk that you go for estimates that you believe are true even though the evidence points to the contrary) and other decision-making problems by running your schedule past another project manager. Make the most of peer reviews and quality audits offered by your Project Management Office.</p>
+
+<h1>4. Planning</h1>
+
+<p>Insufficient details or processes Lessons for future projects: Adopt good project management practices and a standard methodology. Work closely with your sponsor or customer representative to get a good understanding of their vision and objectives. If possible, second someone to the project team to provide this business view on an ongoing basis.</p>
+
+<p>Poor estimating Lessons for future projects: Consider other estimating techniques such as three-point estimating. Look at the estimates from other similar projects. Use expert input. Add adequate contingency based on what’s known about the task. Estimate for the resource who is completing the task, not the most efficient and speedy person you know.</p>
+
+<h1>5. Risk</h1>
+
+<p>Unidentified project risk Lessons for future projects: Uncover as many project risks as possible. Regularly review the risk log. Give everyone on the team the opportunity to raise new risks. Consider positive risk as well as negative risk. Use standard risk identification practices and workshops to identify as many risks as possible.</p>
+
+<p>Inadequate or inaccurate assumptions Lessons for future projects: Review the project assumptions with subject matter experts. Keep an assumptions log and review it regularly; update the assumptions when more details are known as this should be a working document.</p>
+
+<p>Unmanaged project risk Lessons for future projects: Use standard risk management processes and apply mitigation techniques. Keep an action log for each risk. Review risks regularly at team meetings and ensure they are being worked on. Make use of peer reviews and informal audits to hold yourself accountable for risk management. Ensure each risk has an owner.</p>
+
+<p>While lessons learned have a lot to offer when it comes to avoiding the causes of project failure, the downside of this approach is that you have to have a project fail, or not deliver as planned, in order to reap the lessons. One project manager’s disaster is another’s lucky break. If you are the unlucky project manager dealing with a failed project, then take solace from the fact that you are making it easier for your fellow project managers (and yourself) to deal with problem projects in the future.</p>
+
+<p>By Elizabeth Harrin</p>
 
 		
 		

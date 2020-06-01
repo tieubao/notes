@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: people | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/people/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/people/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Unconventional]]></title>
-    <link href="http://tieubao.github.io/notes/a/the-unconventional/"/>
+    <link href="http://tieubao.github.io/writing/a/the-unconventional/"/>
     <updated>2019-07-17T00:11:35+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/the-unconventional</id>
+    <id>http://tieubao.github.io/writing/a/the-unconventional</id>
     <content type="html"><![CDATA[<p>You might have known that I&rsquo;m building the software organization called The Dwarves in the last four years. The team reached the size of 50 several months ago. The average member age is around 26. They are smart and talented. They are young, well-educated, and hard-working toward success.</p>
 
 <p>With a different expectation in engineering standard, we rarely hire people outside of our circle. We handpick and recruit the individual whom we feel they are the one matching with the engineering-driven culture that we are pursuing. We also decided to hire high potential freshers and train them from scratch. It&rsquo;s costly to do such a thing, but we believe good things take time. That&rsquo;s the way we hire for culture (and values).</p>

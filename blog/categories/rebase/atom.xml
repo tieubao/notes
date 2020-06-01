@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: rebase | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/rebase/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/rebase/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rebase vs. Merge]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-rebase-vs-merge/"/>
+    <link href="http://tieubao.github.io/writing/a/git-rebase-vs-merge/"/>
     <updated>2014-05-10T15:55:37+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-rebase-vs-merge</id>
+    <id>http://tieubao.github.io/writing/a/git-rebase-vs-merge</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-10-merge-rebase.png"></p>
 
 <h1>What does Merge or Rebase mean?</h1>

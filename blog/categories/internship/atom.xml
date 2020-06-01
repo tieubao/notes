@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: internship | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/internship/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/internship/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Spring Internship 2019]]></title>
-    <link href="http://tieubao.github.io/notes/a/spring-internship-2019/"/>
+    <link href="http://tieubao.github.io/writing/a/spring-internship-2019/"/>
     <updated>2019-09-08T22:08:12+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/spring-internship-2019</id>
+    <id>http://tieubao.github.io/writing/a/spring-internship-2019</id>
     <content type="html"><![CDATA[<h3>The program</h3>
 
 <p>This is a second Internship Program at Dwarves Foundation. Held in Spring of 2019, we handpicked every single candidate that passed our CCAT test. Changing our measurement metrics from the last program, we aim to select the candidates not just with strong background, bilingual, and also we feel that they are unconventional.</p>
@@ -101,9 +101,9 @@ We think the senior students are the most suitable for the internship program. W
   
   <entry>
     <title type="html"><![CDATA[Summer Internship 2018]]></title>
-    <link href="http://tieubao.github.io/notes/a/summer-internship-2018/"/>
+    <link href="http://tieubao.github.io/writing/a/summer-internship-2018/"/>
     <updated>2018-11-08T21:52:50+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/summer-internship-2018</id>
+    <id>http://tieubao.github.io/writing/a/summer-internship-2018</id>
     <content type="html"><![CDATA[<p>Dwarves Foundation is a software development firm that based in South East Asia. We use cutting-edge technology to help tech startups, entrepreneurs and makers to deliver world-class products. We build software and scale cloud platform.</p>
 
 <p>In 2018, we launched the first Summer Internship Program for students with or without Engineering background from top universities in southern Vietnam. The program was designed with the purpose to give an opportunity for candidates to experience the real world projects. No coffee runs here. We love watching talented people learn and explore their skills.</p>

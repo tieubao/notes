@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tips | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/tips/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Today I learned]]></title>
-    <link href="http://tieubao.github.io/notes/a/today-i-learned/"/>
+    <link href="http://tieubao.github.io/writing/a/today-i-learned/"/>
     <updated>2015-12-03T01:30:29+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/today-i-learned</id>
+    <id>http://tieubao.github.io/writing/a/today-i-learned</id>
     <content type="html"><![CDATA[<p>Continuous learning is one of my passion and I kept doing this for about 4 years. Everyday life, the knowledge bypass my brain and go thru. People write a lot of awesome stuffs on Medium, their personal blogs or HackerNews. I used to note them to Notes or Evernote before. Later I found those tools are very frustrating, hard to look up and I even did not open them again.</p>
 
 <p>As a former CTO &amp; Tech Entrepreneur, Github is one of the most opened site of mine. With filtering and labeling features, we can easily organize our references to the articles. The labels will help you to classify the information and it&rsquo;s cool to make the search after that, easier to share with your friends, your colleagues.</p>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[Happy Startup]]></title>
-    <link href="http://tieubao.github.io/notes/a/happy-startup/"/>
+    <link href="http://tieubao.github.io/writing/a/happy-startup/"/>
     <updated>2015-07-10T09:59:05+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/happy-startup</id>
+    <id>http://tieubao.github.io/writing/a/happy-startup</id>
     <content type="html"><![CDATA[<p>Follow these 10 tips and you’ll be on the right track to a happy startup:</p>
 
 <ul>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to become Senior Software Engineer]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer/"/>
+    <link href="http://tieubao.github.io/writing/a/how-to-become-senior-software-engineer/"/>
     <updated>2014-12-30T09:02:56+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer</id>
+    <id>http://tieubao.github.io/writing/a/how-to-become-senior-software-engineer</id>
     <content type="html"><![CDATA[<p>To summary, you can call yourself a Senior when:</p>
 
 <ul>
@@ -187,9 +187,9 @@
   
   <entry>
     <title type="html"><![CDATA[Everything is marketing]]></title>
-    <link href="http://tieubao.github.io/notes/a/everything-is-marketing/"/>
+    <link href="http://tieubao.github.io/writing/a/everything-is-marketing/"/>
     <updated>2014-12-12T02:13:02+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/everything-is-marketing</id>
+    <id>http://tieubao.github.io/writing/a/everything-is-marketing</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-11-marketing.png"></p>
 
 <p><strong>Marketing is not a department</strong> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
@@ -224,9 +224,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rebase vs. Merge]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-rebase-vs-merge/"/>
+    <link href="http://tieubao.github.io/writing/a/git-rebase-vs-merge/"/>
     <updated>2014-05-10T15:55:37+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-rebase-vs-merge</id>
+    <id>http://tieubao.github.io/writing/a/git-rebase-vs-merge</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-10-merge-rebase.png"></p>
 
 <h1>What does Merge or Rebase mean?</h1>

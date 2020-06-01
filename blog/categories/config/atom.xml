@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: config | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/config/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/config/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[dotfiles]]></title>
-    <link href="http://tieubao.github.io/notes/a/dotfiles/"/>
+    <link href="http://tieubao.github.io/writing/a/dotfiles/"/>
     <updated>2015-11-05T03:20:06+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/dotfiles</id>
+    <id>http://tieubao.github.io/writing/a/dotfiles</id>
     <content type="html"><![CDATA[<h1>The developer</h1>
 
 <p>In linux, the files start with a dot &ldquo;.&rdquo; are hidden. If you list files in the directory, they normally don&rsquo;t show up and keep them safe from the users. Because of that reason, the developer usually use it to store configurations of their tools. Those files are so called dotfiles. The first dot file for most of us is maybe the shell configuration file (.bashrc | .bash_profile)</p>

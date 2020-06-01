@@ -67,7 +67,7 @@ $(document).ready(
  <meta name="twitter:site" content="@mrcexii">
  <meta name="twitter:creator" content="@mrcexii">
  <meta name="twitter:title" content="Han Ngo">
- <meta name="twitter:url" content="http://tieubao.github.io/notes/blog/page/6/">
+ <meta name="twitter:url" content="http://tieubao.github.io/writing/blog/page/6/">
  <meta name="twitter:description" content="Life Hacker and Lifelong Learner">
 
   <meta property="og:image" content="http://www.gravatar.com/avatar/1c5f4c2690dad0c1890bd3ec6263a296.png?s=200"> 
@@ -79,7 +79,7 @@ $(document).ready(
  <!-- open graph -->
  <meta property="og:title" content="Han Ngo"/>
  <meta property="og:type" content="blog"/>
- <meta property="og:url" content="http://tieubao.github.io/notes/blog/page/6/"/>
+ <meta property="og:url" content="http://tieubao.github.io/writing/blog/page/6/"/>
  <meta property="og:site_name" content="Han Ngo" />
 <meta property="og:description" content="Life Hacker and Lifelong Learner" 
 />
@@ -116,249 +116,6 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/git-rebase-vs-merge/">
-			
-				Rebase vs. Merge</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-10T15:55:37+07:00" pubdate data-updated="true">May 10<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<p><img src="/notes/images/blog/2014-05-10-merge-rebase.png"></p>
-
-<h1>What does Merge or Rebase mean?</h1>
-
-<ul>
-<li>Merging brings two lines of development together while preserving the ancestry of each commit history.</li>
-<li>In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.</li>
-</ul>
-
-
-<h4>Merging Pros</h4>
-
-<ul>
-<li>Simple to use and understand.</li>
-<li>Maintains the original context of the source branch.</li>
-<li>The commits on the source branch remain separate from other branch commits, provided you don’t perform a fast-forward merge. This separation can be useful in the case of feature branches, where you might want to take a feature and merge it into another branch later.</li>
-<li>Existing commits on the source branch are unchanged and remain valid; it doesn’t matter if they’ve been shared with others.</li>
-</ul>
-
-
-<h4>Merging Cons</h4>
-
-<ul>
-<li>If the need to merge arises simply because multiple people are working on the same branch in parallel, the merges don’t serve any useful historic purpose and create clutter.</li>
-</ul>
-
-
-<h4>Rebase Pros</h4>
-
-<ul>
-<li>Simplifies your history.</li>
-<li>Is the most intuitive and clutter-free way to combine commits from multiple developers in a shared branch</li>
-</ul>
-
-
-<h4>Rebase Cons</h4>
-
-<ul>
-<li>Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.</li>
-<li>Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.</li>
-</ul>
-
-
-<h1>Conclusion</h1>
-
-<p>The consensus that I come across most frequently is that both merge and rebase are worth using. The time to use either is entirely dependent on the situation, the experience of your team, and the specific DVCS you’re using.</p>
-
-<ol>
-<li>When multiple developers work on a shared branch, pull &amp; rebase your outgoing commits to keep history cleaner (Git and Mercurial)</li>
-<li>To re-integrate a completed feature branch, use merge (and opt-out of fast-forward commits in Git)</li>
-<li>To bring a feature branch up to date with its base branch:
-
-<ul>
-<li>Prefer rebasing your feature branch onto the latest base branch if:
-
-<ul>
-<li>You haven’t pushed this branch anywhere yet, or</li>
-<li>You’re using Git, and you know for sure that other people will not have checked out your feature branch</li>
-</ul>
-</li>
-<li>Otherwise, merge the latest base changes into your feature branch</li>
-</ul>
-</li>
-</ol>
-
-
-<h4>Source: <a href="https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/">https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/</a></h4>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/git-branching-model/">
-			
-				Git Branching Model</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-08T16:20:24+07:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<p><img src="/notes/images/blog/2014-05-08-git-model.png"></p>
-
-<p>In sort, you will organise your repository into 5 types of branches:</p>
-
-<h3>The main branches</h3>
-
-<ul>
-<li><strong>master</strong>: the main branch where the source code of HEAD always reflects a <em>production-ready</em> state</li>
-<li><strong>develop</strong>: the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. Some would call this the &ldquo;integration branch&rdquo;.</li>
-</ul>
-
-
-<h3>feature</h3>
-
-<ul>
-<li>May branch off from: develop</li>
-<li>Must merge back into: develop</li>
-<li>Branch naming convention: anything except master, develop, release-*, or hotfix-*</li>
-</ul>
-
-
-<p>Feature branches (or sometimes called topic branches) are used to develop new features for the upcoming or a distant future release. When starting development of a feature, the target release in which this feature will be incorporated may well be unknown at that point.</p>
-
-<h3>release</h3>
-
-<ul>
-<li>May branch off from: develop</li>
-<li>Must merge back into: develop and master</li>
-<li>Branch naming convention: release-*</li>
-</ul>
-
-
-<p>Release branches are created from the develop branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of develop is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number</p>
-
-<h3>hotfix</h3>
-
-<ul>
-<li>May branch off from: master</li>
-<li>Must merge back into: develop and master</li>
-<li>Branch naming convention: hotfix-*</li>
-</ul>
-
-
-<p>Hotfix branches are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned. They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.</p>
-
-<h1>Summary</h1>
-
-<p>While there is nothing really shocking new to this branching model, the &ldquo;big picture&rdquo; figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.</p>
-
-<h4>Source: <a href="http://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen</a></h4>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/notes/a/hau-yeu/">
-			
-				Hậu Yêu (Yêu Từ đằng Sau?!)</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-23T01:03:01+07:00" pubdate data-updated="true">Feb 23<span>rd</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<p><em>(Không dành cho trẻ em dưới 27 tuổi)</em></p>
-
-<p>Nhân hôm nay đi đám cưới chị của người-đang-yêu, về gặp ngay ông (tên) anh cũng đang gặp chút vất vả trong tình cảm nên cũng tranh thủ đặt ngón chia sẻ một tí quan điểm cá nhân.</p>
-
-<p>Bài báo bên dưới<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> tôi đọc cách đây 3 năm hơn nhưng vẫn rất tâm đắc, phần vì văn phong rất logic và dẩm, phần vì nó nói đúng với suy nghĩ của tôi.</p>
-
-<p>Yêu nhau, vấn đề nào mà người bên ngoài nhìn vào cảm thấy không hợp nhãn thì tự dưng thành vấn đề to như gốc cây mù u, từ tuổi tác (nó hơn mày đến 10 tuổi, 2 đứa bằng tuổi thì thiệt thòi cho con) cho đến vóc dáng (em mập hơn nó những 20 cân thì sau này sao nó <code>cân</code> em nổi hay lùn thế thì cái ấy nó dài 30 cen không?)</p>
-
-<p>Những cặp không yêu nhau, mới yêu nhau, hoặc yêu chưa đủ lâu, không biết tại sao mình yêu nó, không biết tại sao nó yêu mình, khi gặp những cái nhìn soi mói từ mọi người xung quanh, những lời bàn tán, những cản trở từ gia đình, hay cao hơn lúc họ vượt qua được tất cả thì khi gặp ngay cơn <code>bão chán</code> đang cuồng cuộng lao đến, mới quay lại tự hỏi nhau: thế rốt cuộc mình có/còn yêu nó không?</p>
-
-<p>Cuộc đời là một cuộc hành trình dài, ngoài những thứ phải chuẩn bị như tư trang, kĩ năng hay tài chính &hellip; thì mỗi người, cần tìm cho mình một người vợ hoặc chồng mà các cụ hay ví von, người bạn đời. Vậy làm sao biết mình đã gặp đúng người bạn đời theo tiêu chuẩn 5-sao-Tiểu-Bảo? Ngoài những điều mà mọi người thường gọi là tình yêu, là có duyên, là hợp, yếu tố quan trọng nhất vẫn là chất dính. Là nước bọt. Là sở thích chung. Nói như Dâu Tây:</p>
-
-<p>&ldquo;Tình yêu như là tổ chim. Niềm đam mê là chú chim. Sở thích chung là nước bọt con chim. Sự nhàm chán là trận mưa. Khi trời mưa chú chim sẽ bay xa bắt con giun. Nếu tổ chim xây tốt, tức chú chim dùng nhiều nước bọt làm chất dính, thì lúc chú chim bay về tổ vẫn còn. Chú chim sẽ đậu xuống ăn mấy con giun vừa bắt để nước bọt càng thêm hiệu quả.</p>
-
-<p>Tuy nhiên nếu xây không được tốt, nước bọt ít quá, tổ chim là sẽ bị phá mất, chú chim bay về không thấy chỗ đậu xuống sẽ bay tiếp.</p>
-
-<p>Trong so sánh mới này yếu tố quan trọng nhất vẫn là chất dính. Là nước bọt. Là sở thích chung. Tất nhiên cặp đôi yêu nhau nào cũng phải có “duyên”, hoặc điều tiếng Anh gọi là “chemistry” – là “tính phản ứng” khó giải thích nhưng dễ cảm nhận, khiến hai người đến với nhau lúc đầu. Nhưng điều đó thuộc họ mê, gia đình phê.</p>
-
-<p>Sở thích chung luôn là chính và có thể được thể hiện bằng nhiều cách. Có những cặp đôi rất thích cãi nhau. Với họ, cảm giác bị điên (hoặc làm người ta bị điên) là sở thích chung. Họ cãi nhau suốt bao nhiêu năm trời khiến bà hàng xóm tự hỏi vì sao họ chưa giết nhau. Nhưng điều bà hàng xóm chưa biết là mỗi lần xa nhau hơn một tuần là cả hai đều thấy buồn vô cùng.&#8221;</p>
-
-<p>Cuộc đời vẫn là một cuộc hành trình dài, hôn nhân diễn ra giống như bạn vừa công bố đã tìm được một người bạn đời và cầm trên tay một cái vé tàu hỏa. Chính thức, nghiêm túc và vui vẻ có người bạn đời bên cạnh bước lên toa tàu để cùng nhau khám phá đoạn hành trình còn lại. Hôn nhân chưa phải là điểm dừng.</p>
-
-<p>Người bạn đời, đối với riêng tôi, bỏ hết tất cả những phù phiếm xung quanh, có thể có lúc sẽ cãi nhau như chó mèo, có lúc cùng nhau làm những việc siêu điên khùng vui vẻ, có lúc gặp <code>bão chán</code> thì chán hẳn nhưng phải đảm bảo luôn ở bên cạnh nhau. Vì chán không phải là hết yêu.</p>
-
-<p>Vậy nên khi bạn mở miệng thốt lên câu: &ldquo;anh muốn sống/đi với em trọn cuộc đời này&rdquo; thì cũng nên cân nhắc kĩ một tí, đừng vì chút lý do cá nhân nào đó (đừng vì một ít tiền, một vài cái lỗ, hay vì bác sĩ bảo cưới) mà vội quyết định, cuộc đời này chỉ có một.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Joe &ndash; <a href="http://dantri.com.vn/blog/phong-chan-chua-chan-441455.htm">Phòng chán chữa chán</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-
-		
-		
-	</div>
-
-</article>
 
 
     <article class="post">
@@ -845,6 +602,259 @@ the string.</p>
 <p>Your choice of cofounder will affect everything you do in your startup. They’ll share every defeat with you and celebrate every success. They’ll help you understand your own ideas better by offering a different perspective. They’ll be the single most important decision you make during the tenure of your startup, so choose wisely and with extreme care.</p>
 
 <h4>source: <a href="http://tom.preston-werner.com/2008/11/03/how-to-meet-your-next-cofounder.html">tpw</a></h4>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/eventbus-by-greenrobot/">
+			
+				EventBus by Greenrobot</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-28T18:14:27+07:00" pubdate data-updated="true">Dec 28<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p><a href="https://github.com/greenrobot/EventBus">EventBus</a> is a library from <a href="https://github.com/greenrobot"><code>greenrobot</code></a> support publish/subscribe architecture in communication between Activities, Threads, Fragments and Services &hellip;</p>
+
+<p>EventBus is inspired by Guava&rsquo;s EventBus. And this is from greenrobot who is author of <a href="https://github.com/greenrobot/greenDAO">greenDAO</a>.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/15314813 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
+
+
+<p></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/huong-dan-hoc-nhanh-mot-platform-bat-ky/">
+			
+				Hướng Dẫn Học Nhanh Một Platform Bất Kỳ</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-26T22:42:03+07:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<h3>Task 1: Làm quen với platform <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></h3>
+
+<ul>
+<li>Đặc điểm của platform.</li>
+<li>Kiến trúc của platform.</li>
+<li>Các version của platform, các version có điểm khác biệt nổi trội nào.</li>
+<li>Cài đặt môi trường lập trình, cần cài đặt các công cụ gì.</li>
+<li>Những lưu ý khi cài đặt môi trường lập trình, yêu cầu phần cứng, phần mềm, có cấu hình gì đặc biệt không.</li>
+<li>Tìm tutorial làm thử ứng dụng helloworld để đảm bảo rằng mình đã cài đặt thành công môi trường lập trình.</li>
+<li>Tìm các diễn đàn, trang web hướng dẫn từng kỹ thuật riêng biệt trên platform, trang web hướng dẫn học nhanh (trong 30 ngày), ebook.</li>
+</ul>
+
+
+<h3>Task 2: Làm quen với các khái niệm cơ bản</h3>
+
+<ul>
+<li>Cấu trúc thư mục của project, ý nghĩa các tập tin, thư mục trong project.</li>
+<li>Tìm hiểu cách thức triển khai ứng dụng trên máy thật như thế nào.</li>
+<li>Tìm hiểu cấu trúc các lớp trong project (cấu trúc của framework), ý nghĩa của các lớp.</li>
+<li>Các loại ứng dụng có thể có trên platform.</li>
+<li>Nếu platform sử dụng ngôn ngữ lập trình hoàn toàn mới, nên bỏ thời gian ra tìm hiểu kỹ thuật lập trình hướng đối tượng với ngôn ngữ này.</li>
+</ul>
+
+
+<h3>Task 3: Làm quen với đối tượng thể hiện (giao diện) cơ bản</h3>
+
+<ul>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có kích thước màn hình khác nhau (layout)</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có ngôn ngữ khác nhau (localization, multi-lingual language). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+<li><p>Kỹ thuật lập trình ứng dụng chạy trên nhiều thiết bị có version platform khác nhau (dùng hàm kiểm tra version platform đang chạy, hoặc dùng kỹ thuật reflection). Có platform hỗ trợ thư viện, có platform không hỗ trợ phải tự viết.</p></li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-26-components.jpg"></p>
+
+<h3>Task 4: Làm quen với đối tượng thể hiện (giao diện) đơn</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện đơn như label, textbox, button, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 5: Làm quen với đối tượng thể hiện (giao diện) phức hợp</h3>
+
+<ul>
+<li>Tìm các bài hướng dẫn sử dụng các đối tượng thể hiện phức hợp như: list, gird, horizontal view, vertical view, v.v…</li>
+<li>Tìm hiểu cách thức khởi tạo, hiển thị, lấy dữ liệu, quản lý sự kiện.</li>
+</ul>
+
+
+<h3>Task 6: Làm quen với ứng dụng có nhiều màn hình và truyền tham số giữa các màn hình</h3>
+
+<ul>
+<li>Làm sao chuyển 1 màn hình bất kỳ thành màn hình chính (hiển thị khi khởi động ứng dụng)</li>
+<li>Làm sao để hiển thị một màn hình B từ một màn hình A.</li>
+<li>Làm sao để màn hình A truyền tham số cho màn hình B. Khi màn hình B kết thúc thì lại truyền tham số ngược lại cho màn hình A.</li>
+<li>Làm sao để ẩn hoặc tắt một màn hình.</li>
+<li>Làm sao để thoát khỏi ứng dụng.</li>
+</ul>
+
+
+<h3>Task 7: Làm quen với menu ứng dụng</h3>
+
+<ul>
+<li>Có mấy loại menu ứng dụng, các thức tạo lập ra sao.</li>
+<li>Thường menu được load từ resource (design), có cách thức nào tạo menu động không (runtime).</li>
+<li>Quản lý sự kiện cho các loại menu như thế nào.</li>
+</ul>
+
+
+<h3>Task 8: Tìm hiểu khái niệm Lifecycle</h3>
+
+<ul>
+<li>Tùy theo từng platform mà việc quản lý vòng đời có thể theo application lifecycle (Windows Phone, iOS) hoặc screen lifecycle (Android, iOS)</li>
+<li>Khi có cuộc gọi gọi đến thì ứng dụng hành xử ra sao.</li>
+<li>Khi ứng dụng (màn hình) A được ẩn đi, một ứng dụng (màn hình) B khác đang chạy cần tài nguyên RAM, CPU buộc hệ thống phải tắt ứng dụng (màn hình) A, thì lúc đó ứng dụng (màn hình) A hành xử ra sao. Sau này ứng dụng (màn hình) A được gọi lại thì A sẽ hành xử ra sao.</li>
+</ul>
+
+
+<p><img src="/notes/images/blog/2013-12-26-activity-lifecycle.png"></p>
+
+<h3>Task 9: Tìm hiểu cách thức lưu trữ trên platform</h3>
+
+<p>Tùy theo từng platform mà việc lưu trữ có thể ở thư mục riêng của ứng dụng (iOS, Android, Windows Phone) hoặc giống như trên Windows (Android). Thử tìm hiểu các thư mục, hoặc giới hạn phạm vi mà platform cho phép lưu trữ.
+Bất kỳ platform nào cũng có thể lưu trữ dữ liệu dạng:
+&ndash; Text thông thường
+&ndash; Text có cấu trúc: xml, json, ini, v.v…
+&ndash; Binary thông thường
+&ndash; Binary có cấu trúc: hình ảnh, video, tự định nghĩa, v.v..
+&ndash; Binary dạng cơ sở dữ liệu. SQLite (iOS, Android), SQL CE</p>
+
+<p>Chú ý có nhiều tool hoặc thư viện nguồn mở hỗ trợ truy xuất CSDL, cần tìm hiểu sử dụng các thư viện, tool này.</p>
+
+<h3>Task 10: Tìm hiểu các chức năng viễn thông</h3>
+
+<ul>
+<li>Tìm hiểu gọi, chặn cuộc gọi.</li>
+<li>Tìm hiểu gởi, chặn tin nhắn.</li>
+<li>Thao tác với danh bạ.</li>
+</ul>
+
+
+<h3>Task 11: Tìm hiểu các chức năng multimedia</h3>
+
+<ul>
+<li>Hiển thị hình ảnh.</li>
+<li>Chơi nhạc và video</li>
+<li>Tương tác với camera (quay phim, chụp ảnh)</li>
+<li>Tương tác với micro (thu âm)</li>
+</ul>
+
+
+<h3>Task 12: Tương tác với các ứng dụng sẵn có</h3>
+
+<ul>
+<li>“Open file with” một ứng dụng được xác định</li>
+<li>Mở một ứng dụng với một tham số nào đó (web tham số là từ khóa search hoặc URL, ứng dụng tin nhắn tham số là số điện thoại và nội dung tin nhắn)</li>
+<li>Đọc dữ liệu của một ứng dụng có sẵn: contact, call log, message log, v.v…</li>
+</ul>
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Bài viết được sưu tầm từ bài giảng của thầy <code>Bùi Tấn Lộc</code>, giảng viên khoa CNTT, Đại học Khoa Học, TP. HCM<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/notes/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/">
+			
+				Câu Chuyện Khởi Nghiệp - Từ Lifebox đến CloudJay (P1)</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-26T21:56:38+07:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<h3>Lifebox 365 và sự ra đời của Lifebox</h3>
+
+<p>Cách đây một năm, khi còn là sinh viên ngồi trên ghế giảng đường đại học Khoa Học TP Hồ Chí Minh, tôi vẫn thường mơ ước về những ngày thỏa thích thực hiện hoài bão của mình sau khi tốt nghiệp. Được sự giới thiệu của một người bạn thân, tôi bắt đầu công việc chính thức đầu tiên của mình với vai trò là một lập trình viên .NET, tham gia vào nhóm dự án <code>eSuccess</code> của công ty <code>HPT Vietnam</code>.</p>
+
+<p>Tại thời điểm đó, <code>RIM</code> tổ chức cuộc thi <code>BlackBerry JamHack 2012</code> tại <code>MLAB</code>, nằm trong khuôn viên khu Công Nghệ cao TP. Hồ Chí Minh (SHTP), nhằm quảng bá cho dòng hệ điều hành mới, BlackBerry 10. Tôi cùng anh <strong>Quốc Anh</strong> (trưởng nhóm giải pháp Workflow tại eSuccess), <strong>Hồng anh</strong> và <strong>Khải Bobby</strong> đã lập thành một nhóm tham gia cuộc thi và lấy tên đội là <code>Lifebox</code>, sản phẩm dự thi mang tên <code>Lifebox 365</code>.</p>
+
+<p><img src="/notes/images/blog/2013-12-26-lifebox-feature-image.png"></p>
+
+<p><code>Lifebox 365</code> là một mạng xã hội hoạt động trên các thiết bị <code>BlackBerry 10</code>, đó là sự kết hợp của tâm lý học và hình ảnh giúp mọi người có thể chụp hình cùng một người, căn nhà, dự án &hellip; vào mỗi ngày để nhận thấy sự phát triển, tiến bộ của nó, qua đó sẽ giúp nâng cao tinh thần để dẫn đường đến sự thành công. Chi tiết về sản phẩm có thể được tham khảo tại <a href="http://www.projectpage.info/lifebox365/page">http://www.projectpage.info/lifebox365/page</a></p>
+
+<p><img src="/notes/images/blog/2013-12-26-lifebox-365-concept.jpg"></p>
+
+<p>Nhờ sự giúp đỡ của anh <code>BBKeeper</code> (<code>@Louis_Keeper</code>) và một phần may mắn, Lifebox 365 đã đạt giải Nhất cuộc thi tại Vietnam và giải Nhì cuộc thi <code>Blackerry Jam Asia 2012</code> diễn ra ở <code>Thailand</code>. Nhóm Lifebox cũng từ đó mà hình thành.</p>
+
+<p><img src="/notes/images/blog/2013-12-26-award.jpg"></p>
+
+<h3>Lifebox Daily &ndash; Bắt đầu những ngày startup</h3>
+
+<p>Sau những ngày từ Thailand trở về, nhóm chúng tôi quyết định đem sản phẩm này tham dự vào lớp accelerator <a href="http://www.f6s.com/jfdiasia-2013a">2013a</a> của <a href="http://jfdi.asia/"><code>JFDI</code></a> với một số sự tự tin nhất định. Tuy nhiên, dưới góc nhìn về chiến lược phát triển và khía cạnh “tâm lý học” được coi là secret sauce bên trong sản phẩm, cả hai yếu tố trên đều không đủ mạnh để tạo nên một sự đột phá lớn. Do đó, Meng và Ray đã không đánh giá cao Lifebox 365 và Lifebox đã bị loại sau khi thực hiện phỏng vấn.</p>
+
+<p>Bên cạnh đó, khi ngồi lại với nhau để quyết định có nên đi tiếp hay không, Lifebox 365 thuộc về nhóm ứng dụng mạng xã hội, cần rất nhiều thời gian để xây dựng lên một cộng đồng người dùng đủ lớn, không có model nào có thể kéo cả team đi tiếp trong lúc này. Vì vậy, nhóm quyết định dừng phát triển và hỗ trợ cho Lifebox 365.</p>
+
+<p>Lúc này, do nhu cầu thực tế trong việc quản lý một team nhỏ từ 5 đến 10 thành viên, anh Lê Việt Hồng đã đề xuất phát triển các sản phẩm nâng cao hiệu suất làm việc (Productivity) và kết hợp với hướng tiếp cận <code>email first</code>. <code>Lifebox Daily</code> đã ra đời trong hoàn cảnh đó.</p>
 
 		
 		

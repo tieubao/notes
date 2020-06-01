@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: homebrew | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/homebrew/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/homebrew/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How we contribute to Homebrew]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew/"/>
+    <link href="http://tieubao.github.io/writing/a/how-we-contribute-to-homebrew/"/>
     <updated>2016-03-13T10:35:21+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-we-contribute-to-homebrew</id>
+    <id>http://tieubao.github.io/writing/a/how-we-contribute-to-homebrew</id>
     <content type="html"><![CDATA[<h2>Homebrew</h2>
 
 <p>Homebrew (or brew) is one of the biggest repo on Github with more than 29k stars, 14k forks and 1k watches. It was started by Max Howell in 2009 to build the missing package manager for OS X. Back to before 2009, in Mac OSX, if we wanted to install something, we had to install it via pkg files or bin files. We didn&rsquo;t have anything fancy like <code>apt-get</code> in Ubuntu or <code>yum</code> in Fedora. MacPort was an only option but it was not too good. Check the very old article about it: <a href="http://www.engadget.com/2009/12/25/homebrew-the-perfect-gift-for-command-line-lovers/">Homebrew, the perfect gift for command line lovers</a></p>

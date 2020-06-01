@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: nextbytes | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/nextbytes/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/nextbytes/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The NeXT Bytes: Prologue]]></title>
-    <link href="http://tieubao.github.io/notes/a/the-next-bytes/"/>
+    <link href="http://tieubao.github.io/writing/a/the-next-bytes/"/>
     <updated>2020-06-02T01:11:46+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/the-next-bytes</id>
+    <id>http://tieubao.github.io/writing/a/the-next-bytes</id>
     <content type="html"><![CDATA[<h2>The Standing-ground</h2>
 
 <p>I&rsquo;m a software engineer, innovation advocates and technology investor. I created <a href="golang.org.vn">Golang Vietnam</a> Community and helped run <a href="webuild.community">WeBuild Community</a>. On those platforms, we connect with all the makers and software engineers from different background and support them on their side projects.</p>
@@ -59,7 +59,9 @@
 
 <p>Subscribing to this newsletter is a way keep up with these updates, with a message sent directly to your inbox.</p>
 
-<blockquote><p>Subscribe: <strong>&lt;tinyletter.com/nextbytes/></strong></p></blockquote>
+<blockquote><p>Subscribe: <strong><a href="https://tinyletter.com/nextbytes/">https://tinyletter.com/nextbytes/</a></strong></p></blockquote>
+
+<p><img src="/images/blog/2020-06-02-next-bytes.png" alt="" /></p>
 ]]></content>
   </entry>
   

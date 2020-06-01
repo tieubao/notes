@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: sto | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/sto/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/sto/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[DFG: Dwarves Foundation Gem]]></title>
-    <link href="http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem/"/>
+    <link href="http://tieubao.github.io/writing/a/dfg-dwarves-foundation-gem/"/>
     <updated>2019-08-27T01:01:41+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/dfg-dwarves-foundation-gem</id>
+    <id>http://tieubao.github.io/writing/a/dfg-dwarves-foundation-gem</id>
     <content type="html"><![CDATA[<h4>Foundation token: DFG</h4>
 
 <p>Following the practice of Securities Token Offering, we are getting our tokens considered as shares with <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md">ERC-884</a>. The tokens &amp; its transactions are recording in Ethereum decentralized computing network, powered by blockchain technology. In other terms, owning one token simply equals owning one share of the company, which entitles the shareholder of all his rights, notably voting and dividend rights.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: working-on | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/working-on/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/working-on/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Working On: Teamwork utilities in Slack]]></title>
-    <link href="http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack/"/>
+    <link href="http://tieubao.github.io/writing/a/working-on-teamwork-utilities-in-slack/"/>
     <updated>2015-08-31T04:09:54+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/working-on-teamwork-utilities-in-slack</id>
+    <id>http://tieubao.github.io/writing/a/working-on-teamwork-utilities-in-slack</id>
     <content type="html"><![CDATA[<h1>Teamwork</h1>
 
 <p>It all happened because of the important of the true teamwork in every project. Teamwork is one of many factors to the success of the team. I also wrote a <a href="http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/">post</a> about it last year. At Dwarves Foundation, teamwork is all about Synchronization and Collaboration, which mean, as a members, you need to know about and align your goal to the team goal; you have to know what other people are doing and let people know what you&rsquo;re doing. It&rsquo;s also about the way of communication between members, it&rsquo;s not just hard skill, it&rsquo;s better if you can stay and play well with others. We applied Slack and Trello to keep us posted, but it seems it&rsquo;s not enough. The information about other members work need to be more details but should not some kind of micro management. There is a difference between the proactive and micro management, the awareness about the micro management will kill team productivity.</p>

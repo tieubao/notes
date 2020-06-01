@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: geeky.vn | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/geeky-dot-vn/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/geeky-dot-vn/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Geeky solutions: 1.1 Easy Keypad]]></title>
-    <link href="http://tieubao.github.io/notes/a/geekyvn-solutions-1-dot-1-easy-keypad/"/>
+    <link href="http://tieubao.github.io/writing/a/geekyvn-solutions-1-dot-1-easy-keypad/"/>
     <updated>2014-12-15T21:34:44+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/geekyvn-solutions-1-dot-1-easy-keypad</id>
+    <id>http://tieubao.github.io/writing/a/geekyvn-solutions-1-dot-1-easy-keypad</id>
     <content type="html"><![CDATA[<h2>Problem Set 2: THE ROOM 1.1: Easy keypad</h2>
 
 <p>OK. After registration, you will get into room 1.1 with the picture from Saw movie and it make me feel something creepy.</p>
@@ -250,9 +250,9 @@ print val
   
   <entry>
     <title type="html"><![CDATA[Geeky solutions: Registration]]></title>
-    <link href="http://tieubao.github.io/notes/a/geeky-dot-vn-solutions/"/>
+    <link href="http://tieubao.github.io/writing/a/geeky-dot-vn-solutions/"/>
     <updated>2014-12-15T16:06:48+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/geeky-dot-vn-solutions</id>
+    <id>http://tieubao.github.io/writing/a/geeky-dot-vn-solutions</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-12-15-geeky.png"></p>
 
 <p>Homepage: <a href="http://www.geeky.vn/">http://www.geeky.vn/</a> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>

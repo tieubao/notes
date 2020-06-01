@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: git | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/git/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Gitflow and Pull Request]]></title>
-    <link href="http://tieubao.github.io/notes/a/gitflow-and-pull-request/"/>
+    <link href="http://tieubao.github.io/writing/a/gitflow-and-pull-request/"/>
     <updated>2016-06-20T04:32:09+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/gitflow-and-pull-request</id>
+    <id>http://tieubao.github.io/writing/a/gitflow-and-pull-request</id>
     <content type="html"><![CDATA[<p>Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase the team productivity. In this post, I will try to cover some of the best practices from the community and the way we applied them at <a href="https://www.dwarvesf.com">Dwarves Foundation</a>.</p>
 
 <h1>Git branching model</h1>
@@ -352,9 +352,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[Git practices at Dwarves Foundation]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-practices-at-dwarves-foundation/"/>
+    <link href="http://tieubao.github.io/writing/a/git-practices-at-dwarves-foundation/"/>
     <updated>2016-06-20T04:32:09+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-practices-at-dwarves-foundation</id>
+    <id>http://tieubao.github.io/writing/a/git-practices-at-dwarves-foundation</id>
     <content type="html"><![CDATA[<p>Git is one of the most popular source control. Github is one platform built over the top of Git and well adapted by lots of companies. Knowing the right workflow will help to increase team productivity. In this post, I will try to cover some of the best practices from the community and the way we applied them at <a href="https://www.dwarves.foundation">Dwarves Foundation</a>.</p>
 
 <h1>Know how to write good commit message</h1>
@@ -597,9 +597,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[Rebase vs. Merge]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-rebase-vs-merge/"/>
+    <link href="http://tieubao.github.io/writing/a/git-rebase-vs-merge/"/>
     <updated>2014-05-10T15:55:37+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-rebase-vs-merge</id>
+    <id>http://tieubao.github.io/writing/a/git-rebase-vs-merge</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-10-merge-rebase.png"></p>
 
 <h1>What does Merge or Rebase mean?</h1>
@@ -672,9 +672,9 @@ This closes #x
   
   <entry>
     <title type="html"><![CDATA[Git branching model]]></title>
-    <link href="http://tieubao.github.io/notes/a/git-branching-model/"/>
+    <link href="http://tieubao.github.io/writing/a/git-branching-model/"/>
     <updated>2014-05-08T16:20:24+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/git-branching-model</id>
+    <id>http://tieubao.github.io/writing/a/git-branching-model</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/2014-05-08-git-model.png"></p>
 
 <p>In sort, you will organise your repository into 5 types of branches:</p>

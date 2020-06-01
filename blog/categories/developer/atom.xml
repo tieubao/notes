@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: developer | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/developer/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/developer/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to become Senior Software Engineer]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer/"/>
+    <link href="http://tieubao.github.io/writing/a/how-to-become-senior-software-engineer/"/>
     <updated>2014-12-30T09:02:56+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-to-become-senior-software-engineer</id>
+    <id>http://tieubao.github.io/writing/a/how-to-become-senior-software-engineer</id>
     <content type="html"><![CDATA[<p>To summary, you can call yourself a Senior when:</p>
 
 <ul>

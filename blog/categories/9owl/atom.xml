@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 9owl | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/9owl/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/9owl/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[9owl - Working space that only available at night]]></title>
-    <link href="http://tieubao.github.io/notes/a/9owl/"/>
+    <link href="http://tieubao.github.io/writing/a/9owl/"/>
     <updated>2015-05-30T16:20:21+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/9owl</id>
+    <id>http://tieubao.github.io/writing/a/9owl</id>
     <content type="html"><![CDATA[<h3></h3>
 
 <p>We are members of Dwarves Foundation. We are small group of engineers and talented people. At this time we are tech partners with PearComms and Sales In One, 2 companies from Singapore. We work at the office in District 3 that we hire from a friend of the founder, it make us free to access 24/7. The office is just about 30 square meters and available for 8 to 10 9owl at the same time.</p>

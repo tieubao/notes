@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: contribute | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/contribute/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/contribute/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to contribute to tech community]]></title>
-    <link href="http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community/"/>
+    <link href="http://tieubao.github.io/writing/a/how-to-contribute-to-tech-community/"/>
     <updated>2017-10-20T01:23:01+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/how-to-contribute-to-tech-community</id>
+    <id>http://tieubao.github.io/writing/a/how-to-contribute-to-tech-community</id>
     <content type="html"><![CDATA[<p>Even though Vietnam is one of the booming countries for tech talents, there is still a whole gap between top developers around the world and us. Most of the points are related to how professional we are, our collaboration skill or soft skill.</p>
 
 <p>Being a part of the tech community, realizing a few issues, also wanting to contribute a bit, this blog post is my precious and is a part of the whole series to improve the quality of next generation of developers.</p>

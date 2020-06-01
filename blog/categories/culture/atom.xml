@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: culture | Han Ngo]]></title>
-  <link href="http://tieubao.github.io/notes/blog/categories/culture/atom.xml" rel="self"/>
-  <link href="http://tieubao.github.io/notes/"/>
-  <updated>2020-06-02T01:54:41+07:00</updated>
-  <id>http://tieubao.github.io/notes/</id>
+  <link href="http://tieubao.github.io/writing/blog/categories/culture/atom.xml" rel="self"/>
+  <link href="http://tieubao.github.io/writing/"/>
+  <updated>2020-06-02T02:12:00+07:00</updated>
+  <id>http://tieubao.github.io/writing/</id>
   <author>
     <name><![CDATA[Han Ngo]]></name>
     <email><![CDATA[nntruonghan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[12 Signs Your Company Has An Enviable Workplace Culture]]></title>
-    <link href="http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture/"/>
+    <link href="http://tieubao.github.io/writing/a/12-signs-your-company-has-an-enviable-workplace-culture/"/>
     <updated>2017-01-09T16:36:00+07:00</updated>
-    <id>http://tieubao.github.io/notes/a/12-signs-your-company-has-an-enviable-workplace-culture</id>
+    <id>http://tieubao.github.io/writing/a/12-signs-your-company-has-an-enviable-workplace-culture</id>
     <content type="html"><![CDATA[<p>This article is one of my favorites about company culture. At <a href="http://dwarvesf.com">Dwarves Foundation</a>, we pursue the path of high tech Ventures Builder where we can be the foundation for all tech startups for now and even for Industry 4.0. Building the culture for engineer team is the highest priority.</p>
 
 <hr />
