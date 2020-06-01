@@ -4,21 +4,21 @@ title: "Dwarves Foundation"
 date: 2015-05-29 00:53:06 +0700
 comments: true
 categories: 
-- startup
-- dwarvesf
+- software
+- development
+- firm
 
-keywords: startup, dwarvesf
+keywords: software, firm, development
 description: Story about Dwarves Foundation
-cover: /images/blog/2014-12-11-marketing.png
 ---
 
-After an interesting journey at [CloudJay](http://tieubao.me/writing/2013/12/26/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
+After an interesting journey at [CloudJay](/a/cau-chuyen-khoi-nghiep-tu-lifebox-den-cloudjay-p1/), I took a short break for a month and feel that startup life is too hard for young people but it's really worth to be a part startup scene. Someone said, one year to live in a startup is better than five years working in the enterprise. And I think this is correct. I need to face more problems and be able to solve them myself to be more mature.
 
 {% img /images/blog/2015-06-17-entrepreneur.jpg %}
 
-I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found [Golang Vietnam](http://golangvietnam.org.vn), a network of Golang Developers in Vietnam.
+I also find that Google Golang is interesting and it might be useful for us later. I bet my investment on it and found [Golang Vietnam](https://golang.org.vn), a network of Golang Developers in Vietnam.
 
-Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](http://dwarvesf.com). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.
+Based on some connections with friends in Singapore, I start asking people about other software businesses. And begin to find my first early member. I named a team [Dwarves Foundation](https://dwarves.foundation). Dwarf is the small and misshapen creatures in Norse Mythology that are wisdom, natural good at smithing, mining, and crafting. My plan is to provide Tech Partner service to ventures and startups.
 
 {% img /images/blog/2015-06-17-dwarves.jpg %}
 
@@ -28,7 +28,7 @@ We are a team of geeks, hustles and startup veterans. We live around the world b
 
 - **Customer first**: We provide the service with high quality and no latency response time. Customers have to be happy.
 - **Geeky style**: We can do anything, wear multiple hats, take multiple approachs from official to tricky way to achieve the goal.
-- **Teamwork**: **_Synchronisation_** and **_Collaboration_** are the most important key things. You can read this topic: [It's hard to become a team member](http://tieubao.me/writing/2014/12/05/it-is-hard-to-become-a-team-member/). We apply agile process to keep our spirits stick together.
+- **Teamwork**: **_Synchronisation_** and **_Collaboration_** are the most important key things. You can read this topic: [It's hard to become a team member](/a/it-is-hard-to-become-a-team-member/). We apply agile process to keep our spirits stick together.
 - **Proactive**: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.
 - **Growth and sharing**: You can learn another skill from other teammates. We are happy to share it to you. And we believe that working hard and improving yourself everyday will make you paid back later. Read [this topic](https://www.quora.com/How-can-I-motivate-myself-to-work-hard) to keep yourself motivated.
 
@@ -68,7 +68,7 @@ As a customer, you are granted permission to access Trello Board to give feedbac
 
 The template for this workflow can be found at https://trello.com/b/WYgcFBgl/sprint-template
 
-### For source code management 
+### For source code management
 
 We use `git` and GitLab. It's more like GitHub but for enterprise. You can have one by downloading and deploying it yourself.
 
@@ -80,7 +80,7 @@ We apply [Gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) and `Merg
 
 {% img /images/blog/2015-06-17-gitflow.png %}
 
-There's another article about it on Atlassian site: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+There's another article about it on Atlassian site: <https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow>
 
 Project Manager will be the one that init the repository on Git with some imporatant informations. For every ticket on Trello, developers need to create one issue in GitLab, create new feature branch and start the implementation on it. The `git commit` command must attach with one or more than one issue. 
 
@@ -92,7 +92,7 @@ This card will be moved to list `Testing`, QC will be assigned to test this feat
 
 ### For Communication
 
-We use [Slack](http://slack.com) as the main hub for all informations, from team meeting, hangout, manage tasks and source code ... 
+We use [Slack](http://slack.com) as the main hub for all informations, from team meeting, hangout, manage tasks and source code ...
 
 {% img /images/blog/2015-06-17-slack.png %}
 
@@ -100,10 +100,9 @@ Slack support lots of methods to add integration. So the powerful it can be depe
 
 Finally, at the end of the day, we do daily meeting via hangout or face to face at the office to summary what we have done today and what we plan to do tomorrow. The project manager will be the one to write it down and make weekly report to customer.
 
-All the processes out there are just to make the team stick together and development plan works. All team members need to understand their roles, team vision and know how to make things go on the right tracks. 
+All the processes out there are just to make the team stick together and development plan works. All team members need to understand their roles, team vision and know how to make things go on the right tracks.
 
 Read more about [Teamwork](/2014/12/05/it-is-hard-to-become-a-team-member/).
-
 
 - About us: http://www.dwarvesf.com
 - Github: https://github.com/dwarvesf

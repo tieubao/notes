@@ -188,9 +188,3 @@ Commit and push your changes to **YOUR** Github. Then we open the Github Repo (s
 {% img /images/blog/2016-03-13-homebrew-pull-request-02.png %}
 
 We did it! You only still need the feedback from Homebrew team. You can leave your keyboard and take a cup of coffee. If everything goes well, well done boss! you have just contribute to one of the famous repo in the internet. Congratulations!
-
-## Acknowledgement 
-
-- Our pull request: https://github.com/Homebrew/homebrew/pull/49843
-- [glod-cli](https://github.com/dwarvesf/glod-cli): A small cli written in Go to help download music/video from multiple resources: Youtube, Vimeo, Facebook, Soundcloud ... https://github.com/dwarvesf/glod-cli
-- [Formula Cookbook](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md)

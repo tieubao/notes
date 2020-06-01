@@ -5,16 +5,18 @@ date: 2015-12-03 01:30:29 +0700
 comments: true
 categories: 
 - til
-- methodology
+- tips
 
-keywords: til, methodology
+keywords: til, methodology, tips
 description: How I organized my knowledge with Github
 
 ---
 
-Continuous learning is one of my passion and I kept doing this for about 4 years. Everyday life, the knowledge bypass my brain and go thru. People write a lot of awesome stuffs on Medium, blogs or HackerNews. I used to note them to Notes.app or Evernote before. Later I found those tools are very frustrating, hard to look up and I even did not open them again.
+Continuous learning is one of my passion and I kept doing this for about 4 years. Everyday life, the knowledge bypass my brain and go thru. People write a lot of awesome stuffs on Medium, their personal blogs or HackerNews. I used to note them to Notes or Evernote before. Later I found those tools are very frustrating, hard to look up and I even did not open them again.
 
-As a CTO & Tech Entrepreneur, Github is one of the most opened site of mine. With the feature of filtering and labeling, we can easily organize our ref to articles. The labels function will help you to classify the information, it's very cool to make the search after that, also easier to share with your friends, your colleagues. So, I decided to note them all on Github.
+As a former CTO & Tech Entrepreneur, Github is one of the most opened site of mine. With filtering and labeling features, we can easily organize our references to the articles. The labels will help you to classify the information and it's cool to make the search after that, easier to share with your friends, your colleagues. 
+
+So, I decided to note them all on Github.
 
 {% img /images/blog/2015-12-03-til.png %}
 
@@ -24,7 +26,7 @@ As a CTO & Tech Entrepreneur, Github is one of the most opened site of mine. Wit
 
 {% img /images/blog/2015-12-03-101.jpg %}
 
-If you are interested in this idea, you can follow #til on twitter and support us by sharing your **#til**.
+If you are interested in this idea, you can follow the hashtag [#til](https://twitter.com/hashtag/til) on Twitter or making one and share your **#til** repo.
 
 - **New TIL**: https://github.com/tieubao/til/issues/new
 - **Dashboard**: https://github.com/tieubao/til/issues

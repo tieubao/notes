@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://tieubao.github.io/writing
-title: Han Ngo | Writing
+url: http://tieubao.github.io/notes
+title: Han Ngo
 subtitle: me.toString();
 author: Han Ngo
 simple_search: http://google.com/search
@@ -17,7 +17,7 @@ keywords: "nntruonghan, tieubao, tieubao blog, tieubao writing"
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /writing/atom.xml
+subscribe_rss: /notes/atom.xml
 subscribe_email: 
 # RSS feeds can list your email address if you like
 email: nntruonghan@gmail.com
@@ -27,10 +27,11 @@ email: nntruonghan@gmail.com
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /writing
-permalink: /:year/:month/:day/:title/
+root: /notes
+# permalink: /:year/:month/:day/:title/
+permalink: /a/:title/
 source: source
-destination: public/writing
+destination: public/notes
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories

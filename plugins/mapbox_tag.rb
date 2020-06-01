@@ -1,6 +1,6 @@
 # Title: Mapbox Tag for Jekyll
 # Authors:  Han Ngo
-#           http://tieubao.me/writing/
+#           http://tieubao.me/notes/
 #           Ho Chi Minh, Vietnam
 #
 # Description: Easily output map provided by Mapbox

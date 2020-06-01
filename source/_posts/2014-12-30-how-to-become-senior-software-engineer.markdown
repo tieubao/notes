@@ -4,17 +4,13 @@ title: "How to become Senior Software Engineer"
 date: 2014-12-30 09:02:56 +0700
 comments: true
 categories: 
-- dev
-- how
+- developer
+- tips
 
-keywords: dev, how
-description: Wonder how to become a senior software engineer? I collected some ideas that helpful.
+keywords: developer, típ
+description: Wonder how to become a senior software engineer? I collected some helpful ideas.
 ---
 
-[Source](http://programmers.stackexchange.com/questions/25564/when-should-you-call-yourself-a-senior-developer)
-
-
-```
 To summary, you can call yourself a Senior when:
 
 - You can handle the entire software development life cycle, end to end
@@ -23,15 +19,13 @@ To summary, you can call yourself a Senior when:
 
 Software development is a curious creature unlike other fields. Sometimes, a fresh punk out of college can run circles around veterans who have 20+ years of "experience". Programming is a bizarre world where code is king.
 
-Some achieve the above in 2 years or less, others take 10 years.
-```
+Some achieve the above in 2 years or less, others take 10 years. [^1]
 
 ---
-[Source](http://engineering.awesomenesstv.com/post/106521664643/10-steps-to-become-a-senior-software-engineer)
 
 ### How
 
-Software engineering is hard. The industry is always changing and you need to keep up with it. You need to put constant effort and time. There is always more to learn than you can possibly absorb. Many engineers who finish a several month boot camp don’t realize how much more they need to learn on top of it. No worries, there is a clear path to becoming a senior software engineer in almost any area of software development.
+Software engineering is hard. The industry is always changing and you need to keep up with it. You need to put constant effort and time. There is always more to learn than you can possibly absorb. Many engineers who finish a several month boot camp don’t realize how much more they need to learn on top of it. No worries, there is a clear path to becoming a senior software engineer in almost any area of software development. [^2]
 
 ### Step 0: choose your path and stick to it!
 
@@ -98,10 +92,9 @@ Every single day. Like in any sport, you need to practice what you learned in or
 
 Yes, becoming Senior Software Engineer is hard. It takes a lot of time and commitment. Different people learn at different speed, but on average, it takes about 10 years to become a solid senior dev. It’s a big investment in time for a big return. Software Engineers have the bright future. They are in high demand on the job market. Their salary grows proportionally with their experience. It’s a rapidly growing and a relatively new field. Every day of a software engineer is a challenge. A challenge of changing people’s lives. Go ahead and take on this challenge by becoming a Senior Software Engineer one skill at the time.
 
-Cheers,
-
-Alex
-
 ---
 
 And to me, title is just title. It can be your past experience. It can be your new goal. But you need to prove that you're worth it.
+
+[^1]: [When should you call yourself a senior developer?](http://programmers.stackexchange.com/questions/25564/when-should-you-call-yourself-a-senior-developer)
+[^2]: [Steps to become a senior software engineer](http://engineering.awesomenesstv.com/post/106521664643/10-steps-to-become-a-senior-software-engineer)
